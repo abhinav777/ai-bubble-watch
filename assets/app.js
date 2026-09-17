@@ -22,7 +22,7 @@
     ? `<ul class="changed">${latest.changed.map(c=>`<li><b>${esc(c.signal)}</b> ${chip(c.from)} &rarr; ${chip(c.to)} &middot; ${esc(c.why)}</li>`).join('')}</ul>`
     : `<p class="small" style="margin-top:8px">No signal changed color in the latest run.</p>`;
   $('now-body').innerHTML = `
-    <p class="lead">Stage ${latest.stage} of 5: ${esc(stageName(latest.stage))}${latest.stage_label?', '+esc(latest.stage_label.charAt(0).toLowerCase()+latest.stage_label.slice(1)):''}.</p>
+    <p class="lead">Stage ${latest.stage} of 5: ${esc(latest.stage_label||stageName(latest.stage))}.</p>
     <div class="now-grid">
       <div class="kpi"><div class="k">Stage</div><div class="v ${stageClass}">${latest.stage}</div><div class="s">${esc(stageName(latest.stage))}</div></div>
       <div class="kpi"><div class="k">Signals, A to E</div><div class="v"><span class="r">${latest.reds}</span> <span style="color:var(--muted);font-size:18px">red</span> <span class="y">${latest.yellows}</span> <span style="color:var(--muted);font-size:18px">yellow</span></div><div class="s">${latest.greens} green of 20</div></div>
