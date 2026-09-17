@@ -338,6 +338,7 @@
  {
   "date": "2026-09-17",
   "as_of": "close",
+  "close_date": "2026-09-17",
   "stage": 1,
   "stage_label": "Price break in the infrastructure layer, unconfirmed",
   "reds": 1,
@@ -345,31 +346,24 @@
   "greens": 12,
   "amplifier": "MEDIUM",
   "amplifier_note": null,
-  "read": "Broad relief rally: S&P +1.1%, semiconductors +3.1% to 20.7% below the June high, Nvidia +2.5%, AMD +6.4%, VIX -13% to 15.4, 10-year eased to 4.95%. Credit flat. The single-day-rout signal cleared to green. Oracle +6% on OpenAI round reports; CoreWeave -4.2% to 44% off its high as Nebius undercut it on GPU pricing and it announced a $3-3.5B raise.",
-  "changed": [
-   {
-    "signal": "A6",
-    "from": "Y",
-    "to": "G",
-    "why": "No rout since Sep 14; SOX +0.6% Sep 16, +3.1% Sep 17"
-   }
-  ],
+  "read": "Second look at the same Sep 17 close (this is a same-day re-run): the relief rally extended a third session, with SOX +3.1% to 20.7% below its June high, AMD +6-7% on Piper Sandler AI-demand commentary that 2027 GPU capacity is sold out, and VIX down to 15.4. Oracle +5-6% on continued OpenAI funding-round reports (talks now framed at $1.2-1.5T). CoreWeave formally launched its flagged $3B convertible note (2033, 2.375-2.875% coupon, 22.5-27.5% conversion premium) plus a 35M-share ATM; modest coupon terms argue against distress pricing even as the stock sits 44% below its high. Polymarket's 'AI bubble burst by Dec 31, 2026' contract eased further to 9.7% (live, from 16% at baseline). No hyperscaler capex cut, data-center pause, or new dated Oracle CDS print was found; FRED was unreachable this run so HY OAS, term premium and breakeven are carried forward stale. No signal changed color since this morning's Sep 17 run.",
+  "changed": [],
   "signals": {
    "A1": {
     "c": "G",
-    "v": "NVDA $219.34, -7.0%"
+    "v": "NVDA $219.34, -7.0% from $235.74 (May 14)"
    },
    "A2": {
     "c": "R",
-    "v": "SOX 11,594, -20.7% (barely red)"
+    "v": "SOX 11,599, -20.7% from 14,635 (Jun 22)"
    },
    "A3": {
     "c": "G",
-    "v": "NDX -4.0%"
+    "v": "NDX 29,447, -4.0% from high"
    },
    "A4": {
     "c": "Y",
-    "v": "Carried; leaders outpaced RSP today"
+    "v": "Leaders (AMD +6.4%, NVDA +2.5%) outpaced RSP (+0.5%) today; still carried Y on the 20-day window"
    },
    "A5": {
     "c": "G",
@@ -377,79 +371,79 @@
    },
    "A6": {
     "c": "G",
-    "v": "No rout in the week"
+    "v": "No rout since Sep 14; third straight up session"
    },
    "B1": {
     "c": "G",
-    "v": "No cuts found"
+    "v": "No cuts found; Piper Sandler: 2027 GPU capacity sold out, 2028 filling"
    },
    "B2": {
     "c": "Y",
-    "v": "Analyst-level only"
+    "v": "Analyst estimates only; no company-confirmed pause found"
    },
    "B3": {
     "c": "G",
-    "v": "Next report ~Nov"
+    "v": "Next report ~Nov (Nvidia Q3 FY27)"
    },
    "B4": {
     "c": "G",
-    "v": "TSMC +53.3%; HBM firm"
+    "v": "TSMC Aug +53.3% YoY; TrendForce: 3Q26 DRAM contract +13-18% QoQ, HBM firm"
    },
    "C1": {
     "c": "Y",
-    "v": "Stale ~215 bp; 192 bp claim unverified"
+    "v": "No dated Sept print; ~215bp (Aug 8) record stands, stale"
    },
    "C2": {
     "c": "G",
-    "v": "2.52%"
+    "v": "2.52% (whalequant, dated Sep 16)"
    },
    "C3": {
     "c": "G",
-    "v": "270 bp"
+    "v": "270bp carried forward; FRED unreachable this run"
    },
    "C4": {
     "c": "Y",
-    "v": "SoftBank bond unpriced; loan upsized to $11.87B"
+    "v": "SoftBank $10-20B USD/EUR bond still unpriced after Sep 14-17 NY roadshow; its separate Y1tn retail bond priced fine at 4.75% (high end); CoreWeave $3B convertible launched at a modest 2.375-2.875% coupon"
    },
    "C5": {
     "c": "Y",
-    "v": "CRWV -44%; $3-3.5B raise"
+    "v": "CRWV $79.88, -44% from high; new convertible priced without distress terms"
    },
    "D1": {
     "c": "G",
-    "v": "No change"
+    "v": "Anthropic run-rate seen reaching $100-120B by year-end; OpenAI >$40B"
    },
    "D2": {
     "c": "Y",
-    "v": "IPO 2027; $1.2T+ round talks"
+    "v": "OpenAI in talks near $1.2-1.5T (round, not IPO, still delayed to 2027+); Anthropic on track for mid-Oct IPO marketing at ~$2T"
    },
    "D3": {
     "c": "G",
-    "v": "Nebius price cuts noted"
+    "v": "Nebius/CoreWeave price competition continues; no idle-capacity reports"
    },
    "D4": {
     "c": "G",
-    "v": "No change"
+    "v": "No new hard adoption data; T4/T5 ROI-skepticism surveys not dated to this window"
    },
    "D5": {
     "c": "G",
-    "v": "No change"
+    "v": "No new shutdown wave; Meta/Cisco cuts are incumbent reallocation, not AI-startup failures"
    },
    "E1": {
     "c": "G",
-    "v": "28%"
+    "v": "28% (Sep FMS, unchanged; Oct FMS not out yet)"
    },
    "E2": {
     "c": "G",
-    "v": "Below average"
+    "v": "Google News RSS 82 items/7d (below 96+ baseline); GDELT 12-month comparison blocked (429) this run"
    },
    "E3": {
     "c": "G",
-    "v": "aibubble.watch 88; Polymarket 13-15%"
+    "v": "aibubble.watch 88 Extreme (flat); Polymarket 9.7% (down from 13-15%); boomorbubble 0/5 red (Sep 15); aibubblemonitor.com stale (~89, Sep 1-3)"
    },
    "E4": {
     "c": "Y",
-    "v": "No change"
+    "v": "Ongoing insider selling (Stevens); no IPO withdrawals found"
    },
    "F1": {
     "c": "Y",
@@ -461,53 +455,60 @@
    },
    "F3": {
     "c": "Y",
-    "v": "0.96% (Sep 11)"
+    "v": "Term premium 0.96% (Sep 11, stale, FRED unreachable); 20y auction Sep 15 2.57x cover, no tail found"
    },
    "F4": {
     "c": "Y",
-    "v": "Breakeven 2.33%, Brent $104, CPI 3.4%"
+    "v": "Breakeven 2.33% (stale), Brent $104.08, CPI 3.4% (Aug)"
    },
    "F5": {
     "c": "Y",
-    "v": "~2.5 hikes priced to Sep 2027"
+    "v": "Fed at 3.75-4.00% post Sep 16 hike; dots imply ~2.5 hikes to Sep 2027; a same-day CME FedWatch snippet showing mostly 'hold' was undated/unverified and not used to override"
    }
   },
   "market": {
-   "spx": 7635.0,
-   "ndx": 29434.0,
-   "sox": 11594.3,
-   "sox_dd": -20.7,
+   "spx": 7637.76,
+   "ndx": 29446.98,
+   "sox": 11599.49,
+   "sox_dd": -20.74,
    "nvda": 219.34,
-   "nvda_dd": -7.0,
-   "ndx_dd": -4.0,
+   "nvda_dd": -6.96,
+   "ndx_dd": -3.96,
    "tnx": 4.95,
-   "vix": 15.4,
+   "vix": 15.44,
    "hy_oas": 270,
    "move": 76.2,
    "term_premium": 0.96,
    "breakeven": 2.33,
-   "brent": 104,
-   "orcl": null,
-   "crwv": 80.1
+   "brent": 104.08,
+   "orcl": 150.59,
+   "crwv": 79.88
   },
   "top": [
    {
     "kind": "HARD",
-    "t": "Oracle +6% on reports investors approached OpenAI about a $1.2T+ round.",
-    "url": "https://finance.yahoo.com/technology/ai/articles/openai-weighing-funding-round-over-223133303.html"
-   },
-   {
-    "kind": "HARD",
-    "t": "CoreWeave -4.2%, 44% off its high; announces $3-3.5B convertible-plus-equity raise as Nebius undercuts on GPU rental pricing.",
+    "t": "CoreWeave launches a $3B convertible senior note due 2033 (2.375-2.875% coupon, 22.5-27.5% conversion premium) plus a 35M-share ATM program.",
     "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
    },
    {
     "kind": "HARD",
-    "t": "SoftBank's $11.87B two-year loan closed upsized from $10B; $10-20B junk bond still unpriced; SoftBank CDS at a three-year high.",
-    "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
+    "t": "Polymarket 'AI bubble burst in 2026' contract trades at 9.7% (updated Sep 17), down from 16% at the Sep 15 baseline.",
+    "url": "https://polymarket.com/event/ai-bubble-burst-by"
+   },
+   {
+    "kind": "HARD",
+    "t": "Relief rally reaches a third session: SOX +3.1%, AMD +6-7% on Piper Sandler AI-demand commentary that 2027 GPU capacity is sold out; VIX -13% to 15.4; Oracle +5-6% on OpenAI funding-round reports.",
+    "url": "https://247wallst.com/investing/2026/09/17/amd-jumps-7-as-semiconductor-rebound-reaches-a-third-session-broadcom-rises-3-nvidia-edges-higher/"
    }
   ],
-  "run_url": "https://claude.ai/code/session_018AvVzBUPVbFNXzMvKSJVyN",
-  "brief": null
+  "sources": {
+   "T1": 3,
+   "T2": 7,
+   "T3": 3,
+   "T4": 4,
+   "T5": 2
+  },
+  "run_url": "https://claude.ai/code/session_01UWxHiTRtRbbNVCUKb47cre",
+  "brief": "briefs/2026-09-17.md"
  }
 ]

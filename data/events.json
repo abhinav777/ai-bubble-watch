@@ -143,5 +143,15 @@
   ],
   "t": "Framework revisions: Oracle CDS moved to absolute bands (150/250 bp); five-tier source register with incentive tags; Pillar F macro transmission added as an amplifier (never a stage trigger).",
   "url": "docs/ai-bubble-signal-framework.md"
+ },
+ {
+  "date": "2026-09-17",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "C4"
+  ],
+  "t": "SoftBank prices and issues its Y1 trillion ($6.3B) seven-year retail bond at a 4.75% coupon, the high end of its 4.3-4.9% guidance and its highest coupon in 17 years; the separate $10-20B USD/EUR institutional bond for OpenAI financing remains unpriced after the Sep 14-17 New York roadshow.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75"
  }
 ]
