@@ -25,7 +25,7 @@
     <p class="lead">Stage ${latest.stage} of 5: ${esc(latest.stage_label||stageName(latest.stage))}.</p>
     <div class="now-grid">
       <div class="kpi"><div class="k">Stage</div><div class="v ${stageClass}">${latest.stage}</div><div class="s">${esc(stageName(latest.stage))}</div></div>
-      <div class="kpi"><div class="k">Signals, A to E</div><div class="v"><span class="r">${latest.reds}</span> <span style="color:var(--muted);font-size:18px">red</span> <span class="y">${latest.yellows}</span> <span style="color:var(--muted);font-size:18px">yellow</span></div><div class="s">${latest.greens} green of 20</div></div>
+      <div class="kpi"><div class="k">Signals, A to E</div><div class="v"><span class="r">${latest.reds}</span> <span style="color:var(--muted);font-size:18px">red</span> <span class="y">${latest.yellows}</span> <span style="color:var(--muted);font-size:18px">yellow</span></div><div class="s">${latest.greens} green of 24</div></div>
       <div class="kpi"><div class="k">Macro amplifier</div><div class="v ${ampClass}" style="font-size:24px;padding-top:6px">${esc(latest.amplifier||'—')}</div><div class="s">${esc(latest.amplifier_note||'Pillar F: rates, bond volatility, term premium, inflation, Fed path')}</div></div>
       <div class="kpi"><div class="k">As of</div><div class="v" style="font-size:22px;padding-top:8px">${esc(fmtDate(latest.date))}</div><div class="s">${latest.as_of==='close'?'US close':esc(latest.as_of||'')}${latest.run_url?` &middot; <a href="${esc(latest.run_url)}">run</a>`:''}</div></div>
     </div>

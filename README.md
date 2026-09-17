@@ -1,6 +1,6 @@
 # AI Bubble Watch
 
-A daily, evidence-weighted read on whether the AI investment boom is deflating. A fixed framework of 25 signals in six pillars is scored every US trading day by an automated check (a Claude Code cloud routine) that reads filings, prices, spreads and wires, weights every source by reliability and incentive, and commits one row to `data/runs.json`. The page at the GitHub Pages URL renders from those files.
+A daily, evidence-weighted read on whether the AI investment boom is deflating. A fixed framework of 29 signals in six pillars is scored every US trading day by an automated check (a Claude Code cloud routine) that reads filings, prices, spreads and wires, weights every source by reliability and incentive, and commits one row to `data/runs.json`. The page at the GitHub Pages URL renders from those files.
 
 - `index.html`, `assets/` — the dashboard (no build step; plain HTML/CSS/JS)
 - `data/runs.json` — one record per trading day: stage, counts, amplifier, all 25 signal colors and readings, market snapshot, changes, top developments

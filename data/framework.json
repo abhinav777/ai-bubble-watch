@@ -374,6 +374,10 @@
   {
    "date": "2026-09-17",
    "t": "Dashboard moved to GitHub Pages; the daily routine now appends a row to data/runs.json each weekday."
+  },
+  {
+   "date": "2026-09-17",
+   "t": "Correction: pillars A-E hold 24 signals, not 20; green counts restated (baseline 1 red, 8 yellow, 15 green). Total signals 29 with pillar F."
   }
  ]
 }

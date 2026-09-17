@@ -90,7 +90,7 @@ Readings on 2026-09-17: F1 Y (4.95-5.01%), F2 G (MOVE 76), F3 Y (0.96%, 12-month
 Composite stage estimate:
 - **Stage 0 (Boom intact):** no reds; at most 2 yellows, none in Pillar B or C.
 - **Stage 0+ (Stress building):** no reds, but 3 or more yellows, or any yellow in Pillar B or C.
-- **Stage 1 (Price break):** any red in Pillar A, no reds in B-D. Baseline state on 2026-09-15: A2 red (SOX -23.9% from its June 22 high), 8 yellows (A4, A6, B2, C1, C4, C5, D2, E4), 11 greens.
+- **Stage 1 (Price break):** any red in Pillar A, no reds in B-D. Baseline state on 2026-09-15: A2 red (SOX -23.9% from its June 22 high), 8 yellows (A4, A6, B2, C1, C4, C5, D2, E4), 15 greens.
 - **Stage 2 (Funding window closing):** red in D2 or E4-withdrawals, with Pillar A yellow/red.
 - **Stage 3 (Revenue validation failing):** red in D1, D3, or B3.
 - **Stage 4 (Capex cliff):** red in B1 or B2. This is the point at which "the bubble is popping" is the right headline.
