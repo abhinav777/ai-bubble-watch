@@ -1,0 +1,147 @@
+[
+ {
+  "date": "2026-09-10",
+  "type": "opinion",
+  "tier": "T5",
+  "signals": [
+   "E1"
+  ],
+  "t": "Capital Economics publishes a 'late-stage bubble' screen: S&P 500 to 8,250 by year-end, then down 30% or more in 2027.",
+  "url": "https://fortune.com/2026/09/14/is-ai-stock-market-bubble-federal-reserve-interest-rates/",
+  "tag": "short-AI incentive: public bearish call"
+ },
+ {
+  "date": "2026-09-10",
+  "type": "hard",
+  "tier": "T1",
+  "signals": [
+   "C1",
+   "B1"
+  ],
+  "t": "Oracle Q1 FY27: revenue +30%, RPO $664B, capex $28.5B, free cash flow -$5.4B; FY27 capex $90-95B gross reaffirmed.",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm"
+ },
+ {
+  "date": "2026-09-11",
+  "type": "hard",
+  "tier": "T1",
+  "signals": [
+   "F4",
+   "F5"
+  ],
+  "t": "August CPI 3.4% headline, 2.4% core; Fed-hike odds pass 85%; 10-year 4.97%.",
+  "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+ },
+ {
+  "date": "2026-09-12",
+  "type": "opinion",
+  "tier": "T5",
+  "signals": [
+   "E2",
+   "D2"
+  ],
+  "t": "Dario Amodei publishes 'We Must Pace the Frontier'; Sam Altman calls a 2026 OpenAI IPO 'ill-advised' and hints at an industry pact; Musk agrees.",
+  "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
+  "tag": "interested parties; read two ways"
+ },
+ {
+  "date": "2026-09-14",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "A2",
+   "A6"
+  ],
+  "t": "SOX -5.9%, Nvidia -3.4% (-$177B), SoftBank -13%, Micron -5.3%, Broadcom -4.8%; 10-year prints 5.01% intraday.",
+  "url": "https://www.techtimes.com/articles/327518/20260915/chip-stocks-crash-ai-ceos-back-slowdown-fed-rate-hike-decision-wednesday.htm"
+ },
+ {
+  "date": "2026-09-14",
+  "type": "hard",
+  "tier": "T3",
+  "signals": [
+   "D4"
+  ],
+  "t": "Nvidia, Palantir and Booz Allen restrict use of Anthropic models over 30-day log retention.",
+  "url": "https://qz.com/palantir-nvidia-booz-allen-anthropic-openai-data-restrictions-091426"
+ },
+ {
+  "date": "2026-09-14",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "C4"
+  ],
+  "t": "SoftBank closes an $11.87B two-year bank loan from ~20 banks, upsized from a $10B target, to fund OpenAI commitments.",
+  "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
+ },
+ {
+  "date": "2026-09-15",
+  "type": "hard",
+  "tier": "T1",
+  "signals": [
+   "E1"
+  ],
+  "t": "BofA Global FMS: 'disorderly rise in bond yields' is the top tail risk at 33%; AI bubble second at 28%; equity overweight 56% to 49%; record 33% say companies over-invest.",
+  "url": "https://www.investing.com/news/stock-market-news/bofas-hartnett-says-investor-bullishness-is-fading-as-cash-levels-rise-4901253"
+ },
+ {
+  "date": "2026-09-15",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "D2",
+   "C1"
+  ],
+  "t": "Bloomberg: investors approach OpenAI about a private round valuing it above $1.2 trillion; timing depends on IPO decision. Early talks.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation"
+ },
+ {
+  "date": "2026-09-16",
+  "type": "hard",
+  "tier": "T1",
+  "signals": [
+   "F1",
+   "F5"
+  ],
+  "t": "FOMC raises rates 25 bp to 3.75-4.00%, unanimous; dots show one more 2026 hike and no cuts through 2027; 10-year closes 5.01%.",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+ },
+ {
+  "date": "2026-09-16",
+  "type": "opinion",
+  "tier": "T1",
+  "signals": [
+   "F3"
+  ],
+  "t": "Warsh attributes rising long yields partly to 'competition for capital' from hyperscalers 'out in the market raising funding'.",
+  "url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
+  "tag": "primary source; first Fed link between AI issuance and Treasury yields"
+ },
+ {
+  "date": "2026-09-17",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "C5",
+   "D3"
+  ],
+  "t": "CoreWeave announces a $3-3.5B convertible-plus-equity raise; shares -4.2% to 44% below high as Nebius undercuts on GPU rental pricing.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+ },
+ {
+  "date": "2026-09-17",
+  "type": "framework",
+  "tier": null,
+  "signals": [
+   "C1",
+   "F1",
+   "F2",
+   "F3",
+   "F4",
+   "F5"
+  ],
+  "t": "Framework revisions: Oracle CDS moved to absolute bands (150/250 bp); five-tier source register with incentive tags; Pillar F macro transmission added as an amplifier (never a stage trigger).",
+  "url": "docs/ai-bubble-signal-framework.md"
+ }
+]

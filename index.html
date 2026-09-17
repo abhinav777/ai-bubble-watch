@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Is the AI Bubble Popping?</title>
+<meta name="description" content="A daily, evidence-weighted read on whether the AI investment boom is deflating: stage, 25 scored signals, trend and event log.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="wrap">
+  <div class="top">
+    <div class="eyebrow">AI bubble watch &middot; daily check, weekdays after the US close</div>
+    <div class="live" id="live">Loading&hellip;</div>
+  </div>
+  <h1 style="margin-top:10px">Is the AI bubble popping?</h1>
+  <p class="dek">A fixed framework of 25 signals, scored every trading day by an automated check that reads filings, prices, spreads and wires, and weights every source by reliability and incentive. Price breaks are noise; capex cuts, revenue misses and credit events are the confirmations.</p>
+
+  <section class="verdict" id="now" aria-labelledby="now-h">
+    <div class="eyebrow" id="now-h">Now</div>
+    <div id="now-body"><p class="small">Loading the latest run&hellip;</p></div>
+  </section>
+
+  <h2>Trend</h2>
+  <p class="sub">One row per trading day. The counts are for the twenty stage-setting signals in pillars A to E; the amplifier is pillar F. The shape of these columns over weeks matters more than any single day.</p>
+  <div class="sparks" id="sparks"></div>
+  <div class="tblwrap"><table class="trend" id="trend"></table></div>
+
+  <h2>Scoreboard</h2>
+  <p class="sub">Current colors for all 25 signals. A marker shows when a signal differs from the September 15 baseline or from the previous run. Thresholds are fixed; readings refresh with each run.</p>
+  <div class="tblwrap"><table id="score"></table></div>
+
+  <h2>Event log</h2>
+  <p class="sub">Only items that moved a signal or bear on the thesis. Daily market moves live in the trend table. Hard data is a filing, price, guidance, deal or survey; opinion is a strategist, CEO or essayist; framework entries are changes to the rules themselves.</p>
+  <ul class="log" id="log"></ul>
+  <div style="margin-top:10px"><button class="btn" id="log-more" hidden>Show all events</button></div>
+
+  <h2>What flips the verdict</h2>
+  <p class="sub">Dated events first. A move to stage 4 requires a capex cut, and the only scheduled chances for one are earnings calls.</p>
+  <ul class="cal" id="cal"></ul>
+
+  <details class="ref" id="ref-framework">
+    <summary>The framework: stages, thresholds, source register, changelog</summary>
+    <div id="framework-body"></div>
+  </details>
+
+  <details class="ref" id="ref-baseline">
+    <summary>The September 15 baseline: why the headlines surged, and the evidence both ways</summary>
+    <div id="baseline-body"><p class="small">Loading&hellip;</p></div>
+  </details>
+
+  <hr class="rule">
+  <p class="small" style="margin-top:24px">Data: <a href="data/runs.json">runs.json</a>, <a href="data/events.json">events.json</a>, <a href="data/framework.json">framework.json</a>. Each weekday the check appends a row and commits it to this repository; the page renders from those files. Sources are tiered: only primary and wire sources can change a signal's color. Nothing here is investment advice. <a href="https://github.com/abhinav777/ai-bubble-watch">Repository</a>.</p>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>

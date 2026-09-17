@@ -1,0 +1,379 @@
+{
+ "baseline_date": "2026-09-15",
+ "stages": [
+  {
+   "n": 0,
+   "name": "Boom intact",
+   "rule": "No reds; at most 2 yellows; none in B or C"
+  },
+  {
+   "n": 0.5,
+   "name": "Stress building",
+   "rule": "No reds but 3+ yellows, or any yellow in B or C"
+  },
+  {
+   "n": 1,
+   "name": "Price break",
+   "rule": "Any red in Pillar A",
+   "dotcom": "Mar 10 - Apr 14, 2000: Nasdaq -25% in five weeks"
+  },
+  {
+   "n": 2,
+   "name": "Funding window closes",
+   "rule": "Red in D2 or E4",
+   "dotcom": "Apr - Jun 2000: IPO calendar dries up, rounds pulled"
+  },
+  {
+   "n": 3,
+   "name": "Revenue misses",
+   "rule": "Red in D1, D3 or B3",
+   "dotcom": "Q3 - Q4 2000: orders slow, 'visibility' language"
+  },
+  {
+   "n": 4,
+   "name": "Capex cliff",
+   "rule": "Red in B1 or B2. This is when 'the bubble is popping' becomes the right headline",
+   "dotcom": "Jan - Apr 2001: telecom capex cut 20-40%; Cisco $2.2B write-down"
+  },
+  {
+   "n": 5,
+   "name": "Credit event",
+   "rule": "Red in C1, C4 or C5",
+   "dotcom": "2001 - 2002: debt-funded builders default"
+  }
+ ],
+ "amplifier": {
+  "rule": "Pillar F never changes the stage. LOW = 0 red and at most 1 yellow; MEDIUM = 0 red and 2+ yellow, or exactly 1 red; HIGH = 2+ red. HIGH shortens the watch horizon and flags C1, C4, C5, D2 as at elevated risk."
+ },
+ "pillars": [
+  {
+   "id": "A",
+   "name": "Price and market structure",
+   "role": "Earliest and noisiest. Detects stage 1.",
+   "signals": [
+    {
+     "id": "A1",
+     "name": "Nvidia drawdown from 52-week high",
+     "g": "< 15%",
+     "y": "15-25%",
+     "r": "> 25%"
+    },
+    {
+     "id": "A2",
+     "name": "Semiconductor index (SOX) drawdown",
+     "g": "< 10%",
+     "y": "10-20%",
+     "r": "> 20%"
+    },
+    {
+     "id": "A3",
+     "name": "Nasdaq-100 drawdown",
+     "g": "< 10%",
+     "y": "10-20%",
+     "r": "> 20%"
+    },
+    {
+     "id": "A4",
+     "name": "Rotation: AI leaders vs equal-weight S&P, 20 days",
+     "g": "Leaders ahead",
+     "y": "Lag 5-10 pts",
+     "r": "Lag > 10 pts while RSP flat or up"
+    },
+    {
+     "id": "A5",
+     "name": "VIX",
+     "g": "< 20",
+     "y": "20-30",
+     "r": "> 30"
+    },
+    {
+     "id": "A6",
+     "name": "Single-day rout",
+     "g": "None",
+     "y": "NVDA or SOX -5% in a day",
+     "r": "NVDA -10% or SOX -8% in a day, or two -5% days in a week"
+    }
+   ]
+  },
+  {
+   "id": "B",
+   "name": "Capex and guidance",
+   "role": "The true confirmation of a pop. Detects stages 3 and 4.",
+   "signals": [
+    {
+     "id": "B1",
+     "name": "Hyperscaler capex guidance",
+     "g": "Raised or maintained",
+     "y": "One trims or uses 'digestion' language",
+     "r": "Two or more cut 2027 guidance, or any announces a pause"
+    },
+    {
+     "id": "B2",
+     "name": "Data-center pauses and lease cancellations",
+     "g": "None credible",
+     "y": "Analyst reports",
+     "r": "Company-confirmed pause at a hyperscaler, Stargate, xAI or top neocloud"
+    },
+    {
+     "id": "B3",
+     "name": "Nvidia results vs consensus",
+     "g": "Beat and raise",
+     "y": "In line or sharp deceleration",
+     "r": "Miss, guide below, or sequential data-center decline"
+    },
+    {
+     "id": "B4",
+     "name": "Supply chain: TSMC revenue, memory prices, ODM orders",
+     "g": "Growing, prices firm",
+     "y": "TSMC growth halves or memory flat",
+     "r": "TSMC YoY negative, memory falling, ODM cuts"
+    }
+   ]
+  },
+  {
+   "id": "C",
+   "name": "Financing and credit",
+   "role": "The systemic signals. Detects stage 5.",
+   "signals": [
+    {
+     "id": "C1",
+     "name": "Oracle 5-year CDS (absolute bands)",
+     "g": "< 150 bp",
+     "y": "150-250 bp",
+     "r": "> 250 bp"
+    },
+    {
+     "id": "C2",
+     "name": "High-yield tech spread over 10-year",
+     "g": "< 3.5%",
+     "y": "3.5-5.0%",
+     "r": "> 5.0%"
+    },
+    {
+     "id": "C3",
+     "name": "US high-yield OAS",
+     "g": "< 350 bp",
+     "y": "350-500 bp",
+     "r": "> 500 bp"
+    },
+    {
+     "id": "C4",
+     "name": "AI debt deal reception",
+     "g": "Oversubscribed",
+     "y": "Repriced wider, downsized or delayed",
+     "r": "Pulled deal, covenant breach, downgrade to junk, or a fund gating redemptions"
+    },
+    {
+     "id": "C5",
+     "name": "Neocloud health (CRWV, NBIS, IREN, APLD)",
+     "g": "Stable",
+     "y": "CRWV -30% from high or bonds < 90",
+     "r": "Bonds < 80, going-concern language, or a peer default"
+    }
+   ]
+  },
+  {
+   "id": "D",
+   "name": "Demand and revenue validation",
+   "role": "Detects stages 2 and 3.",
+   "signals": [
+    {
+     "id": "D1",
+     "name": "Lab revenue run-rate growth (OpenAI, Anthropic, xAI)",
+     "g": "Still doubling",
+     "y": "Growth rate halves or targets missed",
+     "r": "Flat or down, or layoffs at a top lab"
+    },
+    {
+     "id": "D2",
+     "name": "Private-market pricing",
+     "g": "Rounds oversubscribed",
+     "y": "Secondaries 10-20% below, or a round/IPO delayed",
+     "r": "Down round at a top-5 lab, secondaries > 25% below, or tender cancelled"
+    },
+    {
+     "id": "D3",
+     "name": "H100 rental price, 3-month change",
+     "g": "Flat or up",
+     "y": "-15% to -30%",
+     "r": "< -30% or idle-capacity reports"
+    },
+    {
+     "id": "D4",
+     "name": "Enterprise adoption",
+     "g": "Seat/usage growth accelerating",
+     "y": "Flat growth or negative ROI studies",
+     "r": "Disclosed seat declines or major customers cutting AI budgets"
+    },
+    {
+     "id": "D5",
+     "name": "AI-startup casualties",
+     "g": "Isolated",
+     "y": "Several notable shutdowns in a month",
+     "r": "A wave, or a secondhand GPU glut"
+    }
+   ]
+  },
+  {
+   "id": "E",
+   "name": "Sentiment and narrative",
+   "role": "Coincident or contrarian. Never a confirmation.",
+   "signals": [
+    {
+     "id": "E1",
+     "name": "BofA FMS 'AI bubble' tail-risk share",
+     "g": "< 30%",
+     "y": "30-45%",
+     "r": "> 45% with rising cash"
+    },
+    {
+     "id": "E2",
+     "name": "Narrative volume vs 12-month average",
+     "g": "< 1.5x",
+     "y": "1.5-3x",
+     "r": "> 3x or new high"
+    },
+    {
+     "id": "E3",
+     "name": "Public composite trackers",
+     "g": "Disagreeing",
+     "y": "Two of three deteriorating",
+     "r": "All three deteriorating, or boomorbubble 2+ red gauges"
+    },
+    {
+     "id": "E4",
+     "name": "Insider selling and IPO froth",
+     "g": "Normal",
+     "y": "Record insider sales or day-one doublings",
+     "r": "IPO withdrawals"
+    }
+   ]
+  },
+  {
+   "id": "F",
+   "name": "Macro transmission",
+   "role": "Amplifier only, added Sep 17. Never sets the stage.",
+   "signals": [
+    {
+     "id": "F1",
+     "name": "10-year Treasury yield",
+     "g": "< 4.5%",
+     "y": "4.5-5.25%",
+     "r": "> 5.25%"
+    },
+    {
+     "id": "F2",
+     "name": "Bond volatility (MOVE)",
+     "g": "< 100",
+     "y": "100-130",
+     "r": "> 130"
+    },
+    {
+     "id": "F3",
+     "name": "Term premium or auction reception",
+     "g": "< 0.5%",
+     "y": "0.5-1.0%, or one tailed 10y/30y auction",
+     "r": "> 1.0%, or two consecutive tails"
+    },
+    {
+     "id": "F4",
+     "name": "Inflation regime: breakeven, Brent, CPI",
+     "g": "Breakeven < 2.4%, Brent < $80, CPI < 3%",
+     "y": "Any of breakeven 2.4-2.7%, Brent $80-100, CPI 3-4%",
+     "r": "Breakeven > 2.7%, or Brent > $100 with CPI > 4%"
+    },
+    {
+     "id": "F5",
+     "name": "Fed path priced by futures and dots",
+     "g": "Cuts priced",
+     "y": "1-2 hikes priced",
+     "r": "3+ hikes priced, or 2027 median dot > 4.5%"
+    }
+   ]
+  }
+ ],
+ "source_tiers": [
+  {
+   "tier": "T1",
+   "name": "Primary, no narrative incentive",
+   "can": "Change a color alone",
+   "examples": "SEC filings, company IR for own numbers, Fed, FRED, BLS, Treasury, rating agencies, exchange prices, Polymarket, BofA FMS"
+  },
+  {
+   "tier": "T2",
+   "name": "Wire and major financial press",
+   "can": "Change a color if dated within 7 days",
+   "examples": "Reuters, Bloomberg, FT, WSJ, AP, CNBC, Nikkei, Japan Times"
+  },
+  {
+   "tier": "T3",
+   "name": "Specialists, inside their domain",
+   "can": "Change a color in their domain only",
+   "examples": "SemiAnalysis, TrendForce, The Information, DCD, GlobalCapital, ASR, SFA, TechCrunch, Axios, Epoch AI, FactSet Insight, GPU price indices"
+  },
+  {
+   "tier": "T4",
+   "name": "Aggregators and secondary",
+   "can": "Leads only; cannot change a color",
+   "examples": "Motley Fool, 24/7 Wall St, Benzinga, GuruFocus, Seeking Alpha news, TipRanks, MarketBeat, Investing.com, crypto news, MT Newswires Market Chatter, Substacks, X"
+  },
+  {
+   "tier": "T5",
+   "name": "Interested parties",
+   "can": "Opinion only, with an incentive tag",
+   "examples": "Companies on themselves, CEOs, short sellers, underwriter-strategists, vendor blogs, subscription trackers, committed bull or bear publishers"
+  }
+ ],
+ "calendar": [
+  {
+   "when": "Sep 14-17",
+   "what": "SoftBank $10-20B high-yield bond roadshow; unpriced at Sep 17 close. Wide print, downsizing or pulled deal turns C4 red."
+  },
+  {
+   "when": "Sep 30",
+   "what": "Micron fiscal Q4. Softening DRAM commentary turns B4 yellow."
+  },
+  {
+   "when": "~Oct 10",
+   "what": "TSMC September revenue. Under 25% YoY turns B4 yellow."
+  },
+  {
+   "when": "Mid-Oct",
+   "what": "BofA October fund manager survey; Anthropic IPO marketing; CPI release."
+  },
+  {
+   "when": "Late Oct",
+   "what": "Microsoft, Alphabet, Amazon, Meta Q3 earnings: first 2027 capex guidance. Two or more guiding flat or down turns B1 red and the stage to 4."
+  },
+  {
+   "when": "Oct 27-28",
+   "what": "FOMC. Dots imply one more hike; BofA expects two."
+  },
+  {
+   "when": "Late Nov",
+   "what": "Nvidia Q3 FY27. Guide below consensus or sequential data-center decline turns B3 red."
+  }
+ ],
+ "changelog": [
+  {
+   "date": "2026-09-15",
+   "t": "Framework created; baseline set at Stage 1 with 1 red and 8 yellows."
+  },
+  {
+   "date": "2026-09-17",
+   "t": "C1 moved from baseline-relative to absolute bands after an unverified CDS print would have scored green."
+  },
+  {
+   "date": "2026-09-17",
+   "t": "Five-tier source register with incentive tags added; T4/T5-only figures cannot change a color."
+  },
+  {
+   "date": "2026-09-17",
+   "t": "Pillar F macro transmission added as an amplifier (10y level, MOVE, term premium, inflation regime, Fed path)."
+  },
+  {
+   "date": "2026-09-17",
+   "t": "Dashboard moved to GitHub Pages; the daily routine now appends a row to data/runs.json each weekday."
+  }
+ ]
+}

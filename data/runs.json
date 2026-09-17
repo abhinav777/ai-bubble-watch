@@ -1,0 +1,513 @@
+[
+ {
+  "date": "2026-09-15",
+  "as_of": "close",
+  "stage": 1,
+  "stage_label": "Price break in the infrastructure layer, unconfirmed",
+  "reds": 1,
+  "yellows": 8,
+  "greens": 11,
+  "amplifier": "MEDIUM",
+  "amplifier_note": "Pillar F backfilled; added Sep 17",
+  "read": "Baseline. Semiconductors 23.9% below their June high after Monday's 5.9% rout; the 10-year touched 5.04%; OpenAI shelved its 2026 IPO and the labs asked to slow down. Every capex, revenue and credit confirmation stayed green. What is deflating is the financing and growth-extrapolation premium, not measured demand.",
+  "changed": [],
+  "signals": {
+   "A1": {
+    "c": "G",
+    "v": "NVDA $212.17, -10.0% from $235.74"
+   },
+   "A2": {
+    "c": "R",
+    "v": "SOX 11,176, -23.6% from 14,635"
+   },
+   "A3": {
+    "c": "G",
+    "v": "NDX 28,938, -5.6%"
+   },
+   "A4": {
+    "c": "Y",
+    "v": "SOX -3.5% vs S&P -0.9% over 2 weeks"
+   },
+   "A5": {
+    "c": "G",
+    "v": "VIX 17.2"
+   },
+   "A6": {
+    "c": "Y",
+    "v": "SOX -5.9% on Sep 14"
+   },
+   "B1": {
+    "c": "G",
+    "v": "All 2026 guides raised or held, ~$730B"
+   },
+   "B2": {
+    "c": "Y",
+    "v": "Analyst estimates only (Kimmeridge)"
+   },
+   "B3": {
+    "c": "G",
+    "v": "Q2 beat, Q3 guide $108B vs $104.2B"
+   },
+   "B4": {
+    "c": "G",
+    "v": "TSMC Aug +53.3% YoY"
+   },
+   "C1": {
+    "c": "Y",
+    "v": "~215 bp record (Aug 8), stale"
+   },
+   "C2": {
+    "c": "G",
+    "v": "2.51%"
+   },
+   "C3": {
+    "c": "G",
+    "v": "276 bp"
+   },
+   "C4": {
+    "c": "Y",
+    "v": "Cover ratios <2x; tranches dropped"
+   },
+   "C5": {
+    "c": "Y",
+    "v": "CRWV -42% from high; bonds ~13%"
+   },
+   "D1": {
+    "c": "G",
+    "v": "Anthropic $65B, OpenAI >$40B run-rate"
+   },
+   "D2": {
+    "c": "Y",
+    "v": "OpenAI IPO pushed to 2027"
+   },
+   "D3": {
+    "c": "G",
+    "v": "H100 $2.53/hr, -8% over 3 months"
+   },
+   "D4": {
+    "c": "G",
+    "v": "Copilot seats 20M to 30M"
+   },
+   "D5": {
+    "c": "G",
+    "v": "None named"
+   },
+   "E1": {
+    "c": "G",
+    "v": "AI bubble 28%, #2 tail risk"
+   },
+   "E2": {
+    "c": "G",
+    "v": "Trends 27 vs 45 avg (0.6x)"
+   },
+   "E3": {
+    "c": "G",
+    "v": "86 Extreme / 49 Neutral / Boom 0 red"
+   },
+   "E4": {
+    "c": "Y",
+    "v": "SpaceX -36% from peak; OpenAI IPO deferred"
+   },
+   "F1": {
+    "c": "Y",
+    "v": "10y 5.00%"
+   },
+   "F2": {
+    "c": "G",
+    "v": "MOVE ~81"
+   },
+   "F3": {
+    "c": "Y",
+    "v": "Term premium 0.96% (Sep 11)"
+   },
+   "F4": {
+    "c": "Y",
+    "v": "Breakeven 2.38%, Brent $108, CPI 3.4%"
+   },
+   "F5": {
+    "c": "Y",
+    "v": "~90% odds of a Sep 16 hike; ~2 more priced"
+   }
+  },
+  "market": {
+   "spx": 7585.7,
+   "ndx": 28937.8,
+   "sox": 11175.6,
+   "sox_dd": -23.6,
+   "nvda": 212.17,
+   "nvda_dd": -10.0,
+   "ndx_dd": -5.6,
+   "tnx": 5.0,
+   "vix": 17.2,
+   "hy_oas": 276,
+   "move": 80.7,
+   "term_premium": 0.96,
+   "breakeven": 2.38,
+   "brent": 108,
+   "orcl": null,
+   "crwv": null
+  },
+  "top": [
+   {
+    "kind": "HARD",
+    "t": "SOX fell 5.9% on Sep 14; Nvidia lost $177B; SoftBank -13% after the labs called for a slowdown and OpenAI ruled out a 2026 IPO.",
+    "url": "https://www.techtimes.com/articles/327518/20260915/chip-stocks-crash-ai-ceos-back-slowdown-fed-rate-hike-decision-wednesday.htm"
+   },
+   {
+    "kind": "HARD",
+    "t": "BofA FMS: 'disorderly rise in bond yields' displaces 'AI bubble' as top tail risk; equity overweight 56% to 49%.",
+    "url": "https://www.investing.com/news/stock-market-news/bofas-hartnett-says-investor-bullishness-is-fading-as-cash-levels-rise-4901253"
+   },
+   {
+    "kind": "HARD",
+    "t": "Bloomberg: investors approach OpenAI about a round above $1.2T.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation"
+   }
+  ],
+  "run_url": null,
+  "brief": null
+ },
+ {
+  "date": "2026-09-16",
+  "as_of": "close",
+  "stage": 1,
+  "stage_label": "Price break in the infrastructure layer, unconfirmed",
+  "reds": 1,
+  "yellows": 8,
+  "greens": 11,
+  "amplifier": "MEDIUM",
+  "amplifier_note": "Pillar F backfilled; added Sep 17",
+  "read": "The Fed hiked 25 bp to 3.75-4.00%, unanimous, with dots showing one more hike in 2026 and no cuts through 2027. Flat on the decision, down during the press conference: the 10-year closed back above 5%, banks and transports led losses, semiconductors were the best group. No signal changed color. Warsh blamed part of the rise in long yields on hyperscalers' 'competition for capital'.",
+  "changed": [],
+  "signals": {
+   "A1": {
+    "c": "G",
+    "v": "NVDA $213.90, -9.3%"
+   },
+   "A2": {
+    "c": "R",
+    "v": "SOX 11,246, -23.2%"
+   },
+   "A3": {
+    "c": "G",
+    "v": "NDX 28,984, -5.5%"
+   },
+   "A4": {
+    "c": "Y",
+    "v": "Semis +0.6% vs S&P -0.45%; banks -2.9%"
+   },
+   "A5": {
+    "c": "G",
+    "v": "VIX 17.7"
+   },
+   "A6": {
+    "c": "Y",
+    "v": "Sep 14 rout within the week"
+   },
+   "B1": {
+    "c": "G",
+    "v": "No change"
+   },
+   "B2": {
+    "c": "Y",
+    "v": "No change"
+   },
+   "B3": {
+    "c": "G",
+    "v": "No change"
+   },
+   "B4": {
+    "c": "G",
+    "v": "No change"
+   },
+   "C1": {
+    "c": "Y",
+    "v": "No dated print; stale at ~215 bp"
+   },
+   "C2": {
+    "c": "G",
+    "v": "2.52%"
+   },
+   "C3": {
+    "c": "G",
+    "v": "270 bp"
+   },
+   "C4": {
+    "c": "Y",
+    "v": "SoftBank bond unpriced; SoftBank CDS 3-yr high"
+   },
+   "C5": {
+    "c": "Y",
+    "v": "CRWV ~-42%"
+   },
+   "D1": {
+    "c": "G",
+    "v": "No change"
+   },
+   "D2": {
+    "c": "Y",
+    "v": "$1.2-1.5T OpenAI round talk; IPO 2027"
+   },
+   "D3": {
+    "c": "G",
+    "v": "No change"
+   },
+   "D4": {
+    "c": "G",
+    "v": "No change"
+   },
+   "D5": {
+    "c": "G",
+    "v": "No change"
+   },
+   "E1": {
+    "c": "G",
+    "v": "28%"
+   },
+   "E2": {
+    "c": "G",
+    "v": "Below average"
+   },
+   "E3": {
+    "c": "G",
+    "v": "Disagreeing"
+   },
+   "E4": {
+    "c": "Y",
+    "v": "No change"
+   },
+   "F1": {
+    "c": "Y",
+    "v": "10y 5.01%"
+   },
+   "F2": {
+    "c": "G",
+    "v": "MOVE 80.7"
+   },
+   "F3": {
+    "c": "Y",
+    "v": "0.96% (Sep 11)"
+   },
+   "F4": {
+    "c": "Y",
+    "v": "Breakeven 2.33%, Brent ~$106"
+   },
+   "F5": {
+    "c": "Y",
+    "v": "Futures ~4.1% Dec, ~4.5% Sep 2027"
+   }
+  },
+  "market": {
+   "spx": 7551.8,
+   "ndx": 28984.4,
+   "sox": 11246.1,
+   "sox_dd": -23.2,
+   "nvda": 213.9,
+   "nvda_dd": -9.3,
+   "ndx_dd": -5.5,
+   "tnx": 5.01,
+   "vix": 17.7,
+   "hy_oas": 270,
+   "move": 80.7,
+   "term_premium": 0.96,
+   "breakeven": 2.33,
+   "brent": 106,
+   "orcl": null,
+   "crwv": null
+  },
+  "top": [
+   {
+    "kind": "HARD",
+    "t": "FOMC hikes 25 bp to 3.75-4.00%, unanimous; median dot one more hike in 2026, none cut in 2027.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+   },
+   {
+    "kind": "OPINION",
+    "t": "Warsh: long yields up on growth, geopolitics and 'competition for capital' from hyperscalers raising funding.",
+    "url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html"
+   },
+   {
+    "kind": "HARD",
+    "t": "S&P -0.45%, Dow -1.2%, 10-year closes 5.01%; futures price ~4.5% by Sep 2027.",
+    "url": "https://fortune.com/2026/09/16/warsh-fed-hike-ai-hyperscalers-treasury-yields/"
+   }
+  ],
+  "run_url": "https://claude.ai/code/session_01J5tRxrBo4VkxVPo6SeHV4C",
+  "brief": null
+ },
+ {
+  "date": "2026-09-17",
+  "as_of": "close",
+  "stage": 1,
+  "stage_label": "Price break in the infrastructure layer, unconfirmed",
+  "reds": 1,
+  "yellows": 7,
+  "greens": 12,
+  "amplifier": "MEDIUM",
+  "amplifier_note": null,
+  "read": "Broad relief rally: S&P +1.1%, semiconductors +3.1% to 20.7% below the June high, Nvidia +2.5%, AMD +6.4%, VIX -13% to 15.4, 10-year eased to 4.95%. Credit flat. The single-day-rout signal cleared to green. Oracle +6% on OpenAI round reports; CoreWeave -4.2% to 44% off its high as Nebius undercut it on GPU pricing and it announced a $3-3.5B raise.",
+  "changed": [
+   {
+    "signal": "A6",
+    "from": "Y",
+    "to": "G",
+    "why": "No rout since Sep 14; SOX +0.6% Sep 16, +3.1% Sep 17"
+   }
+  ],
+  "signals": {
+   "A1": {
+    "c": "G",
+    "v": "NVDA $219.34, -7.0%"
+   },
+   "A2": {
+    "c": "R",
+    "v": "SOX 11,594, -20.7% (barely red)"
+   },
+   "A3": {
+    "c": "G",
+    "v": "NDX -4.0%"
+   },
+   "A4": {
+    "c": "Y",
+    "v": "Carried; leaders outpaced RSP today"
+   },
+   "A5": {
+    "c": "G",
+    "v": "VIX 15.4"
+   },
+   "A6": {
+    "c": "G",
+    "v": "No rout in the week"
+   },
+   "B1": {
+    "c": "G",
+    "v": "No cuts found"
+   },
+   "B2": {
+    "c": "Y",
+    "v": "Analyst-level only"
+   },
+   "B3": {
+    "c": "G",
+    "v": "Next report ~Nov"
+   },
+   "B4": {
+    "c": "G",
+    "v": "TSMC +53.3%; HBM firm"
+   },
+   "C1": {
+    "c": "Y",
+    "v": "Stale ~215 bp; 192 bp claim unverified"
+   },
+   "C2": {
+    "c": "G",
+    "v": "2.52%"
+   },
+   "C3": {
+    "c": "G",
+    "v": "270 bp"
+   },
+   "C4": {
+    "c": "Y",
+    "v": "SoftBank bond unpriced; loan upsized to $11.87B"
+   },
+   "C5": {
+    "c": "Y",
+    "v": "CRWV -44%; $3-3.5B raise"
+   },
+   "D1": {
+    "c": "G",
+    "v": "No change"
+   },
+   "D2": {
+    "c": "Y",
+    "v": "IPO 2027; $1.2T+ round talks"
+   },
+   "D3": {
+    "c": "G",
+    "v": "Nebius price cuts noted"
+   },
+   "D4": {
+    "c": "G",
+    "v": "No change"
+   },
+   "D5": {
+    "c": "G",
+    "v": "No change"
+   },
+   "E1": {
+    "c": "G",
+    "v": "28%"
+   },
+   "E2": {
+    "c": "G",
+    "v": "Below average"
+   },
+   "E3": {
+    "c": "G",
+    "v": "aibubble.watch 88; Polymarket 13-15%"
+   },
+   "E4": {
+    "c": "Y",
+    "v": "No change"
+   },
+   "F1": {
+    "c": "Y",
+    "v": "10y 4.95%"
+   },
+   "F2": {
+    "c": "G",
+    "v": "MOVE 76.2"
+   },
+   "F3": {
+    "c": "Y",
+    "v": "0.96% (Sep 11)"
+   },
+   "F4": {
+    "c": "Y",
+    "v": "Breakeven 2.33%, Brent $104, CPI 3.4%"
+   },
+   "F5": {
+    "c": "Y",
+    "v": "~2.5 hikes priced to Sep 2027"
+   }
+  },
+  "market": {
+   "spx": 7635.0,
+   "ndx": 29434.0,
+   "sox": 11594.3,
+   "sox_dd": -20.7,
+   "nvda": 219.34,
+   "nvda_dd": -7.0,
+   "ndx_dd": -4.0,
+   "tnx": 4.95,
+   "vix": 15.4,
+   "hy_oas": 270,
+   "move": 76.2,
+   "term_premium": 0.96,
+   "breakeven": 2.33,
+   "brent": 104,
+   "orcl": null,
+   "crwv": 80.1
+  },
+  "top": [
+   {
+    "kind": "HARD",
+    "t": "Oracle +6% on reports investors approached OpenAI about a $1.2T+ round.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/openai-weighing-funding-round-over-223133303.html"
+   },
+   {
+    "kind": "HARD",
+    "t": "CoreWeave -4.2%, 44% off its high; announces $3-3.5B convertible-plus-equity raise as Nebius undercuts on GPU rental pricing.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+   },
+   {
+    "kind": "HARD",
+    "t": "SoftBank's $11.87B two-year loan closed upsized from $10B; $10-20B junk bond still unpriced; SoftBank CDS at a three-year high.",
+    "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
+   }
+  ],
+  "run_url": "https://claude.ai/code/session_018AvVzBUPVbFNXzMvKSJVyN",
+  "brief": null
+ }
+]
