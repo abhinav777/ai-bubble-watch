@@ -153,5 +153,16 @@
   ],
   "t": "SoftBank prices and issues its Y1 trillion ($6.3B) seven-year retail bond at a 4.75% coupon, the high end of its 4.3-4.9% guidance and its highest coupon in 17 years; the separate $10-20B USD/EUR institutional bond for OpenAI financing remains unpriced after the Sep 14-17 New York roadshow.",
   "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75"
+ },
+ {
+  "date": "2026-09-18",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "C4",
+   "C5"
+  ],
+  "t": "CoreWeave prices an upsized $3.5B convertible senior note at $3.7B (2.875% coupon, due April 2033, settling Sep 22; up to $4.2B with a 13-day greenshoe) -- a coupon far below its existing ~8.5-9.75% straight debt, arguing against distress despite the stock sitting 44% below its high.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
  }
 ]

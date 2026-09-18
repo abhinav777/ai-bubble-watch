@@ -510,5 +510,181 @@
   },
   "run_url": "https://claude.ai/code/session_01UWxHiTRtRbbNVCUKb47cre",
   "brief": "briefs/2026-09-17.md"
+ },
+ {
+  "date": "2026-09-18",
+  "as_of": "close",
+  "close_date": "2026-09-17",
+  "stage": 1,
+  "stage_label": "Price break in the infrastructure layer, unconfirmed",
+  "reds": 1,
+  "yellows": 7,
+  "greens": 16,
+  "amplifier": "MEDIUM",
+  "amplifier_note": null,
+  "read": "This run landed before the Sep 18 US cash open, so the market data is identical to yesterday's Sep 17 close -- SOX still 20.7% below its June high (the one red), VIX 15.4, NVDA 7.0% off its high. The one new dated fact of substance is credit, not price: CoreWeave upsized its convertible note from $3.0B to a priced $3.7B (2.875% coupon, due 2033, could reach $4.2B with the greenshoe) -- a coupon far below its ~13%-yielding straight bonds, which argues against distress even with the stock 44% off its high. SoftBank's $10-20B dollar/euro bond, the more consequential financing test, is still unpriced after its Sep 14-17 New York roadshow. Brent slipped to a fresh ~$99.25 intraday, its first sub-$100 print in weeks, a small macro tailwind. Nothing here moves a signal or the stage.",
+  "changed": [],
+  "signals": {
+   "A1": {
+    "c": "G",
+    "v": "NVDA $219.34, -7.0% from $235.74 (May 14); pre-market ~$219, flat"
+   },
+   "A2": {
+    "c": "R",
+    "v": "SOX 11,599, -20.7% from 14,635 (Jun 22); unchanged from Sep 17 close"
+   },
+   "A3": {
+    "c": "G",
+    "v": "NDX 29,447, -4.0% from high"
+   },
+   "A4": {
+    "c": "Y",
+    "v": "Leaders roughly tracking RSP; still carried Y pending a fresh close"
+   },
+   "A5": {
+    "c": "G",
+    "v": "VIX 15.4 (Sep 17 close)"
+   },
+   "A6": {
+    "c": "G",
+    "v": "No rout since Sep 14; four sessions without a -5% day"
+   },
+   "B1": {
+    "c": "G",
+    "v": "No hyperscaler capex cuts found"
+   },
+   "B2": {
+    "c": "Y",
+    "v": "Analyst estimates only; no company-confirmed pause found"
+   },
+   "B3": {
+    "c": "G",
+    "v": "Next report ~Nov (Nvidia Q3 FY27)"
+   },
+   "B4": {
+    "c": "G",
+    "v": "TSMC Aug +53.3% YoY stands; Sept print due ~Oct 10"
+   },
+   "C1": {
+    "c": "Y",
+    "v": "No dated Sept print; ~215bp (Aug 8) record carried forward, stale"
+   },
+   "C2": {
+    "c": "G",
+    "v": "2.52% (whalequant, dated Sep 16)"
+   },
+   "C3": {
+    "c": "G",
+    "v": "~270-276bp carried forward; FRED blocked again this run"
+   },
+   "C4": {
+    "c": "Y",
+    "v": "CoreWeave's $3.5B convertible upsized and priced at $3.7B (2.875% coupon, due 2033) -- strong demand; SoftBank's $10-20B USD/EUR bond still unpriced after the Sep 14-17 NY roadshow"
+   },
+   "C5": {
+    "c": "Y",
+    "v": "CRWV $79.88, -44% from high; new convertible priced far below its ~13% cash bonds -- not distress pricing"
+   },
+   "D1": {
+    "c": "G",
+    "v": "Anthropic run-rate seen at $100-120B by year-end; OpenAI >$40B; no new dated figure"
+   },
+   "D2": {
+    "c": "Y",
+    "v": "OpenAI in talks near $1.2-1.5T (round, not IPO); Anthropic eyeing ~$2T Oct IPO marketing; neither closed"
+   },
+   "D3": {
+    "c": "G",
+    "v": "Silicon Data H100 index ~$2.53/hr, flat"
+   },
+   "D4": {
+    "c": "G",
+    "v": "No new dated hard adoption data this window; PwC/Writer ROI-skepticism pieces undated to this week"
+   },
+   "D5": {
+    "c": "G",
+    "v": "No new shutdown wave found"
+   },
+   "E1": {
+    "c": "G",
+    "v": "28% (Sep FMS, unchanged; Oct FMS not out until mid-Oct)"
+   },
+   "E2": {
+    "c": "G",
+    "v": "Google News RSS 82 items/7d (below 96+ baseline); GDELT blocked (429) again this run"
+   },
+   "E3": {
+    "c": "G",
+    "v": "aibubble.watch 88 Extreme (dated Sep 17, flat); Polymarket 12% (Sep 18, up from 9.7% Sep 17, still far below 16% baseline); boomorbubble/aibubblemonitor stale"
+   },
+   "E4": {
+    "c": "Y",
+    "v": "Ongoing insider selling; no IPO withdrawals found"
+   },
+   "F1": {
+    "c": "Y",
+    "v": "10y 4.95% (Sep 17 close); ~4.98% intraday Sep 18, unverified"
+   },
+   "F2": {
+    "c": "G",
+    "v": "MOVE 76.2 (Sep 17 close)"
+   },
+   "F3": {
+    "c": "Y",
+    "v": "Term premium 0.96% (Sep 11, stale; FRED blocked this run)"
+   },
+   "F4": {
+    "c": "Y",
+    "v": "Brent fell to ~$99.25 intraday Sep 18 (from $104.82 Sep 17 close); breakeven 2.33% (stale), CPI 3.4% (Aug)"
+   },
+   "F5": {
+    "c": "Y",
+    "v": "Fed at 3.75-4.00% post Sep 16 hike; dots/futures imply ~2.5 hikes to Sep 2027"
+   }
+  },
+  "market": {
+   "spx": 7637.76,
+   "ndx": 29446.98,
+   "sox": 11599.49,
+   "sox_dd": -20.74,
+   "nvda": 219.34,
+   "nvda_dd": -6.96,
+   "ndx_dd": -3.96,
+   "tnx": 4.95,
+   "vix": 15.44,
+   "hy_oas": 270,
+   "move": 76.22,
+   "term_premium": 0.96,
+   "breakeven": 2.33,
+   "brent": 104.82,
+   "orcl": 150.59,
+   "crwv": 79.88
+  },
+  "top": [
+   {
+    "kind": "HARD",
+    "t": "CoreWeave prices an upsized $3.5B convertible senior note at $3.7B (2.875% coupon, due April 2033, settles Sep 22; up to $4.2B with a 13-day greenshoe) -- a coupon far below its existing ~8.5-9.75% debt.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+   },
+   {
+    "kind": "HARD",
+    "t": "Brent crude fell to ~$99.25 intraday, its first sub-$100 print in weeks, down from $108 at the Sep 15 baseline.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/BZ=F"
+   },
+   {
+    "kind": "HARD",
+    "t": "Polymarket's 'AI bubble burst by Dec 31, 2026' contract ticked up to 12% (Sep 18, 1pm UTC) from 9.7% the prior session, still well below the 16% baseline.",
+    "url": "https://polymarket.com/event/ai-bubble-burst-by"
+   }
+  ],
+  "sources": {
+   "T1": 3,
+   "T2": 4,
+   "T3": 3,
+   "T4": 5,
+   "T5": 2
+  },
+  "run_url": null,
+  "brief": "briefs/2026-09-18.md"
  }
 ]
