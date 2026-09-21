@@ -164,5 +164,51 @@
   ],
   "t": "CoreWeave prices an upsized $3.5B convertible senior note at $3.7B (2.875% coupon, due April 2033, settling Sep 22; up to $4.2B with a 13-day greenshoe) -- a coupon far below its existing ~8.5-9.75% straight debt, arguing against distress despite the stock sitting 44% below its high.",
   "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+ },
+ {
+  "date": "2026-09-18",
+  "type": "hard",
+  "tier": "T1",
+  "signals": [
+   "A2",
+   "A4"
+  ],
+  "t": "SOX closes at 11,921.69, -18.54% from its Jun 22 high of 14,634.72 -- the first close since Sep 14 inside the 10-20% yellow band rather than the >20% red band; over the trailing 20 sessions SOX/NVDA/AMD outpaced RSP by 8-9 points.",
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX",
+  "tag": null
+ },
+ {
+  "date": "2026-09-21",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "C4"
+  ],
+  "t": "SoftBank Group launches a $10B+ USD (3.5/5.5/7.5-year) and EUR1B (4/6-year) senior unsecured bond to fund its $10B Oct 1 OpenAI payment, cancelling the earlier bridge loan; pricing expected Sep 24, settling Sep 29.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
+  "tag": null
+ },
+ {
+  "date": "2026-09-21",
+  "type": "opinion",
+  "tier": "T5",
+  "signals": [
+   "C5"
+  ],
+  "t": "Rothschild & Co Redburn initiates CoreWeave and Nebius at 'Sell' (Neutral on IREN, WULF, CORZ, APLD, CIFR, HUT), arguing credit markets are pricing AI-infrastructure risk that AI equities still ignore.",
+  "url": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-corz-wulf-stock-get-sell-ratings-rothschild-credit-market-warning/cZMRLruRB4v",
+  "tag": "short-AI incentive: sell-side downgrade"
+ },
+ {
+  "date": "2026-09-18",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "D2",
+   "E4"
+  ],
+  "t": "Nvidia-backed data-center firm Nscale files publicly for a US IPO, adding to the AI-infrastructure IPO pipeline.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-18/nvidia-backed-data-center-firm-nscale-files-publicly-for-us-ipo",
+  "tag": null
  }
 ]

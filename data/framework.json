@@ -326,8 +326,8 @@
  ],
  "calendar": [
   {
-   "when": "Roadshow concluded Sep 17, pricing pending",
-   "what": "SoftBank $10-20B USD/EUR institutional bond for OpenAI financing; NY roadshow ran Sep 14-17, still unpriced at Sep 17 close. Wide print, downsizing or pulled deal turns C4 red. (Separately, SoftBank's Y1tn retail bond already priced fine at 4.75% on Sep 4, issued Sep 17 -- not the tracked instrument.)"
+   "when": "Pricing expected Sep 24, 2026",
+   "what": "SoftBank's $10B+ USD (3.5/5.5/7.5yr) + EUR1B (4/6yr) bond for its Oct 1 OpenAI payment; formally launched Sep 21 with a term sheet out, replacing the earlier bridge loan. Wide print, downsizing or a pulled deal turns C4 red; a clean, oversubscribed print is the clearest test yet of AI-linked credit demand."
   },
   {
    "when": "Sep 30",
@@ -378,6 +378,10 @@
   {
    "date": "2026-09-17",
    "t": "Correction: pillars A-E hold 24 signals, not 20; green counts restated (baseline 1 red, 8 yellow, 15 green). Total signals 29 with pillar F."
+  },
+  {
+   "date": "2026-09-21",
+   "t": "SOX drawdown fell to 18.5% (A2: red to yellow) and the 20-day rotation flipped to leaders-ahead (A4: yellow to green); Pillar A now holds zero reds for the first time since the Sep 15 baseline. Stage revised from 1 (price break) to 0+ (stress building)."
   }
  ]
 }

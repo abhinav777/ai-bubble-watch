@@ -686,5 +686,194 @@
   },
   "run_url": null,
   "brief": "briefs/2026-09-18.md"
+ },
+ {
+  "date": "2026-09-21",
+  "as_of": "close",
+  "close_date": "2026-09-18",
+  "stage": 0,
+  "stage_label": "Stress building (0+): no red signals in A-E; yellows persist in B and C",
+  "reds": 0,
+  "yellows": 7,
+  "greens": 17,
+  "amplifier": "MEDIUM",
+  "amplifier_note": null,
+  "read": "The framework's lone red signal since Sep 14 has cleared: the SOX closed Sep 18 at 11,921.69, only 18.5% below its June high (versus 20.7-23.9% on every prior run), and the 20-trading-day rotation flipped back in AI leaders' favor (SOX, NVDA and AMD outpacing the equal-weight S&P by 8-9 points) -- so Pillar A now holds zero reds and A4 moves from yellow to green. Nothing in capex, revenue or credit improved or worsened to match: Oracle CDS, CoreWeave and the AI-debt-deal signal are unchanged, and SoftBank formally launched the $10B+/EUR1B bond it needs to fund its Oct 1 OpenAI payment, with pricing due Sep 24 -- the most consequential near-term credit test still pending. Net effect is a genuine, if narrow, move away from 'popping': Stage drops from Stage 1 (price break) to Stage 0+ (stress building), since no pillar shows a red and the yellows are concentrated in financing (B2, C1, C4, C5) rather than in a confirmed capex or credit failure.",
+  "changed": [
+   {
+    "signal": "A2",
+    "from": "R",
+    "to": "Y",
+    "why": "SOX closed 2026-09-18 at 11,921.69, -18.54% from its 14,634.72 (Jun 22, 2026) 52-week high -- inside the 10-20% yellow band, not the >20% red band that had held since Sep 14."
+   },
+   {
+    "signal": "A4",
+    "from": "Y",
+    "to": "G",
+    "why": "Over the 20 trading days Aug 20-Sep 18, SOX +1.0%, NVDA +2.5% and AMD +19.3% outpaced RSP's -3.6% by 8-9 points -- leaders solidly ahead, not lagging."
+   }
+  ],
+  "signals": {
+   "A1": {
+    "c": "G",
+    "v": "NVDA $222.27 (Sep 18), -5.7% from $235.74 (May 14)"
+   },
+   "A2": {
+    "c": "Y",
+    "v": "SOX 11,921.69 (Sep 18), -18.5% from 14,634.72 (Jun 22)"
+   },
+   "A3": {
+    "c": "G",
+    "v": "NDX 29,644.17 (Sep 18), -3.3% from high"
+   },
+   "A4": {
+    "c": "G",
+    "v": "SOX/NVDA/AMD +1-19% vs RSP -3.6% over 20 sessions -- leaders ahead"
+   },
+   "A5": {
+    "c": "G",
+    "v": "VIX 14.81 (Sep 18 close)"
+   },
+   "A6": {
+    "c": "G",
+    "v": "No -5%+ day since Sep 14 (>1 week ago)"
+   },
+   "B1": {
+    "c": "G",
+    "v": "No hyperscaler capex cuts found; Broadcom reaffirms plan to double AI revenue in FY27"
+   },
+   "B2": {
+    "c": "Y",
+    "v": "Analyst estimates only; SemiAnalysis disputes 'half of 2026 capacity canceled' framing; no company-confirmed pause"
+   },
+   "B3": {
+    "c": "G",
+    "v": "No new print; next report Nvidia Q3 FY27 in late Nov"
+   },
+   "B4": {
+    "c": "G",
+    "v": "TSMC Aug +53.3% YoY stands; Sept print due ~Oct 10"
+   },
+   "C1": {
+    "c": "Y",
+    "v": "No dated Sept print found; ~203-215bp (Jul 24/Aug 8) record carried forward, stale"
+   },
+   "C2": {
+    "c": "G",
+    "v": "2.52% (whalequant, dated Sep 17)"
+   },
+   "C3": {
+    "c": "G",
+    "v": "~270bp carried forward; FRED blocked again this run"
+   },
+   "C4": {
+    "c": "Y",
+    "v": "SoftBank formally launches $10B+ USD (3.5/5.5/7.5yr) + EUR1B (4/6yr) bond for its Oct 1 OpenAI payment; pricing expected Sep 24, settling Sep 29 -- still unpriced"
+   },
+   "C5": {
+    "c": "Y",
+    "v": "CRWV $81.36 (Sep 18), -43.1% from high; Rothschild initiates CRWV/NBIS at Sell citing credit-market risk"
+   },
+   "D1": {
+    "c": "G",
+    "v": "Anthropic run-rate seen at $100-120B by year-end; OpenAI >$40B; no new dated figure"
+   },
+   "D2": {
+    "c": "Y",
+    "v": "OpenAI in talks near $1.2-1.5T (round, not closed); Anthropic IPO roadshow still slipped to mid-Oct"
+   },
+   "D3": {
+    "c": "G",
+    "v": "Conflicting T5 vendor H100 indices ($2.5-3.3/hr); no idle-capacity reports; no verified 3-month decline"
+   },
+   "D4": {
+    "c": "G",
+    "v": "No new dated hard adoption data this window; ROI-skepticism surveys not dated to this week"
+   },
+   "D5": {
+    "c": "G",
+    "v": "General tech layoffs cite 'AI reallocation', not a wave of AI-startup failures"
+   },
+   "E1": {
+    "c": "G",
+    "v": "28% (Sep FMS, unchanged; Oct FMS due mid-Oct)"
+   },
+   "E2": {
+    "c": "G",
+    "v": "Google News RSS ~50 items/7d (below 96 baseline); GDELT blocked (503) this run"
+   },
+   "E3": {
+    "c": "G",
+    "v": "aibubble.watch 88 Extreme (Sep 18, flat); aibubblemonitor.com 50 'Heating Up' (Sep 20); boomorbubble 0/5 red (Sep 20); Polymarket 9% (Sep 21, down from 12%)"
+   },
+   "E4": {
+    "c": "Y",
+    "v": "Ongoing large insider sales (Stevens ~$1.5B since June); Nscale (Nvidia-backed) files for IPO -- no withdrawals found"
+   },
+   "F1": {
+    "c": "Y",
+    "v": "10y 4.998% (Sep 18 close)"
+   },
+   "F2": {
+    "c": "G",
+    "v": "MOVE 80.64 (Sep 18 close)"
+   },
+   "F3": {
+    "c": "Y",
+    "v": "Term premium 0.96% (Sep 11, stale; FRED blocked); Sep 10y auction showed strong demand (stop-through), no tail"
+   },
+   "F4": {
+    "c": "Y",
+    "v": "Brent $103.87 (Sep 18 close); breakeven 2.33% (stale); CPI 3.4% (Aug)"
+   },
+   "F5": {
+    "c": "Y",
+    "v": "Fed at 3.75-4.00%; ~56-60% odds of one more Oct hike (T4 approx); dots imply ~2.5 hikes to Sep 2027"
+   }
+  },
+  "market": {
+   "spx": 7650.5,
+   "ndx": 29644.17,
+   "sox": 11921.69,
+   "sox_dd": -18.54,
+   "nvda": 222.27,
+   "nvda_dd": -5.71,
+   "ndx_dd": -3.32,
+   "tnx": 4.998,
+   "vix": 14.81,
+   "hy_oas": 270,
+   "move": 80.64,
+   "term_premium": 0.96,
+   "breakeven": 2.33,
+   "brent": 103.87,
+   "orcl": 147.61,
+   "crwv": 81.36
+  },
+  "top": [
+   {
+    "kind": "HARD",
+    "t": "SOX closed Sep 18 at 11,921.69, -18.5% from its June 22 high, ending the >20% drawdown that had been the framework's only red signal since Sep 14; SMH is up ~14% over the last four sessions.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX"
+   },
+   {
+    "kind": "HARD",
+    "t": "SoftBank formally launched a $10B+ USD (3.5/5.5/7.5yr) and EUR1B (4/6yr) bond deal to fund its Oct 1 OpenAI payment; pricing expected Sep 24, settling Sep 29.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet"
+   },
+   {
+    "kind": "OPINION",
+    "t": "Rothschild & Co Redburn initiated CoreWeave and Nebius at 'Sell' on Sep 21, saying credit markets are pricing AI-infrastructure risk that AI equities still ignore.",
+    "url": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-corz-wulf-stock-get-sell-ratings-rothschild-credit-market-warning/cZMRLruRB4v"
+   }
+  ],
+  "sources": {
+   "T1": 4,
+   "T2": 4,
+   "T3": 2,
+   "T4": 3,
+   "T5": 3
+  },
+  "run_url": null,
+  "brief": "briefs/2026-09-21.md"
  }
 ]
