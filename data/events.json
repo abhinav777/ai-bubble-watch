@@ -210,5 +210,28 @@
   "t": "Nvidia-backed data-center firm Nscale files publicly for a US IPO, adding to the AI-infrastructure IPO pipeline.",
   "url": "https://www.bloomberg.com/news/articles/2026-09-18/nvidia-backed-data-center-firm-nscale-files-publicly-for-us-ipo",
   "tag": null
+ },
+ {
+  "date": "2026-09-21",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "A2",
+   "A4"
+  ],
+  "t": "Meta's newly launched Muse AI agent tops app-store downloads and sparks a broad chip-stock rally: AMD +10% to a $1 trillion market cap, Meta +11%, SOX +4.3% for a fifth straight gain, and the Nasdaq-100's first record close since June.",
+  "url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
+  "tag": null
+ },
+ {
+  "date": "2026-09-21",
+  "type": "hard",
+  "tier": "T2",
+  "signals": [
+   "C4"
+  ],
+  "t": "Fitch assigns SoftBank's proposed $10B USD + EUR1B senior unsecured notes a first-time BB+ rating (its highest speculative grade) with a stable outlook, ahead of Sep 24 pricing for the Oct 1 OpenAI payment.",
+  "url": "https://www.marketscreener.com/news/fitch-assigns-softbank-first-time-bb-rating-with-stable-outlook-ce785bdfda8bf621",
+  "tag": null
  }
 ]

@@ -875,5 +875,181 @@
   },
   "run_url": "https://claude.ai/code/session_019XxzFHVvGQ6419Nc4WfJsH",
   "brief": "briefs/2026-09-21.md"
+ },
+ {
+  "date": "2026-09-22",
+  "as_of": "close",
+  "close_date": "2026-09-21",
+  "stage": 0,
+  "stage_label": "Stress building (0+): no red signals in A-E; yellows persist in B and C",
+  "reds": 0,
+  "yellows": 7,
+  "greens": 17,
+  "amplifier": "MEDIUM",
+  "amplifier_note": null,
+  "read": "No signal flipped color for a second straight session. Price kept improving: Meta's newly launched Muse AI agent topped app-store downloads and triggered a broad chip rally on Sep 21 -- AMD crossed a $1 trillion market cap (+10%), Meta +11%, SOX +4.3% for a fifth straight gain, and the Nasdaq-100 closed within 0.6% of its 52-week high, its first record close since June. The financing overhang that matters most did not move: SoftBank's $10B+/EUR1B bond funding its Oct 1 OpenAI payment -- now rated BB+ by Fitch -- remains unpriced with pricing set for Sep 24, two days out. Oracle CDS, US HY OAS and the term premium stayed stale (no dated September print; FRED unreachable again), and CoreWeave still sits ~40% below its high. Net effect: the price pillar keeps healing while capex, revenue and credit hold exactly where they were -- Stage stays at 0+ with zero reds, amplifier unchanged at MEDIUM.",
+  "changed": [],
+  "signals": {
+   "A1": {
+    "c": "G",
+    "v": "NVDA $227.38 (Sep 21), -3.6% from $235.74 (May 14)"
+   },
+   "A2": {
+    "c": "Y",
+    "v": "SOX 12,433.17 (Sep 21), -15.0% from 14,634.72 (Jun 22); improved from -18.5%"
+   },
+   "A3": {
+    "c": "G",
+    "v": "NDX 30,482.35 (Sep 21), -0.6% from high"
+   },
+   "A4": {
+    "c": "G",
+    "v": "SOX +5.9%, NVDA +5.9%, AMD +30.1% vs RSP -4.1% over 20 sessions (Aug 21-Sep 21) -- leaders well ahead"
+   },
+   "A5": {
+    "c": "G",
+    "v": "VIX 14.7 (Sep 22)"
+   },
+   "A6": {
+    "c": "G",
+    "v": "No -5%+ day since Sep 14; Sep 21 was a +4.3% SOX day"
+   },
+   "B1": {
+    "c": "G",
+    "v": "No hyperscaler capex cuts found; Moody's raises 2027 hyperscaler capex forecast by $85B toward ~$1T"
+   },
+   "B2": {
+    "c": "Y",
+    "v": "SemiAnalysis rebuts 'half of 2026 capacity canceled' framing; no company-confirmed pause found"
+   },
+   "B3": {
+    "c": "G",
+    "v": "No new print; next report Nvidia Q3 FY27 in late Nov"
+   },
+   "B4": {
+    "c": "G",
+    "v": "HBM/DRAM prices still rising 20-40% YoY, HBM sold out for 2026; TSMC Sept print due ~Oct 10"
+   },
+   "C1": {
+    "c": "Y",
+    "v": "No dated Sept print found despite Sep 21 social-media chatter about widening spreads; ~203-215bp (Jul 24/Aug 8) record carried forward, stale"
+   },
+   "C2": {
+    "c": "G",
+    "v": "2.51% (whalequant, dated Sep 18)"
+   },
+   "C3": {
+    "c": "G",
+    "v": "~270bp carried forward; FRED blocked again this run"
+   },
+   "C4": {
+    "c": "Y",
+    "v": "SoftBank $10B+ USD/EUR1B bond formally launched Sep 21, Fitch assigns first-time BB+; pricing due Sep 24, settling Sep 29 -- still unpriced"
+   },
+   "C5": {
+    "c": "Y",
+    "v": "CRWV $85.43 (Sep 21), -40.3% from high; improved from -44% on Sep 18"
+   },
+   "D1": {
+    "c": "G",
+    "v": "Anthropic run-rate $65B (Jul) heading to $100-120B by year-end; OpenAI $40B, no new dated figure"
+   },
+   "D2": {
+    "c": "Y",
+    "v": "OpenAI holding out for $1.5T vs investor offers near $1.2T, round not closed; Anthropic IPO marketing still targeted for Oct at ~$2T"
+   },
+   "D3": {
+    "c": "G",
+    "v": "H100 on-demand median ~$3.25/hr (Thunder Compute, Sep); flat/up, no idle-capacity reports"
+   },
+   "D4": {
+    "c": "G",
+    "v": "No new dated hard adoption data this window; RAND/MIT ROI-skepticism stats not new to this week"
+   },
+   "D5": {
+    "c": "G",
+    "v": "No new shutdown wave found"
+   },
+   "E1": {
+    "c": "G",
+    "v": "28% (Sep FMS, unchanged; Oct FMS due mid-Oct)"
+   },
+   "E2": {
+    "c": "G",
+    "v": "Google News RSS 81 items/7d (below 96 baseline); GDELT rate-limited on both attempts this run"
+   },
+   "E3": {
+    "c": "G",
+    "v": "aibubble.watch 89 Extreme (Sep 21, up from 88); aibubblemonitor.com ~50 'Heating Up' (Sep 20, carried); boomorbubble 0/5 red 'Boom' (Sep 22); Polymarket 10.75% (Sep 22, up from 9% but far below 16% baseline)"
+   },
+   "E4": {
+    "c": "Y",
+    "v": "Ongoing insider selling; no IPO withdrawals found"
+   },
+   "F1": {
+    "c": "Y",
+    "v": "10y ~4.95% (Sep 22 intraday)"
+   },
+   "F2": {
+    "c": "G",
+    "v": "MOVE 81.2 (Sep 21)"
+   },
+   "F3": {
+    "c": "Y",
+    "v": "Term premium 0.96% (Sep 11, stale; FRED blocked); no new auction tail found"
+   },
+   "F4": {
+    "c": "Y",
+    "v": "Brent $98.97 (Sep 22), breakeven 2.33% (stale), CPI 3.4% (Aug)"
+   },
+   "F5": {
+    "c": "Y",
+    "v": "Fed dots imply ~2.5 hikes to Sep 2027; ~60% odds of an Oct 28 hike (CME FedWatch, Sep 20)"
+   }
+  },
+  "market": {
+   "spx": 7764.7,
+   "ndx": 30482.35,
+   "sox": 12433.17,
+   "sox_dd": -15.04,
+   "nvda": 227.38,
+   "nvda_dd": -3.55,
+   "ndx_dd": -0.58,
+   "tnx": 4.949,
+   "vix": 14.7,
+   "hy_oas": 270,
+   "move": 81.2,
+   "term_premium": 0.96,
+   "breakeven": 2.33,
+   "brent": 98.97,
+   "orcl": 148.56,
+   "crwv": 85.43
+  },
+  "top": [
+   {
+    "kind": "HARD",
+    "t": "Meta's Muse AI agent launch tops app-store downloads and sparks a chip-stock rally: AMD +10% to a $1T market cap, Meta +11%, SOX +4.3% (5th straight gain), Nasdaq-100's first record close since June.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar"
+   },
+   {
+    "kind": "HARD",
+    "t": "Fitch assigns SoftBank's proposed $10B USD + EUR1B notes a first-time BB+ rating ahead of Sep 24 pricing for the Oct 1 OpenAI payment.",
+    "url": "https://www.marketscreener.com/news/fitch-assigns-softbank-first-time-bb-rating-with-stable-outlook-ce785bdfda8bf621"
+   },
+   {
+    "kind": "HARD",
+    "t": "Polymarket's 'AI bubble burst in 2026' contract trades at 10.75% (Sep 22, 13:07 UTC), still well below the 16% baseline; aibubble.watch ticks to 89 Extreme from 88.",
+    "url": "https://polymarket.com/event/ai-bubble-burst-by"
+   }
+  ],
+  "sources": {
+   "T1": 2,
+   "T2": 3,
+   "T3": 2,
+   "T4": 2,
+   "T5": 3
+  },
+  "run_url": "https://claude.ai/code/session_01SMLcBpWQWxQak8UZYzRTy1",
+  "brief": "briefs/2026-09-22.md"
  }
 ]
