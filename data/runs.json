@@ -1227,5 +1227,188 @@
     },
     "run_url": "https://claude.ai/code/session_01FGtWUBvJD42GnyZ5drJbgu",
     "brief": "briefs/2026-09-23.md"
+  },
+  {
+    "date": "2026-09-24",
+    "as_of": "close",
+    "close_date": "2026-09-23",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no red signals in A-E; yellows persist in B and C",
+    "reds": 0,
+    "yellows": 6,
+    "greens": 18,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "F1 (10y yield) and F2 (MOVE) both moved sharply toward their yellow/red thresholds after Sep 23's bond selloff; still 0 red in F but watch closely",
+    "read": "The clearest financing-window test since the baseline cleared: SoftBank priced its $11.1bn OpenAI-funding bond on Sep 24 with $30bn+ of orders for the $10bn dollar tranche (~3x covered), tightening from initial guidance even as the coupons (8.625-9.75% USD, 7.125-8% EUR) are the highest SoftBank has ever paid on dollar debt -- an oversubscribed reception under the framework's own rule, so C4 moves from yellow to green. That was offset by a sharp move in the other direction: the 10-year Treasury yield jumped to 5.11-5.13% on hot PMI and inflation data plus hawkish Fed commentary, its highest since 2007, and CME FedWatch odds of an October hike jumped to 73% from ~60%; MOVE (bond volatility) rose 17% intraday to 95.45. Equities were mixed under the bond pressure -- SOX's drawdown widened slightly to 14.3% from 13.3% -- but the 20-day rotation still shows AI leaders comfortably ahead of the equal-weight market. TSMC raised 2026 capex guidance to $60-64bn and its revenue growth outlook above 40%, and Micron pre-guided FQ4 revenue of $49-51bn at an 86% gross margin ahead of its Sep 30 report -- both reinforce Pillar B's supply-chain green. Net effect: yellows fell from 7 to 6 with zero reds, a small move away from 'popping,' but the macro amplifier's own signals (F1, F2) are now closer to their thresholds than at any point since the baseline.",
+    "changed": [
+      {
+        "signal": "C4",
+        "from": "Y",
+        "to": "G",
+        "why": "SoftBank's $11.1bn ($10bn USD + EUR1bn) bond funding its Oct 1 OpenAI payment priced Sep 24 with orders exceeding $30bn for the $10bn dollar tranche (~3x covered), tightening from the 8.75-9.875% guidance to 8.625%/9.25%/9.75% across the 3.5/5.5/7.5yr USD tranches (7.125%/8% for the 4/6yr EUR tranches). Oversubscribed reception per the framework's C4 rule, even though the coupons are SoftBank's highest ever on dollar debt."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $225.51 (Sep 23), -4.3% from $235.74 (May 14)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,534.28 (Sep 23), -14.3% from 14,634.72 (Jun 22); widened slightly from -13.3%"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,470.29 (Sep 23), -0.6% from 30,660.60 (Jun 2)"
+      },
+      "A4": {
+        "c": "G",
+        "v": "SOX +9.7%, NVDA +5.9%, AMD +28.3% vs RSP -4.8% over 20 sessions (Aug 24-Sep 23) -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 15.18 (Sep 23 close); 15.98 intraday Sep 24"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day since Sep 14; largest recent move -1.5% (NVDA/AMD, Sep 23)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; TSMC raises 2026 capex to $60-64bn on AI demand"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Analyst estimates only; no company-confirmed pause found"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next report Nvidia Q3 FY27 in late Nov"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC raises 2026 revenue growth outlook above 40%; Micron pre-guides FQ4 revenue $49-51bn, 86% gross margin, ahead of Sep 30 report; DRAM spot prices +52% since January"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "No dated Sept print found; a recirculating 203bp figure is dated Jul 20 (pre-dates the Aug 8 ~215bp record already on file); stale"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.52% (whalequant, dated Sep 22)"
+      },
+      "C3": {
+        "c": "G",
+        "v": "266bp carried forward (Sep 21); FRED blocked again this run"
+      },
+      "C4": {
+        "c": "G",
+        "v": "SoftBank's $11.1bn bond priced Sep 24, $30bn+ orders for the $10bn tranche (~3x), tightened from guidance -- oversubscribed"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $86.90 (Sep 23), -39.3% from high; essentially flat vs Sep 22"
+      },
+      "D1": {
+        "c": "G",
+        "v": "Anthropic run-rate seen at $100-120bn by year-end; OpenAI >$40bn; no new dated figure"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI round talk still $1.2-1.5T, not closed; Anthropic IPO marketing still targeted for Oct at ~$2T"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand median ~$3.25/hr (Sept aggregator), flat; no idle-capacity reports"
+      },
+      "D4": {
+        "c": "G",
+        "v": "No new dated hard adoption data this window; ROI-skepticism surveys cited this week are recycled, not newly dated"
+      },
+      "D5": {
+        "c": "G",
+        "v": "No new AI-specific shutdown wave found"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (Sep FMS, unchanged; Oct FMS due mid-Oct)"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS 85 items/7d (below 96 baseline); GDELT 12-month comparison rate-limited (429) again this run"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 87 Extreme (Sep 23, down from 88-89); boomorbubble 0/5 red 'Boom' unchanged; Polymarket 'burst by Dec 31' 10% (Sep 24, flat vs Sep 23, well below 16% baseline); aibubblemonitor.com reading unclear/stale this run -- trackers disagree"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Ongoing insider selling (Stevens, Huang); no IPO withdrawals found"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "10y 5.11-5.13% (Sep 23), highest since 2007; approaching the 5.25% red band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 95.45 (Sep 23), +17.6% intraday; approaching the 100 yellow band"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.96% carried forward (stale, FRED blocked); no new tailed auction found"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent ~$99.7-103 (Sep 23-24), breakeven 2.33% (stale), CPI 3.4% (Aug, unchanged)"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME FedWatch odds of an Oct 28 hike jumped to ~73% (from ~60%) on hot PMI/inflation data and Fed Barr comments; dots still imply ~2.5 hikes total to Sep 2027"
+      }
+    },
+    "market": {
+      "spx": 7706.03,
+      "ndx": 30470.29,
+      "sox": 12534.28,
+      "sox_dd": -14.35,
+      "nvda": 225.51,
+      "nvda_dd": -4.34,
+      "ndx_dd": -0.62,
+      "tnx": 5.11,
+      "vix": 15.18,
+      "hy_oas": 266,
+      "move": 95.45,
+      "term_premium": 0.96,
+      "breakeven": 2.33,
+      "brent": 99.78,
+      "orcl": 144.56,
+      "crwv": 86.9
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "SoftBank prices its $11.1bn OpenAI-funding bond (largest corporate junk-bond sale on record) with orders exceeding $30bn for the $10bn dollar tranche, tightening to 8.625%/9.25%/9.75% (3.5/5.5/7.5yr) from 8.75-9.875% guidance -- SoftBank's highest-ever dollar coupons even as the deal is oversubscribed ~3x.",
+        "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "10-year Treasury yield jumps to 5.11-5.13% on hot September PMI and inflation data plus hawkish Fed commentary, its highest level since 2007; CME FedWatch odds of an October 28 hike rise to ~73% from ~60%.",
+        "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "TSMC raises 2026 capex guidance to $60-64bn (from ~$56-60bn) and its revenue growth outlook above 40%, citing AI chip demand from Nvidia, AMD, Apple and hyperscalers; Micron pre-guides FQ4 (reports Sep 30) revenue of $49-51bn at an 86% gross margin on tight DRAM supply.",
+        "url": "https://finance.yahoo.com/markets/article/tsmc-raises-capex-and-revenue-forecast-highlighting-growing-ai-chip-demand-113101950.html"
+      }
+    ],
+    "sources": {
+      "T1": 5,
+      "T2": 6,
+      "T3": 0,
+      "T4": 6,
+      "T5": 3
+    },
+    "run_url": "https://claude.ai/code/session_01Q1FPUyt6nUiJYua8QtmpRH",
+    "brief": "briefs/2026-09-24.md"
   }
 ]

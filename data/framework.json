@@ -326,10 +326,6 @@
  ],
  "calendar": [
   {
-   "when": "Pricing expected Sep 24, 2026",
-   "what": "SoftBank's $10B+ USD (3.5/5.5/7.5yr) + EUR1B (4/6yr) bond for its Oct 1 OpenAI payment; formally launched Sep 21 with a term sheet out, replacing the earlier bridge loan. Wide print, downsizing or a pulled deal turns C4 red; a clean, oversubscribed print is the clearest test yet of AI-linked credit demand."
-  },
-  {
    "when": "Sep 30",
    "what": "Micron fiscal Q4. Softening DRAM commentary turns B4 yellow."
   },
@@ -382,6 +378,10 @@
   {
    "date": "2026-09-21",
    "t": "SOX drawdown fell to 18.5% (A2: red to yellow) and the 20-day rotation flipped to leaders-ahead (A4: yellow to green); Pillar A now holds zero reds for the first time since the Sep 15 baseline. Stage revised from 1 (price break) to 0+ (stress building)."
+  },
+  {
+   "date": "2026-09-24",
+   "t": "SoftBank's $11.1bn OpenAI-funding bond priced with ~3x oversubscription (C4: yellow to green), the first Pillar C signal to turn green since the baseline, even as its coupons are SoftBank's highest-ever on dollar debt. Same day, the 10-year Treasury yield hit 5.11-5.13%, highest since 2007, keeping the macro amplifier's own signals (F1, F2) close to their thresholds."
   }
  ]
 }
