@@ -1410,5 +1410,212 @@
     },
     "run_url": "https://claude.ai/code/session_01Q1FPUyt6nUiJYua8QtmpRH",
     "brief": "briefs/2026-09-24.md"
+  },
+  {
+    "date": "2026-09-25",
+    "as_of": "close",
+    "close_date": "2026-09-24",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no red signals in A-E; yellows in B, C, D persist and D4 newly joins them",
+    "reds": 0,
+    "yellows": 7,
+    "greens": 17,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "MOVE closed above the 100 yellow threshold for the first time since baseline (F2: G to Y); all five Pillar F signals are now yellow simultaneously, the worst Pillar F reading on file, though still short of the 2-red HIGH bar",
+    "read": "No new red signals and the stage holds at 0+ (stress building), but two fresh yellows on opposite sides of the framework show the story broadening beyond credit into demand and macro. Oracle sent a force-majeure notice to a Blue Owl Capital unit developing its 2.45GW 'Project Jupiter' Stargate site in New Mexico, citing a six-month delay in the gas pipeline meant to power it -- the most concrete evidence yet of a real infrastructure delay tied to a hyperscaler/Stargate project, even though both companies insist the roughly $165bn project remains on schedule and financial commitments are unchanged, so B2 stays yellow rather than red. Separately, Ramp's own September AI Index shows enterprise AI spend-per-seat among its top spenders fell about 10% month-over-month in August as buyers route away from frontier models toward cheaper ones, flipping D4 from green to yellow even as overall adoption keeps widening. On the amplifier, the MOVE bond-volatility index jumped through its 100 threshold to 104.58 (from 95.45 the day before), so all five Pillar F macro signals are yellow simultaneously for the first time since the baseline -- still MEDIUM, not HIGH, but the closest the amplifier has been to flipping. Financing conditions stayed constructive on their own terms: CoreWeave's upsized $3.7bn convertible settled and a CoreWeave-tied data-center project found buyers for $1.1bn of bonds at 9.25%, while no dated September Oracle CDS print could be verified despite widely circulating but inconsistent T4/T5 claims of a fresh 'record.'",
+    "changed": [
+      {
+        "signal": "D4",
+        "from": "G",
+        "to": "Y",
+        "why": "Ramp's September AI Index reports enterprise AI spend per employee among its top 1% of spenders fell ~10% month-over-month in August ($7,976 to $7,205), and frontier models' share of tokens purchased fell to 45% from a 53% peak, as buyers route to cheaper models -- a dated, first-party signal of softening per-seat spend even as overall adoption keeps widening."
+      },
+      {
+        "signal": "F2",
+        "from": "G",
+        "to": "Y",
+        "why": "MOVE bond-volatility index closed at 104.58 on Sep 24, up from 95.45 on Sep 23 and above the 100 yellow threshold for the first time since the Sep 15 baseline."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $224.58 (Sep 24), -4.7% from $235.74 (May 14)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,492.54 (Sep 24), -14.6% from 14,634.72 (Jun 22); essentially flat vs -14.3% Sep 23"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,478.86 (Sep 24), -0.8% from a new high of 30,732.40 set Sep 22"
+      },
+      "A4": {
+        "c": "G",
+        "v": "SOX +7.6%, NVDA +7.1%, AMD +30.8% vs RSP -5.3% over 20 sessions (Aug 26-Sep 24) -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 15.67 (Sep 24 close)"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day for NVDA or SOX in the past 10 sessions; largest single-day move was AMD +10.0% (Sep 21, a rally not a rout)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; TSMC and Micron guidance still strong (carried)"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle sends a force-majeure notice on its Project Jupiter Stargate site (New Mexico) citing a 6-month gas-pipeline delay; both Oracle and Blue Owl say the project stays on schedule -- a credible, company-confirmed delay signal but not a confirmed pause, so stays yellow rather than red"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next report Nvidia Q3 FY27 in late Nov"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC/Micron guidance unchanged and strong; DRAM spot prices still rising (carried)"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "No dated September print with clear T1-T3 sourcing; conflicting T4/T5 claims of a Sep 24 'record' range from ~125bp to ~215bp and cannot be reconciled -- carrying the last verified figure (~215bp, Aug 8 record), stale"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.57% (whalequant, dated Sep 23)"
+      },
+      "C3": {
+        "c": "G",
+        "v": "273bp (FRED BAMLH0A0HYM2, dated Sep 23)"
+      },
+      "C4": {
+        "c": "G",
+        "v": "SoftBank's $11.1bn bond priced Sep 24 oversubscribed ~3x (carried); settles Sep 29, TRACE prints not yet available"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $90.13 (Sep 24), -37.0% from high $143.08 (Oct 9, 2025); improved from -39.3% Sep 23. CoreWeave's own $3.7bn convertible (2.875% coupon) and a CoreWeave-tied project's $1.1bn bond (9.25% yield, priced 98.5) both found buyers this week"
+      },
+      "D1": {
+        "c": "G",
+        "v": "Anthropic's annualized revenue run-rate reported to top $100bn in 2026 (NYT via Bloomberg, Sep 18), up from $65bn in August; OpenAI >$40bn -- growth still strong"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI in talks for a round at $1.2-1.5T valuation, not yet closed; Anthropic's IPO marketing pushed to mid-October"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand median ~$3.25/hr (Sept, Thunder Compute), flat; B200 median ~$6.52/hr; no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Ramp's Sept AI Index: enterprise AI spend/seat among top spenders -10% MoM in August; frontier-model token share fell to 45% from a 53% peak as buyers route to cheaper models, even as overall adoption keeps widening"
+      },
+      "D5": {
+        "c": "G",
+        "v": "No new AI-specific shutdown wave found this window"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (Sep FMS, unchanged; Oct FMS due mid-Oct)"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS 100 items/7d (above the 96 baseline, up from 85 last run); GDELT blocked again (429); Google Trends inconclusive"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 87 Extreme (Sep 24, flat); boomorbubble.ai 0/5 red 'Boom' unchanged; aibubblemonitor.com reading unclear/stale this run -- trackers disagree"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Ongoing Nvidia insider selling (Teter $6.8M Sep 21; 5 execs incl. Huang ~150k shares Sep 18; Stevens >$1B YTD); no core AI-lab IPO withdrawal found (SoftBank-owned SB Energy delayed its IPO, adjacent but not a lab)"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "10y 5.16% (Sep 24 close); 5.18% pre-market Sep 25 -- approaching the 5.25% red band"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 104.58 (Sep 24), up from 95.45 Sep 23 -- crossed the 100 yellow threshold for the first time since baseline"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.96% (FRED THREEFYTP10, latest non-blank value Sep 18)"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $106.60 (Sep 24 close), then fell sharply to ~$98 pre-market Sep 25; breakeven 2.33% (Sep 24); CPI 3.4% (Aug, unchanged)"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME FedWatch Oct-hike odds ~73-74% (elevated, essentially unchanged from Sep 24); dots imply ~2.5 hikes to Sep 2027"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI in early talks with investors for a round at $1.2-1.5T (vs $852B last close); not yet closed, insider/supplier share of the round unclear"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "~$1.4T of reported compute commitments (Nov 2025) vs a ~$40-100B run-rate remains an elevated multiple; Oracle's Project Jupiter force-majeure notice is a credible T2-reported site delay, but both parties deny any deferral of financial commitments, so it does not meet the red bar"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable for the Azure-ex-OpenAI comparison (next Microsoft earnings ~late Oct); Ramp's Sept Index shows adoption (share of businesses transacting) still widening even as per-seat spend softens -- directionally mixed, incomplete without the Azure component"
+      }
+    },
+    "market": {
+      "spx": 7704.13,
+      "ndx": 30478.86,
+      "sox": 12492.54,
+      "sox_dd": -14.64,
+      "nvda": 224.58,
+      "nvda_dd": -4.73,
+      "ndx_dd": -0.82,
+      "tnx": 5.16,
+      "vix": 15.67,
+      "hy_oas": 273,
+      "move": 104.58,
+      "term_premium": 0.96,
+      "breakeven": 2.33,
+      "brent": 106.6,
+      "orcl": 139.54,
+      "crwv": 90.13
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Oracle sends a force-majeure notice to a Blue Owl Capital unit developing its 2.45GW 'Project Jupiter' Stargate data center in New Mexico, citing a ~6-month delay (to Feb 2027) in the gas pipeline needed to power it; both companies say the ~$165B project remains on schedule and financial commitments are unchanged, but Oracle shares still fell >3%.",
+        "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/"
+      },
+      {
+        "kind": "HARD",
+        "t": "MOVE bond-volatility index closes at 104.58 (Sep 24), up from 95.45 the prior day and above its 100 yellow threshold for the first time since the baseline -- all five Pillar F macro signals are now yellow simultaneously.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE"
+      },
+      {
+        "kind": "HARD",
+        "t": "Ramp's September AI Index reports enterprise AI spend per employee among its top 1% of spenders fell ~10% month-over-month in August ($7,976 to $7,205) and frontier models' token share fell to 45% from a 53% peak, as buyers route to cheaper models.",
+        "url": "https://ramp.com/data/ai-index-sept-2026"
+      }
+    ],
+    "sources": {
+      "T1": 7,
+      "T2": 4,
+      "T3": 3,
+      "T4": 5,
+      "T5": 3
+    },
+    "run_url": "https://claude.ai/code/session_01GponXsgRszUgYfg4ZhZicy",
+    "brief": "briefs/2026-09-25.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 yellow, G3 and G4 not yet scorable (N) pending Nvidia/Oracle 10-Qs and Microsoft's earnings call -- confirms the provisional Sep 25 framework baseline with dated sources"
   }
 ]

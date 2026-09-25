@@ -293,5 +293,39 @@
     "t": "Pillar G (circularity) added: insider share of lab funding, loop cash gap, vendor filing fingerprints, growth outside the loop. Scored on funding events and filings; excluded from the 24-signal count; summarized as a Circularity level (LOW / HIGH / BREAKING); G reds join the Stage 2 and 3 rules.",
     "url": "docs/ai-bubble-signal-framework.md",
     "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B2"
+    ],
+    "t": "Oracle sends a force-majeure notice to a Blue Owl Capital unit developing its 2.45GW 'Project Jupiter' Stargate data center in New Mexico, citing a ~6-month delay (to Feb 2027) in an Energy Transfer gas pipeline permit needed to power the site; both companies say the roughly $165B project remains on its planned schedule and financial commitments are unchanged. Oracle shares fell more than 3% on the news.",
+    "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-23",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "C5"
+    ],
+    "t": "A Blue Owl Capital-sponsored data-center project tied to CoreWeave raises $1.1B in five-year junk bonds, pricing at 98.5 cents on the dollar to yield 9.25%.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "D4",
+      "G4"
+    ],
+    "t": "Ramp's September AI Index ('Cracks in the AI thesis, part 2') reports AI spend per employee among its top 1% of spenders fell ~10% month-over-month in August ($7,976 to $7,205), and frontier models' share of tokens purchased fell to 45% from a 53% peak, as buyers route to cheaper models even as overall adoption keeps widening.",
+    "url": "https://ramp.com/data/ai-index-sept-2026",
+    "tag": null
   }
 ]
