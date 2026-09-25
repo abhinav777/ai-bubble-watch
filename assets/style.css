@@ -124,8 +124,9 @@ ul.src li{margin-bottom:6px;break-inside:avoid}
 .top{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:8px 20px}
 .top .live{font-family:"IBM Plex Mono",monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .top .live b{color:var(--g);font-weight:500}
-.now-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:16px 0 6px}
-@media (max-width:760px){.now-grid{grid-template-columns:repeat(2,1fr)}}
+.now-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin:16px 0 6px}
+@media (max-width:960px){.now-grid{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:560px){.now-grid{grid-template-columns:repeat(2,1fr)}}
 .kpi{background:var(--paper);border:1px solid var(--rule-soft);border-radius:8px;padding:12px 14px}
 .kpi .k{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
 .kpi .v{font-family:"Newsreader",Georgia,serif;font-size:30px;line-height:1.1;font-weight:500;font-variant-numeric:tabular-nums;margin-top:4px}

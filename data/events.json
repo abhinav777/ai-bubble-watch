@@ -279,5 +279,19 @@
     "t": "Micron pre-guides fiscal Q4 (reports Sep 30) revenue of $49-51bn, non-GAAP EPS $30-32, and 86% gross margin, driven by robust AI server demand and rising DRAM prices (spot prices +52% since January).",
     "url": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385",
     "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "G1",
+      "G2",
+      "G3",
+      "G4"
+    ],
+    "t": "Pillar G (circularity) added: insider share of lab funding, loop cash gap, vendor filing fingerprints, growth outside the loop. Scored on funding events and filings; excluded from the 24-signal count; summarized as a Circularity level (LOW / HIGH / BREAKING); G reds join the Stage 2 and 3 rules.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
   }
 ]

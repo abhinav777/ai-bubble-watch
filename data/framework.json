@@ -20,13 +20,13 @@
   {
    "n": 2,
    "name": "Funding window closes",
-   "rule": "Red in D2 or E4",
+   "rule": "Red in D2, E4 or G1",
    "dotcom": "Apr - Jun 2000: IPO calendar dries up, rounds pulled"
   },
   {
    "n": 3,
    "name": "Revenue misses",
-   "rule": "Red in D1, D3 or B3",
+   "rule": "Red in D1, D3, B3, G2, G3 or G4",
    "dotcom": "Q3 - Q4 2000: orders slow, 'visibility' language"
   },
   {
@@ -290,6 +290,41 @@
      "r": "3+ hikes priced, or 2027 median dot > 4.5%"
     }
    ]
+  },
+  {
+   "id": "G",
+   "name": "Circularity",
+   "role": "Detects stages 2 and 3 through the funding loop: would reported growth exist without vendor capital? Scored on funding events and filings, not daily prices; excluded from the 24-signal count. N = not yet scorable.",
+   "signals": [
+    {
+     "id": "G1",
+     "name": "Insider share of frontier-lab funding (OpenAI, Anthropic, xAI)",
+     "g": "Latest round majority outside capital, plain terms, step-up",
+     "y": "Suppliers 50%+ of a round, structured terms, or a round open 90+ days",
+     "r": "Flat/down round with suppliers as majority, a supplier topping up because outsiders declined, or credits converted to equity"
+    },
+    {
+     "id": "G2",
+     "name": "Loop cash gap: OpenAI annualized commitments over revenue run-rate, and contract status",
+     "g": "< 2x and not rising; no deferrals",
+     "y": "2-5x or rising, or credible reports of a site delay or renegotiation",
+     "r": "Company-confirmed deferral, downsizing or restructuring of a major commitment, or a receivable problem tied to a lab"
+    },
+    {
+     "id": "G3",
+     "name": "Vendor filing fingerprints: Nvidia DSO, concentration and stakes in customers; Oracle current vs total RPO; useful-life changes",
+     "g": "DSO steady, concentration flat, stakes < 10% of quarterly revenue, current RPO keeping pace, no life extensions",
+     "y": "DSO +10 days, top-two share +5 pts, a new multi-billion stake with a purchase commitment, current RPO lagging, or a useful-life extension",
+     "r": "Credit-loss provision or write-down tied to an AI customer, an impaired stake, total RPO falling or a contract modification, or a neocloud GPU impairment"
+    },
+    {
+     "id": "G4",
+     "name": "Growth outside the loop: Azure ex-OpenAI, Ramp AI Index",
+     "g": "Azure ex-OpenAI within 3 pts of headline and steady; Ramp rising 3 months",
+     "y": "OpenAI share of Azure growth rising two quarters or no longer disclosed; Ramp flat 3 months",
+     "r": "Azure ex-OpenAI down 5+ pts while headline holds; Ramp falling 3 months; a lab named as largest growth source while guidance is cut"
+    }
+   ]
   }
  ],
  "source_tiers": [
@@ -330,6 +365,10 @@
    "what": "Micron fiscal Q4. Softening DRAM commentary turns B4 yellow."
   },
   {
+   "when": "Early Oct",
+   "what": "SoftBank's new 8.625%, 9.25% and 9.75% notes start trading on FINRA TRACE. A first-week price below 98 turns C4 yellow."
+  },
+  {
    "when": "~Oct 10",
    "what": "TSMC September revenue. Under 25% YoY turns B4 yellow."
   },
@@ -339,7 +378,7 @@
   },
   {
    "when": "Late Oct",
-   "what": "Microsoft, Alphabet, Amazon, Meta Q3 earnings: first 2027 capex guidance. Two or more guiding flat or down turns B1 red and the stage to 4."
+   "what": "Microsoft, Alphabet, Amazon, Meta Q3 earnings: first 2027 capex guidance. Two or more guiding flat or down turns B1 red and the stage to 4. Microsoft's call also gives OpenAI's contribution to Azure growth (G4) and any server useful-life change (G3)."
   },
   {
    "when": "Oct 27-28",
@@ -347,7 +386,11 @@
   },
   {
    "when": "Late Nov",
-   "what": "Nvidia Q3 FY27. Guide below consensus or sequential data-center decline turns B3 red."
+   "what": "Nvidia Q3 FY27. Guide below consensus or sequential data-center decline turns B3 red. Nvidia's 10-Q gives DSO, customer concentration and stakes in customers (G3)."
+  },
+  {
+   "when": "Mid-Dec",
+   "what": "Oracle Q2 FY27: current vs total RPO and free cash flow (G3). Total RPO falling or a contract modification with its largest customer turns G3 red."
   }
  ],
  "changelog": [
@@ -382,6 +425,13 @@
   {
    "date": "2026-09-24",
    "t": "SoftBank's $11.1bn OpenAI-funding bond priced with ~3x oversubscription (C4: yellow to green), the first Pillar C signal to turn green since the baseline, even as its coupons are SoftBank's highest-ever on dollar debt. Same day, the 10-year Treasury yield hit 5.11-5.13%, highest since 2007, keeping the macro amplifier's own signals (F1, F2) close to their thresholds."
+  },
+  {
+   "date": "2026-09-25",
+   "t": "Pillar G (circularity) added with four signals: insider share of lab funding (G1), loop cash gap (G2), vendor filing fingerprints (G3), growth outside the loop (G4). Scored on funding events and filings rather than daily prices; excluded from the 24-signal count so history stays comparable; reported as a Circularity level (LOW / HIGH / BREAKING) beside the macro amplifier. G1 red joins the Stage 2 rule; G2-G4 red join the Stage 3 rule. Provisional baseline G1 Y, G2 Y, G3 N, G4 N (HIGH)."
   }
- ]
+ ],
+ "circularity": {
+  "rule": "Pillar G is scored on funding events and filings, not daily prices, and is excluded from the 24-signal count. LOW = 0 red and at most 1 yellow (N not counted); HIGH = 0 red and 2+ yellow; BREAKING = any red. A G1 red joins the Stage 2 rule; a G2, G3 or G4 red joins the Stage 3 rule. Provisional Sep 25 baseline: G1 Y, G2 Y, G3 N, G4 N, level HIGH, pending the routine's first scoring."
+ }
 }

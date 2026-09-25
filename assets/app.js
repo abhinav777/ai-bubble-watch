@@ -1,7 +1,7 @@
 (async function(){
   const $ = (id)=>document.getElementById(id);
   const esc = (s)=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-  const chip = (c)=>`<span class="chip ${c==='R'?'r':c==='Y'?'y':'g'}">${c==='R'?'Red':c==='Y'?'Yellow':'Green'}</span>`;
+  const chip = (c)=> c==='N' ? `<span class="chip n">Not scored</span>` : `<span class="chip ${c==='R'?'r':c==='Y'?'y':'g'}">${c==='R'?'Red':c==='Y'?'Yellow':'Green'}</span>`;
   const fmt = (v,d=1,suf='')=> (v===null||v===undefined||isNaN(v)) ? '—' : (Number(v).toFixed(d)+suf);
   const fmtDate = (iso)=>{const d=new Date(iso+'T12:00:00Z');return d.toLocaleDateString('en-US',{weekday:'short',month:'short',day:'numeric',timeZone:'UTC'});};
   let runs, events, fw;
@@ -18,6 +18,7 @@
   // NOW
   const ampClass = latest.amplifier==='HIGH'?'r':latest.amplifier==='MEDIUM'?'y':'g';
   const stageClass = latest.stage>=4?'r':latest.stage>=1?'y':'g';
+  const circClass = latest.circularity==='BREAKING'?'r':latest.circularity==='HIGH'?'y':latest.circularity?'g':'';
   const changedHtml = (latest.changed&&latest.changed.length)
     ? `<ul class="changed">${latest.changed.map(c=>`<li><b>${esc(c.signal)}</b> ${chip(c.from)} &rarr; ${chip(c.to)} &middot; ${esc(c.why)}</li>`).join('')}</ul>`
     : `<p class="small" style="margin-top:8px">No signal changed color in the latest run.</p>`;
@@ -27,6 +28,7 @@
       <div class="kpi"><div class="k">Stage</div><div class="v ${stageClass}">${latest.stage}</div><div class="s">${esc(stageName(latest.stage))}</div></div>
       <div class="kpi"><div class="k">Signals, A to E</div><div class="v"><span class="r">${latest.reds}</span> <span style="color:var(--muted);font-size:18px">red</span> <span class="y">${latest.yellows}</span> <span style="color:var(--muted);font-size:18px">yellow</span></div><div class="s">${latest.greens} green of 24</div></div>
       <div class="kpi"><div class="k">Macro amplifier</div><div class="v ${ampClass}" style="font-size:24px;padding-top:6px">${esc(latest.amplifier||'—')}</div><div class="s">${esc(latest.amplifier_note||'Pillar F: rates, bond volatility, term premium, inflation, Fed path')}</div></div>
+      <div class="kpi"><div class="k">Circularity</div><div class="v ${circClass}" style="font-size:24px;padding-top:6px">${esc(latest.circularity||'—')}</div><div class="s">${esc(latest.circularity_note||'Pillar G: insider funding share, loop cash gap, filing fingerprints, growth outside the loop')}</div></div>
       <div class="kpi"><div class="k">As of</div><div class="v" style="font-size:22px;padding-top:8px">${esc(fmtDate(latest.date))}</div><div class="s">${latest.as_of==='close'?'US close':esc(latest.as_of||'')}${latest.run_url?` &middot; <a href="${esc(latest.run_url)}">run</a>`:''}</div></div>
     </div>
     <p style="margin-top:12px;max-width:80ch">${esc(latest.read||'')}</p>
@@ -61,9 +63,9 @@
   const trendRows = [...runs].reverse().map(r=>{
     const m=r.market||{};
     const note = r.changed&&r.changed.length ? r.changed.map(c=>`${c.signal} ${c.from}&rarr;${c.to}`).join(', ') : (r.top&&r.top[0]?esc(r.top[0].t).slice(0,90)+(r.top[0].t.length>90?'&hellip;':''):'');
-    return `<tr><td>${esc(fmtDate(r.date))}</td><td>${r.stage}</td><td style="color:var(--r)">${r.reds}</td><td style="color:var(--y)">${r.yellows}</td><td class="amp">${esc(r.amplifier||'—')}</td><td>${fmt(m.sox_dd,1,'%')}</td><td>${fmt(m.nvda_dd,1,'%')}</td><td>${fmt(m.tnx,2,'%')}</td><td>${fmt(m.hy_oas,0)}</td><td>${fmt(m.vix,1)}</td><td>${fmt(m.move,0)}</td><td class="note">${note}</td></tr>`;
+    return `<tr><td>${esc(fmtDate(r.date))}</td><td>${r.stage}</td><td style="color:var(--r)">${r.reds}</td><td style="color:var(--y)">${r.yellows}</td><td class="amp">${esc(r.amplifier||'—')}</td><td class="amp">${esc(r.circularity||'—')}</td><td>${fmt(m.sox_dd,1,'%')}</td><td>${fmt(m.nvda_dd,1,'%')}</td><td>${fmt(m.tnx,2,'%')}</td><td>${fmt(m.hy_oas,0)}</td><td>${fmt(m.vix,1)}</td><td>${fmt(m.move,0)}</td><td class="note">${note}</td></tr>`;
   }).join('');
-  $('trend').innerHTML = `<thead><tr><th>Date</th><th>Stage</th><th>Red</th><th>Yellow</th><th>Amplifier</th><th>SOX dd</th><th>NVDA dd</th><th>10y</th><th>HY OAS</th><th>VIX</th><th>MOVE</th><th>Changed / driver</th></tr></thead><tbody>${trendRows}</tbody>`;
+  $('trend').innerHTML = `<thead><tr><th>Date</th><th>Stage</th><th>Red</th><th>Yellow</th><th>Amplifier</th><th>Circularity</th><th>SOX dd</th><th>NVDA dd</th><th>10y</th><th>HY OAS</th><th>VIX</th><th>MOVE</th><th>Changed / driver</th></tr></thead><tbody>${trendRows}</tbody>`;
 
   // SCOREBOARD
   let sb='<thead><tr><th>#</th><th>Signal</th><th>Reading</th><th>Status</th><th>Thresholds</th></tr></thead><tbody>';
@@ -91,6 +93,7 @@
   // FRAMEWORK REFERENCE
   let fb = `<h3>Stages and the dot-com template</h3><div class="tblwrap"><table class="stagetbl"><thead><tr><th>Stage</th><th>Rule</th><th>Dot-com analogue</th></tr></thead><tbody>${fw.stages.map(s=>`<tr><td><b>${s.n} &middot; ${esc(s.name)}</b></td><td>${esc(s.rule)}</td><td>${esc(s.dotcom||'')}</td></tr>`).join('')}</tbody></table></div>`;
   fb += `<h3>Macro amplifier</h3><p>${esc(fw.amplifier.rule)}</p>`;
+  if(fw.circularity) fb += `<h3>Circularity</h3><p>${esc(fw.circularity.rule)}</p>`;
   fb += `<h3>Source register</h3><div class="tblwrap"><table><thead><tr><th>Tier</th><th>What</th><th>May it change a color?</th><th>Examples</th></tr></thead><tbody>${fw.source_tiers.map(t=>`<tr><td class="id">${esc(t.tier)}</td><td>${esc(t.name)}</td><td>${esc(t.can)}</td><td class="note">${esc(t.examples)}</td></tr>`).join('')}</tbody></table></div>`;
   fb += `<h3>Changelog</h3><ul class="log">${(fw.changelog||[]).map(c=>`<li><span class="d">${esc(c.date)}</span><div>${esc(c.t)}</div></li>`).join('')}</ul>`;
   fb += `<p class="small" style="margin-top:14px">Full definitions: <a href="docs/ai-bubble-signal-framework.md">framework document</a> &middot; <a href="docs/routine-prompt.md">the routine's prompt</a>.</p>`;
