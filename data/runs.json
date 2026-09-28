@@ -1617,5 +1617,206 @@
     "brief": "briefs/2026-09-25.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 yellow, G3 and G4 not yet scorable (N) pending Nvidia/Oracle 10-Qs and Microsoft's earnings call -- confirms the provisional Sep 25 framework baseline with dated sources"
+  },
+  {
+    "date": "2026-09-28",
+    "as_of": "close",
+    "close_date": "2026-09-25",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no red signals in A-E; 7 yellows persist across B-E while Pillar F's MOVE signal reverses back to green",
+    "reds": 0,
+    "yellows": 7,
+    "greens": 17,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "MOVE reversed back under the 100 yellow threshold (96.0 Sep 25, from 104.58 Sep 24), the first macro-amplifier signal to improve since the baseline; F1/F3/F4/F5 stay yellow so the amplifier holds at MEDIUM rather than dropping to LOW",
+    "read": "No reds and the stage holds at 0+ (stress building) for a fourth straight session, and the day's most notable move actually points away from a pop: the MOVE bond-volatility index fell back under its 100 threshold to 96.0 (Sep 25 close, from 104.58 the day before), flipping F2 green and pulling the macro amplifier back from its worst reading on file even though it stays MEDIUM. Anthropic's IPO timeline slipped again, from October marketing to November per the Wall Street Journal, reinforcing D2 and G1's yellow reading on stalled private-market catalysts, while OpenAI's reported $1.2-1.5T round remains unclosed with terms and participants still undisclosed 13 days after it first surfaced. Nvidia insider selling continued (director Mark Stevens sold roughly $300M of shares Sep 26), keeping E4 yellow, and Oracle's Project Jupiter Stargate force-majeure notice from Sep 24 remains unresolved, with both parties still denying any change to financial commitments, so B2 and G2 hold yellow rather than red. Away from the framework's 33 signals, Polymarket's 'AI bubble burst by Dec 31, 2026' contract fell to a 9.3% implied probability, down from about 16% at the Sep 15 baseline -- the clearest market-priced vote yet against an imminent pop -- even as aibubblemonitor.com's own score ticked up from 49 'Neutral' to 51 'Heating Up.'",
+    "changed": [
+      {
+        "signal": "F2",
+        "from": "Y",
+        "to": "G",
+        "why": "MOVE bond-volatility index closed at 96.0 on Sep 25, down from 104.58 on Sep 24, back under the 100 yellow threshold for the first time since it was crossed on Sep 24 -- the first Pillar F signal to improve since the Sep 15 baseline."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $225.07 (Sep 25), -4.5% from $235.74 (May 14)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,668.93 (Sep 25), -13.4% from 14,634.72 (Jun 22); improved from -14.6% Sep 24"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,608.13 (Sep 25), -0.4% from a new high of 30,732.40 set Sep 22"
+      },
+      "A4": {
+        "c": "G",
+        "v": "SOX +6.6%, NVDA -1.3%, AMD +32.3%, MU +15.7% vs RSP -4.7% over 20 sessions (Aug 27-Sep 25) -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 14.87 (Sep 25 close)"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day for NVDA or SOX in the past 7 sessions; largest single-day move was AMD +9.95% (Sep 21, a rally not a rout)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts or pauses found; TSMC raised 2026 capex guidance Sep 24 (carried)"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure notice from Sep 24 remains unresolved as of Sep 26; both Oracle and Blue Owl continue to say the ~$165B project stays on schedule and financial commitments are unchanged -- credible delay, not a confirmed pause"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next report Nvidia Q3 FY27 in late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC/Micron guidance unchanged and strong (Sep 24, carried); Micron's fiscal Q4 report due Sep 30"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "No dated T1-T3 September print; a new T4/T5 aggregator claim of ~235bp (Sep 25, roic.ai/bondblox) joins prior conflicting 125-215bp claims and cannot be reconciled -- carrying the last verified figure (~215bp, Aug 8 record), stale"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.62% (whalequant, dated Sep 24)"
+      },
+      "C3": {
+        "c": "G",
+        "v": "280bp (FRED BAMLH0A0HYM2, dated Sep 24)"
+      },
+      "C4": {
+        "c": "G",
+        "v": "SoftBank's $11.1bn bond priced Sep 24 oversubscribed ~3x (carried); new notes not yet observed on FINRA TRACE"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $87.59 (Sep 25), -38.8% from high $143.08 (Oct 9, 2025); JPMorgan upgraded to Overweight Sep 25 and Jones initiated Buy Sep 26 (opinion, sell-side)"
+      },
+      "D1": {
+        "c": "G",
+        "v": "Anthropic's run-rate reported topping $100bn (per Sep 18 reporting, carried); OpenAI >$40bn (Aug, carried) -- growth still strong"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $1.2-1.5T round remains in talks, unclosed 13 days after first reported; Anthropic's IPO marketing timeline slips again from October to November (WSJ via Investing.com, Sep 26-27)"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand ~$3.25/hr (Sept, Thunder Compute, carried), flat; no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Ramp's Sept AI Index reading carried (spend/seat among top spenders -10% MoM in Aug); no new index refresh found"
+      },
+      "D5": {
+        "c": "G",
+        "v": "No new AI-specific shutdown wave found this window; Layoffs.fyi cumulative 2026 total 225,122 across 519 events (Sep 27) is a running tally, not a new event"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (Sep FMS, unchanged; Oct FMS due mid-Oct)"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS 86 items/7d (below the 96 baseline and down from 100 last run); GDELT blocked (429) again; Google Trends blocked (429)"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 87 Extreme (Sep 25, flat); aibubblemonitor.com 51 'Heating Up' (Sep 27, up from 49 'Neutral'); boomorbubble.ai 0/5 red 'Boom' (Sep 28, unchanged) -- trackers disagreeing, only one of three deteriorating"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Nvidia director Mark Stevens sold ~$300M of shares Sep 26 (Form 4); insider-selling trend continues; no AI-lab IPO withdrawal found"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "10y 5.18% (Sep 25 close, Yahoo ^TNX); ticked up further to ~5.21% pre-market Sep 28"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 96.0 (Sep 25), down from 104.58 Sep 24 -- back under the 100 yellow threshold, the first Pillar F signal to improve since the Sep 15 baseline"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.96% (FRED THREEFYTP10, latest non-blank value Sep 18, stale); no new tailed auction found in the window"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $104.32 (Sep 25 close), then fell sharply to ~$98.92 pre-market Sep 28; breakeven 2.34% (Sep 25); CPI 3.4% (Aug, unchanged) -- Yellow via the CPI band regardless of Brent's reversal"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME FedWatch October-hike odds reported 65-74% across non-primary aggregators (not independently confirmed), still elevated; dots imply ~2.5 hikes to Sep 2027 (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's reported $1.2-1.5T round remains in talks, unclosed and without disclosed terms or participants 13 days after first reported (vs $852B last close)"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "~$1.4T of reported compute commitments vs a ~$40-100B run-rate remains an elevated multiple; Oracle's Project Jupiter force-majeure delay persists unresolved but both parties still deny any deferral of financial commitments"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable for the Azure-ex-OpenAI comparison (next Microsoft earnings ~late Oct); no new Ramp reading beyond the September index already counted in D4"
+      }
+    },
+    "market": {
+      "spx": 7743.41,
+      "ndx": 30608.13,
+      "sox": 12668.93,
+      "sox_dd": -13.43,
+      "nvda": 225.07,
+      "nvda_dd": -4.53,
+      "ndx_dd": -0.4,
+      "tnx": 5.18,
+      "vix": 14.87,
+      "hy_oas": 280,
+      "move": 96.0,
+      "term_premium": 0.96,
+      "breakeven": 2.34,
+      "brent": 104.32,
+      "orcl": 137.1,
+      "crwv": 87.59
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "MOVE bond-volatility index closes at 96.0 on Sep 25, down from 104.58 on Sep 24 and back under its 100 yellow threshold -- the first Pillar F signal to improve since the Sep 15 baseline.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE"
+      },
+      {
+        "kind": "HARD",
+        "t": "Anthropic's IPO marketing timeline slips from October to November, per the Wall Street Journal (via Investing.com, Sep 26-27), as the roughly $100B raise targets a ~$2T valuation.",
+        "url": "https://www.investing.com/news/stock-market-news/anthropic-delays-ipo-staging-to-november-amid-ai-fears-wsj-says-4907941"
+      },
+      {
+        "kind": "HARD",
+        "t": "Polymarket's 'AI bubble burst in 2026?' contract (resolving Dec 31, 2026) prices a 9.3% Yes probability, down from about 16% at the Sep 15 baseline.",
+        "url": "https://polymarket.com/event/ai-bubble-burst-by"
+      }
+    ],
+    "sources": {
+      "T1": 7,
+      "T2": 3,
+      "T3": 2,
+      "T4": 4,
+      "T5": 4
+    },
+    "run_url": "https://claude.ai/code/session_01Q95s3txEn8eTbsENUKhtzX",
+    "brief": "briefs/2026-09-28.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow (OpenAI's mega-round still unclosed; Oracle's site delay unresolved); G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call"
   }
 ]

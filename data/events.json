@@ -327,5 +327,28 @@
     "t": "Ramp's September AI Index ('Cracks in the AI thesis, part 2') reports AI spend per employee among its top 1% of spenders fell ~10% month-over-month in August ($7,976 to $7,205), and frontier models' share of tokens purchased fell to 45% from a 53% peak, as buyers route to cheaper models even as overall adoption keeps widening.",
     "url": "https://ramp.com/data/ai-index-sept-2026",
     "tag": null
+  },
+  {
+    "date": "2026-09-26",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "Anthropic delays its IPO marketing timeline from October to November, per the Wall Street Journal, as the roughly $100B raise targets a ~$2T valuation; the slip is tied to Q3 results timing and Amodei's public safety-pacing remarks.",
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-delays-ipo-staging-to-november-amid-ai-fears-wsj-says-4907941",
+    "tag": null
+  },
+  {
+    "date": "2026-09-26",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "E4"
+    ],
+    "t": "Nvidia director Mark Stevens sells 1.37M shares (~$300M, 4.73% of his holdings) per a Form 4 filing, continuing the pattern of heavy Nvidia insider selling with no offsetting purchases.",
+    "url": "https://www.gurufocus.com/news/9099072/nvidia-director-mark-stevens-sells-300m-shares-amid-insider-selling-trend-nvda",
+    "tag": null
   }
 ]
