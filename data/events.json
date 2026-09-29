@@ -350,5 +350,41 @@
     "t": "Nvidia director Mark Stevens sells 1.37M shares (~$300M, 4.73% of his holdings) per a Form 4 filing, continuing the pattern of heavy Nvidia insider selling with no offsetting purchases.",
     "url": "https://www.gurufocus.com/news/9099072/nvidia-director-mark-stevens-sells-300m-shares-amid-insider-selling-trend-nvda",
     "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4",
+      "C5"
+    ],
+    "t": "CoreWeave upsizes its convertible senior notes offering to $3.7bn (from $3bn), pricing at the tight end with a 2.875% coupon and an initial conversion price about 22.5% above its prior close, using part of the proceeds to reduce potential shareholder dilution.",
+    "url": "https://www.theinformation.com/briefings/coreweave-prices-3-7-billion-convertible-bond-offering",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "B1",
+      "D1"
+    ],
+    "t": "Goldman Sachs forecasts the top five hyperscalers will raise AI infrastructure capex over 50% in 2027 to $1.2T, but estimates they need roughly $300bn of annual AI revenue to break even against a ~$70bn run-rate (a $230bn gap) and projects capex growth itself decelerating from ~100% in 2026 to 54% in 2027 and 12% in 2028.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-25/goldman-sees-hyperscaler-ai-capex-rising-50-to-1-2-trillion",
+    "tag": "conflicted: underwriter and strategist"
+  },
+  {
+    "date": "2026-09-29",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "B3"
+    ],
+    "t": "Nvidia authorizes a $150bn increase to its share buyback program, lifting total repurchase capacity to $235bn; CEO Jensen Huang says the stock is undervalued, with its forward P/E near a decade low.",
+    "url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmakers-stock-is-too-cheap-for-huang-to-resist.html",
+    "tag": null
   }
 ]

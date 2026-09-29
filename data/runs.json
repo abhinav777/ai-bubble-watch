@@ -1818,5 +1818,206 @@
     "brief": "briefs/2026-09-28.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow (OpenAI's mega-round still unclosed; Oracle's site delay unresolved); G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call"
+  },
+  {
+    "date": "2026-09-29",
+    "as_of": "close",
+    "close_date": "2026-09-28",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no reds in A-E; 7 yellows persist across B-E while Pillar F reverses back to 5 yellows as MOVE re-crosses 100",
+    "reds": 0,
+    "yellows": 7,
+    "greens": 17,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "MOVE closed back above 100 (101.82, Sep 28) three sessions after dipping under it, flipping F2 back to yellow; Pillar F is now 0 red/5 yellow but amplifier stays MEDIUM since HIGH requires 2+ red. F1 (10y at 5.24%, 1bp under the 5.25% red threshold) is the signal closest to flipping.",
+    "read": "The stage holds at 0+ (stress building) for a fifth straight session and no Pillar A-E signal changed color, but Pillar F reversed: the MOVE bond-volatility index closed at 101.82 on Sep 28, back above its 100 threshold three sessions after dipping under it, while the 10-year yield closed at 5.24%, one basis point under the 5.25% red line. The clearest data point against an imminent pop came from Nvidia itself: a record $150bn buyback increase (total capacity $235bn, Sep 29) with Jensen Huang calling the stock \"too cheap\" -- an unusual message from a company supposedly near a capex cliff -- while CoreWeave upsized its convertible note sale to $3.7bn at the tight end of pricing, both demand-side signals that don't move a stage-relevant threshold. The most credible bearish data point is Goldman Sachs' Sep 25 estimate that hyperscalers need roughly $300bn of annual AI revenue to break even, a $230bn gap versus today's run-rate, plus a forecast that capex growth itself decelerates from ~100% in 2026 to 12% in 2028; it comes from a bank that also underwrites AI debt and IPOs, so it counts as OPINION, not evidence, but it sharpens the B1/D1 watch list. Oracle's 5-year CDS is reported by T4 aggregators at a fresh record near 227bp (Sep 28), still inside the 150-250bp yellow band and still unconfirmed by any T1-T3 print.",
+    "changed": [
+      {
+        "signal": "F2",
+        "from": "G",
+        "to": "Y",
+        "why": "MOVE bond-volatility index closed at 101.82 on Sep 28, up from 96.0 on Sep 25, back above the 100 yellow threshold it had briefly cleared."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $228.86 (Sep 28), -2.9% from $235.74 (May 14); Nvidia authorized a record $150bn buyback increase (Sep 29)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,465.24 (Sep 28), -14.8% from 14,634.72 (Jun 22); worsened slightly from -13.4% Sep 25"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,276.81 (Sep 28), -1.5% from a Sep 22 high of 30,732.40"
+      },
+      "A4": {
+        "c": "G",
+        "v": "SOX +8.7%, NVDA +5.2%, AMD +30.6%, MU +13.0% vs RSP -5.0% over 20 sessions (Aug 28-Sep 28) -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 16.07 (Sep 28 close); 15.88 intraday Sep 29"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day for NVDA or SOX; largest moves were META -4.8% and AMD -3.6% (Sep 28), neither an A6-tracked ticker"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts or pauses found; Goldman Sachs forecasts hyperscaler AI capex +50% to $1.2T in 2027 but capex growth decelerating from ~100% (2026) to 54% (2027) to 12% (2028) (Sep 25, opinion)"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure delay (Sep 24, gas pipeline pushed to Feb 2027) remains unresolved; both Oracle and the developer still say the ~$165bn project and financial commitments are unchanged"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried); Nvidia raised its buyback authorization by $150bn (Sep 29, total capacity $235bn), citing an undervalued stock"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC/Micron guidance unchanged and strong (carried); DRAM spot prices reported +50-55% QoQ; Micron's fiscal Q4 report due Sep 30"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "No dated T1-T3 September print; T4 aggregators (BondBlox, Gokhshtein) report Oracle's 5y CDS at a fresh record ~227bp on Sep 28, up from the ~215bp Aug 8 verified record -- unverified but consistent with a rising trend; still within the 150-250bp yellow band"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.70% (whalequant, dated Sep 25)"
+      },
+      "C3": {
+        "c": "G",
+        "v": "293bp (FRED BAMLH0A0HYM2, dated Sep 25, up from 280bp Sep 24)"
+      },
+      "C4": {
+        "c": "G",
+        "v": "CoreWeave's convertible notes upsized to $3.7bn (from $3bn) and priced at the tight end, 2.875% coupon (priced ~Sep 25); SoftBank's $11.1bn bond (priced Sep 24, ~3x covered) settles Sep 29; no pulled or downsized AI deal found"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $85.07 (Sep 28), -40.5% from $143.08 high (Oct 9, 2025); neocloud sector volatile (IREN -4%, Nebius -14% then rebounded, Sep 25) but no going-concern language or peer default"
+      },
+      "D1": {
+        "c": "G",
+        "v": "Anthropic run-rate ~$65bn (Jul, guided to $100-120bn by year end); OpenAI ~$40bn (Aug) -- both still growing fast"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $1.2T+ round remains in early, investor-initiated talks 14 days after first reported, no formal negotiations (CNBC); Anthropic's IPO marketing still slipped to November (carried)"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand ~$3.25-3.49/hr (Sep, flat); no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Ramp's September AI Index (carried): top-1% spend/seat -10% MoM in Aug, frontier-model token share fell to 45% from 53% peak; no October reading yet"
+      },
+      "D5": {
+        "c": "G",
+        "v": "No new AI-specific shutdown wave; Layoffs.fyi cumulative 2026 total unchanged at 225,122 across 519 events (running tally, not a new event)"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (Sep FMS, carried); October FMS not due until mid-Oct"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS 94 items/7d (below the 96 baseline, up from 86 last run); GDELT blocked (429) again both 7d and 12m; Google Trends blocked (429)"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 89 'Extreme' (Sep 28, up from 87); aibubblemonitor.com 51 'Heating Up' (last dated Sep 27, carried, no new reading found); boomorbubble.ai 0/5 red 'Boom' (carried, no reading within 7 days) -- only one of three deteriorating"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Nvidia insider selling continues (Mark Stevens ~$300m Sep 26, carried; cumulative 2026 insider sales ~$664m with no buying); no AI-lab IPO withdrawal found"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "10y 5.24% (Sep 28 close, Yahoo ^TNX), 1bp below the 5.25% red threshold; FRED DGS10 5.17% (Sep 25); ~5.23% intraday Sep 29"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 101.82 (Sep 28), up from 96.0 (Sep 25) -- back above the 100 yellow threshold after one session below it"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.96% (FRED THREEFYTP10, latest non-blank value Sep 18, stale); Sep 9 10y and Sep 10 30y auctions both solid (bid-to-cover 2.71 and 2.61); no new tailed auction found"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent ~$104-105 (Sep 28 close $105.28; independent reporting puts Sep 29 spot near $104.10 after a Monday Iran/Hormuz-driven spike above $108); breakeven 2.34% (Sep 25); CPI 3.4% (Aug, unchanged) -- Yellow via the CPI band"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME FedWatch October-hike odds reported ~72% (Sep 28, secondary aggregator, not independently confirmed); dots imply ~2.5 hikes to Sep 2027 (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's reported $1.2T+ round remains in early, investor-initiated talks, unclosed and without disclosed terms 14 days after first reported (vs $852bn last close)"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's ~$1.4T of reported compute commitments over roughly eight years vs its ~$40bn revenue run-rate remains a ~4x+ multiple; Oracle's Project Jupiter delay persists unresolved but neither party confirms a deferral of financial commitments"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable for the Azure-ex-OpenAI comparison (next Microsoft earnings ~late Oct); September Ramp index already counted in D4, no new reading"
+      }
+    },
+    "market": {
+      "spx": 7683.69,
+      "ndx": 30276.81,
+      "sox": 12465.24,
+      "sox_dd": -14.82,
+      "nvda": 228.86,
+      "nvda_dd": -2.92,
+      "ndx_dd": -1.48,
+      "tnx": 5.24,
+      "vix": 16.07,
+      "hy_oas": 293,
+      "move": 101.82,
+      "term_premium": 0.96,
+      "breakeven": 2.34,
+      "brent": 105.28,
+      "orcl": 132.6,
+      "crwv": 85.07
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Nvidia authorizes a $150bn increase to its buyback program (total capacity $235bn) as its forward P/E sits near a decade low.",
+        "url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmakers-stock-is-too-cheap-for-huang-to-resist.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "MOVE bond-volatility index closes at 101.82 on Sep 28, up from 96.0 on Sep 25, back above the 100 yellow threshold and flipping F2.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE"
+      },
+      {
+        "kind": "OPINION",
+        "t": "Goldman Sachs forecasts hyperscaler AI capex +50% to $1.2T in 2027 but says $300bn/year of AI revenue is needed to break even against a ~$70bn run-rate, a $230bn gap, with capex growth decelerating to 12% by 2028.",
+        "url": "https://www.bloomberg.com/news/articles/2026-09-25/goldman-sees-hyperscaler-ai-capex-rising-50-to-1-2-trillion"
+      }
+    ],
+    "sources": {
+      "T1": 7,
+      "T2": 4,
+      "T3": 2,
+      "T4": 4,
+      "T5": 3
+    },
+    "run_url": "https://claude.ai/code/session_011J2Fi2qHk72QagV3VYYFay",
+    "brief": "briefs/2026-09-29.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow (OpenAI's mega-round still unclosed and Oracle's site delay unresolved); G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call"
   }
 ]
