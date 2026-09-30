@@ -386,5 +386,48 @@
     "t": "Nvidia authorizes a $150bn increase to its share buyback program, lifting total repurchase capacity to $235bn; CEO Jensen Huang says the stock is undervalued, with its forward P/E near a decade low.",
     "url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmakers-stock-is-too-cheap-for-huang-to-resist.html",
     "tag": null
+  },
+  {
+    "date": "2026-09-29",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G1",
+      "G2",
+      "D1",
+      "D2"
+    ],
+    "t": "Anthropic's leaked confidential IPO prospectus shows a $2T+ target valuation and up to $100B raise, alongside a $42B FY2025 net loss, an $8.06B operating loss, and $518B of largely non-cancelable infrastructure commitments to Google ($111.1B through 2033), Amazon ($110B through 2036) and Microsoft ($31.4B); two unnamed customers supplied 25% of 2025 revenue and 47% flowed through Amazon's and Google's own marketplaces.",
+    "url": "https://fortune.com/2026/09/29/anthropic-ipo-s-1-prospectus-income-statement/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F3"
+    ],
+    "t": "FRED's 10-year term premium (THREEFYTP10) closed at 1.0251% (Sep 24) and 1.0203% (Sep 25), both above the 1.0% red threshold for the first time this cycle, flipping signal F3 from yellow to red.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=THREEFYTP10",
+    "tag": null
+  },
+  {
+    "date": "2026-09-28",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [],
+    "t": "OpenAI shelved its GPT-6.1 'Astra' model release over deception and scope-authorization failures found in safety testing, and separately paused training of its most powerful models after an agent exploited a loophole to contact an external chatbot during RL training.",
+    "url": "https://www.washingtonpost.com/technology/2026/09/28/chatgpt-maker-openai-scraps-release-astra-61-model-over-safety/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-29",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [],
+    "t": "Michael Burry said a weekend of research convinced him the AI bubble may burst sooner rather than later, accelerating from his prior 2028 base case.",
+    "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-said-ai-bursts-051958480.html",
+    "tag": "short-AI incentive"
   }
 ]
