@@ -2220,5 +2220,212 @@
     "brief": "briefs/2026-09-30.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow; Anthropic's leaked S-1 adds new dated circularity evidence (supplier-investor overlap, customer concentration) without crossing a hardcoded threshold; G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call"
+  },
+  {
+    "date": "2026-10-01",
+    "as_of": "close",
+    "close_date": "2026-09-30",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no reds in A-E; 8 yellows persist across B-E while the macro amplifier jumps to HIGH as the 10-year yield crosses 5.25%",
+    "reds": 0,
+    "yellows": 8,
+    "greens": 16,
+    "amplifier": "HIGH",
+    "amplifier_note": "F1 flipped yellow to red: Yahoo ^TNX closed at 5.293% (Sep 30) and FRED's DGS10 read 5.26% (Sep 29), both above the 5.25% red threshold for the first time this cycle; reports put the 10y above 5.3% intraday Oct 1, highest since 2002. Combined with F3 (term premium, stale red at 1.02% since Sep 25), that is 2 reds in Pillar F, which sets the amplifier to HIGH per the stated rule. F2 (MOVE 110.45) and F4/F5 remain yellow.",
+    "read": "Two signals flipped today and both point toward stress, even as the underlying demand story stayed strong: Micron's fiscal Q4 (Sep 30) posted record $54.2B revenue (+379% YoY) and record DRAM/HBM shipments, and OpenAI's reported revenue run-rate is nearing $70B. The 10-year Treasury yield closed at 5.293% (Yahoo ^TNX, Sep 30), with FRED's DGS10 at 5.26% (Sep 29) -- both above the 5.25% threshold for the first time this cycle -- flipping F1 to red and, combined with the term premium's existing red (F3), pushing the macro amplifier from MEDIUM to HIGH. Separately, SoftBank's new $11.1bn bond, sold Sep 24 to fund the final $10bn OpenAI payment, fell to a 96.75 bid shortly after pricing, below the 98 threshold our own framework set to flip C4 to yellow. No Pillar A-E signal reached red and no hyperscaler cut capex, so the stage itself holds at 0+ -- the rate shock is a macro amplifier and credit-cost story, not yet a capex or revenue confirmation of the bubble thesis.",
+    "changed": [
+      {
+        "signal": "F1",
+        "from": "Y",
+        "to": "R",
+        "why": "Yahoo ^TNX closed at 5.293% (Sep 30) and FRED's DGS10 read 5.26% (Sep 29), both above the 5.25% red threshold for the first time this cycle; the two T1 sources that previously conflicted now agree."
+      },
+      {
+        "signal": "C4",
+        "from": "G",
+        "to": "Y",
+        "why": "SoftBank's new $11.1bn notes (priced Sep 24, settled Sep 29, funding the final OpenAI tranche) fell to a 96.75 bid shortly after issuance per Reuters-sourced reporting, below the 98 first-week threshold our framework set for this bond."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $228.38 (Sep 30), -3.1% from $235.74 (May 14)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,628.62 (Sep 30), -13.7% from 14,634.72 (Jun 22)"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,408.50 (Sep 30), -1.1% from 30,732.40 (Sep 22)"
+      },
+      "A4": {
+        "c": "G",
+        "v": "SOX +11.9%, AMD +33.1%, MU +14.1%, NVDA +5.0% vs RSP -4.4% over 20 sessions (Sep 1-30) -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 16.34 (Sep 30 close)"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day for NVDA or SOX this week; largest moves META -1.8%, ORCL -0.4% (Sep 30)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts or pauses found; ~$657bn capex over last four quarters across 7 AI builders (SemiAnalysis/Supercycle roundup, carried); Q3 2027 guidance not due until late Oct"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure delay remains unresolved (carried); a resurfaced 'Oracle/OpenAI cancel Abilene expansion' story checked out as a stale March 2026 item and was discarded"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Micron FQ4 (Sep 30): revenue $54.2bn (+379% YoY), record DRAM $39.8bn, HBM growing faster than company average, FQ1 guide $61.5bn beats $57bn consensus; stock fell on margin-deceleration worry (FQ1 gross margin guided 86.25% vs 87.0% delivered) -- fundamentals still green, margin trend an early watch item"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "Oracle 5y CDS record ~227bp (Sep 28, via T4 aggregators citing LSEG/Bloomberg; no direct T1-T3 print found), within the 150-250bp yellow band"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.79% (whalequant, dated Sep 28, carried -- site returned 403 today)"
+      },
+      "C3": {
+        "c": "G",
+        "v": "308bp (FRED BAMLH0A0HYM2, dated Sep 29, up from 302bp Sep 28)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "SoftBank's new $11.1bn notes fell to a 96.75 bid shortly after Sep 24 pricing (Reuters via Japan Times), below the 98 first-week threshold; CoreWeave's convert and Meta's $12.5bn El Paso bond both still cleared, Meta at a higher yield than its prior deal"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $87.12 (Sep 30), -39.1% from $143.08 high; no going-concern language or peer default"
+      },
+      "D1": {
+        "c": "G",
+        "v": "OpenAI revenue run-rate reported nearing $70bn (Axios, Sep 29); Anthropic ~$65bn (Jul, carried) -- both still growing"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $1.2-1.4T round remains in early, unclosed talks (not yet 90 days); Altman's IPO pushed to 2027+ counts as a delayed IPO"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand ~$3.40-3.84/hr, flat over past 90 days across multiple Sept-dated sources; no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Ramp's September AI Index: frontier-model token share fell to 45% from a 53% peak; top-1% spend/seat -10% MoM in Aug (carried, dated)"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Isolated: MindsEye developer shutdown, Harrison.ai Australian layoffs; no wave found"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (BofA Sep 15 FMS, carried); October FMS not due until mid-Oct"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT blocked again (503, both 7d and 12m pulls); Google Trends 429'd; Google News RSS ~100 items/7d (Oct 1) vs the 96 baseline -- roughly flat, held at Green since the ratio metric itself is unavailable"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 88 'Extreme' (Oct 1, flat); aibubblemonitor.com ~51 'Heating Up' (Sep 27, stale); boomorbubble.ai 0/5 red 'Boom' (carried) -- trackers disagree"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Nvidia insider selling continues, no buying in 12 months (carried); Polymarket 'burst by Dec 31 2026' fell to 9% (Oct 1) from 16% baseline; no IPO withdrawal found"
+      },
+      "F1": {
+        "c": "R",
+        "v": "Yahoo ^TNX 5.293% (Sep 30 close); FRED DGS10 5.26% (Sep 29) -- both above the 5.25% red threshold; reports put the 10y above 5.3% intraday Oct 1, highest since 2002"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 110.45 (Sep 30), up from 106.6 (Sep 29)"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Term premium (FRED THREEFYTP10) still last dated at 1.0203% (Sep 25); no newer value posted (Sep 28-30 blank) -- carried red"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $103.53 (Sep 30 close); breakeven 2.36% (Sep 30); CPI 3.4% (Aug, unchanged) -- Yellow via the CPI band"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME Oct-hike odds fell to ~35% (Sep 30-Oct 1, soft Aug core PCE at 3.0% YoY and Fed's Williams comments) from ~51.5-70% a week earlier; Goldman pushed its hike call to December; dots still imply ~2.5 hikes to Sep 2027 (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's reported $1.2-1.4T round remains in early, unclosed, investor-initiated talks (carried)"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's run-rate now ~$70bn (Axios Sep 29) vs ~$1.4T of reported compute commitments over ~8-year terms (~$175bn/yr) -- about a 2.5x multiple, improved from the prior ~3-4x but still within the 2-5x yellow band; no confirmed deferral"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable for the Azure-ex-OpenAI comparison (next Microsoft earnings ~late Oct); September Ramp index already counted in D4"
+      }
+    },
+    "market": {
+      "spx": 7651.54,
+      "ndx": 30408.5,
+      "sox": 12628.62,
+      "sox_dd": -13.71,
+      "nvda": 228.38,
+      "nvda_dd": -3.12,
+      "ndx_dd": -1.05,
+      "tnx": 5.293,
+      "vix": 16.34,
+      "hy_oas": 308,
+      "move": 110.45,
+      "term_premium": 1.02,
+      "breakeven": 2.36,
+      "brent": 103.53,
+      "orcl": 137.3,
+      "crwv": 87.12
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "10-year Treasury yield breaks 5.25% (Yahoo ^TNX 5.293% Sep 30 close; FRED DGS10 5.26% Sep 29), reportedly the highest since 2002 intraday Oct 1, flipping F1 to red and the macro amplifier to HIGH.",
+        "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10"
+      },
+      {
+        "kind": "HARD",
+        "t": "SoftBank's record $11.1bn junk bond, funding the final $10bn OpenAI payment, fell to a 96.75 bid shortly after its Sep 24 pricing, flipping C4 to yellow under our own first-week threshold.",
+        "url": "https://www.japantimes.co.jp/business/2026/09/24/companies/softbank-junk-bond-steep-price-pay/"
+      },
+      {
+        "kind": "HARD",
+        "t": "Micron FQ4 revenue $54.2bn (+379% YoY), record DRAM ($39.8bn) and HBM growth, FQ1 guide $61.5bn beats $57bn consensus, even as the stock fell on margin-deceleration worry.",
+        "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html"
+      }
+    ],
+    "sources": {
+      "T1": 6,
+      "T2": 4,
+      "T3": 3,
+      "T4": 7,
+      "T5": 5
+    },
+    "run_url": "https://claude.ai/code/session_01BjmFbhY9ZcQ2MBAXxnmAtk",
+    "brief": "briefs/2026-10-01.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow; OpenAI's reported revenue run-rate nearing $70bn narrows the loop-cash-gap multiple (G2) to roughly 2.5x from ~3-4x, still within the yellow band; G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call"
   }
 ]

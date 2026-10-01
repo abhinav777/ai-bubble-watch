@@ -361,14 +361,6 @@
   ],
   "calendar": [
     {
-      "when": "Sep 30",
-      "what": "Micron fiscal Q4. Softening DRAM commentary turns B4 yellow."
-    },
-    {
-      "when": "Early Oct",
-      "what": "SoftBank's new 8.625%, 9.25% and 9.75% notes start trading on FINRA TRACE. A first-week price below 98 turns C4 yellow."
-    },
-    {
       "when": "~Oct 10",
       "what": "TSMC September revenue. Under 25% YoY turns B4 yellow."
     },
@@ -433,6 +425,10 @@
     {
       "date": "2026-09-25",
       "t": "Pillar G's provisional baseline confirmed with dated sources on the routine's first scoring run: G1 Y (OpenAI's $1.2-1.5T round still in talks, unclosed), G2 Y (~$1.4T commitments vs run-rate), G3 N and G4 N (awaiting Nvidia/Oracle 10-Qs and Microsoft's earnings call). Circularity HIGH."
+    },
+    {
+      "date": "2026-10-01",
+      "t": "Two Sep 30 / Early Oct calendar items resolved and removed: Micron's fiscal Q4 (Sep 30) showed no softening in DRAM commentary -- record revenue and HBM growth, B4 stays green, outcome logged as an event. SoftBank's new notes' first-week secondary price (96.75 bid, per Reuters-sourced reporting dated Sep 24) came in below the 98 threshold before the official FINRA TRACE window even opened, flipping C4 from green to yellow; outcome logged as an event rather than left pending."
     }
   ],
   "circularity": {

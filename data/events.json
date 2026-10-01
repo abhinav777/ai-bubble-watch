@@ -429,5 +429,49 @@
     "t": "Michael Burry said a weekend of research convinced him the AI bubble may burst sooner rather than later, accelerating from his prior 2028 base case.",
     "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-said-ai-bursts-051958480.html",
     "tag": "short-AI incentive"
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "The 10-year Treasury yield closes above the 5.25% red threshold for the first time this cycle: Yahoo's ^TNX at 5.293% (Sep 30) and FRED's DGS10 at 5.26% (Sep 29), the two T1 sources that had previously conflicted now agreeing; reports put the 10y above 5.3% intraday Oct 1, the highest since 2002. Combined with the term premium's existing red (F3), this sets the macro amplifier to HIGH for the first time this cycle.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+    "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "SoftBank's record $11.1bn high-yield bond (3.5y at 8.625%, 5.5y at 9.25%, 7.5y at 9.75%), sold to fund the final $10bn OpenAI payment, fell to a 96.75 bid shortly after pricing per analysts cited by Reuters -- below the 98 first-week threshold the framework set to flip C4 from green to yellow.",
+    "url": "https://www.japantimes.co.jp/business/2026/09/24/companies/softbank-junk-bond-steep-price-pay/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-30",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "Micron's fiscal Q4 (calendar outcome of the Sep 30 calendar item): revenue $54.2bn (+379% YoY), record DRAM ($39.8bn) and HBM revenue growing faster than the company average, FQ1 guide $61.5bn beats $57bn consensus. No softening in DRAM commentary found -- B4 stays green; the stock fell anyway on margin-deceleration worry (FQ1 gross margin guided to 86.25% vs 87.0% delivered in Q4) and a historical post-earnings-selloff pattern.",
+    "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+    "tag": null
+  },
+  {
+    "date": "2026-09-28",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "C1"
+    ],
+    "t": "Oracle's 5-year CDS spread reaches a record ~227bp, up from ~215bp (Aug 8) and 144bp at the start of the year, per T4 aggregators citing LSEG/Bloomberg data; no direct T1-T3 print found. Still within the 150-250bp yellow band for C1.",
+    "url": "https://gokhshtein.com/news/2026-09-28-oracle-cds-surge-to-227-bps-shows-fallen-angel-risk",
+    "tag": "tracker sells subscriptions"
   }
 ]
