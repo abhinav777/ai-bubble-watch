@@ -2427,5 +2427,206 @@
     "brief": "briefs/2026-10-01.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow; OpenAI's reported revenue run-rate nearing $70bn narrows the loop-cash-gap multiple (G2) to roughly 2.5x from ~3-4x, still within the yellow band; G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call"
+  },
+  {
+    "date": "2026-10-02",
+    "as_of": "close",
+    "close_date": "2026-10-01",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no reds in A-E; 8 yellows persist unchanged across B-E while the macro amplifier eases to MEDIUM as the 10-year yield falls back under 5.25%",
+    "reds": 0,
+    "yellows": 8,
+    "greens": 16,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "F1 reversed red to yellow: Yahoo ^TNX closed 5.237% (Oct 1), down from 5.293% (Sep 30), back under the 5.25% red threshold. Pillar F now has 1 red (F3, term premium, stale since Sep 25) and 4 yellows (F1, F2, F4, F5) -- exactly 1 red sets the amplifier to MEDIUM per the stated rule, down from HIGH.",
+    "read": "The rate shock that pushed the macro amplifier to HIGH yesterday partly reversed: the 10-year Treasury yield closed at 5.237% on Oct 1 (Yahoo ^TNX), back under the 5.25% red line, flipping F1 to yellow and the amplifier to MEDIUM. No Pillar A-E signal changed color -- all eight yellows from yesterday persist unchanged. The more consequential development is structural, not a price move: Anthropic's now-public IPO filing (F-1) discloses that Broadcom will lend it up to $42bn in convertible notes -- about a third of Anthropic's $125.2bn five-year TPU capacity commitment -- inside a $60bn financing package where Blackstone fronts an $18bn junior tranche, with the notes convertible into Anthropic shares. That is a second frontier lab, after OpenAI/Nvidia/SoftBank, financed by a chip-supply counterparty on convertible, equity-linked terms, reinforcing G1's yellow rather than flipping it since no conversion has occurred. The filing also shows Anthropic's 2025 revenue at $4.59bn against a $41.97bn GAAP loss and $518bn of disclosed future infrastructure obligations.",
+    "changed": [
+      {
+        "signal": "F1",
+        "from": "R",
+        "to": "Y",
+        "why": "Yahoo ^TNX closed at 5.237% on Oct 1, down from 5.293% on Sep 30, back under the 5.25% red threshold for the first time since the flip."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $230.86 (Oct 1), -2.07% from $235.74 (May 14)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,829.00 (Oct 1), -12.34% from 14,634.72 (Jun 22)"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,501.56 (Oct 1), -0.75% from 30,732.40 (Sep 22)"
+      },
+      "A4": {
+        "c": "G",
+        "v": "SOX +13.1%, AMD +34.7%, MU +14.8%, NVDA +2.9% vs RSP -4.4% over 20 sessions (Sep 2-Oct 1) -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 16.39 (Oct 1 close)"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day for NVDA or SOX; largest moves SOX +1.6%, NVDA +1.1% (Oct 1)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts or pauses found; 'nobody cut' per capex roundups, ~$657bn TTM capex across 7 AI builders (carried); Q3 2027 guidance not due until late Oct"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure delay remains unresolved (carried); a resurfaced Tom's Hardware 'Stargate delayed by partner squabbles' story checked via a Yahoo mirror and confirmed stale (published Feb 23, 2026), discarded"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Gartner forecasts DRAM prices +130% YoY for 2026; Samsung's HBM4 pricing reportedly up to 30% higher than prior generation; SK Hynix says its HBM/DRAM/NAND capacity is 'essentially sold out' for 2026 -- supply tight, prices rising, fundamentals still green"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "Oracle 5y CDS still last dated at ~215-227bp (Sep 28, T4 aggregators only, no fresher T1-T3 print found); within the 150-250bp yellow band"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.87% (whalequant, dated Sep 30, direct read)"
+      },
+      "C3": {
+        "c": "G",
+        "v": "~312bp / 3.12% (ICE BofA US HY OAS, Sep 30, via mirrors citing FRED -- FRED itself unreachable today)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "SoftBank's new $11.1bn notes remain below issue per Sep 29-30 reporting (96.75 bid); CoreWeave's 2031/2032 notes trading 85-87, also wider than issue; a TradingView quote showing 101.90 for the 8.625% notes contradicts this and was excluded as unreliable"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $88.57 (Oct 1), -38.1% from $143.08 high; CoreWeave bonds trading 85-87 (not <80); no going-concern language or peer default"
+      },
+      "D1": {
+        "c": "G",
+        "v": "OpenAI revenue run-rate reported nearing $70bn, +70% since Q3 start (carried); Anthropic's F-1 shows official 2025 revenue of $4.59bn (+1,088% YoY) -- both labs still growing, no deceleration confirmed"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $30bn round at a $1.4T valuation remains in negotiation, not closed (first reported ~Sep 15, <90 days); Anthropic targets a pre-Thanksgiving IPO at $1.8-2T, no down round found"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand median $3.36/hr across 42 providers (Oct 1), roughly flat vs the prior ~$3.40-3.84/hr range; no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Ramp's September AI Index: frontier-model token share fell to 45%, top-1% spend/seat -10% MoM in Aug (carried, dated); KPMG Q3 2026 AI Pulse: 95% of large US organizations report zero measurable ROI on $30-40bn of genAI investment; Writer survey: only 29% see significant genAI ROI"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Isolated: Wonder (533 layoffs), Polyarc and Orionx shutdowns; no wave found"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (BofA Sep 15 FMS, carried); October FMS not due until mid-Oct"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT 7-day 'AI bubble' article volume averaged ~12/day over Sep 28-Oct 1 (full days) vs a 25.5/day 12-month mean -- about 47% of the 12-month mean, in line with the 46% baseline; Google News RSS 100 items/7d (Oct 2) vs the 96 baseline -- flat"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 89 'Extreme' (Oct 1, +1); aibubblemonitor.com ~53 'Heating Up' (Sep 27, stale, >7d); boomorbubble.ai 0/5 red 'Boom' (carried, no fresh reading found) -- trackers disagree"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Nvidia insider selling continues, no buying (carried); Polymarket 'burst by Dec 31 2026' fell to 7.9% (Oct 2) from 9% (Oct 1) and the 16% baseline; no IPO withdrawal found"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX 5.237% (Oct 1 close), down from 5.293% (Sep 30) and back under the 5.25% red threshold; FRED unreachable today"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 108.13 (Oct 1 close), down from 110.45 (Sep 30)"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Term premium (FRED THREEFYTP10) still last dated at 1.0203% (Sep 25); FRED unreachable today for a fresher value -- carried red, now stale 7 days"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $102.31 (Oct 1 close); breakeven 2.36% (Sep 30, via mirror); CPI 3.4% (Aug, unchanged) -- Yellow via the CPI band"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME FedWatch: ~62% odds of a hold at the Oct 28 FOMC (Oct 1), i.e. ~38% hike odds; longer-dated futures price ~4.1% by Jan 2027 and ~4.7% by Oct 2027 (roughly 2.5-3 hikes) -- Yellow (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in early, unclosed talks (carried); new: Broadcom's $42bn convertible-note loan to Anthropic (covering ~1/3 of its $125.2bn 5-year TPU commitment, convertible into Anthropic shares) is a second lab showing chip-supplier-financed, equity-linked compute funding -- reinforces yellow, no actual conversion yet"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's run-rate ~$70bn vs ~$1.4T of reported compute commitments over ~8-year terms -- about a 2.5x multiple (carried); Anthropic's F-1 shows $518bn of future infrastructure obligations against $4.59bn of 2025 revenue, an even larger disclosed gap; no confirmed deferral at either lab"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable for the Azure-ex-OpenAI comparison (next Microsoft earnings ~late Oct); September Ramp index already counted in D4"
+      }
+    },
+    "market": {
+      "spx": 7666.45,
+      "ndx": 30501.56,
+      "sox": 12829.0,
+      "sox_dd": -12.34,
+      "nvda": 230.86,
+      "nvda_dd": -2.07,
+      "ndx_dd": -0.75,
+      "tnx": 5.237,
+      "vix": 16.39,
+      "hy_oas": 312,
+      "move": 108.13,
+      "term_premium": 1.02,
+      "breakeven": 2.36,
+      "brent": 102.31,
+      "orcl": 138.07,
+      "crwv": 88.57
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Broadcom will lend Anthropic up to $42bn in convertible notes (part of a $60bn package; Blackstone leads an $18bn junior tranche), covering about a third of Anthropic's $125.2bn five-year TPU commitment; disclosed in Anthropic's IPO filing.",
+        "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "Anthropic's F-1 shows 2025 revenue $4.59bn (+1,088% YoY), GAAP net loss $41.97bn (incl. a $34bn non-cash charge), $518bn future infrastructure obligations, $20.28bn cash, two customers each ~12% of revenue.",
+        "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-prepares-ipo-reporting-42-164047677.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "10-year Treasury yield fell back under 5.25% (5.237%, Oct 1 close), reversing F1 to yellow and easing the macro amplifier from HIGH to MEDIUM.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d"
+      }
+    ],
+    "sources": {
+      "T1": 6,
+      "T2": 3,
+      "T3": 4,
+      "T4": 8,
+      "T5": 5
+    },
+    "run_url": "https://claude.ai/code/session_014W3Yr6c9FUV6mUFFqm5wVo",
+    "brief": "briefs/2026-10-02.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow; Broadcom's $42bn convertible loan to Anthropic is a second lab showing supplier-financed, equity-linked compute funding, and Anthropic's F-1 discloses a $518bn future-obligations-vs-$4.59bn-revenue gap, deepening the circularity picture without yet triggering a red (no conversion or deferral confirmed). G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call."
   }
 ]

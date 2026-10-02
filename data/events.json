@@ -473,5 +473,42 @@
     "t": "Oracle's 5-year CDS spread reaches a record ~227bp, up from ~215bp (Aug 8) and 144bp at the start of the year, per T4 aggregators citing LSEG/Bloomberg data; no direct T1-T3 print found. Still within the 150-250bp yellow band for C1.",
     "url": "https://gokhshtein.com/news/2026-09-28-oracle-cds-surge-to-227-bps-shows-fallen-angel-risk",
     "tag": "tracker sells subscriptions"
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "G1",
+      "G2",
+      "D1"
+    ],
+    "t": "Anthropic's IPO filing (F-1) discloses Broadcom will lend it up to $42bn in convertible notes -- covering about a third of Anthropic's $125.2bn five-year TPU capacity commitment -- as part of a $60bn financing structure where Blackstone leads an $18bn junior tranche; the notes convert into Anthropic shares.",
+    "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "D1",
+      "D2",
+      "G2"
+    ],
+    "t": "Anthropic's official IPO filing shows 2025 revenue of $4.59bn (+1,088% YoY), a GAAP net loss of $41.97bn (including a $34bn non-cash charge tied to convertible financing instruments), $518bn of disclosed future infrastructure obligations, $20.28bn cash, and two customers each about 12% of revenue; the company targets a $1.8-2T IPO valuation around Thanksgiving.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-prepares-ipo-reporting-42-164047677.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "The 10-year Treasury yield fell back below the 5.25% threshold: Yahoo's ^TNX closed at 5.237% on Oct 1, down from 5.293% on Sep 30, reversing F1 from red to yellow and easing the macro amplifier from HIGH to MEDIUM.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
+    "tag": null
   }
 ]
