@@ -510,5 +510,25 @@
     "t": "The 10-year Treasury yield fell back below the 5.25% threshold: Yahoo's ^TNX closed at 5.237% on Oct 1, down from 5.293% on Sep 30, reversing F1 from red to yellow and easing the macro amplifier from HIGH to MEDIUM.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-10-02",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "10-year Treasury yield closes back above the 5.25% red threshold one session after dipping below it: Yahoo ^TNX 5.277% (Oct 2) vs 5.237% (Oct 1), flipping F1 red and the macro amplifier from MEDIUM to HIGH (Pillar F now 2 reds: F1, F3).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-04",
+    "type": "opinion",
+    "tier": "T4",
+    "signals": [],
+    "t": "Michael Burry says he is shifting from short positions to put options on AI-exposed names (naming Micron and Nebius) for more leverage, moving up his expected bubble-burst timeline from a 2028 base case.",
+    "url": "https://www.fool.com/investing/2026/10/04/michael-burry-thinks-the-ai-bubble-will-burst-soon/",
+    "tag": "[short-AI incentive]"
   }
 ]
