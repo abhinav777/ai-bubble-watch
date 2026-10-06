@@ -530,5 +530,17 @@
     "t": "Michael Burry says he is shifting from short positions to put options on AI-exposed names (naming Micron and Nebius) for more leverage, moving up his expected bubble-burst timeline from a 2028 base case.",
     "url": "https://www.fool.com/investing/2026/10/04/michael-burry-thinks-the-ai-bubble-will-burst-soon/",
     "tag": "[short-AI incentive]"
+  },
+  {
+    "date": "2026-10-05",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "Bloomberg: OpenAI is in talks for a $30bn tranche at a $1.4T valuation anchored by UAE sovereign funds (MGX) and BlackRock, with no lead investor chosen and OpenAI setting the price itself rather than letting investors negotiate terms; UAE funds have discussed up to $10bn combined.",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round",
+    "tag": null
   }
 ]

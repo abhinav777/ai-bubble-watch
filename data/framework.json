@@ -361,12 +361,24 @@
   ],
   "calendar": [
     {
+      "when": "Oct 7-8",
+      "what": "10-year (Oct 7) and 30-year (Oct 8) Treasury auctions. A tail on either feeds F3; two consecutive tailed auctions turns F3 red on its own (already red via term premium)."
+    },
+    {
       "when": "~Oct 10",
       "what": "TSMC September revenue. Under 25% YoY turns B4 yellow."
     },
     {
+      "when": "Oct 15",
+      "what": "TSMC Q3 earnings call: 2027 AI capex and capacity commentary."
+    },
+    {
       "when": "Mid-Oct",
-      "what": "BofA October fund manager survey; Anthropic IPO marketing; CPI release."
+      "what": "BofA October fund manager survey; CPI release."
+    },
+    {
+      "when": "Week of Nov 9 / mid-Nov",
+      "what": "Anthropic IPO: formal marketing targeted to start the week of Nov 9, Nasdaq listing targeted as soon as mid-November at up to $2T (slipped from the original October target)."
     },
     {
       "when": "Late Oct",
@@ -429,6 +441,10 @@
     {
       "date": "2026-10-01",
       "t": "Two Sep 30 / Early Oct calendar items resolved and removed: Micron's fiscal Q4 (Sep 30) showed no softening in DRAM commentary -- record revenue and HBM growth, B4 stays green, outcome logged as an event. SoftBank's new notes' first-week secondary price (96.75 bid, per Reuters-sourced reporting dated Sep 24) came in below the 98 threshold before the official FINRA TRACE window even opened, flipping C4 from green to yellow; outcome logged as an event rather than left pending."
+    },
+    {
+      "date": "2026-10-06",
+      "t": "Calendar refreshed: added the Oct 7-8 Treasury auctions (F3 watch) and TSMC's Oct 15 earnings call; the 'Mid-Oct Anthropic IPO marketing' item is replaced with a confirmed slip to the week of Nov 9 / mid-November at up to $2T. No signal changed color this run -- the same 8 yellows held for a second straight session."
     }
   ],
   "circularity": {

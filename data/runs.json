@@ -2829,5 +2829,199 @@
     "brief": "briefs/2026-10-05.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow with no new developments since Oct 2: OpenAI's $1.4T round remains unclosed and Broadcom's $42bn convertible loan to Anthropic is unconverted. G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call."
+  },
+  {
+    "date": "2026-10-06",
+    "as_of": "close",
+    "close_date": "2026-10-05",
+    "stage": 0,
+    "stage_label": "Stress building (0+): no reds in A-E; 8 yellows persist unchanged across B-E; macro amplifier holds HIGH",
+    "reds": 0,
+    "yellows": 8,
+    "greens": 16,
+    "amplifier": "HIGH",
+    "amplifier_note": "Unchanged from Oct 5: Pillar F still shows 2 reds (F1 10y yield, F3 term premium) and 3 yellows (F2, F4, F5). Yahoo ^TNX closed Oct 5 at 5.311%, up further from 5.277% (Oct 2), extending the stretch above the 5.25% red line; MOVE rose to 113.6.",
+    "read": "Not one Pillar A-E signal changed color for a second straight session, and the exact same 8 yellows (A2, B2, C1, C4, C5, D2, D4, E4) persist. Price kept grinding to new highs -- Nvidia closed at a record $238.90 (market cap ~$5.76T) and TSMC's ADR hit a record high, while the Nasdaq-100 and S&P both closed at or near fresh 52-week highs -- so A1 and A3 stay comfortably green and SOX's drawdown narrowed to -10.1%, barely inside the yellow band. The notable development is in financing, not capex or credit: Bloomberg reported OpenAI is in talks for a $30B tranche at a $1.4T valuation anchored by UAE sovereign funds (MGX) and BlackRock, with no lead investor and OpenAI setting the price itself -- a mix tilted toward outside capital rather than supplier capital, but still an unclosed, non-negotiated round, so G1 and D2 stay yellow rather than flipping green. The 10-year Treasury yield's continued climb (5.311% Oct 5, highest closing level this cycle) keeps the macro amplifier at HIGH, with C1, C4, C5 and D2 flagged at elevated risk of flipping on the next rate move, and tomorrow's 10-year and Thursday's 30-year Treasury auctions are the nearest test of that channel.",
+    "changed": [],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $238.90 (Oct 5, record close, +2.12% day), -0.50% from a same-day intraday high of $240.10"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 13,172.74 (Oct 5), -10.12% from 14,655.29 (Jun 22) -- just inside the yellow band, improved from -10.24% (Oct 2)"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 31,076.44 (Oct 5), -0.13% from a same-day intraday high of 31,117.36 -- fresh record territory"
+      },
+      "A4": {
+        "c": "G",
+        "v": "20-session (Sep 4-Oct 5): SOX +12.3%, AMD +32.3%, MU +4.7%, NVDA +3.7% vs RSP -3.6% -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 15.52 (Oct 5 close)"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No -5%+ day for NVDA or SOX this week; both up on Oct 5 (+2.12%, +0.27%)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; next guidance comes with Q3 earnings in late Oct (Microsoft, Alphabet, Amazon, Meta all still to report)"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure notice remains unresolved -- both Oracle and developer Stack/Blue Owl still call the ~$165B project on schedule for 2028; no company-confirmed pause found this run (the $18B construction loan's 89-91 cent secondary quote is an FT report from ~Sep 18-21, now stale/already reflected, not new)"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "No Sept TSMC print yet (due ~Oct 10, earnings Oct 15); SK Hynix/Gartner DRAM-sold-out narrative unchanged; TSMC ADR, AVGO (+2.08%) and MU all firm this week -- supply chain still green"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "Oracle 5y CDS still last dated at a record ~227bp (Sep 28, T4 aggregators citing LSEG/Bloomberg); no fresher T1-T3 print found -- within the 150-250bp yellow band, now 8 days stale"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.85% (whalequant, dated Oct 2: HY tech 8.13% minus 10y 5.28%) -- 'LOW RISK' per the site, improved from 2.98%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "310bp / 3.10% (ICE BofA US HY OAS via FRED BAMLH0A0HYM2, dated Oct 2) -- eased from 324bp (Oct 1)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "No fresher dated TRACE print on SoftBank's new notes found this run (still reported below issue as of late Sept); CoreWeave's 9.25% 2030 notes bid ~93.5 (Sep 26) and 9.75% 2031 notes ~92.5 (Sep 16) -- secondary paper still trading wide of issue but above the <90 threshold"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $87.39 (Oct 5, -2.49% day), -42.96% from a $153.20 high now dated Oct 10, 2025 (the rolling 52-week window has rolled a higher 2025 peak into view, widening the drawdown without new price action); CoreWeave bonds still in the low-to-mid 90s, no going-concern language or peer default"
+      },
+      "D1": {
+        "c": "G",
+        "v": "OpenAI's run-rate reported near $70bn; Anthropic targeting a mid-November IPO on the strength of expected Q3 results -- both labs still presented as growing fast, no deceleration confirmed"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI in talks for a $30bn tranche at a $1.4T valuation anchored by UAE funds (MGX) and BlackRock, no lead investor, OpenAI setting price itself (Bloomberg, Oct 5) -- round open since ~Sep 15 (~21 days, under the 90-day threshold), not closed; Anthropic's IPO timeline confirmed slipping from October to mid-November"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 on-demand: Ornn OCPI-H100 $2.59/hr (Oct 4); GetDeploying 90-day median flat at ~$3.39/hr across 42 providers; no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "McKinsey's 2026 State of AI: only 37% attribute any EBIT impact to AI, just 6% are 'high performers'; a separate survey finds only 29% of orgs see significant generative-AI ROI despite 59% investing $1M+/year -- ROI skepticism unchanged from prior runs"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Same isolated names recur (Wonder, MindsEye, PhonePe, Harrison.ai) -- no new shutdown wave found"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (BofA Sep 15 FMS, carried); October FMS not due until mid-Oct"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT 7-day endpoint returned 503 twice (blocked, not retried further); Google News RSS ~100 items/7d (Oct 6) vs the 96 baseline -- roughly flat, well under the 1.5x threshold"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 91 'Extreme' (Oct 5, +1 from 90); boomorbubble.ai 0/5 red 'Boom' (Oct 4, carried); aibubblemonitor.com reading could not be verified this run (site is JS-rendered and a WebSearch snippet conflated it with an unrelated tracker) -- trackers still disagree"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Polymarket 'burst by Dec 31 2026' at 6% (Oct 6), down from 7-8% (Oct 5) and the 16% baseline; Nvidia insider pattern unchanged (0 buys, 11 sells over 12 months, carried); a Q3 wave of 7 IPO postponements (Oura, Holtec Nuclear, Bamboo Insurance, Amaero -- none AI companies, Sep 29-30, already known) remains postponements rather than confirmed withdrawals, so it reinforces but does not flip this signal"
+      },
+      "F1": {
+        "c": "R",
+        "v": "Yahoo ^TNX closed 5.311% (Oct 5), up from 5.277% (Oct 2) -- a third straight close above the 5.25% red threshold; FRED's own DGS10 lags at 5.28% (Oct 2)"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 113.60 (Oct 5 close), up from 107.29 (Oct 2)"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Term premium (FRED THREEFYTP10) still last dated at 1.0203% (Sep 25), now 11 days stale; no Treasury auction tail data yet -- the 10y auction is Oct 7 and the 30y is Oct 8"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $100.32 (Oct 5 close); breakeven 2.36% (FRED T10YIE, Oct 5, fresh and anchored <2.4%); CPI 3.4% (Aug, unchanged, next release mid-Oct) -- Yellow via the CPI band"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "CME FedWatch: ~76% odds of a hold at the Oct 28 FOMC (~24% hike odds), down slightly from ~week-earlier readings; dots/futures still imply roughly 1-2 more hikes over the next 12 months -- Yellow (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round (Bloomberg, Oct 5) is anchored by UAE sovereign funds (MGX) and BlackRock rather than suppliers -- a composition tilted toward outside capital -- but remains unclosed with no negotiated price, so it cannot yet score green; Broadcom's $42bn convertible loan to Anthropic remains unconverted (carried)"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's ~$70bn run-rate vs its roughly $1.4T of reported multi-year compute commitments (carried); Anthropic's F-1 $518bn future-obligations-vs-$4.59bn-revenue gap (carried); no confirmed deferral at either lab this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable for the Azure-ex-OpenAI comparison (next Microsoft earnings ~late Oct); Ramp AI spend data already counted in D4"
+      }
+    },
+    "market": {
+      "spx": 7773.95,
+      "ndx": 31076.44,
+      "sox": 13172.74,
+      "sox_dd": -10.12,
+      "nvda": 238.9,
+      "nvda_dd": -0.5,
+      "ndx_dd": -0.13,
+      "tnx": 5.311,
+      "vix": 15.52,
+      "hy_oas": 310,
+      "move": 113.6,
+      "term_premium": 1.02,
+      "breakeven": 2.36,
+      "brent": 100.32,
+      "orcl": 142.48,
+      "crwv": 87.39
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Bloomberg: OpenAI is in talks for a $30B tranche anchored by UAE funds (MGX) and BlackRock at a $1.4T valuation, with no lead investor and OpenAI setting the price itself rather than letting investors negotiate.",
+        "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round"
+      },
+      {
+        "kind": "HARD",
+        "t": "Nvidia closed at a record $238.90 (+2.12%), pushing its market cap to about $5.76T, while TSMC's ADR rose 2.75% to a record high (~$2.5T market cap) and the Nasdaq-100 touched a fresh 52-week high.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA"
+      },
+      {
+        "kind": "HARD",
+        "t": "The 10-year Treasury yield closed at 5.311% on Oct 5, its highest close this cycle and a third straight session above the 5.25% red threshold, keeping Pillar F's macro amplifier at HIGH ahead of Wednesday's 10-year and Thursday's 30-year auctions.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d"
+      }
+    ],
+    "sources": {
+      "T1": 6,
+      "T2": 8,
+      "T3": 3,
+      "T4": 3,
+      "T5": 2
+    },
+    "run_url": "https://claude.ai/code/session_01Exod8NdKfaABofVQJJH1zr",
+    "brief": "briefs/2026-10-06.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow. OpenAI's new $30bn/$1.4T round (Oct 5) is notable for being anchored by outside capital (UAE sovereign funds, BlackRock) rather than suppliers, a modestly positive composition detail, but it remains unclosed and un-negotiated so the signal stays yellow. G3 and G4 remain not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's earnings call."
   }
 ]
