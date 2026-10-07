@@ -445,6 +445,10 @@
     {
       "date": "2026-10-06",
       "t": "Calendar refreshed: added the Oct 7-8 Treasury auctions (F3 watch) and TSMC's Oct 15 earnings call; the 'Mid-Oct Anthropic IPO marketing' item is replaced with a confirmed slip to the week of Nov 9 / mid-November at up to $2T. No signal changed color this run -- the same 8 yellows held for a second straight session."
+    },
+    {
+      "date": "2026-10-07",
+      "t": "SOX's drawdown narrowed below 10% (A2: yellow to green), putting Pillar A at zero reds and zero yellows for the first time since the Sep 15 baseline. Offsetting this, narrative volume (E2) flipped green to yellow after Google News RSS's 7-day 'AI bubble' query hit its 100-item cap in roughly 3 days instead of 7, while GDELT's volume comparator stayed rate-limited (429). Total yellow count unchanged at 8; Stage holds at 0+ (stress building)."
     }
   ],
   "circularity": {
