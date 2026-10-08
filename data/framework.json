@@ -361,12 +361,8 @@
   ],
   "calendar": [
     {
-      "when": "Oct 7-8",
-      "what": "10-year (Oct 7) and 30-year (Oct 8) Treasury auctions. A tail on either feeds F3; two consecutive tailed auctions turns F3 red on its own (already red via term premium)."
-    },
-    {
-      "when": "~Oct 10",
-      "what": "TSMC September revenue. Under 25% YoY turns B4 yellow."
+      "when": "Oct 8",
+      "what": "30-year Treasury reopening (the Oct 7 10-year leg cleared at 5.300% with no tail, strong demand -- logged as an event). A tail on the 30-year feeds F3."
     },
     {
       "when": "Oct 15",
@@ -449,6 +445,10 @@
     {
       "date": "2026-10-07",
       "t": "SOX's drawdown narrowed below 10% (A2: yellow to green), putting Pillar A at zero reds and zero yellows for the first time since the Sep 15 baseline. Offsetting this, narrative volume (E2) flipped green to yellow after Google News RSS's 7-day 'AI bubble' query hit its 100-item cap in roughly 3 days instead of 7, while GDELT's volume comparator stayed rate-limited (429). Total yellow count unchanged at 8; Stage holds at 0+ (stress building)."
+    },
+    {
+      "date": "2026-10-08",
+      "t": "SOX's drawdown widened back above 10% (A2: green to yellow) one session after its first sub-10% reading since baseline; narrative volume normalized back to roughly the baseline pace (E2: yellow to green) after Google News RSS's 7-day cap took the full week to fill instead of ~3 days. Net yellow count unchanged at 8. TSMC's September revenue (+54.6% YoY, record) resolved the '~Oct 10' calendar item early with no softening; the Oct 7 10-year Treasury auction cleared strongly with no tail, resolving half of the 'Oct 7-8 auctions' item (30-year still pending Oct 8)."
     }
   ],
   "circularity": {

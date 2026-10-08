@@ -542,5 +542,27 @@
     "t": "Bloomberg: OpenAI is in talks for a $30bn tranche at a $1.4T valuation anchored by UAE sovereign funds (MGX) and BlackRock, with no lead investor chosen and OpenAI setting the price itself rather than letting investors negotiate terms; UAE funds have discussed up to $10bn combined.",
     "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round",
     "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "TSMC's September 2026 revenue was NT$511.86bn, up 54.6% YoY and a new record (Jan-Sep YTD revenue NT$3,898.73bn, +41.1% YoY); no softening in AI-driven demand ahead of the Oct 15 earnings call. Resolves the framework's '~Oct 10 TSMC revenue' calendar item early.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-07",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F3"
+    ],
+    "t": "The Treasury's $39bn 10-year note reopening cleared at a 5.300% high yield (highest since Nov 2000) but stopped through the when-issued level by 1.7bp, with a 2.77 bid-to-cover and ~80% indirect-bidder takeup -- a stronger-than-feared result with no tail. Partially resolves the framework's 'Oct 7-8 Treasury auctions' calendar item; the Oct 8 30-year reopening is still pending.",
+    "url": "https://www.tftc.io/10-year-treasury-auction-5-300-yield-record-foreign-demand-2026",
+    "tag": null
   }
 ]
