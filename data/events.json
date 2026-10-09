@@ -564,5 +564,27 @@
     "t": "The Treasury's $39bn 10-year note reopening cleared at a 5.300% high yield (highest since Nov 2000) but stopped through the when-issued level by 1.7bp, with a 2.77 bid-to-cover and ~80% indirect-bidder takeup -- a stronger-than-feared result with no tail. Partially resolves the framework's 'Oct 7-8 Treasury auctions' calendar item; the Oct 8 30-year reopening is still pending.",
     "url": "https://www.tftc.io/10-year-treasury-auction-5-300-yield-record-foreign-demand-2026",
     "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F3"
+    ],
+    "t": "The Treasury's $22bn 30-year bond reopening cleared at a 5.618% high yield (the highest in decades) but was met with in-line demand -- bid-to-cover 2.54, indirect bidders taking 72.3%, no notable tail -- and longer-dated yields fell afterward. Resolves the framework's 'Oct 7-8 Treasury auctions' calendar item (the Oct 7 10-year leg already cleared strong); no tail on either leg, so F3's auction-reception criterion stays clear.",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
+    "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "The 10-year Treasury yield fell back below the 5.25% threshold, closing at 5.231% (Yahoo ^TNX, Oct 8) from 5.277% (Oct 7) even as a broad AI-complex selloff hit equities the same day (SOX -3.4%, Oracle -5.5%, CoreWeave -7.8%) on rising oil (Brent $104.28) and renewed long-end yield pressure ahead of the 30-year auction. F1 moves from red to yellow; macro amplifier falls from HIGH to MEDIUM (F3 is now the only Pillar F red).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d",
+    "tag": null
   }
 ]

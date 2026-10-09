@@ -361,10 +361,6 @@
   ],
   "calendar": [
     {
-      "when": "Oct 8",
-      "what": "30-year Treasury reopening (the Oct 7 10-year leg cleared at 5.300% with no tail, strong demand -- logged as an event). A tail on the 30-year feeds F3."
-    },
-    {
       "when": "Oct 15",
       "what": "TSMC Q3 earnings call: 2027 AI capex and capacity commentary."
     },
@@ -449,6 +445,10 @@
     {
       "date": "2026-10-08",
       "t": "SOX's drawdown widened back above 10% (A2: green to yellow) one session after its first sub-10% reading since baseline; narrative volume normalized back to roughly the baseline pace (E2: yellow to green) after Google News RSS's 7-day cap took the full week to fill instead of ~3 days. Net yellow count unchanged at 8. TSMC's September revenue (+54.6% YoY, record) resolved the '~Oct 10' calendar item early with no softening; the Oct 7 10-year Treasury auction cleared strongly with no tail, resolving half of the 'Oct 7-8 auctions' item (30-year still pending Oct 8)."
+    },
+    {
+      "date": "2026-10-09",
+      "t": "The Oct 8 30-year Treasury reopening cleared at 5.618% with in-line demand and no tail, resolving the 'Oct 8' calendar item (removed). Separately, the 10-year yield closed back below 5.25% (5.231%, Oct 8), flipping F1 from red to yellow and cutting the macro amplifier from HIGH to MEDIUM for the first time since the amplifier was added Sep 17 -- even as a broad AI-complex selloff hit equities the same day (SOX -3.4%, Oracle -5.5%, CoreWeave -7.8%). Pillars A-E unchanged: same 8 yellows, 0 reds, Stage holds at 0+."
     }
   ],
   "circularity": {
