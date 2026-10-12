@@ -449,6 +449,10 @@
     {
       "date": "2026-10-09",
       "t": "The Oct 8 30-year Treasury reopening cleared at 5.618% with in-line demand and no tail, resolving the 'Oct 8' calendar item (removed). Separately, the 10-year yield closed back below 5.25% (5.231%, Oct 8), flipping F1 from red to yellow and cutting the macro amplifier from HIGH to MEDIUM for the first time since the amplifier was added Sep 17 -- even as a broad AI-complex selloff hit equities the same day (SOX -3.4%, Oracle -5.5%, CoreWeave -7.8%). Pillars A-E unchanged: same 8 yellows, 0 reds, Stage holds at 0+."
+    },
+    {
+      "date": "2026-10-12",
+      "t": "First run after the weekend, reflecting Friday Oct 9's close. Pillars A-E fully unchanged for a second straight session (8 yellows, 0 reds, Stage holds at 0+). Within Pillar F, the MOVE bond-volatility index closed back under 100 for the first time in several weeks (98.47, Oct 9), flipping F2 from yellow to green; the amplifier still holds at MEDIUM because the term-premium series (F3) remains stuck at a 10-day-stale Oct 2 reading. No calendar items passed this run."
     }
   ],
   "circularity": {

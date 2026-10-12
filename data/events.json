@@ -586,5 +586,28 @@
     "t": "The 10-year Treasury yield fell back below the 5.25% threshold, closing at 5.231% (Yahoo ^TNX, Oct 8) from 5.277% (Oct 7) even as a broad AI-complex selloff hit equities the same day (SOX -3.4%, Oracle -5.5%, CoreWeave -7.8%) on rising oil (Brent $104.28) and renewed long-end yield pressure ahead of the 30-year auction. F1 moves from red to yellow; macro amplifier falls from HIGH to MEDIUM (F3 is now the only Pillar F red).",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-10-09",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE (bond-volatility index) closed at 98.47 on Oct 9, 2026, its first sub-100 close in several weeks, down from 100.70 on Oct 8, flipping F2 from yellow to green; the macro amplifier holds at MEDIUM because F3 (term premium) stays red on a stale Oct 2 reading.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-07",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "E1",
+      "E2"
+    ],
+    "t": "Ray Dalio said AI is a 'classic bubble' nearing its breaking point, speaking at the Forbes Global CEO Conference in Singapore and citing rising rates and debt-funded AI spending; narrative volume itself stayed at baseline pace this week.",
+    "url": "https://www.business-standard.com/world-news/ai-a-classic-bubble-that-is-nearing-bursting-point-warns-ray-dalio-126100700284_1.html",
+    "tag": "short-AI leaning"
   }
 ]
