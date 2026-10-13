@@ -3839,5 +3839,199 @@
     "brief": "briefs/2026-10-12.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged. No new dated filing or funding-round close this week; OpenAI's $30bn/$1.4T round remains open and unclosed at ~7 days. G3 stays not-yet-scorable. G4 stays not-yet-scorable; FRED's Ramp AI Index has no September print yet as of Oct 12."
+  },
+  {
+    "date": "2026-10-13",
+    "as_of": "close",
+    "close_date": "2026-10-12",
+    "stage": 0,
+    "stage_label": "Stress building (0+): same 8 yellows and 0 reds for a third straight session on confirmed closes; an overnight CXMT-driven Asia memory/chip selloff (SoftBank -8.5% in Tokyo's completed Oct 13 session, Kospi -7%+) is a real-time risk flagged in Watch next but does not move any A-E signal on this run's close-date cutoff",
+    "reds": 0,
+    "yellows": 8,
+    "greens": 16,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "F3 remains the only Pillar F red: FRED's term premium (THREEFYTP10) is still last dated Oct 2 at 1.0847%, now ~11 days stale and above the 1.0% red threshold. F2 (MOVE) had no Oct 12 print -- the bond market had a Columbus Day holiday/early close -- so it is carried at 98.47 (Oct 9), still green. F1 (TNX 5.24%, Oct 12) stays just inside the yellow band. With exactly one Pillar F red, amplifier holds MEDIUM. C1, C4, C5, D2 stay flagged at elevated risk of flipping on a further rate or credit move.",
+    "read": "On confirmed closes (Oct 12 for US names), nothing moved: the same 8 yellows and 0 reds held for a third straight session, SOX -16.39% from its June high (still yellow, not red), and Oracle's 5-year CDS remains frozen at the Sep 28 ~227bp print, now 15 days stale. The real action is happening after this run's close-date cutoff: China's CXMT reported small-volume HBM3E production and LPDDR6 mass production (The Information, Mon Oct 12), a direct competitive threat to Samsung/SK Hynix/Micron that triggered a sharp Asia selloff -- Kospi -7%+, Samsung -7%, SK Hynix -10%+, and SoftBank -8.5% to 5,310 yen in Tokyo's completed Oct 13 session, its worst day in months. US chip names already fell Monday (Micron -3.88%, SOX -2.67%, NVDA -1.29%), and premarket Tuesday pointed lower again, but none of that is a confirmed US close yet, so it does not move any A-E signal this run. B4 (supply chain) stays green: this is a competitive-share narrative, not yet a memory-price or TSMC-revenue confirmation. The macro amplifier holds at MEDIUM (F3's stale term premium is the lone red) and circularity holds HIGH (G1/G2 yellow, G3/G4 not yet scorable).",
+    "changed": [],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $226.32 (Oct 12, -1.29% day), -5.40% from a 52w high of $239.24 (Oct 6)"
+      },
+      "A2": {
+        "c": "Y",
+        "v": "SOX 12,236.79 (Oct 12, -2.67% day), -16.39% from 14,634.72 (Jun 22)"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 30,664.70 (Oct 12, -0.71% day), -1.79% from a same-week high of 31,224.47 (Oct 6)"
+      },
+      "A4": {
+        "c": "G",
+        "v": "20-session (Sep 14-Oct 12): SOX +9.93%, AMD +20.44%, NVDA +7.28%, MU +7.04%, NDX +5.28% vs RSP -0.85% -- leaders well ahead"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 15.21 (Oct 12 close), up from 14.84 (Oct 9)"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No NVDA or SOX -5%+ day this week (Oct 12: NVDA -1.29%, SOX -2.67%, AMD -2.28%, MU -3.88%, all below threshold)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; next guidance comes with Q3 earnings in late Oct"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure notice (Sep 25) remains unresolved; no company-confirmed pause found this run"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC September revenue +54.6% YoY record and Micron's fiscal Q4 beat (carried); China's CXMT reported small-volume HBM3E and mass-production LPDDR6 (Oct 12), a competitive-share threat to Samsung/SK Hynix/Micron, but no memory-price or TSMC-revenue confirmation yet -- stays green, flagged to watch"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "Oracle 5y CDS still last dated at a record ~227bp (Sep 28, T4 aggregators citing LSEG/Bloomberg); no fresher T1-T3 print found despite several searches -- now ~15 days stale, within the 150-250bp yellow band"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.89% (whalequant, dated Oct 8: HY tech 8.11% minus 10y 5.22%) -- 'LOW RISK' per the site; no fresher dated reading found this run"
+      },
+      "C3": {
+        "c": "G",
+        "v": "315bp / 3.15% (ICE BofA US HY OAS via FRED BAMLH0A0HYM2, dated Oct 8, no fresher print yet)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "No fresher dated TRACE print on SoftBank's new notes found this run; carried below-98 read from Oct 1. CoreWeave's bonds still reported around a ~13% yield / low-to-mid 90s per last dated sources -- wide of issue but above the <90 threshold"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $80.26 (Oct 12, -2.22% day), -43.38% from a $141.74 high (Oct 16, 2025); CoreWeave bonds still in the low-to-mid 90s, no going-concern language or peer default found"
+      },
+      "D1": {
+        "c": "G",
+        "v": "OpenAI's run-rate still reported near $70bn and Anthropic's near $65bn (carried), both still presented as targeting $100-120bn by year-end"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $30bn tranche at a $1.4T valuation remains in early-stage talks, unclosed (~7-8 days since first reported Oct 5-6), anchored by UAE sovereign funds (MGX) and BlackRock, no lead investor; Anthropic's IPO timeline has slipped further -- investor meetings Oct 14, roadshow week of Nov 9, listing targeted before Thanksgiving (Nov 26)"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100/B200 on-demand pricing still flat-to-up per latest snapshots; no idle-capacity reports found"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Mixed ROI studies persist (e.g. AIMG: 79% report no measurable EBIT impact vs an NVIDIA-sponsored 88%-positive claim) -- ROI skepticism continues in primary sources (carried)"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Only isolated names found (ClimateAi, Aug 2026, already known) -- no new shutdown wave found this run"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (BofA Sep 15 FMS, carried); October FMS not yet published as of Oct 13"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS's 100-item/7d cap filled across essentially the full window (Oct 6 16:38 UTC-Oct 13 12:51 UTC, ~165 hours) -- at the ~96-100 item/7-day baseline pace; GDELT's 7-day timelinevolraw endpoint returned a persistent rate-limit message across three tries, not retried further"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 87 'Extreme' (Oct 12, confirmed fresh, flat vs 87 Oct 9); boomorbubble.ai and aibubblemonitor.com returned no fresh dated snippet this run (both JS-rendered, not retried) -- carried at last-known Oct 4 'Boom' 0/5 red and baseline 49 'Neutral' respectively, both now stale; trackers still disagree, none clearly deteriorating"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Polymarket 'AI bubble burst in 2026' at 6.2% (live, Oct 12), flat vs ~6.2% (Oct 9/12); Nvidia insider selling stays elevated (carried); no IPO withdrawal found"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX closed 5.24% (Oct 12), essentially flat vs 5.244% (Oct 9), still inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "No Oct 12 ^MOVE print (bond-market Columbus Day holiday/early close); carried at 98.47 (Oct 9 close), still below the 100 green threshold"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Term premium (FRED THREEFYTP10) still last dated at 1.0847% (Oct 2), now ~11 days stale; no Treasury auction fell in this window to test the auction-reception leg -- the stale term-premium reading alone keeps F3 red"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $106.65 (Oct 12 close, above the $80-100 yellow band); breakeven 2.33% (FRED T10YIE, Oct 9, anchored <2.4%); CPI 3.4% (Aug, unchanged, Sep release due Oct 14) -- Yellow; R not triggered since CPI stays under 4%"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "No fresher official CME FedWatch reading found this run (last dated snapshot Aug 19: ~58% hold, ~37% one hike by Oct); secondary snapshots still cluster around roughly 1-2 hikes priced over 12 months -- Yellow (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in early-stage talks, unclosed, anchored by UAE sovereign funds (MGX) and BlackRock rather than suppliers; now ~7-8 days open, still well under the 90-day threshold"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's ~$70bn run-rate vs its roughly $1.4T of reported multi-year compute commitments (carried); Oracle's unresolved Project Jupiter force-majeure notice is a credible report of a site-level delay but not a company-confirmed deferral of a major commitment -- stays yellow, not escalated"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable; FRED's Ramp AI Index (RAMPAIALL) still has no September print as of Oct 13 (last updated Sep 29, through August); Microsoft's Azure ex-OpenAI growth differential awaits its late-Oct earnings call -- carried N"
+      }
+    },
+    "market": {
+      "spx": 7807.24,
+      "ndx": 30664.7,
+      "sox": 12236.79,
+      "sox_dd": -16.39,
+      "nvda": 226.32,
+      "nvda_dd": -5.4,
+      "ndx_dd": -1.79,
+      "tnx": 5.24,
+      "vix": 15.21,
+      "hy_oas": 315,
+      "move": 98.47,
+      "term_premium": 1.08,
+      "breakeven": 2.33,
+      "brent": 106.65,
+      "orcl": 137.39,
+      "crwv": 80.26
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "China's CXMT began small-volume HBM3E production and mass production of LPDDR6 (reported Mon Oct 12), a direct threat to Samsung/SK Hynix/Micron pricing power; the news drove a 7%+ Kospi/Samsung selloff and a 10%+ SK Hynix plunge in Tuesday's Asia session.",
+        "url": "https://oodaloop.com/briefs/technology/chinas-cxmt-makes-breakthrough-in-advanced-memory-chips/"
+      },
+      {
+        "kind": "HARD",
+        "t": "SoftBank Group (9984.T) closed Tokyo's completed Oct 13 session at 5,310 yen, down 8.5% from 5,803 (Oct 9), its sharpest drop in months, amid the broader AI/chip selloff and already-elevated SoftBank CDS.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/9984.T?range=1y&interval=1d"
+      },
+      {
+        "kind": "OPINION",
+        "t": "Joachim Klement (Panmure Liberum) said the AI trade could end as soon as 2027, targeting S&P 500 at 5,000 by year-end 2027, citing depleted hyperscaler free cash flow and rising debt costs (Bloomberg, Oct 8).",
+        "url": "https://www.cityam.com/?p=2387049"
+      }
+    ],
+    "sources": {
+      "T1": 13,
+      "T2": 3,
+      "T3": 3,
+      "T4": 3,
+      "T5": 3
+    },
+    "run_url": "https://claude.ai/code/session_01SCngsnDspFP7Djog4XN7De",
+    "brief": "briefs/2026-10-13.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow, unchanged. No new dated filing or funding-round close this week; OpenAI's $30bn/$1.4T round remains open and unclosed at ~7-8 days. G3 stays not-yet-scorable. G4 stays not-yet-scorable; FRED's Ramp AI Index has no September print yet as of Oct 13."
   }
 ]
