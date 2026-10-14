@@ -620,5 +620,16 @@
     "t": "China's CXMT began small-volume HBM3E production and mass production of LPDDR6 (reported Mon Oct 12), a direct competitive threat to Samsung/SK Hynix/Micron pricing power; the news drove a 7%+ Kospi/Samsung selloff, a 10%+ SK Hynix plunge and an 8.5% SoftBank drop (Tokyo, Oct 13) spreading from Monday's US chip-stock decline (Micron -3.9%, SOX -2.7%). No memory-price or TSMC-revenue confirmation yet.",
     "url": "https://oodaloop.com/briefs/technology/chinas-cxmt-makes-breakthrough-in-advanced-memory-chips/",
     "tag": null
+  },
+  {
+    "date": "2026-10-13",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE (bond-volatility index) closed at 101.09 on Oct 13, 2026, above the 100 green threshold for the first time in weeks, up from 98.47 (Oct 9, carried through the Oct 12 holiday); flips F2 from green to yellow. The macro amplifier holds at MEDIUM because F3 (term premium) is still the only Pillar F red.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
+    "tag": null
   }
 ]

@@ -453,6 +453,10 @@
     {
       "date": "2026-10-12",
       "t": "First run after the weekend, reflecting Friday Oct 9's close. Pillars A-E fully unchanged for a second straight session (8 yellows, 0 reds, Stage holds at 0+). Within Pillar F, the MOVE bond-volatility index closed back under 100 for the first time in several weeks (98.47, Oct 9), flipping F2 from yellow to green; the amplifier still holds at MEDIUM because the term-premium series (F3) remains stuck at a 10-day-stale Oct 2 reading. No calendar items passed this run."
+    },
+    {
+      "date": "2026-10-14",
+      "t": "Pillars A-E held flat for a fourth straight session (8 yellows, 0 reds). Within Pillar F, MOVE (bond volatility) closed back above 100 for the first time in weeks (101.09, Oct 13), flipping F2 from green to yellow; the amplifier stays MEDIUM because F3 (term premium) remains the lone Pillar F red, now on a fresher Oct 9 reading (1.0729%) after FRED resumed publishing. CXMT memory-competition fallout stayed contained to memory-adjacent names (Micron -3.62%, CoreWeave -3.05%) while NVDA, Broadcom, AMD, Oracle and Meta rebounded the same session. Unverified social-media claims of a fresh ~261bp Oracle CDS record (Oct 8) could not be corroborated by any T1-T3 source and did not change C1."
     }
   ],
   "circularity": {
