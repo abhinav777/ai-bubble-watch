@@ -361,12 +361,8 @@
   ],
   "calendar": [
     {
-      "when": "Oct 15",
-      "what": "TSMC Q3 earnings call: 2027 AI capex and capacity commentary."
-    },
-    {
       "when": "Mid-Oct",
-      "what": "BofA October fund manager survey; CPI release."
+      "what": "BofA October fund manager survey."
     },
     {
       "when": "Week of Nov 9 / mid-Nov",
@@ -457,6 +453,10 @@
     {
       "date": "2026-10-14",
       "t": "Pillars A-E held flat for a fourth straight session (8 yellows, 0 reds). Within Pillar F, MOVE (bond volatility) closed back above 100 for the first time in weeks (101.09, Oct 13), flipping F2 from green to yellow; the amplifier stays MEDIUM because F3 (term premium) remains the lone Pillar F red, now on a fresher Oct 9 reading (1.0729%) after FRED resumed publishing. CXMT memory-competition fallout stayed contained to memory-adjacent names (Micron -3.62%, CoreWeave -3.05%) while NVDA, Broadcom, AMD, Oracle and Meta rebounded the same session. Unverified social-media claims of a fresh ~261bp Oracle CDS record (Oct 8) could not be corroborated by any T1-T3 source and did not change C1."
+    },
+    {
+      "date": "2026-10-15",
+      "t": "SOX closed Oct 14 at 20.16% below its June 22 52-week high, crossing the >20% red threshold for the first time since the Sep 15 baseline: A2 flips yellow to red and the Stage moves from 0+ to 1 (price break). The move came amid a broad AI-complex selloff (Oracle -8.83%, CoreWeave -15.46%, Nvidia -3.16%, AMD -5.73%, Micron -4.10%) following a hotter-than-expected September CPI print (3.7% headline, up from 3.4%). Separately, this tracker corrects D1 from green to yellow: an Oct 8 FT/Reuters report that OpenAI's September run-rate is nearer $50bn -- about $20bn (29%) below the ~$70bn figure this brief had carried since September -- was missed for a week of runs and is being caught up now. F2 (MOVE) eased back to green (99.06, Oct 14). Net Pillar A-E count: 1 red, 8 yellow, 15 green -- numerically identical to the Sep 15 baseline, though the composition of yellows has shifted (demand-validation concerns now present; price-rotation concerns absent). TSMC's Oct 15 Q3 results beat and raised (revenue +50.9% YoY, Q4 guide $52.3-54.3bn), resolving the 'Oct 15 TSMC earnings' calendar item with no AI-demand softening. FRED was unreachable all run (HY OAS, term premium, breakeven carried stale)."
     }
   ],
   "circularity": {

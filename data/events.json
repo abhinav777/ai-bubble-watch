@@ -631,5 +631,41 @@
     "t": "MOVE (bond-volatility index) closed at 101.09 on Oct 13, 2026, above the 100 green threshold for the first time in weeks, up from 98.47 (Oct 9, carried through the Oct 12 holiday); flips F2 from green to yellow. The macro amplifier holds at MEDIUM because F3 (term premium) is still the only Pillar F red.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T2",
+    "signals": ["D1", "D2"],
+    "t": "OpenAI told investors its September annualized revenue run-rate is nearing $50bn, about $20bn (29%) below the ~$68-70bn figure that had circulated since late September and that this tracker had carried as evidence of 'still doubling' growth. FT/Reuters reporting attributes the gap to investors using Anthropic's revenue-counting convention (which includes cloud-partner sales) to estimate OpenAI's run-rate, a method OpenAI itself does not use; CFO Sarah Friar said revenue still rose about 70% quarter-over-quarter (Jun-Sep). Nvidia, Oracle and CoreWeave all sold off the same day on the report. This tracker did not catch the report for a week of runs; D1 is corrected from green to yellow on the Oct 15 run.",
+    "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T1",
+    "signals": ["A2"],
+    "t": "SOX closed at 11,684.38, 20.16% below its June 22, 2026 52-week closing high of 14,634.72 -- crossing the >20% red threshold for A2 for the first time since the Sep 15 baseline. Pillar A moves from 0 reds to 1 red and the overall Stage moves from 0+ (stress building) to 1 (price break). The close came amid a broad AI-complex selloff: Oracle -8.83%, CoreWeave -15.46%, Nvidia -3.16%, AMD -5.73%, Micron -4.10%, Broadcom -3.10%.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T1",
+    "signals": ["F4"],
+    "t": "September CPI rose 3.7% year-over-year (core 2.6%), up from August's 3.4% headline / 2.4% core, driven mainly by a 9.1% monthly jump in gasoline prices. The hotter-than-expected print revived Fed rate-hike concerns and was the proximate trigger for the same-day broad AI-stock selloff.",
+    "url": "https://www.axios.com/2026/10/14/cpi-september-inflation-trump",
+    "tag": null
+  },
+  {
+    "date": "2026-10-15",
+    "type": "hard",
+    "tier": "T1",
+    "signals": ["B4"],
+    "t": "TSMC's Q3 2026 results: revenue NT$1,494.24bn (+50.9% YoY), net income +68.7% YoY, gross margin 66.4%; Q4 guidance $52.3-54.3bn with management citing a steep 2nm ramp and no AI-demand softening. Resolves the framework's 'Oct 15 TSMC earnings call' calendar item with a beat and raise, not a cut.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+    "tag": null
   }
 ]

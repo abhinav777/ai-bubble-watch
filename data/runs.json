@@ -4234,5 +4234,218 @@
     "brief": "briefs/2026-10-14.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged. No new dated filing or funding-round close this week; OpenAI's $30bn/$1.4T round remains open and unclosed at ~9 days. G3 stays not-yet-scorable. G4 stays not-yet-scorable; no fresh Ramp AI Index print found."
+  },
+  {
+    "date": "2026-10-15",
+    "as_of": "close",
+    "close_date": "2026-10-14",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1): SOX closed 20.16% below its June 22 52-week high on Oct 14, crossing the >20% red threshold for the first time since the Sep 15 baseline -- Pillar A's first red of the tracker's life outside that baseline. Numerically the A-E scoreboard (1 red, 8 yellow, 15 green) now matches the baseline exactly, though the yellows are composed differently (a reported OpenAI revenue shortfall, not price rotation).",
+    "reds": 1,
+    "yellows": 8,
+    "greens": 15,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "F3 (term premium) is the only Pillar F red, carried at a stale Oct 9 FRED reading (1.0729%) because fred.stlouisfed.org was unreachable (timeouts/connection resets) on every attempt this run; the NY Fed's own ACM model, relayed via secondary coverage, put the term premium at roughly 0.98-1.08% around the same date, corroborating a reading still above the 1.0% threshold. F2 (MOVE) eased back to green (99.06, Oct 14) after one session above 100. With exactly one Pillar F red, amplifier holds MEDIUM. C1, C4, C5 and D2 stay flagged at elevated risk of flipping on a further rate, credit or funding-round move.",
+    "read": "Pillar A recorded its first red signal since the Sep 15 baseline: SOX closed Oct 14 at 11,684.38, 20.16% below its June 22 high -- a narrow but real crossing of the >20% threshold -- as a hot September CPI print (3.7% headline, up from 3.4%, core 2.6%) drove a broad AI-complex selloff (Oracle -8.83%, CoreWeave -15.46%, Nvidia -3.16%, AMD -5.73%, Micron -4.10%). Separately, this tracker is correcting a blind spot: an Oct 8 FT/Reuters report that OpenAI told investors its September run-rate is nearer $50bn, about $20bn (29%) below the ~$70bn figure this brief had carried since September as evidence D1 was 'still doubling,' went unflagged for a week of runs; D1 moves from green to yellow now. Pillar G (circularity) stays HIGH, and the lower disclosed revenue base pushes OpenAI's loop-cash-gap ratio (G2) toward the upper end of its 2-5x yellow band rather than the middle. None of this is a hyperscaler capex cut, a credit event, or a confirmed demand decline -- TSMC's Oct 15 Q3 results beat and raised with no AI-demand softening, and the day's loudest credit claim (a CoreWeave bond yield 'soaring to 15%') traces to a social-media chart, not a TRACE print. It is Stage 1 exactly as the framework defines it: a price break, unconfirmed by capex, revenue or credit.",
+    "changed": [
+      {
+        "signal": "A2",
+        "from": "Y",
+        "to": "R",
+        "why": "SOX closed Oct 14 at 11,684.38, 20.16% below its June 22, 2026 52-week closing high of 14,634.72, crossing the >20% red threshold for the first time since the Sep 15 baseline."
+      },
+      {
+        "signal": "F2",
+        "from": "Y",
+        "to": "G",
+        "why": "MOVE (bond volatility) closed at 99.06 on Oct 14, back under the 100 threshold after one session above it (101.09, Oct 13)."
+      },
+      {
+        "signal": "D1",
+        "from": "G",
+        "to": "Y",
+        "why": "Correction: an Oct 8 FT/Reuters report (missed by this tracker for a week) said OpenAI's September run-rate is nearer $50bn, ~$20bn (29%) below the ~$70bn figure this brief had carried as D1's green evidence."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $221.30 (Oct 14, -3.16% day), -7.50% from a 52w closing high of $239.24 (Oct 6)"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 11,684.38 (Oct 14, -4.30% day), -20.16% from a 52w closing high of 14,634.72 (Jun 22) -- crosses the >20% red threshold"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 29,950.82 (Oct 14, -2.02% day), -4.08% from 31,224.47 (Oct 6)"
+      },
+      "A4": {
+        "c": "G",
+        "v": "20-session (Sep 15-Oct 14): SOX +4.55%, AMD +13.21%, NVDA +4.30%, NDX +3.50% vs RSP -0.87% -- leaders still ahead on balance (MU -1.45% is the one laggard)"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 16.87 (Oct 14 close, +10.48% day), still under 20"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No NVDA or SOX -5%+ single day this week (SOX -4.30% Oct 14 is the closest); no two -5% days"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; no official 2027 guidance yet (first color due with late-Oct Q3 earnings)"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure notice remains unresolved; the $18bn construction loan still trades below 90 cents on the dollar; no company-confirmed pause"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC Q3 2026: revenue NT$1,494.24bn (+50.9% YoY), net income +68.7% YoY, Q4 guide $52.3-54.3bn, 2nm ramp -- beat and raise, no AI-demand softening"
+      },
+      "C1": {
+        "c": "Y",
+        "v": "Oracle 5y CDS still last dated at a record ~227bp (Sep 28), now 17 days stale; no fresher T1-T3 print found this run; carried per the framework's stale-value rule"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.92% (whalequant, dated Oct 13: tech HY 8.13% minus 10y 5.21%) -- 'LOW RISK' per the site"
+      },
+      "C3": {
+        "c": "G",
+        "v": "311bp carried (Oct 12, FRED BAMLH0A0HYM2) -- fred.stlouisfed.org unreachable this run (timeouts on repeated attempts)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "No fresher dated TRACE print found; a chart claiming CoreWeave's bond yield is 'soaring to 15%' (shared by investor Chamath Palihapitiya, relayed by Yahoo Finance, Oct 14) is UNVERIFIED against primary bond data and not used to change color; Bloomberg Law (Oct 6) reports hyperscaler CDS near their widest levels of the year"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CRWV $65.78 (Oct 14, -15.46% day), -53.59% from a $141.74 high (Oct 16, 2025); NBIS -35.12%, IREN -60.01%, APLD -59.06% from their highs -- deepening drawdowns, still no going-concern language or confirmed bond price below 80"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Correction: OpenAI told investors (FT/Reuters, Oct 8) its September annualized run-rate is nearing $50bn, ~$20bn (29%) below the ~$70bn figure previously carried; CFO says revenue still rose ~70% quarter-over-quarter (Jun-Sep); Anthropic's ~$65bn (carried) unaffected"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $30bn tranche at a $1.4T valuation remains in early-stage talks, unclosed (~10 days since first reported Oct 5-6), anchored by UAE sovereign funds (MGX) and BlackRock; Anthropic's IPO still targets marketing the week of Nov 9"
+      },
+      "D3": {
+        "c": "G",
+        "v": "H100 SXM ~$4.20/hr median, B200 ~$8.19/hr (Uvik GPU Price Index, Oct), up from ~$3.06/hr (Sept 6) -- flat/up, no idle-capacity reports"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Mixed ROI studies persist (AIMG: 79% report no measurable EBIT impact; WRITER: 29% see significant ROI; vs an NVIDIA-sponsored 88%-positive claim) -- carried"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Only isolated names found (ClimateAi Aug, AI21 Labs May, already known) -- no new shutdown wave found this run"
+      },
+      "E1": {
+        "c": "G",
+        "v": "28% (BofA Sep 15 FMS, carried); October FMS not yet published as of Oct 15"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS's 100-item/7d cap filled over ~165.5 hours (~6.9 days) -- at baseline pace; GDELT's 7-day endpoint returned an empty payload and the 12-month endpoint stayed rate-limited (429) after one retry, not usable this run"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 86 'Extreme' (Oct 14, down slightly from 88 Oct 13); boomorbubble.ai and aibubblemonitor.com returned no fresh dated snippet (both JS-rendered, not retried) -- carried at last-known readings; trackers still disagree, none clearly deteriorating"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Polymarket 'AI bubble burst by Dec 31, 2026' ~6.6% (live, Oct 15), flat vs ~6% (Oct 14); Nvidia director Mark Stevens' ~$947m Q3 sale remains the largest reported insider sale (carried); no IPO withdrawal found"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX / FRED DGS10 closed 5.19% (Oct 14), down from 5.217% (Oct 13), inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE closed 99.06 (Oct 14), back under the 100 green threshold after one session above it (101.09, Oct 13)"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Term premium (FRED THREEFYTP10) carried at a stale Oct 9 reading of 1.0729% -- fred.stlouisfed.org was unreachable this run; the NY Fed's ACM model, per secondary coverage, read ~0.98-1.08% around the same date, consistent with a reading still above the 1.0% threshold"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "September CPI 3.7% YoY (core 2.6%), up from August's 3.4%/2.4% (released Oct 14); Brent $106.06 (Oct 14 close), above the $80-100 yellow band but R requires Brent>$100 together with CPI>4%; breakeven carried 2.33% (Oct 13, FRED unreachable this run) -- Yellow"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "No fresher dated CME FedWatch reading found this run; the hot CPI print likely raises hike odds but no dated figure confirms a shift -- Yellow (carried)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in early-stage talks, unclosed, anchored by UAE sovereign funds (MGX) and BlackRock rather than suppliers; now ~10 days open, still well under the 90-day threshold"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's disclosed ~$50bn run-rate (Oct 8) against its roughly $1.4T of reported multi-year compute commitments pushes the loop-cash-gap ratio toward the upper end of the 2-5x yellow band (versus the middle of that band under the previously carried ~$70bn figure); no confirmed deferral"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable; Ramp AI Index still has no October print found as of Oct 15; Microsoft's Azure ex-OpenAI growth differential awaits its late-Oct earnings call -- carried N"
+      }
+    },
+    "market": {
+      "spx": 7718.94,
+      "ndx": 29950.82,
+      "sox": 11684.38,
+      "sox_dd": -20.16,
+      "nvda": 221.3,
+      "nvda_dd": -7.5,
+      "ndx_dd": -4.08,
+      "tnx": 5.19,
+      "vix": 16.87,
+      "hy_oas": 311,
+      "move": 99.06,
+      "term_premium": 1.07,
+      "breakeven": 2.33,
+      "brent": 106.06,
+      "orcl": 130.55,
+      "crwv": 65.78
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "SOX closed Oct 14, 2026 at 11,684.38, 20.16% below its June 22 52-week closing high -- crossing the >20% red threshold and flipping Pillar A signal A2 to red for the first time since the Sep 15 baseline, moving the overall Stage to 1.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d"
+      },
+      {
+        "kind": "HARD",
+        "t": "OpenAI told investors its September annualized revenue run-rate is nearing $50bn, about $20bn (29%) below the ~$70bn figure that had circulated since late September and that this tracker carried as D1's green evidence (FT/Reuters, Oct 8) -- missed for a week of runs and corrected now.",
+        "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854"
+      },
+      {
+        "kind": "HARD",
+        "t": "September CPI rose 3.7% year-over-year (core 2.6%), up from August's 3.4%/2.4%, released Oct 14 and driven largely by a 9.1% monthly jump in gasoline -- the proximate trigger for the day's broad AI-stock selloff (Oracle -8.83%, CoreWeave -15.46%, Nvidia -3.16%).",
+        "url": "https://www.axios.com/2026/10/14/cpi-september-inflation-trump"
+      }
+    ],
+    "sources": {
+      "T1": 9,
+      "T2": 5,
+      "T3": 2,
+      "T4": 3,
+      "T5": 1
+    },
+    "run_url": "https://claude.ai/code/session_01GJJWM7kyFabSZhmfr1j9CM",
+    "brief": "briefs/2026-10-15.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow. No new dated filing or funding-round close this week; OpenAI's $30bn/$1.4T round remains open and unclosed at ~10 days. The Oct 8-disclosed ~$50bn run-rate (vs the ~$70bn figure used previously) pushes G2's loop-cash-gap ratio toward the upper end of its yellow band rather than the middle, though not yet to a new color. G3 and G4 stay not-yet-scorable."
   }
 ]
