@@ -3,7 +3,7 @@
 A daily, evidence-weighted read on whether the AI investment boom is deflating. A fixed framework of 33 signals in seven pillars is scored every US trading day by an automated check (a Claude Code cloud routine) that reads filings, prices, spreads and wires, weights every source by reliability and incentive, and commits one row to `data/runs.json`. The page at the GitHub Pages URL renders from those files.
 
 - `index.html`, `assets/` — the dashboard (no build step; plain HTML/CSS/JS)
-- `data/runs.json` — one record per trading day: stage, counts, amplifier, circularity level, all 33 signal colors and readings, market snapshot, changes, top developments
+- `data/runs.json` — one record per trading day: stage, counts, amplifier, circularity level, all 33 signal colors and readings, market snapshot, the four public tracker readings, changes, top developments
 - `data/events.json` — dated events that moved a signal or bear on the thesis
 - `data/framework.json` — pillars, signals, thresholds, stage rules, source tiers, calendar, changelog
 - `briefs/` — the full daily brief as Markdown, one file per run

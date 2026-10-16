@@ -147,6 +147,32 @@
       "orcl": null,
       "crwv": null
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 86.0,
+        "label": "Extreme",
+        "date": "2026-09-15",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 49,
+        "label": "Neutral",
+        "date": "2026-09-15",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-09-15",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 16.0,
+        "v2027": null,
+        "date": "2026-09-15",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -314,6 +340,32 @@
       "brent": 106,
       "orcl": null,
       "crwv": null
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 49.4,
+        "label": "Neutral",
+        "date": "2026-09-16",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": null,
+        "v2027": null,
+        "date": null,
+        "carried": false
+      }
     },
     "top": [
       {
@@ -483,6 +535,32 @@
       "brent": 104.08,
       "orcl": 150.59,
       "crwv": 79.88
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": null,
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 49.8,
+        "label": "Neutral",
+        "date": "2026-09-17",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-09-15",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 9.7,
+        "v2027": null,
+        "date": "2026-09-17",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -659,6 +737,32 @@
       "brent": 104.82,
       "orcl": 150.59,
       "crwv": 79.88
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": "2026-09-17",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.5,
+        "label": "Heating Up",
+        "date": "2026-09-18",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 12.0,
+        "v2027": null,
+        "date": "2026-09-18",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -849,6 +953,32 @@
       "orcl": 147.61,
       "crwv": 81.36
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": "2026-09-18",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-09-21",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-09-20",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 9.0,
+        "v2027": null,
+        "date": "2026-09-21",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -1025,6 +1155,32 @@
       "orcl": 148.56,
       "crwv": 85.43
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 89.0,
+        "label": "Extreme",
+        "date": "2026-09-21",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-09-22",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-09-22",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 10.75,
+        "v2027": null,
+        "date": "2026-09-22",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -1200,6 +1356,32 @@
       "brent": 96.46,
       "orcl": 149.2,
       "crwv": 86.76
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": "2026-09-22",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 52.1,
+        "label": "Heating Up",
+        "date": "2026-09-23",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-09-22",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 10.0,
+        "v2027": null,
+        "date": "2026-09-23",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -1383,6 +1565,32 @@
       "brent": 99.78,
       "orcl": 144.56,
       "crwv": 86.9
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 87.0,
+        "label": "Extreme",
+        "date": "2026-09-23",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 51.4,
+        "label": "Heating Up",
+        "date": "2026-09-24",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 10.0,
+        "v2027": null,
+        "date": "2026-09-24",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -1589,6 +1797,32 @@
       "orcl": 139.54,
       "crwv": 90.13
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 87.0,
+        "label": "Extreme",
+        "date": "2026-09-24",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 51.8,
+        "label": "Heating Up",
+        "date": "2026-09-25",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 10.0,
+        "v2027": null,
+        "date": "2026-09-25",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -1789,6 +2023,32 @@
       "brent": 104.32,
       "orcl": 137.1,
       "crwv": 87.59
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 87.0,
+        "label": "Extreme",
+        "date": "2026-09-25",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-09-28",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-09-28",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 9.3,
+        "v2027": null,
+        "date": "2026-09-28",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -1991,6 +2251,32 @@
       "orcl": 132.6,
       "crwv": 85.07
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 89.0,
+        "label": "Extreme",
+        "date": "2026-09-28",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-09-29",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": null,
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": null,
+        "v2027": null,
+        "date": null,
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -2191,6 +2477,32 @@
       "brent": 102.59,
       "orcl": 137.79,
       "crwv": 85.93
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": "2026-09-29",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.8,
+        "label": "Heating Up",
+        "date": "2026-09-30",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": null,
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 9.0,
+        "v2027": null,
+        "date": "2026-09-30",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -2399,6 +2711,32 @@
       "orcl": 137.3,
       "crwv": 87.12
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": "2026-10-01",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 51.0,
+        "label": "Heating Up",
+        "date": "2026-10-01",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": null,
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 9.0,
+        "v2027": null,
+        "date": "2026-10-01",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -2599,6 +2937,32 @@
       "brent": 102.31,
       "orcl": 138.07,
       "crwv": 88.57
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 89.0,
+        "label": "Extreme",
+        "date": "2026-10-01",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.3,
+        "label": "Heating Up",
+        "date": "2026-10-02",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": null,
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 7.9,
+        "v2027": null,
+        "date": "2026-10-02",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -2801,6 +3165,32 @@
       "orcl": 142.3,
       "crwv": 89.62
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 90.0,
+        "label": "Extreme",
+        "date": "2026-10-02",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-10-05",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-04",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": null,
+        "v2027": null,
+        "date": null,
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -2994,6 +3384,32 @@
       "brent": 100.32,
       "orcl": 142.48,
       "crwv": 87.39
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 91.0,
+        "label": "Extreme",
+        "date": "2026-10-05",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-10-06",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-04",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 6.0,
+        "v2027": null,
+        "date": "2026-10-06",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -3202,6 +3618,32 @@
       "orcl": 144.77,
       "crwv": 91.72
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 89.0,
+        "label": "Extreme",
+        "date": "2026-10-06",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 51.1,
+        "label": "Heating Up",
+        "date": "2026-10-07",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-04",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 6.2,
+        "v2027": null,
+        "date": "2026-10-07",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -3409,6 +3851,32 @@
       "orcl": 143.56,
       "crwv": 88.45
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 89.0,
+        "label": "Extreme",
+        "date": "2026-10-07",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.7,
+        "label": "Heating Up",
+        "date": "2026-10-08",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-04",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 6.0,
+        "v2027": null,
+        "date": "2026-10-08",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -3609,6 +4077,32 @@
       "brent": 104.28,
       "orcl": 135.69,
       "crwv": 81.58
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 87.6,
+        "label": "Extreme",
+        "date": "2026-10-08",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.6,
+        "label": "Heating Up",
+        "date": "2026-10-09",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-04",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 6.15,
+        "v2027": null,
+        "date": "2026-10-09",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -3811,6 +4305,32 @@
       "orcl": 141.4,
       "crwv": 82.08
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 87.0,
+        "label": "Extreme",
+        "date": "2026-10-09",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 56.8,
+        "label": "Heating Up",
+        "date": "2026-10-12",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 6.2,
+        "v2027": null,
+        "date": "2026-10-12",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -4004,6 +4524,32 @@
       "brent": 106.65,
       "orcl": 137.39,
       "crwv": 80.26
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 87.0,
+        "label": "Extreme",
+        "date": "2026-10-12",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.5,
+        "label": "Heating Up",
+        "date": "2026-10-13",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 6.2,
+        "v2027": null,
+        "date": "2026-10-13",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -4205,6 +4751,32 @@
       "brent": 105.69,
       "orcl": 143.2,
       "crwv": 77.81
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 88.0,
+        "label": "Extreme",
+        "date": "2026-10-13",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.7,
+        "label": "Heating Up",
+        "date": "2026-10-14",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 6.0,
+        "v2027": null,
+        "date": "2026-10-14",
+        "carried": false
+      }
     },
     "top": [
       {
@@ -4419,6 +4991,32 @@
       "orcl": 130.55,
       "crwv": 65.78
     },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 86.0,
+        "label": "Extreme",
+        "date": "2026-10-14",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 50.0,
+        "label": "Heating Up",
+        "date": "2026-10-15",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 6.6,
+        "v2027": null,
+        "date": "2026-10-15",
+        "carried": false
+      }
+    },
     "top": [
       {
         "kind": "HARD",
@@ -4625,6 +5223,32 @@
       "brent": 105.92,
       "orcl": 134.47,
       "crwv": 69.69
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 86.0,
+        "label": "Extreme",
+        "date": "2026-10-15",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 49.2,
+        "label": "Neutral",
+        "date": "2026-10-16",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": null,
+        "label": null,
+        "date": null,
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 7.0,
+        "v2027": null,
+        "date": "2026-10-16",
+        "carried": false
+      }
     },
     "top": [
       {

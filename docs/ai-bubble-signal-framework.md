@@ -67,6 +67,8 @@ Two lessons for the monitor: (a) price falls first but is noisy; capex cuts and 
 | E3 | Composite trackers: aibubble.watch score, aibubblemonitor.com index, boomorbubble.ai red-gauge count | Disagreeing (as on baseline day) | Two of three deteriorating | All three deteriorating; boomorbubble ≥ 2 red gauges | Fetch each site |
 | E4 | Insider selling and IPO froth | Normal | Record insider sales at AI names; IPOs of unprofitable AI companies doubling on day one | Sudden IPO withdrawals (funding window closing) | SEC Form 4 coverage, Renaissance Capital |
 
+Tracker readings behind E3 (aibubble.watch score, aibubblemonitor.com score, boomorbubble.ai red-gauge count, Polymarket's "AI bubble burst in 2026?" price) are stored in each run row's trackers object and shown on the dashboard's Trackers strip; all three machine-readable sources are read as JSON: boomorbubble.ai (api/gauges), Polymarket (gamma-api events by slug) and aibubblemonitor.com (api/index/current).
+
 Important: E-pillar signals have fired several times since 2025 (Aug 2025 MIT "95%" study, Nov 2025 Burry short, etc.) without a Stage 3-5 progression. Treat narrative spikes as a prompt to check Pillars B-D, not as evidence on their own.
 
 ## Pillar F: Macro transmission (added 2026-09-17; amplifier, never a stage trigger)

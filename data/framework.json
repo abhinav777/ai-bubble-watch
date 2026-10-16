@@ -457,6 +457,10 @@
     {
       "date": "2026-10-16",
       "t": "First Stage 5 (credit event) trigger of the tracker's life: CoreWeave's 9.625% senior unsecured notes due 2032 traded below 80 cents on the dollar on Oct 14 (Bloomberg, citing TRACE pricing data; yield >15%) and continued trading in the high-$70s to low-$80s through Oct 15 (Reuters/Tradeweb via CNBC), crossing C5's 'bonds <80' red threshold for the first time -- even as CRWV equity itself recovered +5.94% on Oct 15. Oracle fell 8.83% on Oct 14 as the bond scare spread through the neocloud/hyperscaler-supplier complex; SoftBank fell a further 9.33% on Oct 15 (after -8.50% Oct 13), extending its decline to -43.8% from its June high. SOX deepened to -20.86% below its high (A2 stays red). Separately, F2 (MOVE) flipped back yellow (102.49, Oct 15) one session after going green, and the Mid-Oct BofA fund manager survey (released Oct 13, fielded Oct 2-8) resolved the calendar item: 'AI bubble' tail risk eased to 23% of respondents (from 28% in September, now third behind bond yields at 31% and a second inflation wave at 20%), even as 11% named a hyperscaler/AI credit event as the likeliest trigger -- a risk that began showing up in CoreWeave's bond market the same week the survey was fielded. Stage is now reported as 5 (credit event), the most advanced stage yet triggered, though the underlying bond print is fresh, narrow (within a few cents of the threshold) and could reverse quickly; Pillar A's Stage-1 price break (A2) persists concurrently. Pillar G stays HIGH (G1, G2 yellow; G3, G4 not yet scorable)."
+    },
+    {
+      "date": "2026-10-16",
+      "t": "Trackers strip restored on the dashboard: aibubble.watch, aibubblemonitor.com, Exponential View (boomorbubble.ai) and Polymarket readings are now recorded in every run row (trackers object) and were back-filled since Sep 15 from the recorded E3 readings, the briefs and aibubblemonitor.com's own history API. boomorbubble.ai, Polymarket and aibubblemonitor.com are read via JSON endpoints instead of search snippets."
     }
   ],
   "circularity": {

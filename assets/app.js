@@ -90,6 +90,29 @@
   // CALENDAR
   $('cal').innerHTML = (fw.calendar||[]).map(c=>`<li><span class="d">${esc(c.when)}</span><div>${esc(c.what)}</div></li>`).join('');
 
+  // TRACKERS
+  const TR = [
+    {key:'aibubble_watch', name:'aibubble.watch', url:'https://aibubble.watch/en-US/ai-bubble-monitor', fmt:v=>fmt(v,0), what:'Composite 0 to 100 from five sub-indicators including narrative heat'},
+    {key:'aibubblemonitor', name:'aibubblemonitor.com', url:'https://aibubblemonitor.com/', fmt:v=>fmt(v,0), what:'Composite 0 to 100: valuation, momentum, concentration, systemic risk'},
+    {key:'boomorbubble', name:'Exponential View', url:'https://boomorbubble.ai/', fmt:v=>(v==null?'—':v+'/5'), what:'Red gauges of five; two reds mean trouble, three imminent trouble'},
+    {key:'polymarket_burst', name:'Polymarket', url:'https://polymarket.com/event/ai-bubble-burst-by', fmt:v=>fmt(v,(v!=null&&v<10)?1:0,'%'), what:'Price of "AI bubble burst in 2026?" resolving yes'}
+  ];
+  const trackHtml = TR.map(t=>{
+    const series = runs.map(r=>(r.trackers&&r.trackers[t.key]&&r.trackers[t.key].v!=null)?Number(r.trackers[t.key].v):null);
+    const idxs = series.map((v,i)=>v===null?-1:i).filter(i=>i>=0);
+    const head = `<span class="k"><a href="${esc(t.url)}">${esc(t.name)}</a></span>`;
+    if(!idxs.length) return `<div class="tile">${head}<span class="v num">—</span><span class="l">${esc(t.what)}. No reading recorded yet.</span></div>`;
+    const li=idxs[idxs.length-1], fi=idxs[0]; const cur=runs[li].trackers[t.key], first=runs[fi].trackers[t.key];
+    const vals=idxs.map(i=>series[i]); const min=Math.min(...vals), max=Math.max(...vals), span=(max-min)||1;
+    const W=240,H=36,P=3; const x=(i)=>P+(runs.length===1?W/2:i*(W-2*P)/(runs.length-1)); const y=(v)=>P+(H-2*P)*(1-(v-min)/span);
+    let d='', firstPt=true; series.forEach((v,i)=>{ if(v===null) return; d+=(firstPt?'M':'L')+x(i).toFixed(1)+' '+y(v).toFixed(1)+' '; firstPt=false; });
+    const extra = (t.key==='polymarket_burst'&&cur.v2027!=null)?` By mid-2027: ${fmt(cur.v2027,1,'%')}.`:'';
+    const asof = fmtDate(cur.date||runs[li].date);
+    const base = (fi!==li&&first.v!=null)?` &middot; Sep 15 baseline ${t.fmt(first.v)}`:'';
+    return `<div class="tile">${head}<span class="v num">${t.fmt(cur.v)}</span><span class="l">${cur.label?`<b>${esc(cur.label)}.</b> `:''}${esc(t.what)}.${extra}</span><svg class="tspark" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none" role="img" aria-label="${esc(t.name)} trend"><path d="${d.trim()}" fill="none" stroke="var(--accent)" stroke-width="1.8" stroke-linejoin="round" stroke-linecap="round"/></svg><span class="l">As of ${esc(asof)}${cur.carried?' &middot; <span class="mark">carried</span>':''}${base}</span></div>`;
+  }).join('');
+  if($('trackers')) $('trackers').innerHTML = trackHtml;
+
   // FRAMEWORK REFERENCE
   let fb = `<h3>Stages and the dot-com template</h3><div class="tblwrap"><table class="stagetbl"><thead><tr><th>Stage</th><th>Rule</th><th>Dot-com analogue</th></tr></thead><tbody>${fw.stages.map(s=>`<tr><td><b>${s.n} &middot; ${esc(s.name)}</b></td><td>${esc(s.rule)}</td><td>${esc(s.dotcom||'')}</td></tr>`).join('')}</tbody></table></div>`;
   fb += `<h3>Macro amplifier</h3><p>${esc(fw.amplifier.rule)}</p>`;
