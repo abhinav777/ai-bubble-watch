@@ -667,5 +667,41 @@
     "t": "TSMC's Q3 2026 results: revenue NT$1,494.24bn (+50.9% YoY), net income +68.7% YoY, gross margin 66.4%; Q4 guidance $52.3-54.3bn with management citing a steep 2nm ramp and no AI-demand softening. Resolves the framework's 'Oct 15 TSMC earnings call' calendar item with a beat and raise, not a cut.",
     "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
     "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T2",
+    "signals": ["C5", "C4"],
+    "t": "CoreWeave's 9.625% senior unsecured notes due 2032 traded below 80 cents on the dollar (Bloomberg, citing TRACE pricing data; yield briefly above 15%), the framework's distress threshold for C5. Reuters/Tradeweb coverage (via CNBC) put the bonds in the high-$70s to low-$80s through Oct 15 even as the stock recovered +5.94% that day. First time C5 has crossed from yellow to red since the Sep 15 baseline. No going-concern language or missed payment; CEO Michael Intrator called the move irrational, citing a ~$104bn backlog.",
+    "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T2",
+    "signals": ["C5", "A2"],
+    "t": "Oracle fell 8.83% and SOX fell 4.30% on Oct 14 as CoreWeave's bond selloff spread through the neocloud/hyperscaler-supplier complex; Nvidia -3.16%, AMD -5.73%, Micron -4.10%. SoftBank fell a further 9.33% on Oct 15 (after -8.50% on Oct 13), extending its week's decline to roughly -17% and its drawdown from its June 2026 high to about -43.8%.",
+    "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-13",
+    "type": "hard",
+    "tier": "T1",
+    "signals": ["E1"],
+    "t": "BofA's October Global Fund Manager Survey (fielded Oct 2-8, 185 panelists, $512bn AUM) finds 'AI bubble' named by 23% as the biggest tail risk, down from 28% in September and now third behind a disorderly bond-yield rise (31%) and a second inflation wave (20%); 11% name a hyperscaler/AI credit event as the likeliest trigger of a broader credit event. Fund managers' tech overweight rose to 37%, the highest since August 2020.",
+    "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-16",
+    "type": "framework",
+    "tier": null,
+    "signals": ["C5"],
+    "t": "Calendar item 'Mid-Oct BofA October fund manager survey' resolved and removed (see Oct 13 event). Stage reported as 5 (credit event) for the first time, triggered by C5's red; Pillar A's Stage-1 price break (A2) persists concurrently.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
   }
 ]
