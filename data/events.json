@@ -733,5 +733,38 @@
     "t": "Dashboard gains a Trackers strip; each run row now records the four public tracker readings behind E3, with boomorbubble.ai, Polymarket and aibubblemonitor.com read as JSON.",
     "url": "docs/ai-bubble-signal-framework.md",
     "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A2"
+    ],
+    "t": "SOX closed Oct 16 at 11,137.29, 23.90% below its June 22 52-week high, deepening from -20.86% (Oct 15) as a broad AI-complex selloff continued (AVGO -4.52%, AMD -5.95%, MU -5.63%, CRWV -11.91%).",
+    "url": "https://finance.yahoo.com/quote/%5ESOX/history",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave fell a further 11.91% on Oct 16 to $61.39, extending the slide below its bonds' sub-80-cent distress level established Oct 14-15 with no recovery evident.",
+    "url": "https://finance.yahoo.com/quote/CRWV/history",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "Two of three public bubble trackers behind E3 deteriorated: aibubblemonitor.com rose to 56.8 'Heating Up' (Oct 19) from 49.2 'Neutral' (Oct 16), and Polymarket's 'AI bubble burst in 2026' contract rose to ~9.05% (Oct 19) from ~7.0% (Oct 16); aibubble.watch held roughly flat (85 vs 86 'Extreme'). E3 flips green to yellow for the first time since the trackers were reinstated.",
+    "url": "https://aibubblemonitor.com/api/index/current",
+    "tag": null
   }
 ]
