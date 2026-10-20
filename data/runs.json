@@ -5505,5 +5505,244 @@
     "brief": "briefs/2026-10-19.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged. OpenAI's $30bn/$1.4T round remains open and unclosed (~3 weeks since first reported), anchored by outside capital (UAE's MGX, BlackRock) rather than suppliers. G3 and G4 stay not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's late-Oct call."
+  },
+  {
+    "date": "2026-10-20",
+    "as_of": "close",
+    "close_date": "2026-10-19",
+    "stage": 5,
+    "stage_label": "Credit event (Stage 5): Oracle's 5-year CDS hit a record 288bp on Oct 15 (crossing the 250bp red threshold for the first time), confirming a second active credit-stress signal alongside CoreWeave's unresolved bond/CDS distress -- reds rise to 3 from 2 even as equities rallied.",
+    "reds": 3,
+    "yellows": 9,
+    "greens": 12,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "F3 (term premium) stays the lone Pillar F red, now 9 trading days stale at the Oct 9 FRED reading (1.0729%) -- THREEFYTP10 still hasn't posted a newer value. F1 (10y, 5.14%) and F2 (MOVE, 101.3) hold yellow, just inside their bands. One Pillar F red keeps the amplifier at MEDIUM; C1, C4, C5 and D2 stay flagged at elevated risk of flipping -- C1 just did.",
+    "read": "Equities rallied Monday (Oct 19) as the Oct 14-16 selloff found a floor -- SOX +1.61% to 11,316 (still 22.67% below its June high), NVDA +1.38%, AMZN +4.98%, VIX down 7.75% to 18.44 -- but two credit facts from the same week the rally followed outweigh the price relief. Oracle's 5-year CDS hit a record 288bp on Oct 15 (Reuters, via S&P Global Market Intelligence/ICE data relayed by multiple aggregators after direct wire access was blocked this run), crossing this framework's 250bp red threshold for the first time and flipping C1 red. The same day, CoreWeave's CDS spiked above 1,000bp (~63% implied 5-year default probability) while its bonds showed a mixed, partial intraday rebound -- not enough to lift C5 off red given the CDS corroboration. SoftBank fell a further 6.01% in Tokyo on Oct 20 to 4,554 yen (-47.2% from its June high) amid AI-debt rating-agency warnings and an SK Hynix slump. Narrative volume also picked up (Google News RSS's weekly cap filling in ~4 days versus the 7-day baseline) and the 20-day AI-leader rotation widened to a 5-10pt lag behind the equal-weight S&P, nudging E2 and A4 to yellow. Net: Stage holds at 5 (credit event), but reds broaden from 2 to 3 and yellows from 8 to 9 -- financing stress is spreading even as prices bounce.",
+    "changed": [
+      {
+        "signal": "C1",
+        "from": "Y",
+        "to": "R",
+        "why": "Oracle's 5-year CDS hit a record 288bp on Oct 15, 2026 -- up from ~260bp a week earlier -- per Reuters reporting (bylined Tom Westbrook and Amanda Cooper) relayed by at least six independent aggregators (BusinessDay/Reuters wire, coinpaper, cryptobriefing, 36Kr, KuCoin, aryNews) citing S&P Global Market Intelligence/ICE data; direct access to reuters.com, Bloomberg, CNBC and the aggregator sites themselves was blocked this run, so this rests on convergent WebSearch snippets rather than a direct fetch. First dated print above the 250bp red threshold since the Sep 15 baseline; prior runs had seen only unattributed ~250-261bp claims and left C1 yellow."
+      },
+      {
+        "signal": "A4",
+        "from": "G",
+        "to": "Y",
+        "why": "Over the 20 trading days Sep 21-Oct 19, SOX -8.98%, AMD -12.59%, NVDA -4.53% and NDX -3.13% lagged RSP's +0.34% by roughly 3-13 points (AMD the outlier); the average lag of ~7-8 points moved from last run's <5pt green band into the 5-10pt yellow band."
+      },
+      {
+        "signal": "E2",
+        "from": "G",
+        "to": "Y",
+        "why": "Google News RSS's 100-item/7-day \"AI bubble\" query filled in ~3.95 days (Oct 13 16:46 GMT to Oct 17 15:31 GMT) versus last run's ~6.85-day baseline pace -- roughly 1.8x the baseline rate, inside the 1.5-3x yellow band. GDELT's volume comparator stayed rate-limited (429) after two attempts."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $217.09 (Oct 19, +1.38% day), -9.26% from $239.24 (Oct 6)"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 11,316.34 (Oct 19, +1.61% day), -22.67% from 14,634.72 (Jun 22) -- improved from -23.90% (Oct 16) but still above the >20% red threshold"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 29,529.35 (Oct 19, +1.17% day), -5.43% from 31,224.47 (Oct 6)"
+      },
+      "A4": {
+        "c": "Y",
+        "v": "20-session (Sep 21-Oct 19): SOX -8.98%, AMD -12.59%, NVDA -4.53%, NDX -3.13% vs RSP +0.34% -- leaders lag by ~3-13pts (avg ~7-8pts), into the 5-10pt yellow band"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 18.44 (Oct 19 close, -7.75% day), down from 19.99 (Oct 16), under the 20 threshold"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No NVDA or SOX -5%+ single day since Oct 14 (-4.30% SOX, the largest this week); no two -5%+ days"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; Microsoft confirmed its fiscal Q1 2027 report for Oct 28 after the close (first 2027 capex signal), Alphabet/Amazon/Meta expected the same week"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure notice to Blue Owl/STACK remains unresolved; a state air permit decision is due Nov 23; Oracle maintains no contractual delay"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC Q3 2026 beat and raised (Oct 15, +50.9% YoY, carried); no October print found, no softening found"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Oracle 5y CDS hit a record 288bp on Oct 15, 2026 (Reuters, via multiple aggregators citing S&P Global Market Intelligence/ICE data; up from ~260bp a week earlier) -- first dated print above the 250bp red threshold since baseline"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.98% carried (whalequant.io blocked twice this run, dated Oct 15 reading stands), well under 3.5%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "323bp carried (FRED BAMLH0A0HYM2 blocked twice this run, dated Oct 15 reading stands), well under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "No new AI debt deal priced or pulled this run; SoftBank's bond remains the last dated first-week print below 98 (carried)"
+      },
+      "C5": {
+        "c": "R",
+        "v": "CoreWeave's CDS spiked above 1,000bp Oct 15 (~63% implied 5y default probability); its 9.625% 2032 notes traded high-$70s to low-$80s through Oct 15 even as other CoreWeave issues (Oct 2031, Jun 2030 notes) partially rebounded to 82.8-91.3 cents the same day -- mixed and stale; equity $61.12 (Oct 19, -0.44% day), -56.3% from its Oct 2025 high"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "OpenAI's ~$50bn September run-rate and Anthropic's ~$65bn (end-July) stand; no fresher dated figure this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in talks, unclosed, anchored by outside capital (UAE's MGX up to ~$10bn, BlackRock) rather than suppliers, open several weeks now; Anthropic's IPO still targets a Nasdaq listing as soon as mid-November at up to $2T"
+      },
+      "D3": {
+        "c": "G",
+        "v": "GPU rental price reports remain mixed by provider/index (H100 roughly $2.50-$4.20/hr, B200 $5.50-$8.19/hr depending on source); no idle-capacity reports, no verified >30% 3-month decline"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Mixed ROI studies persist (WRITER: 59% spend $1M+/yr but only 29% see significant ROI; Kyndryl: only 11% hit top goals); no disclosed seat declines or AI-budget cuts found"
+      },
+      "D5": {
+        "c": "G",
+        "v": "No new shutdown wave found this run; prior cases (ClimateAi Aug, AI21 Labs May) remain isolated"
+      },
+      "E1": {
+        "c": "G",
+        "v": "BofA October FMS (Oct 13, fielded Oct 2-8, carried): 'AI bubble' tail risk 23%, third behind bond yields (31%) and inflation (20%); next FMS mid-November"
+      },
+      "E2": {
+        "c": "Y",
+        "v": "Google News RSS's 100-item/7d cap filled in ~3.95 days (Oct 13-17) vs ~6.85 days last run -- roughly 1.8x the baseline pace, inside the 1.5-3x yellow band; GDELT stayed rate-limited (429) after two attempts"
+      },
+      "E3": {
+        "c": "Y",
+        "v": "aibubble.watch 86.8 'Extreme' (Oct 19, up from 85.0 Oct 16); aibubblemonitor.com 48.1 'Neutral' (Oct 20, down sharply from 56.8 'Heating Up'); Polymarket 'burst by Dec 31 2026' 11.25% (Oct 20, up from 9.05%); boomorbubble.ai still 0/5 red gauges -- two of three (watch, Polymarket) deteriorating keeps this yellow even as aibubblemonitor.com improved"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "No IPO withdrawal found; Nvidia director Mark Stevens' insider sales remain the largest reported (carried); Polymarket burst-odds ticked up but still well below multi-month highs"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX / 10y 5.136% (Oct 19 close), inside the 4.5-5.25% yellow band, essentially flat vs Oct 16 (5.10%)"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE closed 101.3 (Oct 19), essentially flat vs 101.10 (Oct 16), still just above the 100 green threshold"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Term premium (FRED THREEFYTP10) still carried at the Oct 9 reading of 1.0729% -- FRED's series has not posted a newer value; CSV pull blocked twice this run (connection reset)"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $110.38 (Oct 20, continuous trading), above the $80-100 yellow band but R requires Brent>$100 together with CPI>4%; September CPI 3.7% keeps that condition unmet; breakeven 2.35% (FRED T10YIE, Oct 16, carried) stays under the 2.4% green line"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "No fresher dated CME FedWatch reading found this run (cmegroup.com unreachable; third-party estimates for the Oct 27-28 FOMC conflict, ranging ~13-47% hike odds) -- carried Yellow"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in talks, unclosed, anchored by outside capital (UAE's MGX up to ~$10bn, BlackRock, with Thrive Capital and a16z also reportedly considering) rather than suppliers; open several weeks now, still well under the 90-day threshold"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's disclosed ~$50bn run-rate against its roughly $1.4T of reported multi-year compute commitments keeps the loop-cash-gap ratio in the upper end of the 2-5x yellow band; Oracle's Project Jupiter force-majeure notice remains a credible report of conditional deferral terms, not yet a confirmed deferral"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable; Ramp AI Index's latest dated print remains 56.1% (August, carried, FRED series last updated Sep 29); Microsoft's Azure ex-OpenAI growth differential awaits its confirmed Oct 28 earnings call"
+      }
+    },
+    "market": {
+      "spx": 7690.73,
+      "ndx": 29529.35,
+      "sox": 11316.34,
+      "sox_dd": -22.67,
+      "nvda": 217.09,
+      "nvda_dd": -9.26,
+      "ndx_dd": -5.43,
+      "tnx": 5.136,
+      "vix": 18.44,
+      "hy_oas": 323,
+      "move": 101.3,
+      "term_premium": 1.07,
+      "breakeven": 2.35,
+      "brent": 110.38,
+      "orcl": 129.59,
+      "crwv": 61.12
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 86.8,
+        "label": "Extreme",
+        "date": "2026-10-19",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 48.1,
+        "label": "Neutral",
+        "date": "2026-10-20",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-16",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 11.25,
+        "v2027": 20.5,
+        "date": "2026-10-20",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Oracle's 5-year CDS hit a record 288bp on Oct 15, 2026 (Reuters, via multiple aggregators citing S&P Global Market Intelligence/ICE data), crossing this framework's 250bp red threshold for the first time and flipping C1 red.",
+        "url": "https://www.businessday.co.za/world/international-companies/2026-10-15-ai-credit-fears-push-tech-default-insurance-to-record-highs/"
+      },
+      {
+        "kind": "HARD",
+        "t": "CoreWeave's 5-year CDS spread spiked above 1,000bp on Oct 15 (~63% implied 5-year default probability per S&P Global Market Intelligence data), even as some CoreWeave bond issues showed a partial same-day rebound to 82.8-91.3 cents.",
+        "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026"
+      },
+      {
+        "kind": "HARD",
+        "t": "Equities rallied broadly Oct 19 (SOX +1.61%, NVDA +1.38%, VIX -7.75% to 18.44) even as SoftBank fell a further 6.01% in Tokyo on Oct 20 to 4,554 yen, -47.2% from its June high, amid AI-debt rating-agency warnings and an SK Hynix slump.",
+        "url": "https://finance.yahoo.com/quote/9984.T/history"
+      }
+    ],
+    "sources": {
+      "T1": 4,
+      "T2": 6,
+      "T3": 2,
+      "T4": 7,
+      "T5": 4
+    },
+    "run_url": "https://claude.ai/code/session_01Ch5n2coQu6qA5NnjvszoaF",
+    "brief": "briefs/2026-10-20.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow, unchanged. OpenAI's $30bn/$1.4T round remains open and unclosed, anchored by outside capital rather than suppliers. G3 and G4 stay not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's now-confirmed Oct 28 earnings call."
   }
 ]

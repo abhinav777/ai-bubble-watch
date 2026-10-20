@@ -461,6 +461,10 @@
     {
       "date": "2026-10-16",
       "t": "Trackers strip restored on the dashboard: aibubble.watch, aibubblemonitor.com, Exponential View (boomorbubble.ai) and Polymarket readings are now recorded in every run row (trackers object) and were back-filled since Sep 15 from the recorded E3 readings, the briefs and aibubblemonitor.com's own history API. boomorbubble.ai, Polymarket and aibubblemonitor.com are read via JSON endpoints instead of search snippets."
+    },
+    {
+      "date": "2026-10-20",
+      "t": "Oracle's 5-year CDS record of 288bp (Oct 15), previously seen only as unattributed aggregator claims, was corroborated this run by convergent WebSearch snippets citing Reuters wire reporting (S&P Global Market Intelligence/ICE data) across at least six independent outlets after direct access to reuters.com, Bloomberg, CNBC and the aggregator sites themselves was blocked by the network proxy. C1 flips yellow to red, crossing the 250bp threshold for the first time since baseline. Reds (Pillars A-E) rise to 3 from 2 (A2, C1, C5); Stage holds at 5. Separately, A4 (20-day rotation) and E2 (narrative volume) both flipped green to yellow on fresh data (a widened AI-leader lag vs RSP; Google News RSS's weekly cap filling in ~4 days instead of 7). Microsoft confirmed its fiscal Q1 2027 earnings date as Oct 28 after the close, the first concrete date for the 'late Oct hyperscaler capex' calendar item."
     }
   ],
   "circularity": {

@@ -766,5 +766,38 @@
     "t": "Two of three public bubble trackers behind E3 deteriorated: aibubblemonitor.com rose to 56.8 'Heating Up' (Oct 19) from 49.2 'Neutral' (Oct 16), and Polymarket's 'AI bubble burst in 2026' contract rose to ~9.05% (Oct 19) from ~7.0% (Oct 16); aibubble.watch held roughly flat (85 vs 86 'Extreme'). E3 flips green to yellow for the first time since the trackers were reinstated.",
     "url": "https://aibubblemonitor.com/api/index/current",
     "tag": null
+  },
+  {
+    "date": "2026-10-15",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C1"
+    ],
+    "t": "Oracle's 5-year CDS spread hit a record 288bp, up from ~260bp a week earlier -- Reuters reporting (via S&P Global Market Intelligence/ICE data) relayed by at least six independent aggregators after direct wire/site access was blocked this run. First dated print crossing this framework's 250bp red threshold since the Sep 15 baseline; flips C1 yellow to red.",
+    "url": "https://www.businessday.co.za/world/international-companies/2026-10-15-ai-credit-fears-push-tech-default-insurance-to-record-highs/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-15",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave's 5-year CDS spread spiked above 1,000bp (~63% implied 5-year default probability), while its 9.625% 2032 notes traded high-0s to low-0s through the day even as other CoreWeave bond issues (Oct 2031, Jun 2030 notes) partially rebounded to 82.8-91.3 cents the same session -- mixed evidence that keeps C5 red rather than reversing it.",
+    "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
+    "tag": null
+  },
+  {
+    "date": "2026-10-20",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "C1"
+    ],
+    "t": "Reds (Pillars A-E) rise from 2 to 3 for the first time since the tracker began: A2 (SOX drawdown) and C5 (CoreWeave) are joined by C1 (Oracle CDS), now that the Oct 15 record 288bp print is corroborated by convergent wire-sourced reporting. Stage holds at 5 (credit event), the highest triggered so far, but with a second independent credit confirmation rather than one.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
   }
 ]
