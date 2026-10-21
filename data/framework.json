@@ -361,24 +361,36 @@
   ],
   "calendar": [
     {
-      "when": "Week of Nov 9 / mid-Nov",
-      "what": "Anthropic IPO: formal marketing targeted to start the week of Nov 9, Nasdaq listing targeted as soon as mid-November at up to $2T (slipped from the original October target)."
-    },
-    {
-      "when": "Late Oct",
-      "what": "Microsoft, Alphabet, Amazon, Meta Q3 earnings: first 2027 capex guidance. Two or more guiding flat or down turns B1 red and the stage to 4. Microsoft's call also gives OpenAI's contribution to Azure growth (G4) and any server useful-life change (G3)."
+      "when": "Today, Oct 21 after close",
+      "what": "Meta Q3 2026 earnings -- the first of the 'Big Four' hyperscalers to give 2027 capex guidance this season. A cut or 'digestion' language starts B1 toward yellow/red."
     },
     {
       "when": "Oct 27-28",
       "what": "FOMC. Dots imply one more hike; BofA expects two."
     },
     {
+      "when": "Oct 28",
+      "what": "Microsoft fiscal Q1 2027 earnings (confirmed) and Alphabet Q3 2026 earnings (estimated, unconfirmed) -- second and third 2027 capex signals. Microsoft's call also gives OpenAI's contribution to Azure growth (G4) and any server useful-life change (G3)."
+    },
+    {
+      "when": "Oct 29",
+      "what": "Amazon Q3 2026 earnings (confirmed) -- fourth 2027 capex signal. Two or more of the four guiding flat or down on 2027 capex turns B1 red and the stage to 4."
+    },
+    {
+      "when": "Week of Nov 9 / mid-Nov",
+      "what": "Anthropic IPO: formal marketing targeted to start the week of Nov 9, Nasdaq listing targeted as soon as mid-November at up to $2T (slipped from the original October target)."
+    },
+    {
       "when": "Late Nov",
       "what": "Nvidia Q3 FY27. Guide below consensus or sequential data-center decline turns B3 red. Nvidia's 10-Q gives DSO, customer concentration and stakes in customers (G3)."
     },
     {
+      "when": "Nov 23",
+      "what": "New Mexico state air-permit decision on Oracle's Project Jupiter (Stargate NM) site -- relevant to the unresolved Blue Owl/STACK force-majeure notice (B2)."
+    },
+    {
       "when": "Mid-Dec",
-      "what": "Oracle Q2 FY27: current vs total RPO and free cash flow (G3). Total RPO falling or a contract modification with its largest customer turns G3 red."
+      "what": "Oracle Q2 FY27: current vs total RPO and free cash flow (G3). Total RPO falling QoQ or a contract modification with its largest customer turns G3 red."
     }
   ],
   "changelog": [
@@ -465,6 +477,10 @@
     {
       "date": "2026-10-20",
       "t": "Oracle's 5-year CDS record of 288bp (Oct 15), previously seen only as unattributed aggregator claims, was corroborated this run by convergent WebSearch snippets citing Reuters wire reporting (S&P Global Market Intelligence/ICE data) across at least six independent outlets after direct access to reuters.com, Bloomberg, CNBC and the aggregator sites themselves was blocked by the network proxy. C1 flips yellow to red, crossing the 250bp threshold for the first time since baseline. Reds (Pillars A-E) rise to 3 from 2 (A2, C1, C5); Stage holds at 5. Separately, A4 (20-day rotation) and E2 (narrative volume) both flipped green to yellow on fresh data (a widened AI-leader lag vs RSP; Google News RSS's weekly cap filling in ~4 days instead of 7). Microsoft confirmed its fiscal Q1 2027 earnings date as Oct 28 after the close, the first concrete date for the 'late Oct hyperscaler capex' calendar item."
+    },
+    {
+      "date": "2026-10-21",
+      "t": "Pillar F improved to zero reds for the first time since early October: fresh FRED data through Oct 16 showed the term premium easing to 0.9857% (from a 1.0729% reading stuck stale since Oct 9), flipping F3 from red to yellow; amplifier stays MEDIUM on 0 red / 5 yellow. Narrative and sentiment also normalized: Google News RSS's weekly 'AI bubble' pace returned to baseline and none of the three public trackers deteriorated, flipping both E2 and E3 from yellow to green. Reds hold at 3 (A2, C1, C5) -- Oracle's 288bp CDS record and CoreWeave's CDS/bond distress, both dated Oct 15, stayed unconfirmed by any fresher print despite targeted searches and are now six trading days stale. Yellows fall from 9 to 7; greens rise from 12 to 14. Stage holds at 5 (credit event); circularity stays HIGH. Calendar refreshed: Meta reports Q3 2026 today (Oct 21) as the first Big Four capex signal, with Microsoft and Alphabet (~Oct 28) and Amazon (Oct 29, confirmed) to follow, plus a new Nov 23 New Mexico air-permit item tied to Oracle's Project Jupiter force majeure."
     }
   ],
   "circularity": {

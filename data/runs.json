@@ -5744,5 +5744,244 @@
     "brief": "briefs/2026-10-20.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged. OpenAI's $30bn/$1.4T round remains open and unclosed, anchored by outside capital rather than suppliers. G3 and G4 stay not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's now-confirmed Oct 28 earnings call."
+  },
+  {
+    "date": "2026-10-21",
+    "as_of": "close",
+    "close_date": "2026-10-20",
+    "stage": 5,
+    "stage_label": "Credit event (Stage 5): Oracle's 288bp CDS record and CoreWeave's CDS/bond distress (both Oct 15) remain the active confirmations -- six trading days stale with no fresher print found despite repeated searches -- while reds hold at 3 and yellows fall to 7 as narrative and tracker signals normalize.",
+    "reds": 3,
+    "yellows": 7,
+    "greens": 14,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "Pillar F improves to zero reds for the first time since early October: F3 (term premium) flips red to yellow on fresh FRED data through Oct 16 (0.9857%, down from the Oct 9 reading of 1.0729% that had been stuck stale for over a week). F1 (10y, 5.117%), F2 (MOVE, 101.7), F4 (Brent >$100 but CPI<4%) and F5 (Fed path, carried) all hold yellow. With 0 red and 5 yellow, the amplifier stays MEDIUM, but the composition improved; C1, C4, C5 and D2 stay flagged at elevated risk of flipping.",
+    "read": "Equities were broadly quiet into Tuesday's close (SOX -0.29% to 11,283.81, still -22.90% below its June high; NVDA -0.29% to $216.47; VIX down 6.13% to 17.31), while the macro backdrop improved on a genuine data update: FRED's term-premium series posted fresh readings through Oct 16 showing the metric eased to 0.99% from 1.07% (Oct 9), pulling F3 back under the 1.0% red line and cutting Pillar F to zero reds for the first time since early October. Narrative and sentiment cooled together -- Google News RSS's weekly 'AI bubble' query took its full ~7-day baseline pace to fill (versus ~4 days last run), and none of the three public composite trackers deteriorated (aibubble.watch down to 86, aibubblemonitor.com flat at 48.1, Polymarket's 'burst by Dec 31' odds down to 9.8% from 11.25%), flipping both E2 and E3 from yellow to green. None of that reaches Pillar C, though: no fresher dated print surfaced for either Oracle's record 288bp CDS or CoreWeave's >1,000bp CDS and sub-80-cent bonds (both now six trading days stale), so C1 and C5 stay red by default and the Stage holds at 5. The next real test lands within hours: Meta reports Q3 2026 results after today's close, the first of the 'Big Four' hyperscalers to give 2027 capex guidance, with Microsoft (Oct 28), Alphabet (~Oct 28, unconfirmed) and Amazon (Oct 29, confirmed) to follow.",
+    "changed": [
+      {
+        "signal": "F3",
+        "from": "R",
+        "to": "Y",
+        "why": "FRED's term premium series (THREEFYTP10) posted new data through Oct 16 (0.9857%), down from the Oct 9 reading of 1.0729% that had been carried stale for nine trading days; direct curl access to fred.stlouisfed.org failed twice (HTTP/2 stream error, then timeout) but WebFetch retrieved the same CSV successfully. The fresh reading sits under the 1.0% red threshold, inside the 0.5-1.0% yellow band."
+      },
+      {
+        "signal": "E2",
+        "from": "Y",
+        "to": "G",
+        "why": "Google News RSS's 100-item/7-day 'AI bubble' query took ~6.95 days to fill (Oct 14-21) versus ~3.95 days last run -- back to roughly the Sep 15 baseline pace (96+ items/7 days) and under the 1.5x yellow threshold. GDELT stayed rate-limited (429) on both the 7-day and 12-month queries after two attempts each."
+      },
+      {
+        "signal": "E3",
+        "from": "Y",
+        "to": "G",
+        "why": "None of the three public trackers deteriorated since the last run: aibubble.watch eased to 86 'Extreme' (Oct 20, from 86.8), aibubblemonitor.com held flat at 48.1 'Neutral' (Oct 21, from 48.1), and Polymarket's 'AI bubble burst in 2026' contract fell to 9.8% (Oct 21, from 11.25%); boomorbubble.ai stayed 0/5 red gauges. With none deteriorating, E3 reverts to green."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "G",
+        "v": "NVDA $216.47 (Oct 20, -0.29% day), -9.52% from $239.24 (Oct 6)"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 11,283.81 (Oct 20, -0.29% day), -22.90% from 14,634.72 (Jun 22) -- stays above the >20% red threshold"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 29,490.28 (Oct 20, -0.13% day), -5.55% from 31,224.47 (Oct 6)"
+      },
+      "A4": {
+        "c": "Y",
+        "v": "20-session (Sep 22-Oct 20): SOX -11.08%, AMD -14.27%, NVDA -5.42%, NDX -4.04% vs RSP +1.44% -- leaders lag by ~4-19pts (avg ~8.7pts), within the 5-10pt yellow band"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 17.31 (Oct 20 close, -6.13% day), down from 18.44 (Oct 19), well under the 20 threshold"
+      },
+      "A6": {
+        "c": "G",
+        "v": "No NVDA or SOX -5%+ single day in the last 10 sessions; no two -5%+ days in a week"
+      },
+      "B1": {
+        "c": "G",
+        "v": "No hyperscaler capex cuts found; Meta reports Q3 2026 after today's close (Oct 21), the first of the Big Four to give 2027 capex guidance -- Microsoft Oct 28 (confirmed), Alphabet ~Oct 28 (estimated, unconfirmed), Amazon Oct 29 (confirmed)"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter (Stargate NM) force-majeure notice to Blue Owl/STACK remains unresolved; no October update found; a state air-permit decision is due Nov 23; Oracle maintains no contractual delay"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC Q3 2026 beat and raised (Oct 15, +50.9% YoY, carried); no October monthly print yet (typically reports ~Nov 10); no softening found"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Oracle 5y CDS record of 288bp (Oct 15) remains the last dated print -- six trading days stale, no fresher print found despite targeted searches this run"
+      },
+      "C2": {
+        "c": "G",
+        "v": "2.98% -> fresh reading 3.03% (whalequant.io, Oct 19, retrieved via curl after a prior block), well under 3.5%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "329bp (FRED BAMLH0A0HYM2, Oct 19, retrieved via WebFetch after direct curl access failed twice), up slightly from 323bp (Oct 15) but well under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "No new AI debt deal priced or pulled this run; SoftBank's bond remains the last dated first-week print below 98 (carried)"
+      },
+      "C5": {
+        "c": "R",
+        "v": "CoreWeave's CDS (>1,000bp, ~63% implied 5y default probability) and sub-80-cent bonds remain the last dated prints from Oct 15 -- six trading days stale; equity $62.13 (Oct 20, +1.65% day), -55.6% from its Oct 2025 high"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "OpenAI's ~$50bn September run-rate and Anthropic's ~$65bn (end-July) stand; no fresher dated figure found this run (a $40bn OpenAI figure attributed to Greg Brockman found in search results traces to an older, undated report and was not used)"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in talks, unclosed, anchored by outside capital (UAE's MGX up to ~$10bn, BlackRock) rather than suppliers, open roughly 5 weeks now; Anthropic's IPO still targets a Nasdaq listing as soon as mid-November at up to $2T"
+      },
+      "D3": {
+        "c": "G",
+        "v": "GPU rental price reports remain mixed by provider/index (H100 roughly $1.20-$4.00/hr, B200 $4.00-$6.50/hr depending on source); no idle-capacity reports, no verified >30% 3-month decline"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Mixed ROI studies persist: an AIMG benchmark reports 79% of enterprises see no measurable EBIT impact from GenAI even as adoption is widespread (Unframe survey of 255 enterprise leaders); no disclosed seat declines or AI-budget cuts found"
+      },
+      "D5": {
+        "c": "G",
+        "v": "No new shutdown wave found this run; prior cases (ClimateAi Aug, AI21 Labs May) remain isolated"
+      },
+      "E1": {
+        "c": "G",
+        "v": "BofA October FMS (Oct 13, fielded Oct 2-8, carried): 'AI bubble' tail risk 23%, third behind bond yields (31%) and inflation (20%); next FMS mid-November"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS's 100-item/7d cap took ~6.95 days to fill (Oct 14-21) -- back to roughly the Sep 15 baseline pace, under the 1.5x yellow threshold; GDELT stayed rate-limited (429) after two attempts on each query"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch 86 'Extreme' (Oct 20, down from 86.8); aibubblemonitor.com 48.1 'Neutral' (Oct 21, flat); Polymarket 'burst by Dec 31 2026' 9.8% (Oct 21, down from 11.25%); boomorbubble.ai still 0/5 red gauges -- none of the three deteriorated, so E3 reverts to green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "No IPO withdrawal found; Nvidia director Mark Stevens' Q3 insider sales ($946.6M per an Oct 7 ranking) remain the largest reported (carried); Polymarket burst-odds fell further, still well below multi-month highs"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX / 10y 5.117% (Oct 20 close), inside the 4.5-5.25% yellow band, essentially flat-to-lower vs Oct 19 (5.136%); FRED DGS10 shows 5.15% (Oct 19)"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE closed 101.7 (Oct 20, +0.39% day), essentially flat vs 101.3 (Oct 19), still just above the 100 green threshold"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium (FRED THREEFYTP10) 0.9857% (Oct 16, freshest available reading) -- down from 1.0729% (Oct 9) and back under the 1.0% red threshold into the 0.5-1.0% yellow band"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $108.44 (Oct 21, continuous trading), above the $80-100 yellow band but R requires Brent>$100 together with CPI>4%; September CPI 3.7% keeps that condition unmet; breakeven 2.35% (FRED T10YIE, Oct 19-20) stays under the 2.4% green line"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "No fresher dated CME FedWatch reading found this run (cmegroup.com unreachable via search) -- carried Yellow"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's $30bn/$1.4T round remains in talks, unclosed, anchored by outside capital (UAE's MGX up to ~$10bn, BlackRock, with Thrive Capital and a16z also reportedly considering) rather than suppliers; open roughly 5 weeks now, still well under the 90-day threshold"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "OpenAI's disclosed ~$50bn run-rate against its roughly $1.4T of reported multi-year compute commitments keeps the loop-cash-gap ratio in the upper end of the 2-5x yellow band; Oracle's Project Jupiter force-majeure notice remains a credible report of conditional deferral terms, not yet a confirmed deferral"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~Nov) and Oracle 10-Q (~Dec) will provide DSO, customer concentration and RPO detail"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable; Ramp AI Index's latest dated print remains 56.1% (August, carried, FRED series last updated Sep 29); Microsoft's Azure ex-OpenAI growth differential awaits its Oct 28 earnings call"
+      }
+    },
+    "market": {
+      "spx": 7712.57,
+      "ndx": 29490.28,
+      "sox": 11283.81,
+      "sox_dd": -22.9,
+      "nvda": 216.47,
+      "nvda_dd": -9.52,
+      "ndx_dd": -5.55,
+      "tnx": 5.117,
+      "vix": 17.31,
+      "hy_oas": 329,
+      "move": 101.7,
+      "term_premium": 0.99,
+      "breakeven": 2.35,
+      "brent": 108.44,
+      "orcl": 131.14,
+      "crwv": 62.13
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 86,
+        "label": "Extreme",
+        "date": "2026-10-20",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 48.1,
+        "label": "Neutral",
+        "date": "2026-10-21",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-10-19",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 9.8,
+        "v2027": 21.5,
+        "date": "2026-10-21",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Meta confirmed it will release Q3 2026 results after market close today (Oct 21) -- the first of the 'Big Four' hyperscalers to give 2027 capex guidance this earnings season, with Microsoft (Oct 28), Alphabet (~Oct 28, unconfirmed) and Amazon (Oct 29, confirmed) to follow.",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx"
+      },
+      {
+        "kind": "HARD",
+        "t": "FRED's term-premium series (THREEFYTP10) posted fresh data through Oct 16 showing 0.9857%, down from the Oct 9 reading of 1.0729% that had been stuck stale for over a week -- back under the 1.0% red threshold and flipping F3 to yellow.",
+        "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,DGS30,T10YIE,THREEFYTP10"
+      },
+      {
+        "kind": "HARD",
+        "t": "Narrative and tracker signals normalized together: Google News RSS's 'AI bubble' query returned to its ~7-day baseline pace and none of the three public composite trackers deteriorated (aibubble.watch 86, aibubblemonitor.com 48.1, Polymarket 2026-burst odds down to 9.8%), flipping both E2 and E3 from yellow to green.",
+        "url": "https://aibubblemonitor.com/api/index/current"
+      }
+    ],
+    "sources": {
+      "T1": 5,
+      "T2": 3,
+      "T3": 1,
+      "T4": 6,
+      "T5": 4
+    },
+    "run_url": "https://claude.ai/code/session_01D3hXwQfbp9mZjr7jXCzY53",
+    "brief": "briefs/2026-10-21.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow, unchanged. OpenAI's $30bn/$1.4T round remains open and unclosed, anchored by outside capital rather than suppliers, roughly 5 weeks in. G3 and G4 stay not-yet-scorable pending Nvidia/Oracle 10-Qs and Microsoft's Oct 28 earnings call."
   }
 ]
