@@ -846,5 +846,39 @@
     "t": "Reds (Pillars A-E) hold at 3 (A2, C1, C5) while yellows fall from 9 to 7 as F3 (term premium), E2 (narrative volume) and E3 (composite trackers) all improve on fresh data; C1 and C5 remain red on their Oct 15 prints with no fresher confirmation found this run despite targeted searches (both now six trading days stale). Stage holds at 5 (credit event); amplifier stays MEDIUM but Pillar F improves to 0 red (from 1 red); circularity stays HIGH. Calendar refreshed with confirmed Q3 earnings dates: Meta today (Oct 21), Microsoft and Alphabet (~Oct 28), Amazon (Oct 29, confirmed), plus the Nov 23 New Mexico air-permit decision relevant to Oracle's Project Jupiter force majeure (B2).",
     "url": "docs/ai-bubble-signal-framework.md",
     "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B1"
+    ],
+    "t": "Meta's Q3 2026 results (reported after close) narrowed FY2026 capex guidance to $135-145bn, raising the low end from $130bn, on Q3 capex of $34.9bn; management declined to give a specific 2027 figure, saying it is still developing budget and capacity plans and that compute, not demand, is the constraint on its Muse AI product's growth. Revenue rose 26% to $64.6bn, beating the $63.3bn estimate; a $9.9bn legal charge cut GAAP EPS to $3.83 (would have been $7.40 excluding it). First of the 'Big Four' hyperscalers to report this season; no capex cut found, so B1 stays green.",
+    "url": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "The MOVE bond-volatility index closed at 95.94 (Oct 21), down from 101.70 (Oct 20) and its first sub-100 close in weeks, flipping F2 from yellow to green and cutting Pillar F to zero red / four yellow.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE",
+    "tag": null
+  },
+  {
+    "date": "2026-10-22",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "B1",
+      "F2"
+    ],
+    "t": "Reds hold at 3 (A2, C1, C5) and yellows at 7 for a second straight session; Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15) remain the only dated credit prints, now seven trading days stale. Meta's Q3 report cleanly resolves the first of four hyperscaler capex signals this season (B1 stays green); MOVE's drop under 100 flips F2 to green, leaving the macro amplifier at MEDIUM on 0 red / 4 yellow (F1, F3, F4, F5). Stage holds at 5 (credit event); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable).",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
   }
 ]

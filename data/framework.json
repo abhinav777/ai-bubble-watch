@@ -361,10 +361,6 @@
   ],
   "calendar": [
     {
-      "when": "Today, Oct 21 after close",
-      "what": "Meta Q3 2026 earnings -- the first of the 'Big Four' hyperscalers to give 2027 capex guidance this season. A cut or 'digestion' language starts B1 toward yellow/red."
-    },
-    {
       "when": "Oct 27-28",
       "what": "FOMC. Dots imply one more hike; BofA expects two."
     },
@@ -481,6 +477,10 @@
     {
       "date": "2026-10-21",
       "t": "Pillar F improved to zero reds for the first time since early October: fresh FRED data through Oct 16 showed the term premium easing to 0.9857% (from a 1.0729% reading stuck stale since Oct 9), flipping F3 from red to yellow; amplifier stays MEDIUM on 0 red / 5 yellow. Narrative and sentiment also normalized: Google News RSS's weekly 'AI bubble' pace returned to baseline and none of the three public trackers deteriorated, flipping both E2 and E3 from yellow to green. Reds hold at 3 (A2, C1, C5) -- Oracle's 288bp CDS record and CoreWeave's CDS/bond distress, both dated Oct 15, stayed unconfirmed by any fresher print despite targeted searches and are now six trading days stale. Yellows fall from 9 to 7; greens rise from 12 to 14. Stage holds at 5 (credit event); circularity stays HIGH. Calendar refreshed: Meta reports Q3 2026 today (Oct 21) as the first Big Four capex signal, with Microsoft and Alphabet (~Oct 28) and Amazon (Oct 29, confirmed) to follow, plus a new Nov 23 New Mexico air-permit item tied to Oracle's Project Jupiter force majeure."
+    },
+    {
+      "date": "2026-10-22",
+      "t": "Meta's Q3 2026 report (Oct 21 after close) resolved the 'first Big Four capex signal' calendar item cleanly for B1: FY2026 capex guidance was narrowed to $135-145bn, raising the low end from $130bn, and management declined to give a 2027 figure while saying compute, not demand, is the constraint on growth -- a posture of under-building, not digestion. B1 stays green; the item is removed from the calendar with Microsoft and Alphabet (~Oct 28) and Amazon (Oct 29) still pending. Separately, bond-market stress eased further: the MOVE index closed at 95.94 (Oct 21), its first sub-100 print in weeks, flipping F2 from yellow to green and cutting Pillar F to 0 red / 4 yellow (amplifier stays MEDIUM). Reds hold at 3 (A2, C1, C5) and yellows at 7 -- Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15) remain the last dated prints, now seven trading days stale despite renewed searches. Stage holds at 5; circularity stays HIGH."
     }
   ],
   "circularity": {
