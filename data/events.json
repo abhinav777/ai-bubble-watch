@@ -880,5 +880,39 @@
     "t": "Reds hold at 3 (A2, C1, C5) and yellows at 7 for a second straight session; Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15) remain the only dated credit prints, now seven trading days stale. Meta's Q3 report cleanly resolves the first of four hyperscaler capex signals this season (B1 stays green); MOVE's drop under 100 flips F2 to green, leaving the macro amplifier at MEDIUM on 0 red / 4 yellow (F1, F3, F4, F5). Stage holds at 5 (credit event); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable).",
     "url": "docs/ai-bubble-signal-framework.md",
     "tag": null
+  },
+  {
+    "date": "2026-10-23",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A4",
+      "A6"
+    ],
+    "t": "Reds (Pillars A-E) rise from 3 to 4 as A4 (20-session AI-leader rotation vs RSP) turns red on a lag exceeding 10 points (SOX -14.1%, AMD -19.3%, NVDA -5.5% vs RSP +3.8%, Sep 24-Oct 22); A6 (single-day rout) turns yellow on the SOX's -6.72% Oct 22 session. Stage holds at 5 (C1/C5 remain the active credit confirmations).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX",
+    "tag": null
+  },
+  {
+    "date": "2026-10-22",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F4"
+    ],
+    "t": "Brent crude jumped 4% to $113.17 (Oct 22 close), its highest settlement since May, on reports of potential renewed US/Israeli strikes on Iran; the move coincided with a broad equity selloff (Nasdaq -2.6%, SOX -6.7%) and a decline in the 10y Treasury yield to 4.95%, indicating the day's rout was risk-off/geopolitical rather than rate-driven.",
+    "url": "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending",
+    "tag": null
+  },
+  {
+    "date": "2026-10-23",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "G4"
+    ],
+    "t": "FRED's Ramp AI Index (RAMPAIALL) shows overall US business AI-tool adoption at 55.86% in September 2026, up from 55.24% in August -- the third consecutive monthly rise. G4 remains not-yet-scorable pending Microsoft's Oct 28 earnings call for the Azure ex-OpenAI growth differential.",
+    "url": "https://fred.stlouisfed.org/data/RAMPAIALL",
+    "tag": null
   }
 ]
