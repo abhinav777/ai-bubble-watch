@@ -481,6 +481,15 @@
     {
       "date": "2026-10-22",
       "t": "Meta's Q3 2026 report (Oct 21 after close) resolved the 'first Big Four capex signal' calendar item cleanly for B1: FY2026 capex guidance was narrowed to $135-145bn, raising the low end from $130bn, and management declined to give a 2027 figure while saying compute, not demand, is the constraint on growth -- a posture of under-building, not digestion. B1 stays green; the item is removed from the calendar with Microsoft and Alphabet (~Oct 28) and Amazon (Oct 29) still pending. Separately, bond-market stress eased further: the MOVE index closed at 95.94 (Oct 21), its first sub-100 print in weeks, flipping F2 from yellow to green and cutting Pillar F to 0 red / 4 yellow (amplifier stays MEDIUM). Reds hold at 3 (A2, C1, C5) and yellows at 7 -- Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15) remain the last dated prints, now seven trading days stale despite renewed searches. Stage holds at 5; circularity stays HIGH."
+    },
+    {
+      "date": "2026-10-23",
+      "t": "Thursday Oct 22 was the sharpest one-day deterioration in weeks (SOX -6.72%, NVDA -4.40%, AMD -8.10%) on a $9.89bn Meta legal charge and a 4% Brent spike to $113.17 on renewed Iran-strike reports, despite Meta's capex guidance having been raised, not cut. Two Pillar A signals worsened: the 20-session rotation (A4) flipped yellow to red as SOX/AMD/NVDA now lag RSP by 9-23 points, and the single-day-rout signal (A6) flipped green to yellow. Bond volatility (MOVE) reversed back above 100 (106.84, Oct 22), flipping F2 back to yellow (Pillar F: 0 red / 5 yellow, amplifier stays MEDIUM). Reds (Pillars A-E) rose from 3 to 4 (A2, A4, C1, C5); yellows rose from 7 to 7 net (A6 added, offset by no change elsewhere). Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15-16) stayed unconfirmed by any fresher print. Stage held at 5; circularity stayed HIGH.",
+      "signals": ["A4", "A6", "F2"]
+    },
+    {
+      "date": "2026-10-26",
+      "t": "First run after the weekend, reflecting Friday Oct 23's close. Markets stabilized (SOX +0.44%, NVDA -0.59%, VIX down to 19.45, MOVE easing to 103.31 but still above 100) with no signal changing color: reds hold at 4 (A2, A4, C1, C5), yellows at 7, Stage remains 5. No fresher Oracle CDS or CoreWeave bond/CDS print surfaced despite renewed searches -- both remain dated Oct 15-16, now roughly a week and a half stale. The one notable mover was aibubblemonitor.com's composite score, which rose from 48.3 'Neutral' to 56.8 'Heating Up' while aibubble.watch and boomorbubble.ai held flat, leaving the three trackers still disagreeing (E3 stays green). Amplifier holds MEDIUM (0 red / 5 yellow in Pillar F); circularity holds HIGH (G3, G4 still not yet scorable; Ramp AI Index has no October update yet). This week's FOMC decision (Oct 27-28) and Microsoft/Alphabet/Amazon capex guidance (Oct 28-29) are the live catalysts."
     }
   ],
   "circularity": {
