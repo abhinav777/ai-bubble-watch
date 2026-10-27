@@ -485,11 +485,19 @@
     {
       "date": "2026-10-23",
       "t": "Thursday Oct 22 was the sharpest one-day deterioration in weeks (SOX -6.72%, NVDA -4.40%, AMD -8.10%) on a $9.89bn Meta legal charge and a 4% Brent spike to $113.17 on renewed Iran-strike reports, despite Meta's capex guidance having been raised, not cut. Two Pillar A signals worsened: the 20-session rotation (A4) flipped yellow to red as SOX/AMD/NVDA now lag RSP by 9-23 points, and the single-day-rout signal (A6) flipped green to yellow. Bond volatility (MOVE) reversed back above 100 (106.84, Oct 22), flipping F2 back to yellow (Pillar F: 0 red / 5 yellow, amplifier stays MEDIUM). Reds (Pillars A-E) rose from 3 to 4 (A2, A4, C1, C5); yellows rose from 7 to 7 net (A6 added, offset by no change elsewhere). Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15-16) stayed unconfirmed by any fresher print. Stage held at 5; circularity stayed HIGH.",
-      "signals": ["A4", "A6", "F2"]
+      "signals": [
+        "A4",
+        "A6",
+        "F2"
+      ]
     },
     {
       "date": "2026-10-26",
       "t": "First run after the weekend, reflecting Friday Oct 23's close. Markets stabilized (SOX +0.44%, NVDA -0.59%, VIX down to 19.45, MOVE easing to 103.31 but still above 100) with no signal changing color: reds hold at 4 (A2, A4, C1, C5), yellows at 7, Stage remains 5. No fresher Oracle CDS or CoreWeave bond/CDS print surfaced despite renewed searches -- both remain dated Oct 15-16, now roughly a week and a half stale. The one notable mover was aibubblemonitor.com's composite score, which rose from 48.3 'Neutral' to 56.8 'Heating Up' while aibubble.watch and boomorbubble.ai held flat, leaving the three trackers still disagreeing (E3 stays green). Amplifier holds MEDIUM (0 red / 5 yellow in Pillar F); circularity holds HIGH (G3, G4 still not yet scorable; Ramp AI Index has no October update yet). This week's FOMC decision (Oct 27-28) and Microsoft/Alphabet/Amazon capex guidance (Oct 28-29) are the live catalysts."
+    },
+    {
+      "date": "2026-10-27",
+      "t": "Second straight no-change session: reds hold at 4 (A2, A4, C1, C5), yellows at 7, Stage remains 5. Markets extended Friday's bounce into a broad Monday rally (SOX +2.82%, NVDA +2.39%, AMD +2.80%) ahead of today's FOMC decision and Wednesday/Thursday's Microsoft, Alphabet and Amazon capex guidance. Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15-16) remain the only dated credit confirmations, now 8 trading days stale. aibubblemonitor.com's composite score round-tripped from 56.8 'Heating Up' back to 48.3 'Neutral' in a single day while aibubble.watch and boomorbubble.ai held roughly flat; trackers still disagree (E3 stays green). Corrected an error carried in recent F4 readings: September CPI (released Oct 14) was 3.7% headline, not the 3.4% figure (August's reading) mistakenly carried forward; F4 stays yellow either way. Amplifier holds MEDIUM; circularity holds HIGH (G3, G4 still not yet scorable). No calendar items passed -- the FOMC decision (Oct 28) and Microsoft/Alphabet (Oct 28) and Amazon (Oct 29) earnings are still pending."
     }
   ],
   "circularity": {
