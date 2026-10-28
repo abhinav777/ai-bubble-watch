@@ -914,5 +914,16 @@
     "t": "FRED's Ramp AI Index (RAMPAIALL) shows overall US business AI-tool adoption at 55.86% in September 2026, up from 55.24% in August -- the third consecutive monthly rise. G4 remains not-yet-scorable pending Microsoft's Oct 28 earnings call for the Azure ex-OpenAI growth differential.",
     "url": "https://fred.stlouisfed.org/data/RAMPAIALL",
     "tag": null
+  },
+  {
+    "date": "2026-10-28",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "F2"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fourth straight session; the only color change is F2 (MOVE bond-volatility index), which flips back to green on a 97.87 close (Oct 27), its first sub-100 print since Oct 21. Pillar F improves to 0 red / 4 yellow (from 5 yellow) but the amplifier stays MEDIUM. Stage holds at 5 (C1 Oracle CDS and C5 CoreWeave CDS/bonds, both now 9 trading days stale on their Oct 15-16 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable). Today's FOMC decision and Microsoft/Alphabet's capex guidance after the close are the next real tests.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
   }
 ]
