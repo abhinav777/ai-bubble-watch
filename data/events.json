@@ -925,5 +925,48 @@
     "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fourth straight session; the only color change is F2 (MOVE bond-volatility index), which flips back to green on a 97.87 close (Oct 27), its first sub-100 print since Oct 21. Pillar F improves to 0 red / 4 yellow (from 5 yellow) but the amplifier stays MEDIUM. Stage holds at 5 (C1 Oracle CDS and C5 CoreWeave CDS/bonds, both now 9 trading days stale on their Oct 15-16 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable). Today's FOMC decision and Microsoft/Alphabet's capex guidance after the close are the next real tests.",
     "url": "docs/ai-bubble-signal-framework.md",
     "tag": null
+  },
+  {
+    "date": "2026-10-28",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F5"
+    ],
+    "t": "The FOMC held its target range at 3.75-4.00% on Oct 28 by a 10-2 vote, with dissenting Governors Cook and Hammack both favoring a 25bp hike rather than a cut -- a hawkish dissent. No new Summary of Economic Projections/dot plot was issued at this meeting.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-28",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "B1"
+    ],
+    "t": "Microsoft (fiscal Q1 2027) and Alphabet (Q3 2026) both reported quarterly capex roughly doubling year-over-year (Microsoft ~$39bn vs ~$19bn; Alphabet ~$51bn vs ~$24bn) with no pause, trim, or digestion language from either -- the second and third of the four hyperscaler 2027 capex signals, both raised. Alphabet free cash flow was negative (~-$9.1bn) despite the capex surge.",
+    "url": "https://finance.yahoo.com/markets/article/alphabet-and-microsoft-are-on-both-sides-of-the-ai-booms-biggest-bills-chart-of-the-day-100000027.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G1",
+      "D2"
+    ],
+    "t": "OpenAI is reported (Reuters, relayed Oct 19) to be seeking ~$30bn in new funding at a pre-money valuation near $1.4T, up from the $1.25T figure reported in early October, still led by outside investors (UAE sovereign fund MGX and Coatue) rather than suppliers, and still unclosed.",
+    "url": "https://traded.co/vc/deal/openai-seeks-to-raise-30-billion-at-1-4-trillion-valuation-with-investor-support/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fifth straight session -- no signal changed color. The FOMC held rates on Oct 28 with a hawkish 10-2 dissent, and Microsoft and Alphabet both roughly doubled quarterly capex year-over-year with no pause language, but neither catalyst moved a signal. Amazon reports tonight (Oct 29) as the last of the four hyperscaler 2027 capex signals; two or more of the four guiding flat or down on 2027 capex would turn B1 red and the stage to 4. The Oct 27-28 FOMC and Oct 28 Microsoft/Alphabet calendar items are removed from the calendar as resolved.",
+    "url": "https://claude.ai/code/session_01QebKNMPQHzeoJgsAnR91Z8",
+    "tag": null
   }
 ]
