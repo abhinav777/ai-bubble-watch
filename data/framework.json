@@ -361,8 +361,8 @@
   ],
   "calendar": [
     {
-      "when": "Oct 29",
-      "what": "Amazon Q3 2026 earnings (confirmed) -- fourth 2027 capex signal. Two or more of the four guiding flat or down on 2027 capex turns B1 red and the stage to 4."
+      "when": "On or shortly after Oct 30",
+      "what": "OpenAI's ~$30bn round: the FT reports investors were given until Oct 30 to commit, near a $1.25-1.4T valuation led by outside capital (UAE's MGX, Coatue). A close with suppliers as the majority, or on structured terms, would turn G1 yellow-to-red-adjacent; a clean outside-led close at a step-up keeps G1 yellow-to-green."
     },
     {
       "when": "Week of Nov 9 / mid-Nov",
@@ -490,6 +490,10 @@
     {
       "date": "2026-10-27",
       "t": "Second straight no-change session: reds hold at 4 (A2, A4, C1, C5), yellows at 7, Stage remains 5. Markets extended Friday's bounce into a broad Monday rally (SOX +2.82%, NVDA +2.39%, AMD +2.80%) ahead of today's FOMC decision and Wednesday/Thursday's Microsoft, Alphabet and Amazon capex guidance. Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15-16) remain the only dated credit confirmations, now 8 trading days stale. aibubblemonitor.com's composite score round-tripped from 56.8 'Heating Up' back to 48.3 'Neutral' in a single day while aibubble.watch and boomorbubble.ai held roughly flat; trackers still disagree (E3 stays green). Corrected an error carried in recent F4 readings: September CPI (released Oct 14) was 3.7% headline, not the 3.4% figure (August's reading) mistakenly carried forward; F4 stays yellow either way. Amplifier holds MEDIUM; circularity holds HIGH (G3, G4 still not yet scorable). No calendar items passed -- the FOMC decision (Oct 28) and Microsoft/Alphabet (Oct 28) and Amazon (Oct 29) earnings are still pending."
+    },
+    {
+      "date": "2026-10-30",
+      "t": "Amazon's Q3 2026 report (Oct 29 after close) resolved the final 'Big Four' capex calendar item: AWS revenue +39% YoY, FY2026 capex held near $220bn, 'meaningfully more' guided for 2027 -- joining Meta, Microsoft and Alphabet in raising or maintaining 2027 capex guidance, with zero of four cutting or pausing. B1 stays green on its strongest confirmation yet. Separately, A6 (single-day rout) reset from yellow to green as Oct 22's SOX -6.72% session rolled outside the trailing-week window; reds hold at 4 (A2, A4, C1, C5) and yellows fall from 7 to 6. Alphabet (-12.6%) and Amazon (-6% after-hours) both sold off post-earnings on EPS/FCF concerns rather than capex cuts, deepening A2 and A4 but not flipping any Pillar B signal -- a clean illustration of Pillar A price noise versus Pillar B capex confirmation. Stage holds at 5; circularity holds HIGH (OpenAI's round unclosed as of the Oct 30 FT-reported investor deadline)."
     }
   ],
   "circularity": {

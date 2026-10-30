@@ -968,5 +968,39 @@
     "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fifth straight session -- no signal changed color. The FOMC held rates on Oct 28 with a hawkish 10-2 dissent, and Microsoft and Alphabet both roughly doubled quarterly capex year-over-year with no pause language, but neither catalyst moved a signal. Amazon reports tonight (Oct 29) as the last of the four hyperscaler 2027 capex signals; two or more of the four guiding flat or down on 2027 capex would turn B1 red and the stage to 4. The Oct 27-28 FOMC and Oct 28 Microsoft/Alphabet calendar items are removed from the calendar as resolved.",
     "url": "https://claude.ai/code/session_01QebKNMPQHzeoJgsAnR91Z8",
     "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B1"
+    ],
+    "t": "Amazon's Q3 2026 results (reported after close) showed AWS revenue +39% YoY to ~$46bn (beating consensus), FY2026 capex guidance held near $220bn, and management guided to 'meaningfully more' capex spending in 2027 with AWS growth projected above 40% through 2028 -- the fourth and final Big Four hyperscaler to report, completing the round with zero of four cutting or pausing 2027 capex. Shares fell more than 6% in after-hours trading on the spending outlook despite the AWS beat.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d3_ex99-1.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A4",
+      "B1"
+    ],
+    "t": "Alphabet shares fell 12.6% to $283.82 the session after its Oct 28 earnings, its sharpest post-earnings drop in years, driven by an EPS miss tied to an $8.7bn paper loss on its SpaceX equity stake and free cash flow falling to -$9.1bn -- not a capex cut: Google Cloud revenue doubled to $30.7bn (beat) and 2026 capex guidance held at $195-205bn, with the CFO flagging a 'significant' 2027 increase. A Pillar-A price shock with no Pillar-B capex cut behind it.",
+    "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-30",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A6"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a sixth straight session but yellows fall from 7 to 6 as A6 (single-day rout) resets to green -- Oct 22's -6.72% SOX session rolled outside the trailing 5-session window with no new rout behind it. Amazon's Oct 29 results completed the four-hyperscaler 2027 capex round (Meta, Microsoft, Alphabet, Amazon all raised or maintained) with zero cuts, keeping B1 green on its strongest confirmation yet even as Alphabet (-12.6%) and Amazon (-6% after hours) both sold off post-earnings on margin/FCF concerns rather than capex cuts. The Oct 29 Amazon-earnings calendar item is resolved and removed.",
+    "url": "https://claude.ai/code/session_01QebKNL7Q6vEA21hgu2qoc8",
+    "tag": null
   }
 ]
