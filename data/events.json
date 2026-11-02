@@ -1002,5 +1002,76 @@
     "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a sixth straight session but yellows fall from 7 to 6 as A6 (single-day rout) resets to green -- Oct 22's -6.72% SOX session rolled outside the trailing 5-session window with no new rout behind it. Amazon's Oct 29 results completed the four-hyperscaler 2027 capex round (Meta, Microsoft, Alphabet, Amazon all raised or maintained) with zero cuts, keeping B1 green on its strongest confirmation yet even as Alphabet (-12.6%) and Amazon (-6% after hours) both sold off post-earnings on margin/FCF concerns rather than capex cuts. The Oct 29 Amazon-earnings calendar item is resolved and removed.",
     "url": "https://claude.ai/code/session_01QebKNL7Q6vEA21hgu2qoc8",
     "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "t": "Intel's Q3 2026 report (after close) beat on revenue ($16.51bn, +21% YoY) but guided Q4 to $15-16bn vs $17.1bn consensus and flagged heavy AI-capex-driven cash burn; shares fell sharply after hours, dragging the semiconductor complex down the next session (SOX -7.20%, AMD -10.88%, NVDA -4.22%, Oct 30) -- the sharpest single-day rout since Oct 22, flipping A6 back to yellow and deepening SOX's drawdown and the AI-leader-vs-RSP rotation lag.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-09-30",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "Micron's fiscal Q4 2026 results (reported after close Sep 30, surfaced in this run): record $54.23bn quarterly revenue, DRAM and NAND average selling prices up an estimated 232% and 383% YoY, FQ1 FY27 guide ~$61.5bn; management says memory/storage conditions should be tighter in fiscal 2027 and 2028 than fiscal 2026 -- reaffirms B4 green with no supply-chain crack.",
+    "url": "https://pulse2.com/micron-reports-record-fiscal-q4-revenue-of-54-23-billion-and-fy2026-revenue-of-133-19-billion/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-30",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE (bond-volatility) index closed at 100.20, its first print back above the 100 green threshold since Oct 21, flipping F2 from green to yellow and lifting Pillar F to 0 red / 5 yellow (amplifier stays MEDIUM).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C2",
+      "C3"
+    ],
+    "t": "Credit drifted modestly wider but stayed under green thresholds: US HY OAS rose to 326bp (FRED, Oct 29) from 314bp, and the whalequant.io HY-tech-minus-10y spread rose to 3.01% from 2.89%, with the page's own label shifting from 'low risk' to 'moderate risk.'",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "tag": null
+  },
+  {
+    "date": "2026-11-01",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "The calendar item tracking OpenAI's ~$30bn round deadline ('on or shortly after Oct 30') has passed: investors were reportedly given until Oct 30 to commit near a $1.2-1.5T valuation, still led by outside capital (SoftBank, UAE's MGX, Coatue) rather than suppliers, but no confirmed close, down round, or cancellation was found as of Nov 2. D2 and G1 stay yellow; the item is removed from the calendar and will be re-checked each run until a close (or its collapse) is confirmed.",
+    "url": "https://aiweekly.co/alerts/openai-races-to-lock-30b-round-at-14t-valuation-before-anthropics-mid-november",
+    "tag": "long-AI incentive"
+  },
+  {
+    "date": "2026-11-02",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A6",
+      "F2"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a seventh straight session but yellows rise from 6 to 7 as A6 (single-day rout) flips back to yellow on Friday Oct 30's broad semiconductor selloff (Intel-earnings-driven), with SOX -7.20%, AMD -10.88%, NVDA -4.22%; Pillar F's MOVE signal (F2) also flips green to yellow on a 100.20 close, keeping the amplifier at MEDIUM. Stage holds at 5 (Oracle CDS and CoreWeave CDS/bonds, both now 12 trading days stale on their Oct 15 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable) after OpenAI's round missed its Oct 30 deadline with no confirmed close found.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
   }
 ]
