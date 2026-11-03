@@ -1073,5 +1073,44 @@
     "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a seventh straight session but yellows rise from 6 to 7 as A6 (single-day rout) flips back to yellow on Friday Oct 30's broad semiconductor selloff (Intel-earnings-driven), with SOX -7.20%, AMD -10.88%, NVDA -4.22%; Pillar F's MOVE signal (F2) also flips green to yellow on a 100.20 close, keeping the amplifier at MEDIUM. Stage holds at 5 (Oracle CDS and CoreWeave CDS/bonds, both now 12 trading days stale on their Oct 15 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable) after OpenAI's round missed its Oct 30 deadline with no confirmed close found.",
     "url": "docs/ai-bubble-signal-framework.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-02",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C1",
+      "C4"
+    ],
+    "t": "Oracle filed SEC paperwork for a concurrent $10bn common-stock offering and $10bn senior-notes sale (five tranches, coupons 7.000-8.650%, spreads 240-335bp over Treasuries) to fund its AI buildout; per FourWeekMBA's analysis of the pricing term sheet the new notes priced 145-175bp wider than Oracle's February 2026 deal at comparable maturities, rated BBB- (one notch above junk). Oracle shares fell 8.76% to $119.22 the same day.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-02",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A2",
+      "A3",
+      "A5"
+    ],
+    "t": "Broad AI-linked selloff: NVDA's drawdown crossed from green into yellow (-15.54% from its Oct 6 high), the Nasdaq-100 entered correction territory (-10.36%, also flipping green to yellow), VIX jumped 8.9% to 21.15 (also flipping yellow), and SOX's drawdown deepened to -29.43%; AMD (-7.52%) and Micron (-5.78%) led chip losses ahead of AMD's Nov 3 earnings.",
+    "url": "https://finance.yahoo.com/markets/article/micron-sk-hynix-stocks-sink-as-ai-chip-sell-off-deepens-125622548.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-03",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A3",
+      "A5"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for an eighth straight session but yellows jump from 7 to 10 as A1 (NVDA drawdown), A3 (Nasdaq-100 drawdown) and A5 (VIX) all flip from green to yellow -- the first time any of the three has left green since the Sep 15 baseline. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
+    "url": "https://claude.ai/code/session_01QebKNLQvnuSxQAQyNBcEyv",
+    "tag": null
   }
 ]
