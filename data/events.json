@@ -1112,5 +1112,30 @@
     "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for an eighth straight session but yellows jump from 7 to 10 as A1 (NVDA drawdown), A3 (Nasdaq-100 drawdown) and A5 (VIX) all flip from green to yellow -- the first time any of the three has left green since the Sep 15 baseline. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
     "url": "https://claude.ai/code/session_01QebKNLQvnuSxQAQyNBcEyv",
     "tag": null
+  },
+  {
+    "date": "2026-11-03",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A4"
+    ],
+    "t": "AMD reported fiscal Q3 2026 results (Nov 3): revenue $13.4bn, above the high end of its own $12.7-13.3bn guidance, non-GAAP diluted EPS $2.09; shares rose 3.65% to $483.90, helping lead a broad chip-sector rebound (NVDA +2.29%, SOX +2.63%) after three red sessions.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-04",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A3",
+      "F2"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a ninth straight session but yellows fall from 10 to 8 as A1 (NVDA drawdown) and A3 (Nasdaq-100 drawdown) both flip back from yellow to green on a broad Nov 3 chip-sector rebound led by AMD's earnings beat -- the first same-direction improvement in Pillar A since the baseline. Pillar F's MOVE index (F2) also flipped back to green. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
+    "url": "https://claude.ai/code/session_01QebKNNEnAJQJt3vQup54oS",
+    "tag": null
   }
 ]
