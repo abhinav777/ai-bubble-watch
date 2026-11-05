@@ -6,7 +6,8 @@ A daily, evidence-weighted read on whether the AI investment boom is deflating. 
 - `data/runs.json` — one record per trading day: stage, counts, amplifier, circularity level, all 33 signal colors and readings, market snapshot, the four public tracker readings, changes, top developments
 - `data/events.json` — dated events that moved a signal or bear on the thesis
 - `data/framework.json` — pillars, signals, thresholds, stage rules, source tiers, calendar, changelog
+- `data/concerns.json` — the concerns ledger: every specific worry with a deadline, settled against what happened (feeds the Retro section)
 - `briefs/` — the full daily brief as Markdown, one file per run
-- `docs/` — the framework document and the routine's prompt
+- `docs/` — the framework document, the routine's prompt, and periodic retrospectives (`review-YYYY-MM-DD.md`)
 
 Stages follow the dot-com template: 1 price break, 2 funding window closes, 3 revenue misses, 4 capex cliff, 5 credit event. Pillar F (macro) is an amplifier and never sets the stage. Pillar G (circularity: insider funding share, loop cash gap, vendor filing fingerprints, growth outside the loop) is scored on funding events and filings, is excluded from the 24-signal count, and is reported as a level (LOW / HIGH / BREAKING); its reds feed the stage 2 and 3 rules. Nothing here is investment advice.

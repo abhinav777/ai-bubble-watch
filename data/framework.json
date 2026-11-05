@@ -500,6 +500,10 @@
         "A6",
         "F2"
       ]
+    },
+    {
+      "date": "2026-11-04",
+      "t": "Seven-week retrospective (docs/review-2026-11-04.md). Concerns ledger added (data/concerns.json) with 28 back-filled concerns and their outcomes; the dashboard gains a Retro section with a month-ago look-back, recently settled concerns, open concerns by deadline, and what followed each stage call. Plumbing fixes in the routine: Treasury yield-curve CSV as the FRED fallback, a 6-second gap between GDELT calls, and G3 scored from the latest filed 10-Q instead of waiting for the next one."
     }
   ],
   "circularity": {

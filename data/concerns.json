@@ -1,0 +1,402 @@
+[
+  {
+    "id": "c01",
+    "opened": "2026-09-15",
+    "concern": "SoftBank's $10-20B bond for its OpenAI stake prices wide of ~8.5%, is downsized, or is pulled",
+    "signals": [
+      "C4"
+    ],
+    "resolve_if": "Pricing outcome of the deal",
+    "deadline": "2026-09-30",
+    "status": "did_not",
+    "resolved": "2026-09-24",
+    "outcome": "Priced $11.1B on Sep 24, about 3x covered, at 8.625%, 9.25% and 9.75% dollar coupons, SoftBank's highest ever, with a 65-80bp new-issue concession. Neither downsized nor pulled.",
+    "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html"
+  },
+  {
+    "id": "c02",
+    "opened": "2026-09-25",
+    "concern": "SoftBank's new notes trade below 98 in their first week of secondary trading",
+    "signals": [
+      "C4"
+    ],
+    "resolve_if": "A dated secondary print on the new notes",
+    "deadline": "2026-10-15",
+    "status": "materialized",
+    "resolved": "2026-10-01",
+    "outcome": "The notes fell to a 96.75 bid shortly after pricing (Reuters via Japan Times); C4 went back to yellow on Oct 1. The oversubscribed book was bought with price, and secondary trading was the better test.",
+    "url": "briefs/2026-10-01.md"
+  },
+  {
+    "id": "c03",
+    "opened": "2026-09-15",
+    "concern": "A hyperscaler trims 2027 capex guidance in Q3 earnings; two or more cutting would be the capex cliff (Stage 4)",
+    "signals": [
+      "B1"
+    ],
+    "resolve_if": "Q3 calls of Meta, Microsoft, Alphabet, Amazon",
+    "deadline": "2026-10-31",
+    "status": "did_not",
+    "resolved": "2026-10-30",
+    "outcome": "All four raised or held: Meta narrowed 2026 guidance up to $135-145B; Microsoft and Alphabet roughly doubled quarterly capex year over year; Amazon held ~$220B and signalled 'meaningfully more' in 2027. B1 stayed green.",
+    "url": "briefs/2026-10-30.md"
+  },
+  {
+    "id": "c04",
+    "opened": "2026-09-15",
+    "concern": "Micron's fiscal Q4 (Sep 30) shows softening DRAM or HBM pricing",
+    "signals": [
+      "B4"
+    ],
+    "resolve_if": "Micron results and commentary",
+    "deadline": "2026-10-01",
+    "status": "did_not",
+    "resolved": "2026-09-30",
+    "outcome": "Micron pre-guided and then delivered revenue of $49-51B with an 86% gross margin; DRAM spot prices were up about 52% since January. No softening.",
+    "url": "briefs/2026-10-01.md"
+  },
+  {
+    "id": "c05",
+    "opened": "2026-09-15",
+    "concern": "TSMC's monthly revenue growth falls under 25% year over year",
+    "signals": [
+      "B4"
+    ],
+    "resolve_if": "TSMC September revenue and Q3 call",
+    "deadline": "2026-10-15",
+    "status": "did_not",
+    "resolved": "2026-10-15",
+    "outcome": "TSMC's Q3 revenue grew 50.9% year over year and it raised 2026 capex guidance to $60-64B.",
+    "url": "briefs/2026-10-16.md"
+  },
+  {
+    "id": "c06",
+    "opened": "2026-09-17",
+    "concern": "The 10-year Treasury yield breaches 5.25% and holds there (F1 red)",
+    "signals": [
+      "F1"
+    ],
+    "resolve_if": "Daily closes from Yahoo or Treasury",
+    "deadline": "2026-10-31",
+    "status": "partly",
+    "resolved": "2026-10-08",
+    "outcome": "It crossed: F1 read red on Oct 1 and Oct 5-8 with the 10-year near 5.3%, then fell back under 5% by Oct 22 and sat at 4.90% on Nov 4. A brief breach, not a regime.",
+    "url": "briefs/2026-10-08.md"
+  },
+  {
+    "id": "c07",
+    "opened": "2026-09-17",
+    "concern": "The MOVE bond-volatility index rises above 130, the disorderly-market threshold",
+    "signals": [
+      "F2"
+    ],
+    "resolve_if": "A MOVE close above 130",
+    "deadline": "2026-11-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c08",
+    "opened": "2026-09-17",
+    "concern": "Oracle's five-year CDS prints above 250bp, the Stage 5 credit trigger",
+    "signals": [
+      "C1"
+    ],
+    "resolve_if": "A dated CDS print from a wire or vendor",
+    "deadline": "2026-12-31",
+    "status": "materialized",
+    "resolved": "2026-10-20",
+    "outcome": "Record 288bp on Oct 15 (S&P Global and LSEG data via Reuters), then 295-315bp on Oct 19 per CNBC. C1 turned red on Oct 20 once a wire-attributed print existed.",
+    "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html"
+  },
+  {
+    "id": "c09",
+    "opened": "2026-09-15",
+    "concern": "CoreWeave's bonds trade below 80 cents or a neocloud shows going-concern stress (C5 red)",
+    "signals": [
+      "C5"
+    ],
+    "resolve_if": "A dated bond or CDS print, or a filing",
+    "deadline": "2026-12-31",
+    "status": "materialized",
+    "resolved": "2026-10-16",
+    "outcome": "CoreWeave's 9.625% notes due 2032 traded below 80 cents on Oct 14-15 (Bloomberg, citing TRACE, via CNBC) with CDS near 1,200bp; the equity was down 61% from its high by Nov 3.",
+    "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
+  },
+  {
+    "id": "c10",
+    "opened": "2026-09-15",
+    "concern": "A down round or cancelled tender at a top-five lab (D2 red, the funding window closing)",
+    "signals": [
+      "D2"
+    ],
+    "resolve_if": "Terms of any closed round or tender",
+    "deadline": "2026-12-31",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c11",
+    "opened": "2026-09-28",
+    "concern": "OpenAI's ~$30B round closes, and the terms show whether outside capital or suppliers carried it",
+    "signals": [
+      "G1",
+      "D2"
+    ],
+    "resolve_if": "A confirmed close with investors and valuation, or 90 days open",
+    "deadline": "2026-12-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c12",
+    "opened": "2026-09-22",
+    "concern": "Anthropic's IPO slips from its October target or reprices",
+    "signals": [
+      "D2",
+      "E4"
+    ],
+    "resolve_if": "Filing and marketing dates",
+    "deadline": "2026-11-30",
+    "status": "partly",
+    "resolved": "2026-10-26",
+    "outcome": "Marketing slipped from October to the week of Nov 9 (WSJ, Sep 26). The public S-1 arrived Oct 26 targeting $1.5-2T and a Thanksgiving-week debut. Delayed, not withdrawn, and the filing showed near-breakeven operations.",
+    "url": "https://fortune.com/2026/10/26/anthropics-s-1/"
+  },
+  {
+    "id": "c13",
+    "opened": "2026-09-24",
+    "concern": "The Fed hikes again at the Oct 27-28 meeting, pressuring F1 and F5",
+    "signals": [
+      "F5"
+    ],
+    "resolve_if": "FOMC statement",
+    "deadline": "2026-10-28",
+    "status": "did_not",
+    "resolved": "2026-10-28",
+    "outcome": "Held at 3.75-4.00% on a 10-2 vote, both dissents favoring a hike. Hawkish hold, no hike.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+  },
+  {
+    "id": "c14",
+    "opened": "2026-10-05",
+    "concern": "The Oct 7 10-year and Oct 8 30-year Treasury auctions tail, adding a second F3 trigger",
+    "signals": [
+      "F3"
+    ],
+    "resolve_if": "Auction results",
+    "deadline": "2026-10-09",
+    "status": "did_not",
+    "resolved": "2026-10-09",
+    "outcome": "The 10-year cleared strong at 5.300% with a 2.77 bid-to-cover and no tail; the 30-year cleared in line at 5.618% with 2.54 and no tail.",
+    "url": "briefs/2026-10-09.md"
+  },
+  {
+    "id": "c15",
+    "opened": "2026-10-13",
+    "concern": "September CPI (Oct 14) comes in hot enough to push the inflation regime to red (F4)",
+    "signals": [
+      "F4"
+    ],
+    "resolve_if": "BLS CPI release",
+    "deadline": "2026-10-14",
+    "status": "partly",
+    "resolved": "2026-10-14",
+    "outcome": "Headline rose to 3.7% from 3.4% with core at 2.6% and gasoline up 34% year over year. Hot, but F4 stayed yellow because headline remained under 4%.",
+    "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html"
+  },
+  {
+    "id": "c16",
+    "opened": "2026-09-25",
+    "concern": "Oracle's Project Jupiter force-majeure dispute with Blue Owl and STACK becomes a confirmed site pause (B2 red)",
+    "signals": [
+      "B2"
+    ],
+    "resolve_if": "A company statement or the New Mexico air-permit decision",
+    "deadline": "2026-11-23",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c17",
+    "opened": "2026-10-13",
+    "concern": "The Asia memory and chip rout spreads into a US single-day rout severe enough for A6 red",
+    "signals": [
+      "A6"
+    ],
+    "resolve_if": "NVDA -10% or SOX -8% in a day, or two -5% days in a week",
+    "deadline": "2026-11-06",
+    "status": "partly",
+    "resolved": "2026-10-30",
+    "outcome": "SOX fell 6.7% on Oct 22 and 7.2% on Oct 30, two 5%-plus days but in different weeks and never 8%. A6 reached yellow only.",
+    "url": "briefs/2026-11-02.md"
+  },
+  {
+    "id": "c18",
+    "opened": "2026-10-16",
+    "concern": "CoreWeave's bonds stay below 80 cents rather than recovering, keeping C5 red on fresh evidence",
+    "signals": [
+      "C5"
+    ],
+    "resolve_if": "A dated bond or CDS print, or CoreWeave's Q3 report on Nov 11",
+    "deadline": "2026-11-12",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c19",
+    "opened": "2026-10-29",
+    "concern": "Amazon trims 2027 capex in its Oct 29 report, the last of the four hyperscaler guides",
+    "signals": [
+      "B1"
+    ],
+    "resolve_if": "Amazon Q3 call",
+    "deadline": "2026-10-30",
+    "status": "did_not",
+    "resolved": "2026-10-30",
+    "outcome": "Held 2026 capex near $220B, signalled 'meaningfully more' for 2027 and guided AWS growth above 40% through 2028.",
+    "url": "briefs/2026-10-30.md"
+  },
+  {
+    "id": "c20",
+    "opened": "2026-11-02",
+    "concern": "AMD's Q3 report (Nov 3) misses or guides weak, compounding the chip selloff",
+    "signals": [
+      "B3",
+      "B4"
+    ],
+    "resolve_if": "AMD results",
+    "deadline": "2026-11-04",
+    "status": "did_not",
+    "resolved": "2026-11-04",
+    "outcome": "Revenue of $13.4B came in above the high end of AMD's own $12.7-13.3B guide with non-GAAP EPS of $2.09; the stock rose 3.65%.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
+  },
+  {
+    "id": "c21",
+    "opened": "2026-11-03",
+    "concern": "Broad high-yield spreads cross 350bp (C3 yellow), the first sign the single-name stress is spreading",
+    "signals": [
+      "C3"
+    ],
+    "resolve_if": "FRED HY OAS or carried proxy",
+    "deadline": "2026-11-30",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c22",
+    "opened": "2026-09-15",
+    "concern": "A top-five lab's revenue run-rate growth halves or internal targets are reported missed (D1 yellow)",
+    "signals": [
+      "D1"
+    ],
+    "resolve_if": "Dated reporting on run-rates",
+    "deadline": "2026-12-31",
+    "status": "materialized",
+    "resolved": "2026-10-15",
+    "outcome": "OpenAI told investors its September run-rate was nearing $50B, about $20B below the ~$70B figure that had circulated (FT and Reuters, Oct 8). D1 moved to yellow.",
+    "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854"
+  },
+  {
+    "id": "c23",
+    "opened": "2026-09-21",
+    "concern": "The semiconductor index re-crosses a 20% drawdown from its June high (A2 red)",
+    "signals": [
+      "A2"
+    ],
+    "resolve_if": "Daily closes",
+    "deadline": "2026-12-31",
+    "status": "materialized",
+    "resolved": "2026-10-15",
+    "outcome": "SOX closed 20.16% below its high on Oct 14 and was 29.4% below by Nov 2.",
+    "url": "briefs/2026-10-15.md"
+  },
+  {
+    "id": "c24",
+    "opened": "2026-11-04",
+    "concern": "New governors in Texas, Ohio and Georgia, states with about 39% of planned data-center gigawatts, enact pauses that halt a hyperscaler, Stargate or top-neocloud project (B2 red)",
+    "signals": [
+      "B2",
+      "G2"
+    ],
+    "resolve_if": "A company-confirmed pause or a signed state measure",
+    "deadline": "2027-03-31",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c25",
+    "opened": "2026-11-04",
+    "concern": "Anthropic's IPO prices inside its $1.5-2T range and holds above issue in its first weeks",
+    "signals": [
+      "D2",
+      "G1",
+      "E4"
+    ],
+    "resolve_if": "Pricing and first-week trading",
+    "deadline": "2026-12-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c26",
+    "opened": "2026-10-16",
+    "concern": "The Stage 5 call, made on two single-name prints, generalizes into broad credit stress",
+    "signals": [
+      "C3",
+      "C4"
+    ],
+    "resolve_if": "HY OAS above 500bp, a second AI issuer's bonds distressed, or a default; or spreads normalizing and the prints reversing",
+    "deadline": "2026-12-31",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c27",
+    "opened": "2026-09-15",
+    "concern": "Oracle gets its planned ~$40B FY27 debt and equity raise done, and on what terms",
+    "signals": [
+      "C4",
+      "C1"
+    ],
+    "resolve_if": "Deal pricing",
+    "deadline": "2026-12-31",
+    "status": "partly",
+    "resolved": "2026-11-02",
+    "outcome": "Priced $10B of stock at $116, 20% below the September baseline, plus $10B of notes at 7.00-8.65% coupons, 145-175bp wider than its February deal. Done, but at junk-like coupons and with equity dilution.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm"
+  },
+  {
+    "id": "c28",
+    "opened": "2026-09-15",
+    "concern": "The share of fund managers naming an AI bubble as the top tail risk rises above 30% (E1 yellow)",
+    "signals": [
+      "E1"
+    ],
+    "resolve_if": "BofA Global Fund Manager Survey",
+    "deadline": "2026-10-15",
+    "status": "did_not",
+    "resolved": "2026-10-13",
+    "outcome": "It fell to 23% in the October survey from 28% in September, behind bond yields and inflation.",
+    "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html"
+  }
+]

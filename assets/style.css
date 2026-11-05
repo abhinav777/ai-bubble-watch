@@ -99,6 +99,9 @@ td.note{color:var(--muted);min-width:22ch}
 .tile .l{font-size:13px;color:var(--muted)}
 .tile .l b{color:var(--ink);font-weight:600}
 .tile .k a{color:inherit;text-decoration:none}
+#retro h3{margin:18px 0 6px;font-size:16px}
+#retro .cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}
+@media (max-width:760px){#retro .cols{grid-template-columns:1fr}}
 .tile .tspark{display:block;width:100%;height:36px;margin-top:6px}
 
 /* calendar */
