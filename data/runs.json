@@ -8274,5 +8274,238 @@
     "brief": "briefs/2026-11-04.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged. OpenAI's round still not confirmed closed (~50 days open, under the 90-day threshold), still led by outside capital (Coatue, UAE investors) per stale Oct 22-24 reporting. G3 and G4 stay not-yet-scorable; Ramp AI Index still carried at August's 56.1%, no September/October update found."
+  },
+  {
+    "date": "2026-11-05",
+    "as_of": "close",
+    "close_date": "2026-11-04",
+    "stage": 5,
+    "stage_label": "Credit event (Stage 5): Oracle's CDS and CoreWeave's bond/equity distress keep Stage 5's two credit confirmations red for a tenth straight session, while Pillar A oscillates (NVDA back to yellow, VIX back to green) without changing the stage.",
+    "reds": 4,
+    "yellows": 8,
+    "greens": 12,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "0 red / 4 yellow in Pillar F, unchanged. F1 (10y ~4.89-4.95%, Yahoo/FRED), F3 (term premium 0.9089%, Oct 30, latest FRED print), F4 (Brent $94.62, Nov 4, inside the $80-100 yellow band; Sept CPI 3.7% keeps the strict red condition unmet) and F5 (FOMC held 3.75-4.00% Oct 28, no new dot plot) stay yellow; F2 (MOVE 93.88, Nov 4) stays green. C1, C4, C5 and D2 remain flagged as at elevated risk of flipping given the still-unclosed, downsized OpenAI round and stale Oracle/CoreWeave credit prints.",
+    "read": "Nov 4 split the market in two: the Dow (+3.03%), S&P 500 (+1.58%) and Nasdaq Composite (+1.44%) rallied hard on the Democratic midterm sweep, lifting MSFT to a fresh 52-week high ($555.80, +6.68%) alongside GOOGL (+3.18%) and AMZN (+6.12%), while AI-infrastructure names sold off (NVDA -3.17% to $200.13, SOX -3.13%, MU -7.00%, CRWV -9.90%) -- the same election that cheered the broad market also installed a wave of anti-data-center state and local officials (Ballotpedia tracked 41 data-center ballot measures across 10 states on Nov 3), reviving the political-pause risk this dashboard has watched since mid-October, even though no hyperscaler, Stargate or top neocloud has yet confirmed an actual project pause (B2 stays yellow). Separately, CNBC confirmed (Oct 31, following an FT report) that OpenAI cut its roughly $30bn round to a $20bn target at a $1.25T valuation -- below the $1.4T it had sought -- with only about $11bn committed as of the Oct 30 deadline amid 'lukewarm' large-investor interest; Forbes (Nov 2) adds that UAE investors are pairing capital with compute-capacity commitments. Because $1.25T still marks up OpenAI's last priced $852bn round, this is a funding-window strain rather than a down round, so D2 stays yellow and G1 stays yellow on its existing structured-terms flag. NVDA's drawdown (-16.35% from its Oct 6 high) crossed back into yellow one session after closing green, while VIX fell to 16.61 and reverted to green -- Pillar A is oscillating, not confirming a direction. The two Stage-5 credit confirmations (Oracle CDS, CoreWeave) remain unrefreshed by a dated T1-T3 print this run but stay red on prior evidence, as CoreWeave's equity extended its drawdown to -64.91% from its May high. Reds hold at 4 (A2, A4, C1, C5); yellows hold at 8, with A1 and A5 swapping places. Stage holds at 5; macro amplifier holds MEDIUM; circularity holds HIGH.",
+    "changed": [
+      {
+        "signal": "A1",
+        "from": "G",
+        "to": "Y",
+        "why": "NVDA closed $200.13 (Nov 4, -3.17% day), -16.35% from $239.24 (Oct 6) -- crosses back into the 15-25% yellow band after one session under 15%"
+      },
+      {
+        "signal": "A5",
+        "from": "Y",
+        "to": "G",
+        "why": "VIX closed 16.61 (Nov 4), down sharply from 20.83 (Nov 3) -- back under the 20 green threshold"
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "Y",
+        "v": "NVDA $200.13 (Nov 4, -3.17% day), -16.35% from $239.24 (Oct 6) -- back in the 15-25% yellow band"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 10,268.65 (Nov 4, -3.13% day), -29.83% from 14,634.72 (Jun 22) -- deepest drawdown of this run, stays past the >20% red threshold"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 28,437.17 (Nov 4, +0.91% day), -8.93% from 31,224.47 (Oct 6), stays under the 10% threshold"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct 7-Nov 4): SOX -21.41%, AMD -24.32%, MU -26.91%, AVGO -13.55%, NVDA -15.72% vs RSP +6.04% -- lag of 19.6-33.0pts, well past the >10pt red threshold while RSP is up"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 16.61 (Nov 4 close), down from 20.83 (Nov 3) -- back under the 20 green threshold"
+      },
+      "A6": {
+        "c": "Y",
+        "v": "SOX -7.20% single-day (Oct 30) remains the trailing week's worst (window Oct 29-Nov 4); no -8%+ day or second -5%+ day in the window"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: all four hyperscalers (Meta, Microsoft, Alphabet, Amazon) raised or held 2027 capex guidance through Oct 29; zero cuts or pauses. No new guidance this run"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Oracle's Project Jupiter force-majeure notice remains unresolved (New Mexico permit decision due Nov 23). New this run: midterm elections (Nov 3) installed anti-data-center officials across 10 states per Ballotpedia, and neocloud stocks sold off Nov 4 on the result, but no hyperscaler, Stargate or top neocloud has confirmed an actual project pause from it"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new print; next Nvidia results late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: Micron's record fiscal Q4 results, TSMC September revenue +54.6% YoY. Next TSMC print (October revenue, ~Nov 10) not yet out"
+      },
+      "C1": {
+        "c": "R",
+        "v": "No fresher dated CDS print found despite renewed searches; last T1-T3 figure remains ~288-295bp (mid-October), now over three weeks stale"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.19% (Nov 3, 8.14% tech HY minus 4.95% 10y), label 'MODERATE RISK', stays under the 3.5% threshold"
+      },
+      "C3": {
+        "c": "G",
+        "v": "340bp (FRED BAMLH0A0HYM2, Nov 3), down from 344bp (Oct 30) -- stays under 350bp, no longer stale"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: Oracle's concurrent $10bn stock offering and $10bn senior-notes sale priced Nov 2 (coupons 7.000-8.650%, 145-175bp wider than its Feb 2026 deal) -- deal priced, not pulled; no fresher dated reception data found this run"
+      },
+      "C5": {
+        "c": "R",
+        "v": "CoreWeave equity $48.42 (Nov 4, -9.90% day), -64.91% from its May 2026 high, deepening from -61.05% (Nov 3). CDS last confirmed ~1,194.5bp intraday (Oct 15) and bonds near 79.5 cents, both carried -- no fresher print found this run"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate reportedly $40-70bn depending on source/date; Anthropic ~$65bn (end-July, stale). No fresher single dated figure found this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's round was cut to a $20bn target at a $1.25T valuation (CNBC, Oct 31, confirming an FT report), down from the $1.4T it had sought; only ~$11bn committed as of the Oct 30 deadline amid 'lukewarm' large-investor interest. Still a markup vs its last priced $852bn round (not a down round); round open ~52 days since first reported mid-September, still under the 90-day threshold"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU rental prices mixed across providers (roughly $2-4/hr on-demand H100), no verified broad >15% decline or idle-capacity reports found this run"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Carried: ROI studies (AIMG, WRITER) continue to show weak measured EBIT/ROI impact at most enterprises; Ramp AI Index still shows no update past August 2026 (56.1%)"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Carried: ~131,937 tech jobs cut in 2026 with AI cited in ~36% of 2026 layoffs; no new named AI-company failure or wave found this run"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (released Oct 13) put 'AI bubble' tail risk at 23%, behind bond yields (31%); November survey not yet released as of Nov 5"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT's 7-day 'AI bubble' query was rate-limited (429) after a connection reset and one retry, per protocol not retried further; the 12-month pull succeeded. Google News RSS's 7-day query again filled its 100-item cap, in line with baseline pace"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch eased to 83 'Extreme' (Nov 4, from 86); aibubblemonitor.com held flat at 44.5 'Neutral' (Nov 5); boomorbubble.ai held flat at 0/5 red gauges 'Boom' (newest gauge Nov 3, valuation-heat 25.96). Trackers still disagree in direction; E3 stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "No IPO withdrawal found; Nvidia director Mark Stevens' ~$946.6M Q3 insider sales remain the largest reported (carried). Polymarket 2026 burst odds eased to 8.25% (Nov 5) from 8.5%; June 2027 contract flat at 23%"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX 4.894% (Nov 4 close); FRED DGS10 4.95% (Nov 3) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 93.88 (Nov 4, -6.09% day) -- stays under the 100 green threshold"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium (FRED THREEFYTP10) 0.9089% (Oct 30, latest available print) -- stays inside the 0.5-1.0% yellow band"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $94.62 (Nov 4), inside the $80-100 yellow band; red requires Brent>$100 together with CPI>4% -- September CPI (3.7% headline) keeps that unmet, and its own 3-4% band keeps F4 yellow regardless. Breakeven 2.26% (FRED T10YIE, Nov 4) stays under the 2.4% green line. October CPI not yet released (due ~Nov 10)"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "Carried: FOMC held the target range at 3.75-4.00% (Oct 28, 10-2 vote, Governors Cook and Hammack dissenting in favor of a 25bp hike); no new dot plot since. Stays in the 1-2-hikes-priced yellow band"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "OpenAI's round was cut to a $20bn target at a $1.25T valuation (CNBC, Oct 31; Forbes, Nov 2, reports UAE investors including MGX pairing capital with compute-capacity commitments) -- a structured-terms pattern, not suppliers taking 50%+ of the round; ~52 days open since first reported, still under the 90-day threshold"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Unchanged: OpenAI's ~$40-70bn run-rate against ~$1.4tn of reported multi-year compute commitments keeps the loop-cash-gap ratio in the upper 2-5x yellow band. No confirmed deferral found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; next Nvidia 10-Q (~late Nov) and Oracle 10-Q (~mid-Dec) will provide DSO, customer concentration and RPO detail (carried)"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable; Ramp AI Index (RAMPAIALL) still shows no update past August 2026 (56.1%). No fresh Azure-ex-OpenAI growth differential surfaced this run"
+      }
+    },
+    "market": {
+      "spx": 7688.62,
+      "ndx": 28437.17,
+      "sox": 10268.65,
+      "sox_dd": -29.83,
+      "nvda": 200.13,
+      "nvda_dd": -16.35,
+      "ndx_dd": -8.93,
+      "tnx": 4.894,
+      "vix": 16.61,
+      "hy_oas": 340,
+      "move": 93.88,
+      "term_premium": 0.91,
+      "breakeven": 2.26,
+      "brent": 94.62,
+      "orcl": 123.73,
+      "crwv": 48.42
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 83,
+        "label": "Extreme",
+        "date": "2026-11-04",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 44.5,
+        "label": "Neutral",
+        "date": "2026-11-05",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 8.25,
+        "v2027": 23,
+        "date": "2026-11-05",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "OpenAI's funding round, per CNBC (Oct 31, confirming an FT report), was cut to a $20bn target at a $1.25T valuation (down from a hoped $1.4T), with only ~$11bn committed as of the Oct 30 deadline amid 'lukewarm' large-investor interest.",
+        "url": "https://hedgeco.net/news/11/2026/openai-cut-its-funding-round-target-to-up-to-20-billion-at-a-1-25-trillion-valuation.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "Midterm elections (Nov 3) installed anti-data-center officials across 10 states (41 ballot measures per Ballotpedia); neocloud stocks (CRWV -9.90%, IREN -11.24%) sold off Nov 4 on the result, even as the broader market rallied on the Democratic sweep.",
+        "url": "https://www.axios.com/2026/10/31/ai-booms-political-reckoning"
+      },
+      {
+        "kind": "HARD",
+        "t": "NVDA closed -16.35% from its Oct 6 high ($200.13, Nov 4), crossing back into A1's yellow band one session after closing green; SOX closed -29.83% from its June high, its deepest drawdown of this run.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA"
+      }
+    ],
+    "sources": {
+      "T1": 3,
+      "T2": 1,
+      "T3": 2,
+      "T4": 4,
+      "T5": 4
+    },
+    "run_url": "https://claude.ai/code/session_01QebKNNJYs8jUnpB4KRwm2m",
+    "brief": "briefs/2026-11-05.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow, unchanged in color. OpenAI's round was confirmed cut to a $20bn target at a $1.25T valuation (CNBC Oct 31), with UAE investors reportedly pairing capital with compute-capacity commitments (Forbes, Nov 2) -- a structured-terms pattern, still short of a supplier-majority or down round. G3 and G4 stay not-yet-scorable."
   }
 ]

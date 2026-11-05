@@ -1146,5 +1146,40 @@
     "t": "Seven-week retrospective published; concerns ledger and Retro section added so every watch item is settled against what actually happened. Routine gains a Treasury fallback for FRED, GDELT request spacing, and an instruction to score G3 from the latest filed 10-Q.",
     "url": "docs/review-2026-11-04.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-05",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "CNBC confirmed (Oct 31, following an FT report) that OpenAI cut its roughly $30bn funding round to a $20bn target at a $1.25T valuation, down from the $1.4T it had sought; only about $11bn was committed as of the Oct 30 deadline amid 'lukewarm' large-investor interest. Forbes (Nov 2) reports UAE investors including MGX are pairing capital with compute-capacity commitments.",
+    "url": "https://hedgeco.net/news/11/2026/openai-cut-its-funding-round-target-to-up-to-20-billion-at-a-1-25-trillion-valuation.html",
+    "tag": "long-AI incentive: reporting relayed via deal-tracking aggregators, primary CNBC/FT articles unreachable this session"
+  },
+  {
+    "date": "2026-11-05",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "B2"
+    ],
+    "t": "The Nov 3 midterm elections installed anti-data-center state and local officials across 10 states (Ballotpedia counted 41 data-center ballot measures); neocloud stocks (CRWV -9.90%, IREN -11.24%) sold off Nov 4 on the result even as the broader market rallied on the Democratic sweep. No hyperscaler, Stargate or top neocloud has yet confirmed an actual project pause from it.",
+    "url": "https://www.axios.com/2026/10/31/ai-booms-political-reckoning",
+    "tag": null
+  },
+  {
+    "date": "2026-11-05",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A5"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows hold at 8 for a tenth straight session, but composition shifted within Pillar A: A1 (NVDA drawdown) flipped back to yellow (-16.35% from its Oct 6 high) as A5 (VIX) flipped back to green (16.61, down from 20.83). CoreWeave's equity drawdown deepened to -64.91% from its May high. Stage holds at 5; circularity holds HIGH.",
+    "url": "briefs/2026-11-05.md",
+    "tag": null
   }
 ]

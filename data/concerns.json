@@ -398,5 +398,33 @@
     "resolved": "2026-10-13",
     "outcome": "It fell to 23% in the October survey from 28% in September, behind bond yields and inflation.",
     "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html"
+  },
+  {
+    "id": "c29",
+    "opened": "2026-11-05",
+    "concern": "Oracle's reported $7bn Tencent AI-chip leasing deal (announced Oct 1) was cancelled, per a Nov 4 T4 aggregator report (Motley Fool/Yahoo) with no T1-T3 confirmation found",
+    "signals": [
+      "B2"
+    ],
+    "resolve_if": "A Reuters, Bloomberg, FT, Oracle or Tencent statement confirming or denying the cancellation",
+    "deadline": "2026-11-19",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c30",
+    "opened": "2026-11-05",
+    "concern": "TSMC's October monthly revenue release (due ~Nov 10) shows a sharp deceleration from September's +54.6% YoY pace, the first supply-chain confirmation that AI chip demand is cooling (B4 red)",
+    "signals": [
+      "B4"
+    ],
+    "resolve_if": "TSMC's October revenue release",
+    "deadline": "2026-11-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
   }
 ]
