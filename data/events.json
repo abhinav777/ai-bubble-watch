@@ -1181,5 +1181,22 @@
     "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows hold at 8 for a tenth straight session, but composition shifted within Pillar A: A1 (NVDA drawdown) flipped back to yellow (-16.35% from its Oct 6 high) as A5 (VIX) flipped back to green (16.61, down from 20.83). CoreWeave's equity drawdown deepened to -64.91% from its May high. Stage holds at 5; circularity holds HIGH.",
     "url": "briefs/2026-11-05.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "B5",
+      "C4",
+      "D4",
+      "E2",
+      "E4",
+      "F5",
+      "G4"
+    ],
+    "t": "Framework revised after the retrospective: Stage 5 needs breadth and fresh prints, hysteresis on level-based signals, C4 on secondary trading, B5 policy-and-power added, E4/D4/E2/F5/G4 redefined to measurable sources, daily check moved to after the close with an overnight watch before the open.",
+    "url": "docs/review-2026-11-04.md",
+    "tag": null
   }
 ]

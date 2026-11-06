@@ -32,13 +32,13 @@
     {
       "n": 4,
       "name": "Capex cliff",
-      "rule": "Red in B1 or B2. This is when 'the bubble is popping' becomes the right headline",
+      "rule": "Red in B1 or B2, or B5 red together with B2 red. This is when 'the bubble is popping' becomes the right headline",
       "dotcom": "Jan - Apr 2001: telecom capex cut 20-40%; Cisco $2.2B write-down"
     },
     {
       "n": 5,
       "name": "Credit event",
-      "rule": "Red in C1, C4 or C5",
+      "rule": "Two or more of C1, C3, C4, C5 red on prints dated within 10 trading days, or C3 above 500 bp, or a confirmed default, covenant breach or going-concern notice. A lone or stale credit red sets the credit-stress flag instead",
       "dotcom": "2001 - 2002: debt-funded builders default"
     }
   ],
@@ -127,6 +127,13 @@
           "g": "Growing, prices firm",
           "y": "TSMC growth halves or memory flat",
           "r": "TSMC YoY negative, memory falling, ODM cuts"
+        },
+        {
+          "id": "B5",
+          "name": "Policy and power: state and local actions in the top data-center states",
+          "g": "Nothing beyond ordinary permitting",
+          "y": "Proposed state moratoria, a governor-elect's pause commitment, local ballot measures, interconnection rule changes under consideration",
+          "r": "Enacted or executive-ordered state pause, a permit denial halting a named project, or a utility order curtailing large loads"
         }
       ]
     },
@@ -158,10 +165,10 @@
         },
         {
           "id": "C4",
-          "name": "AI debt deal reception",
-          "g": "Oversubscribed",
-          "y": "Repriced wider, downsized or delayed",
-          "r": "Pulled deal, covenant breach, downgrade to junk, or a fund gating redemptions"
+          "name": "AI debt deal reception, judged on first-week secondary trading",
+          "g": "Recent deals trade at or above issue a week after pricing, or no deal and no stress",
+          "y": "A new deal below 98 in week one, or repriced wider, downsized or delayed; oversubscription alone is not green",
+          "r": "Pulled deal, below 95 in week one, covenant breach, downgrade to junk, or a fund gating redemptions"
         },
         {
           "id": "C5",
@@ -200,10 +207,10 @@
         },
         {
           "id": "D4",
-          "name": "Enterprise adoption",
-          "g": "Seat/usage growth accelerating",
-          "y": "Flat growth or negative ROI studies",
-          "r": "Disclosed seat declines or major customers cutting AI budgets"
+          "name": "Enterprise adoption: Census BTOS share of firms using AI, biweekly",
+          "g": "Rising over three readings",
+          "y": "Flat over three readings; negative ROI studies move green to yellow only",
+          "r": "Falling over three readings, or disclosed seat declines at a major vendor"
         },
         {
           "id": "D5",
@@ -228,10 +235,10 @@
         },
         {
           "id": "E2",
-          "name": "Narrative volume vs 12-month average",
+          "name": "Narrative volume: GDELT 7-day 'AI bubble' volume vs 12-month mean",
           "g": "< 1.5x",
           "y": "1.5-3x",
-          "r": "> 3x or new high"
+          "r": "> 3x or a new 12-month high"
         },
         {
           "id": "E3",
@@ -242,10 +249,10 @@
         },
         {
           "id": "E4",
-          "name": "Insider selling and IPO froth",
-          "g": "Normal",
-          "y": "Record insider sales or day-one doublings",
-          "r": "IPO withdrawals"
+          "name": "Equity issuance and insider selling at AI infrastructure names",
+          "g": "Ordinary issuance and insider sales",
+          "y": "Large secondary or convertible at a discount above 5%, record insider sales, or day-one IPO doublings",
+          "r": "Pulled or failed offering, or an IPO withdrawal or postponement"
         }
       ]
     },
@@ -284,10 +291,10 @@
         },
         {
           "id": "F5",
-          "name": "Fed path priced by futures and dots",
-          "g": "Cuts priced",
-          "y": "1-2 hikes priced",
-          "r": "3+ hikes priced, or 2027 median dot > 4.5%"
+          "name": "Fed path: 2-year yield minus fed funds midpoint",
+          "g": "Below zero, cuts priced",
+          "y": "0 to 75 bp",
+          "r": "Above 75 bp, or 2027 median dot above 4.5%"
         }
       ]
     },
@@ -319,10 +326,10 @@
         },
         {
           "id": "G4",
-          "name": "Growth outside the loop: Azure ex-OpenAI, Ramp AI Index",
-          "g": "Azure ex-OpenAI within 3 pts of headline and steady; Ramp rising 3 months",
-          "y": "OpenAI share of Azure growth rising two quarters or no longer disclosed; Ramp flat 3 months",
-          "r": "Azure ex-OpenAI down 5+ pts while headline holds; Ramp falling 3 months; a lab named as largest growth source while guidance is cut"
+          "name": "Lab economics from filings: revenue, margin, cash flow vs commitments (Anthropic filings; OpenAI reported)",
+          "g": "Both labs: revenue outgrowing commitments, positive operating cash flow",
+          "y": "Either lab: negative adjusted margin, commitments outgrowing revenue, or a run-rate restatement",
+          "r": "Either lab: quarterly revenue decline, missed vendor payment, or going-concern qualification"
         }
       ]
     }
@@ -361,20 +368,40 @@
   ],
   "calendar": [
     {
-      "when": "Week of Nov 9 / mid-Nov",
-      "what": "Anthropic IPO: formal marketing targeted to start the week of Nov 9, Nasdaq listing targeted as soon as mid-November at up to $2T (slipped from the original October target)."
+      "when": "Nov 6",
+      "what": "October jobs report (consensus +59k, unemployment 4.2%)."
     },
     {
-      "when": "Late Nov",
-      "what": "Nvidia Q3 FY27. Guide below consensus or sequential data-center decline turns B3 red. Nvidia's 10-Q gives DSO, customer concentration and stakes in customers (G3)."
+      "when": "Week of Nov 9",
+      "what": "Anthropic IPO roadshow targeted to begin; Nasdaq listing targeted around Thanksgiving at $1.5-2T. A postponement turns E4 red (Stage 2)."
+    },
+    {
+      "when": "~Nov 10",
+      "what": "TSMC October revenue (B4)."
+    },
+    {
+      "when": "Nov 11",
+      "what": "CoreWeave Q3 results. Going-concern language or covenant stress hardens C5."
+    },
+    {
+      "when": "Mid-Nov",
+      "what": "BofA November fund manager survey (E1)."
     },
     {
       "when": "Nov 23",
-      "what": "New Mexico state air-permit decision on Oracle's Project Jupiter (Stargate NM) site -- relevant to the unresolved Blue Owl/STACK force-majeure notice (B2)."
+      "what": "New Mexico air-permit decision on Oracle's Project Jupiter (B2, B5)."
+    },
+    {
+      "when": "Late Nov",
+      "what": "Nvidia Q3 FY27 results and 10-Q (B3, G3)."
+    },
+    {
+      "when": "Dec 9",
+      "what": "FOMC. Futures price roughly 70% odds of a hike (F5)."
     },
     {
       "when": "Mid-Dec",
-      "what": "Oracle Q2 FY27: current vs total RPO and free cash flow (G3). Total RPO falling QoQ or a contract modification with its largest customer turns G3 red."
+      "what": "Oracle Q2 FY27: current vs total RPO (G3). OpenAI's round reaches 90 days open unless closed (G1); it was cut to $20B at $1.25T on Oct 31."
     }
   ],
   "changelog": [
@@ -504,9 +531,16 @@
     {
       "date": "2026-11-04",
       "t": "Seven-week retrospective (docs/review-2026-11-04.md). Concerns ledger added (data/concerns.json) with 28 back-filled concerns and their outcomes; the dashboard gains a Retro section with a month-ago look-back, recently settled concerns, open concerns by deadline, and what followed each stage call. Plumbing fixes in the routine: Treasury yield-curve CSV as the FRED fallback, a 6-second gap between GDELT calls, and G3 scored from the latest filed 10-Q instead of waiting for the next one."
+    },
+    {
+      "date": "2026-11-06",
+      "t": "Pass one of the retrospective's recommendations. Stage 5 now requires two fresh credit reds, broad spreads above 500 bp, or a default; a lone or stale credit red sets a credit-stress flag instead. Two-close hysteresis on level-based signals; Pillar F moves no longer listed as changes. C4 scored on first-week secondary trading. New B5 policy-and-power signal (pillars A-E now 25 signals, 34 in total). E4 redefined as equity issuance plus insider selling, D4 as the Census BTOS AI-use rate, E2 as GDELT volume, F5 as the 2-year minus the fed funds midpoint, G4 as lab economics from filings. The daily check moves to 23:00 UTC, after the US close; an overnight watch at 13:00 UTC alerts before the open and writes events, not rows."
     }
   ],
   "circularity": {
     "rule": "Pillar G is scored on funding events and filings, not daily prices, and is excluded from the 24-signal count. LOW = 0 red and at most 1 yellow (N not counted); HIGH = 0 red and 2+ yellow; BREAKING = any red. A G1 red joins the Stage 2 rule; a G2, G3 or G4 red joins the Stage 3 rule. Confirmed Sep 25, 2026 with dated sources: G1 Y, G2 Y, G3 N, G4 N, level HIGH."
+  },
+  "scoring": {
+    "rule": "Revised 2026-11-06 after the seven-week retrospective. Hysteresis: level-based signals (A1, A2, A3, A5, C2, C3, F1, F2, F3's term-premium leg, F5) change color only after two consecutive closes beyond the threshold; event-based signals change immediately; Pillar F moves are not listed as changed signals. Credit stress: when any of C1, C4, C5 is red but Stage 5's breadth-and-freshness test is not met, the row is flagged 'credit stress in the leveraged layer'. Counts cover the 25 signals in pillars A to E. Cadence: the full check runs after the US close (23:00 UTC); an overnight watch before the open (13:00 UTC) alerts only on moves or facts that would flip a signal or settle a concern, and writes an event rather than a row."
   }
 }
