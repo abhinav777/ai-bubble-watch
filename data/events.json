@@ -1198,5 +1198,17 @@
     "t": "Framework revised after the retrospective: Stage 5 needs breadth and fresh prints, hysteresis on level-based signals, C4 on secondary trading, B5 policy-and-power added, E4/D4/E2/F5/G4 redefined to measurable sources, daily check moved to after the close with an overnight watch before the open.",
     "url": "docs/review-2026-11-04.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A6",
+      "A2"
+    ],
+    "t": "US chip and AI-infrastructure stocks had their worst session of this run on Nov 5 close: SOX plunged 12.25% (10,268.65 to 9,011.14, -38.4% from its June high), NVDA -9.26% to $181.60, AMD -17.26% to $404.40, MU -17.46% to $656.39, ORCL -6.93% to $115.16 and CRWV -9.83% to $43.66, with S&P 500 -4.4% and Nasdaq entering correction on post-midterm data-center-moratorium and AI-capex doubts; Asia extended the rout into Nov 6 pre-market with SoftBank -10.83% to 3,549 yen, SK Hynix -10.44%, the Nikkei -5.97% and the Kospi -5.98%, while US equity futures (ES=F +0.1%, NQ=F +1.4%) stabilized. SOX's dated -12.25% single-day close on Nov 5 is a T1 exchange-price fact that breaches A6's red threshold (SOX -8% or more in a day) for the first time this run and deepens A2's existing red drawdown.",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+    "tag": null
   }
 ]
