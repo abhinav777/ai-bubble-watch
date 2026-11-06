@@ -1210,5 +1210,50 @@
     "t": "US chip and AI-infrastructure stocks had their worst session of this run on Nov 5 close: SOX plunged 12.25% (10,268.65 to 9,011.14, -38.4% from its June high), NVDA -9.26% to $181.60, AMD -17.26% to $404.40, MU -17.46% to $656.39, ORCL -6.93% to $115.16 and CRWV -9.83% to $43.66, with S&P 500 -4.4% and Nasdaq entering correction on post-midterm data-center-moratorium and AI-capex doubts; Asia extended the rout into Nov 6 pre-market with SoftBank -10.83% to 3,549 yen, SK Hynix -10.44%, the Nikkei -5.97% and the Kospi -5.98%, while US equity futures (ES=F +0.1%, NQ=F +1.4%) stabilized. SOX's dated -12.25% single-day close on Nov 5 is a T1 exchange-price fact that breaches A6's red threshold (SOX -8% or more in a day) for the first time this run and deepens A2's existing red drawdown.",
     "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
     "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A6",
+      "A2",
+      "A4"
+    ],
+    "t": "The worst single session this tracker has recorded: SOX closed -12.25% on Nov 5 (10,268.65 to 9,011.14, -38.4% from its June high) and NVDA fell 9.26% to $181.60, breaching A6's -8% red threshold for the first time, before a partial Nov 6 rebound (SOX +6.26% to 9,574.89, NVDA +6.94% to $194.21, AMD +13.2%).",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B2"
+    ],
+    "t": "Bloomberg (Nov 4), citing the FT, and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped a $7bn deal to lease AI chips to Tencent under US political pressure, with Guangdong officials separately pushing Tencent toward domestic chips; Oracle, Tencent and the White House did not comment. Treated as a geopolitical export-control event, not a company-confirmed AI-demand pause -- B2 stays yellow.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "opinion",
+    "tier": "T3",
+    "signals": [
+      "D2",
+      "E4"
+    ],
+    "t": "24/7 Wall St (Nov 6), citing unnamed major investors, reports doubt that Anthropic can IPO near its targeted $1.5T after the Nov 5 crash, floating a sub-$1.5T price or a slip past the week of Nov 9; Anthropic's S-1 amendment (Nov 2) still leaves the price range blank. No confirmed repricing or postponement yet.",
+    "url": "https://247wallst.com/investing/2026/11/06/big-investors-now-doubt-anthropic-can-ipo-at-1-5-trillion-after-the-ai-crash/",
+    "tag": "engagement incentive: crash-reaction headline, sourced to unnamed investors"
+  },
+  {
+    "date": "2026-11-06",
+    "type": "framework",
+    "tier": null,
+    "signals": [],
+    "t": "First run scored under the Nov 6 retrospective rules. Stage falls from 5 to 1 (price break, with a credit-stress flag) because Oracle's and CoreWeave's credit reds are now beyond 10 trading days stale and no longer count toward Stage 5's breadth-and-freshness test -- a methodology change, not new facts. B5 (policy and power) scored for the first time (yellow). Pillar A gained a third red (A6) on the Nov 5 single-day rout.",
+    "url": "briefs/2026-11-06.md",
+    "tag": null
   }
 ]

@@ -8507,5 +8507,243 @@
     "brief": "briefs/2026-11-05.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged in color. OpenAI's round was confirmed cut to a $20bn target at a $1.25T valuation (CNBC Oct 31), with UAE investors reportedly pairing capital with compute-capacity commitments (Forbes, Nov 2) -- a structured-terms pattern, still short of a supplier-majority or down round. G3 and G4 stay not-yet-scorable."
+  },
+  {
+    "date": "2026-11-06",
+    "as_of": "close",
+    "close_date": "2026-11-06",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer -- reclassified down from Stage 5 under today's revised breadth-and-freshness rule (Oracle's and CoreWeave's credit reds are now beyond 10 trading days stale), not from new facts; Pillar A triggers Stage 1 on A2, A4 and newly-red A6 after the worst single session this tracker has recorded.",
+    "credit_stress": true,
+    "reds": 5,
+    "yellows": 9,
+    "greens": 11,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "0 red / 4 yellow in Pillar F (F1, F3, F4, F5), unchanged in composition. F2 (MOVE 94.48, Nov 6) stays green. C1 and C5 stay colored red on stale prints and C4/D2 remain pressured by OpenAI's still-open round and Anthropic's IPO-timeline doubts.",
+    "read": "Nov 5 was the sharpest single-day AI-complex selloff this tracker has recorded -- SOX -12.25% to 9,011.14 (-38.4% from its June high), NVDA -9.26% to $181.60, driven by post-midterm fears that incoming anti-data-center state officials (Texas, Georgia, Ohio) will slow the buildout -- before a partial Nov 6 rebound (SOX +6.3% to 9,574.89, NVDA +6.9% to $194.21, AMD +13.2%). That single-day plunge breaches A6's red threshold for the first time (SOX -8%+), so Pillar A now holds three reds (A2, A4, A6). Separately, this is the first run under the retrospective's revised Stage 5 rule, which requires two fresh (within-10-trading-day) credit reds, >500bp broad HY OAS, or a confirmed default. Oracle's CDS (~288-315bp) and CoreWeave's bond/CDS prints (~1,195bp/~79.5 cents) are both now roughly three weeks stale with no fresher print found despite the crash, so neither counts toward Stage 5's breadth test -- the stage falls to 1 (price break) with a credit-stress flag, a methodology change, not new facts. Oracle's $7bn chip-leasing deal with Tencent was confirmed scrapped (Bloomberg/Reuters, Nov 4, citing the FT) under US political pressure -- a geopolitical export event, not an AI-demand pullback, so B2 stays yellow. 24/7 Wall St (Nov 6) reports investors now doubt Anthropic can IPO near $1.5T after the crash, with no confirmed repricing or delay yet.",
+    "changed": [
+      {
+        "signal": "A6",
+        "from": "Y",
+        "to": "R",
+        "why": "SOX -12.25% single-day (Nov 5, 10,268.65 -> 9,011.14), breaching the -8% red threshold for the first time this run"
+      },
+      {
+        "signal": "E2",
+        "from": "G",
+        "to": "Y",
+        "why": "GDELT's 7-day comparator looks lag-depressed (10.7% of 12-month mean), but Google News RSS and six major-wire 'AI bubble' pieces (FT, BBC, NBC, Bloomberg, Le Monde, Forbes) all published Nov 5-6 -- a real narrative spike the daily feed hasn't fully caught up to; judgment call"
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "Y",
+        "v": "NVDA $194.21 (Nov 6, +6.94% day), -20.20% from $243.37 (Oct 6) -- stays in the 15-25% yellow band; touched -25.4% intraday close on Nov 5 ($181.60) but that single close isn't a confirmed row for hysteresis purposes"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 9,574.89 (Nov 6, +6.26% day), -34.67% from 14,655.29 (Jun 22) -- stays past the >20% red threshold"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 27,280.29 (Nov 6, +2.44% day), -13.01% from 31,361.37 (Oct 6) -- first close beyond the 10% yellow threshold vs the previous row's -8.93%; hysteresis holds it green pending a second confirming close"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct 9-Nov 6): SOX -23.8%, AMD -24.7%, MU -30.3%, AVGO -15.9%, NVDA -15.3% vs RSP +1.65% -- lag of 17-32pts, well past the >10pt red threshold while RSP is up"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 25.53 (Nov 6 close) -- first close beyond the 20 yellow threshold vs the previous row's 16.61; hysteresis holds it green pending a second confirming close (VIX touched ~28 intraday Nov 5, not a confirmed row)"
+      },
+      "A6": {
+        "c": "R",
+        "v": "SOX -12.25% single-day (Nov 5, 10,268.65 -> 9,011.14) breaches the -8% red threshold for the first time; still within the trailing week as of Nov 6's close"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: all four hyperscalers raised/held 2027 capex guidance through Oct 29; none reports again until late Jan/Feb 2027, so no new statement this run"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Bloomberg (Nov 4, citing FT) and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped its $7bn AI-chip leasing deal with Tencent under US political pressure, with Guangdong officials separately pushing Tencent toward domestic chips -- a geopolitical export-control event, not a company-confirmed AI-demand pause, so it does not trigger red. Oracle's Project Jupiter force-majeure dispute remains unresolved (New Mexico permit decision due Nov 23, still contested)"
+      },
+      "B3": {
+        "c": "G",
+        "v": "No new Nvidia print; next results/10-Q expected late Nov (carried)"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC's October revenue not yet released (expected ~Nov 10); TrendForce reports Q4 DRAM contract prices forecast up 10-18% and HBM sold out for 2026, no softening"
+      },
+      "B5": {
+        "c": "Y",
+        "v": "First scored run for this new signal. Texas Tribune (Nov 4) confirms governor-elect Gina Hinojosa campaigned on a data-center moratorium; Euronews (Nov 4) reports data-center backlash helped Democrats win in Texas, Georgia and Ohio; New Mexico's Project Jupiter air-permit decision remains pending (due Nov 23, still contested per court filings). No enacted state pause or permit denial yet"
+      },
+      "C1": {
+        "c": "R",
+        "v": "No fresher dated CDS print found despite the Nov 5 crash; last T1-T3 figure remains ~288-315bp (mid-to-late October), now beyond 15 trading days stale -- keeps its red color but counts as yellow for the Stage 5 breadth test"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.10% (Nov 4: 8.00% tech HY minus 4.90% 10y), label 'MODERATE RISK', stays under the 3.5% threshold"
+      },
+      "C3": {
+        "c": "G",
+        "v": "332bp (FRED BAMLH0A0HYM2 CSV, Nov 4), down from 340bp (Nov 3) -- stays under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Oracle's concurrent $10bn stock + $10bn senior-notes offering (5 tranches, 7.000-8.650% coupons) priced Nov 2, confirmed via SEC 424B2; no dated secondary-market print found post-crash to judge first-week reception"
+      },
+      "C5": {
+        "c": "R",
+        "v": "CoreWeave equity $46.73 (Nov 6, +7.02% day), -66.2% from its May 2026 high, after closing $43.66 (-68.4%) on Nov 5. CDS/bonds last confirmed ~1,194.5bp / ~79.5 cents (mid-Oct), now beyond 15 trading days stale -- keeps its red color but counts as yellow for the Stage 5 breadth test. CoreWeave's Q3 results (Nov 11) are the next scheduled catalyst"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$40-70bn depending on source/date; Anthropic's S-1 (Oct 26) showed H1 2026 revenue $16.3bn. Ramp AI Index ticked up to 55.9% in September (from 55.2% in August, per Ramp's own series) -- context only, no fresh single dated run-rate figure this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI's round remains open at a $20bn target / $1.25T valuation with only ~$11bn committed as of the Oct 30 deadline; UAE investors (incl. MGX) reportedly pairing capital with compute-capacity commitments (Forbes, Nov 2). Still a markup vs its $852bn last round, not a down round; round still under the 90-day threshold"
+      },
+      "D3": {
+        "c": "G",
+        "v": "GPU rental prices mixed across providers (roughly $2.40-4.75/hr H100 on-demand depending on index) with no evidence of a post-crash price collapse as of Nov 2-5"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Carried from the Nov 6 baseline: Census BTOS Question 7 'Yes' share 24.2% (cycle 202622, published Nov 5), after 24.6% (202621) and 23.8% (202620) -- not rising over three readings. census.gov blocked by the proxy (403) this run; no newer cycle found"
+      },
+      "D5": {
+        "c": "G",
+        "v": "Isolated, T4-sourced reports this week (Ollie AI shutdown, Explorium shutdown, Heidi Health -18% staff) -- unverified against primary sources but consistent with 'isolated' rather than a wave"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct 13) put 'AI bubble' tail risk at 23%, behind bond yields; November survey not yet released as of Nov 6"
+      },
+      "E2": {
+        "c": "Y",
+        "v": "GDELT's 7-day 'AI bubble' volume read at only 10.7% of its 12-month mean but shows clear ingestion lag for Nov 3-6 (a same-day call volume ramp visible in the hourly data); Google News RSS counted >=78 items in 7 days, and six major wires (FT, BBC, NBC, Bloomberg, Le Monde, Forbes) all ran dedicated 'AI bubble' pieces on Nov 5-6 -- a real spike the lagging metrics understate. Scored yellow as a judgment call pending a cleaner GDELT read"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch eased to 82 'Extreme' (Nov 5, from 83); aibubblemonitor.com held flat at 44.7 'Neutral' (Nov 6); boomorbubble.ai held flat at 0/5 red gauges 'Boom' (newest gauge Nov 3, valuation-heat 25.96). Trackers still disagree in direction; E3 stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "No new secondary/convertible pricing or notable insider-selling print found this run (Nvidia director Mark Stevens' ~$946.6M Q3 sales remain carried). 24/7 Wall St (Nov 6) reports investors doubt Anthropic can IPO near $1.5T after the crash, floating a sub-$1.5T price or a slip past the week of Nov 9 -- unconfirmed, no postponement yet"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX 4.87% (Nov 6 close); FRED DGS10 4.90% (Nov 4) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 94.48 (Nov 6, -3.51% day) -- stays under the 100 green threshold"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium (FRED THREEFYTP10) 0.9089% (Oct 30, latest available print, now stale) -- stays inside the 0.5-1.0% yellow band; no Treasury auction in the trailing 7 days (next 10y ~Nov 10, 30y ~Nov 12)"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $97.80 (Nov 6), inside the $80-100 yellow band. Breakeven 2.24% (FRED T10YIE, Nov 5) stays under the 2.4% green line. September CPI (3.7% headline) keeps the 3-4% yellow band; October CPI not yet released (due ~Nov 10)"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "Carried: 2-year yield 4.58% (FRED DGS2, Nov 4; Treasury's same-day CSV blocked by the proxy this run) minus the 3.875% FOMC midpoint = +70.5bp -- stays in the 0-75bp yellow band"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's round stays open at a $20bn target / $1.25T valuation with UAE investors (MGX) pairing capital with compute-capacity commitments -- a structured-terms pattern, not a supplier-majority or down round; no close found this run"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Unchanged: OpenAI's ~$40-70bn run-rate against ~$1.4tn of reported multi-year compute commitments keeps the loop-cash-gap ratio in the upper 2-5x yellow band. No confirmed deferral found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; confirmed no new Nvidia or Oracle 10-Q since Aug 26 / Sep 11, 2026 respectively (carried)"
+      },
+      "G4": {
+        "c": "N",
+        "v": "Not yet scorable; no new Anthropic disclosure since its Oct 26 S-1 (amended Nov 2 with Q3 financials, price range still blank); Ramp AI Index's September reading (55.9%) is context, not a lab filing (carried)"
+      }
+    },
+    "market": {
+      "spx": 7437.16,
+      "ndx": 27280.29,
+      "sox": 9574.89,
+      "sox_dd": -34.67,
+      "nvda": 194.21,
+      "nvda_dd": -20.2,
+      "ndx_dd": -13.01,
+      "tnx": 4.87,
+      "vix": 25.53,
+      "hy_oas": 332,
+      "move": 94.48,
+      "term_premium": 0.91,
+      "breakeven": 2.24,
+      "brent": 97.8,
+      "orcl": 118.41,
+      "crwv": 46.73
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 82,
+        "label": "Extreme",
+        "date": "2026-11-05",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 44.7,
+        "label": "Neutral",
+        "date": "2026-11-06",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": false
+      },
+      "polymarket_burst": {
+        "v": 7.6,
+        "v2027": 26.5,
+        "date": "2026-11-06",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "SOX plunged 12.25% to 9,011.14 and NVDA fell 9.26% to $181.60 on Nov 5, 2026 -- the worst single session this tracker has recorded -- before a partial Nov 6 rebound (SOX +6.26%, NVDA +6.94%), on post-midterm fears that incoming anti-data-center state officials will slow the AI buildout.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "Bloomberg (Nov 4), citing the FT, confirmed Oracle scrapped its $7bn AI-chip leasing deal with Tencent under US political pressure, with Chinese officials separately pushing Tencent toward domestic chips.",
+        "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says"
+      },
+      {
+        "kind": "OPINION",
+        "t": "24/7 Wall St (Nov 6), citing unnamed major investors, reports doubt that Anthropic can IPO near its targeted $1.5T after the crash, floating a lower price or a slip past the week of Nov 9 -- unconfirmed.",
+        "url": "https://247wallst.com/investing/2026/11/06/big-investors-now-doubt-anthropic-can-ipo-at-1-5-trillion-after-the-ai-crash/"
+      }
+    ],
+    "sources": {
+      "T1": 7,
+      "T2": 8,
+      "T3": 5,
+      "T4": 5,
+      "T5": 4
+    },
+    "run_url": "https://claude.ai/code/session_01QebKNN7Y5iML1zbHXURUBe",
+    "brief": "briefs/2026-11-06.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1 and G2 hold yellow, unchanged in color. OpenAI's round remains open at a $20bn target / $1.25T valuation with ~$11bn committed and UAE investors pairing capital with compute-capacity commitments -- still a structured-terms pattern, not a supplier-majority or down round. G3 and G4 stay not-yet-scorable pending the next Nvidia and Oracle 10-Qs."
   }
 ]

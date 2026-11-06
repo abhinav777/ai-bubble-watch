@@ -408,10 +408,10 @@
     ],
     "resolve_if": "A Reuters, Bloomberg, FT, Oracle or Tencent statement confirming or denying the cancellation",
     "deadline": "2026-11-19",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "materialized",
+    "resolved": "2026-11-04",
+    "outcome": "Bloomberg (Nov 4), citing the FT, and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped the $7bn Tencent AI-chip leasing deal under US political pressure; Guangdong officials separately pushed Tencent toward domestic chips. Treated as a geopolitical export-control event, not a credible AI-demand pullback -- B2 stayed yellow rather than moving to red.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says"
   },
   {
     "id": "c30",
@@ -422,6 +422,35 @@
     ],
     "resolve_if": "TSMC's October revenue release",
     "deadline": "2026-11-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c31",
+    "opened": "2026-11-06",
+    "concern": "A fresh dated Oracle 5-year CDS print, or a fresh CoreWeave bond/CDS print, appears within 10 trading days (by Nov 20) -- which would restore Stage 5's breadth-and-freshness test after today's reclassification to Stage 1",
+    "signals": [
+      "C1",
+      "C5"
+    ],
+    "resolve_if": "A dated CDS or bond print from a wire or vendor, or absence of one by the deadline",
+    "deadline": "2026-11-20",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c32",
+    "opened": "2026-11-06",
+    "concern": "SOX sees a second -8%+ single day, or NVDA a -10%+ single day, within two weeks of the Nov 5 rout (by Nov 20) -- testing whether that session was a one-off panic or the start of a sustained break",
+    "signals": [
+      "A6"
+    ],
+    "resolve_if": "Daily closes from Yahoo",
+    "deadline": "2026-11-20",
     "status": "open",
     "resolved": null,
     "outcome": null,
