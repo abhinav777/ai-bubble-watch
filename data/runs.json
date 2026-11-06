@@ -8510,8 +8510,8 @@
   },
   {
     "date": "2026-11-06",
-    "as_of": "close",
-    "close_date": "2026-11-06",
+    "as_of": "open",
+    "close_date": "2026-11-05",
     "stage": 1,
     "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer -- reclassified down from Stage 5 under today's revised breadth-and-freshness rule (Oracle's and CoreWeave's credit reds are now beyond 10 trading days stale), not from new facts; Pillar A triggers Stage 1 on A2, A4 and newly-red A6 after the worst single session this tracker has recorded.",
     "credit_stress": true,
@@ -8520,7 +8520,7 @@
     "greens": 11,
     "amplifier": "MEDIUM",
     "amplifier_note": "0 red / 4 yellow in Pillar F (F1, F3, F4, F5), unchanged in composition. F2 (MOVE 94.48, Nov 6) stays green. C1 and C5 stay colored red on stale prints and C4/D2 remain pressured by OpenAI's still-open round and Anthropic's IPO-timeline doubts.",
-    "read": "Nov 5 was the sharpest single-day AI-complex selloff this tracker has recorded -- SOX -12.25% to 9,011.14 (-38.4% from its June high), NVDA -9.26% to $181.60, driven by post-midterm fears that incoming anti-data-center state officials (Texas, Georgia, Ohio) will slow the buildout -- before a partial Nov 6 rebound (SOX +6.3% to 9,574.89, NVDA +6.9% to $194.21, AMD +13.2%). That single-day plunge breaches A6's red threshold for the first time (SOX -8%+), so Pillar A now holds three reds (A2, A4, A6). Separately, this is the first run under the retrospective's revised Stage 5 rule, which requires two fresh (within-10-trading-day) credit reds, >500bp broad HY OAS, or a confirmed default. Oracle's CDS (~288-315bp) and CoreWeave's bond/CDS prints (~1,195bp/~79.5 cents) are both now roughly three weeks stale with no fresher print found despite the crash, so neither counts toward Stage 5's breadth test -- the stage falls to 1 (price break) with a credit-stress flag, a methodology change, not new facts. Oracle's $7bn chip-leasing deal with Tencent was confirmed scrapped (Bloomberg/Reuters, Nov 4, citing the FT) under US political pressure -- a geopolitical export event, not an AI-demand pullback, so B2 stays yellow. 24/7 Wall St (Nov 6) reports investors now doubt Anthropic can IPO near $1.5T after the crash, with no confirmed repricing or delay yet.",
+    "read": "Pre-close reading taken at 14:50 UTC on Nov 6; its index and stock levels are intraday and the scheduled after-close run replaces this row. Nov 5 was the sharpest single-day AI-complex selloff this tracker has recorded -- SOX -12.25% to 9,011.14 (-38.4% from its June high), NVDA -9.26% to $181.60, driven by post-midterm fears that incoming anti-data-center state officials (Texas, Georgia, Ohio) will slow the buildout -- before a partial Nov 6 rebound (SOX +6.3% to 9,574.89, NVDA +6.9% to $194.21, AMD +13.2%). That single-day plunge breaches A6's red threshold for the first time (SOX -8%+), so Pillar A now holds three reds (A2, A4, A6). Separately, this is the first run under the retrospective's revised Stage 5 rule, which requires two fresh (within-10-trading-day) credit reds, >500bp broad HY OAS, or a confirmed default. Oracle's CDS (~288-315bp) and CoreWeave's bond/CDS prints (~1,195bp/~79.5 cents) are both now roughly three weeks stale with no fresher print found despite the crash, so neither counts toward Stage 5's breadth test -- the stage falls to 1 (price break) with a credit-stress flag, a methodology change, not new facts. Oracle's $7bn chip-leasing deal with Tencent was confirmed scrapped (Bloomberg/Reuters, Nov 4, citing the FT) under US political pressure -- a geopolitical export event, not an AI-demand pullback, so B2 stays yellow. 24/7 Wall St (Nov 6) reports investors now doubt Anthropic can IPO near $1.5T after the crash, with no confirmed repricing or delay yet.",
     "changed": [
       {
         "signal": "A6",
@@ -8742,7 +8742,7 @@
       "T5": 4
     },
     "run_url": "https://claude.ai/code/session_01QebKNN7Y5iML1zbHXURUBe",
-    "brief": "briefs/2026-11-06.md",
+    "brief": "briefs/2026-11-06-open.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged in color. OpenAI's round remains open at a $20bn target / $1.25T valuation with ~$11bn committed and UAE investors pairing capital with compute-capacity commitments -- still a structured-terms pattern, not a supplier-majority or down round. G3 and G4 stay not-yet-scorable pending the next Nvidia and Oracle 10-Qs."
   }
