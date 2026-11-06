@@ -1255,5 +1255,17 @@
     "t": "First run scored under the Nov 6 retrospective rules. Stage falls from 5 to 1 (price break, with a credit-stress flag) because Oracle's and CoreWeave's credit reds are now beyond 10 trading days stale and no longer count toward Stage 5's breadth-and-freshness test -- a methodology change, not new facts. B5 (policy and power) scored for the first time (yellow). Pillar A gained a third red (A6) on the Nov 5 single-day rout.",
     "url": "briefs/2026-11-06.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "G4",
+      "D1"
+    ],
+    "t": "Anthropic's Nov 2 S-1/A amendment disclosed Q3 2026 revenue of $16.96bn (+1,127% YoY, up from $11.56bn in Q2) but a swing to a $567mn operating loss (from a $974mn Q2 profit) as purchase/lease compute commitments jumped to $895.4bn, up from $518bn reported in the Oct 26 S-1 -- the first dated print giving G4 a score (yellow: commitments now outgrowing a quarter's revenue, negative margin).",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+    "tag": null
   }
 ]

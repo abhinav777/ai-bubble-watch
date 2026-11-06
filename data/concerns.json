@@ -455,5 +455,20 @@
     "resolved": null,
     "outcome": null,
     "url": null
+  },
+  {
+    "id": "c33",
+    "opened": "2026-11-06",
+    "concern": "Anthropic's compute/lease commitments ($895.4bn after the Nov 2 S-1/A, up from $518bn on Oct 26) keep outgrowing revenue in its next disclosure, or it posts a second straight quarterly operating loss, pushing G4 toward red",
+    "signals": [
+      "G4",
+      "G2"
+    ],
+    "resolve_if": "Anthropic's next filing (10-Q or further S-1 amendment) or IPO prospectus financials",
+    "deadline": "2026-12-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
   }
 ]
