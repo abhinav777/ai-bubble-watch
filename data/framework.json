@@ -301,7 +301,7 @@
     {
       "id": "G",
       "name": "Circularity",
-      "role": "Detects stages 2 and 3 through the funding loop: would reported growth exist without vendor capital? Scored on funding events and filings, not daily prices; excluded from the 24-signal count. N = not yet scorable.",
+      "role": "Detects stages 2 and 3 through the funding loop: would reported growth exist without vendor capital? Scored on funding events and filings, not daily prices; excluded from the 25-signal count. N = not yet scorable.",
       "signals": [
         {
           "id": "G1",
