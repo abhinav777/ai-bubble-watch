@@ -166,3 +166,7 @@ details.ref[open] summary::before{content:"\2212  "}
 .btn{font:inherit;font-size:13px;padding:6px 12px;border-radius:6px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);cursor:pointer}
 .btn:hover{border-color:var(--accent)}
 .err{background:var(--r-bg);color:var(--r);padding:10px 14px;border-radius:8px;margin-top:16px}
+.nav{display:flex;gap:16px;align-items:baseline}
+.nav a{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding-bottom:2px;border-bottom:1px solid transparent}
+.nav a:hover{color:var(--accent)}
+.nav a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}

@@ -45,9 +45,9 @@ Two lessons for the monitor: (a) price falls first but is noisy; capex cuts and 
 |---|---|---|---|---|---|
 | C1 | Oracle 5-year CDS spread (absolute bands; use only a print with a date, else carry the last dated value and mark it stale) | < 150 bp | 150-250 bp | > 250 bp | Search "Oracle CDS" news; Bloomberg/Reuters/LSEG coverage |
 | C2 | HY tech bond yield minus 10y Treasury (whalequant.io/en/tech-bubble-spread) | < 3.5% | 3.5-5.0% | > 5.0% | Fetch whalequant page |
-| C3 | US high-yield OAS (FRED BAMLH0A0HYM2) | < 350 bp | 350-500 bp | > 500 bp | FRED |
+| C3 | US high-yield OAS (FRED BAMLH0A0HYM2) | < 350 bp | 350-500 bp | > 500 bp | FRED API (keyed by the cloud environment's network secret, from 2026-11-06); FINRA corporate-bond breadth and sentiment aggregates as daily context, never a color on their own |
 | C4 | AI debt deal reception, judged on first-week secondary trading (revised 2026-11-06) | A deal priced in the last 30 days trades at or above issue one week later, or no deal and no stress | A new deal trades below 98 in its first week, or is repriced wider, downsized or delayed; oversubscription alone never scores green | A deal pulled or trading below 95 in its first week, a covenant breach, a downgrade to junk, or a private-credit fund gating redemptions | Wire reports of secondary prices; FINRA TRACE via API once configured |
-| C5 | Neocloud equity and debt (CRWV, NBIS, IREN, APLD) | Stable | CRWV -30% from high or bonds < 90 cents | CRWV bonds < 80 cents, going-concern language, or a peer default | Yahoo Finance, FINRA TRACE coverage in press |
+| C5 | Neocloud equity and debt (CRWV, NBIS, IREN, APLD) | Stable | CRWV -30% from high or bonds < 90 cents | CRWV bonds < 80 cents, going-concern language, or a peer default | Yahoo Finance; wire reports of bond prices (FINRA's public API carries no per-bond prices) |
 
 ## Pillar D: Demand and revenue validation (Stage 2-3 detectors)
 
@@ -56,7 +56,7 @@ Two lessons for the monitor: (a) price falls first but is noisy; capex cuts and 
 | D1 | OpenAI / Anthropic / xAI revenue run-rate growth | Still doubling or better YoY | Growth rate halves vs prior report; internal targets reportedly missed | Run-rate flat or down; layoffs at a top lab | The Information, Reuters, Bloomberg |
 | D2 | Private-market pricing: secondary discounts, down rounds, pulled rounds | Rounds oversubscribed, secondaries at premium | Secondaries 10-20% below last round; a round delayed | Down round at a top-5 lab; secondaries > 25% below; tender offer cancelled | Search news |
 | D3 | GPU rental price (H100 per hour) 3-month change | Flat or up | -15% to -30% | < -30%, or reports of idle capacity / neoclouds cutting prices to fill | Lambda, SFCompute index, Vast.ai, news |
-| D4 | Enterprise adoption: Census Bureau Business Trends and Outlook Survey share of firms using AI, biweekly (revised 2026-11-06) | Rate rising over the last three readings | Flat within half a point over three readings; negative ROI studies can move green to yellow only | Falling over three readings, or disclosed seat declines at a major vendor | census.gov BTOS (API key once configured, else the published tables); earnings calls as commentary |
+| D4 | Enterprise adoption: Census Bureau Business Trends and Outlook Survey share of firms using AI, biweekly (revised 2026-11-06) | Rate rising over the last three readings | Flat within half a point over three readings; negative ROI studies can move green to yellow only | Falling over three readings, or disclosed seat declines at a major vendor | The BTOS national file (census.gov/hfp/btos/downloads/National.xlsx, question 7 "Yes", three latest cycles; no key needed, updated every second Thursday); earnings calls as commentary |
 | D5 | AI-startup casualty rate | Isolated | Several notable shutdowns or fire-sales in a month | Wave of shutdowns; secondhand GPU glut reported | Search news |
 
 ## Pillar E: Sentiment and narrative (coincident/contrarian, NOT confirmation)
@@ -118,7 +118,7 @@ Also report: count of reds, count of yellows (Pillars A-E, 25 signals), the macr
 
 Hysteresis (added 2026-11-06): level-based signals A1, A2, A3, A5, C2, C3, F1, F2, F3's term-premium leg and F5 change color only when the reading has been beyond the threshold on two consecutive trading-day closes, today's and the previous row's. A single close beyond the line keeps the prior color and the reading says "first close beyond threshold". Event-based signals change immediately. Pillar F changes are reported in the F scoreboard line, not in the changed-signals list.
 
-Cadence (changed 2026-11-06): the full check runs after the US close (23:00 UTC) so each row reflects the same day's close and after-hours earnings; a separate overnight watch runs before the open (13:00 UTC), alerts only on moves or facts that would flip a signal or settle a concern, and writes an event rather than a row.
+Cadence (changed 2026-11-06): the full check runs after the US close (23:00 UTC) so each row reflects the same day's close and after-hours earnings; a separate overnight watch runs before the open (13:00 UTC), alerts only on moves or facts that would flip a signal or settle a concern, and writes an event rather than a row. A run started by hand before the close writes a row marked as_of "open" from the last completed close, with its brief at briefs/YYYY-MM-DD-open.md; the scheduled after-close run replaces that row, so runs.json keeps one row per trading day.
 
 ## Source register (added 2026-09-17)
 

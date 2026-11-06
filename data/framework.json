@@ -535,6 +535,17 @@
     {
       "date": "2026-11-06",
       "t": "Pass one of the retrospective's recommendations. Stage 5 now requires two fresh credit reds, broad spreads above 500 bp, or a default; a lone or stale credit red sets a credit-stress flag instead. Two-close hysteresis on level-based signals; Pillar F moves no longer listed as changes. C4 scored on first-week secondary trading. New B5 policy-and-power signal (pillars A-E now 25 signals, 34 in total). E4 redefined as equity issuance plus insider selling, D4 as the Census BTOS AI-use rate, E2 as GDELT volume, F5 as the 2-year minus the fed funds midpoint, G4 as lab economics from filings. The daily check moves to 23:00 UTC, after the US close; an overnight watch at 13:00 UTC alerts before the open and writes events, not rows."
+    },
+    {
+      "date": "2026-11-06",
+      "t": "Feeds keyed through the cloud environment's network secrets, so no key ever enters a run: FRED's API replaces the CSV for high-yield and investment-grade spreads, yields, the breakeven and the term premium; FINRA's corporate-bond breadth and sentiment aggregates join Pillar C as daily context (FINRA's public API has no per-bond prices, so C1, C4 and C5 stay on wire reports); D4 is read from the Census BTOS national file (question 7, current AI use, three latest cycles) rather than a keyed API, which does not exist for that survey. Manual runs before the close write a row marked \"open\" that the after-close run replaces. The Retro section moved to its own page, retro.html, with the full ledger and the list of reviews; the changelog is mirrored to docs/CHANGELOG.md.",
+      "signals": [
+        "C3",
+        "D4",
+        "F1",
+        "F3",
+        "F4"
+      ]
     }
   ],
   "circularity": {
@@ -542,5 +553,13 @@
   },
   "scoring": {
     "rule": "Revised 2026-11-06 after the seven-week retrospective. Hysteresis: level-based signals (A1, A2, A3, A5, C2, C3, F1, F2, F3's term-premium leg, F5) change color only after two consecutive closes beyond the threshold; event-based signals change immediately; Pillar F moves are not listed as changed signals. Credit stress: when any of C1, C4, C5 is red but Stage 5's breadth-and-freshness test is not met, the row is flagged 'credit stress in the leveraged layer'. Counts cover the 25 signals in pillars A to E. Cadence: the full check runs after the US close (23:00 UTC); an overnight watch before the open (13:00 UTC) alerts only on moves or facts that would flip a signal or settle a concern, and writes an event rather than a row."
-  }
+  },
+  "reviews": [
+    {
+      "date": "2026-11-04",
+      "title": "Seven-week retrospective: source failures, signal behaviour, stage calls against outcomes",
+      "url": "https://github.com/abhinav777/ai-bubble-watch/blob/main/docs/review-2026-11-04.md",
+      "note": "Led to the Nov 6 framework revision."
+    }
+  ]
 }
