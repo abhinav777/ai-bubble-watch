@@ -1267,5 +1267,17 @@
     "t": "Anthropic's Nov 2 S-1/A amendment disclosed Q3 2026 revenue of $16.96bn (+1,127% YoY, up from $11.56bn in Q2) but a swing to a $567mn operating loss (from a $974mn Q2 profit) as purchase/lease compute commitments jumped to $895.4bn, up from $518bn reported in the Oct 26 S-1 -- the first dated print giving G4 a score (yellow: commitments now outgrowing a quarter's revenue, negative margin).",
     "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026068676/anthropicpbc-sx1ax1.htm",
     "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A1"
+    ],
+    "t": "Taiwan's TAIEX closed Monday's session +4.94% to 41,661.70 from Friday's 39,701.64, with Taipei-listed TSMC (2330.TW) +4.68% to NT$2,235, crossing the overnight watch's 3% Asian-index threshold as chip names rebound from the Nov 5 rout; US equity futures (ES=F +0.92%, NQ=F +1.02%) and NVDA's premarket quote (-5.28% vs Friday's $186.64 close) stayed under their own thresholds.",
+    "url": "https://finance.yahoo.com/quote/%5ETWII/",
+    "tag": null
   }
 ]
