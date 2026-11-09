@@ -5,6 +5,7 @@ A daily, evidence-weighted read on whether the AI investment boom is deflating. 
 - `index.html`, `assets/` — the dashboard (no build step; plain HTML/CSS/JS)
 - `data/runs.json` — one record per trading day: stage, counts, amplifier, circularity level, all 33 signal colors and readings, market snapshot, the four public tracker readings, changes, top developments
 - `data/events.json` — dated events that moved a signal or bear on the thesis
+- `data/status.json` — heartbeat written by both routines: when the daily check last ran and which close it scored, and when the overnight watch last ran and what it found (feeds the header)
 - `data/framework.json` — pillars, signals, thresholds, stage rules, source tiers, calendar, changelog
 - `data/concerns.json` — the concerns ledger: every specific worry with a deadline, settled against what happened (feeds the Retro page, `retro.html`)
 - `briefs/` — the full daily brief as Markdown, one file per run

@@ -8,7 +8,7 @@
   }catch(e){ $('retro').innerHTML=`<div class="err">Could not load data: ${esc(e.message)}</div>`; return; }
   runs.sort((a,b)=>a.date<b.date?-1:1);
   const latest = runs[runs.length-1];
-  $('live').innerHTML = `Last run <b>${esc(fmtDate(latest.date))}</b> &middot; ${concerns.length} concerns logged`;
+  $('live').innerHTML = `${AIBW.throughHTML(latest)} &middot; ${concerns.length} concerns logged`;
 
   const today=new Date(latest.date+'T12:00:00Z'); const ago=(d)=>Math.round((today-new Date(d+'T12:00:00Z'))/86400000);
   const stChip=(s)=>({materialized:'<span class="chip r">Materialized</span>',partly:'<span class="chip y">Partly</span>',did_not:'<span class="chip g">Did not</span>',expired:'<span class="chip n">Expired</span>',open:'<span class="chip n">Open</span>'})[s]||esc(s);

@@ -170,3 +170,13 @@ details.ref[open] summary::before{content:"\2212  "}
 .nav a{font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-decoration:none;padding-bottom:2px;border-bottom:1px solid transparent}
 .nav a:hover{color:var(--accent)}
 .nav a[aria-current]{color:var(--ink);border-bottom-color:var(--accent)}
+
+/* header status: running / late states, and the overnight-watch strip */
+.top .live .run{color:var(--y)}
+.top .live .late{color:var(--r)}
+.strip{margin-top:6px;font-family:"IBM Plex Mono",ui-monospace,Menlo,monospace;font-size:12px;letter-spacing:.04em;color:var(--muted);display:flex;gap:10px;align-items:baseline;flex-wrap:wrap}
+.strip[hidden]{display:none}
+.strip .dot{display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--g);flex:none;position:relative;top:-1px}
+.strip.alert .dot{background:var(--y)}
+.strip.missing .dot{background:var(--r)}
+.strip b{color:var(--ink);font-weight:500;text-transform:uppercase;letter-spacing:.06em}

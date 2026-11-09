@@ -546,6 +546,10 @@
         "F3",
         "F4"
       ]
+    },
+    {
+      "date": "2026-11-09",
+      "t": "The dashboard header now states which close the scoring covers, when the next scoring is due in the viewer's time zone and whether a run is late, with a strip for the morning overnight watch; both routines write a heartbeat to data/status.json, and the overnight watch commits it even on quiet mornings. The page reloads itself when the evening row lands."
     }
   ],
   "circularity": {

@@ -2,6 +2,10 @@
 
 Changes to the rules, the data sources and the dashboard, newest first. This file mirrors the `changelog` array in `data/framework.json`; daily readings live in `data/runs.json` and the briefs.
 
+## 2026-11-09
+
+The dashboard header now states which close the scoring covers, when the next scoring is due in the viewer's time zone and whether a run is late, with a strip for the morning overnight watch; both routines write a heartbeat to data/status.json, and the overnight watch commits it even on quiet mornings. The page reloads itself when the evening row lands.
+
 ## 2026-11-06
 
 Pass one of the retrospective's recommendations. Stage 5 now requires two fresh credit reds, broad spreads above 500 bp, or a default; a lone or stale credit red sets a credit-stress flag instead. Two-close hysteresis on level-based signals; Pillar F moves no longer listed as changes. C4 scored on first-week secondary trading. New B5 policy-and-power signal (pillars A-E now 25 signals, 34 in total). E4 redefined as equity issuance plus insider selling, D4 as the Census BTOS AI-use rate, E2 as GDELT volume, F5 as the 2-year minus the fed funds midpoint, G4 as lab economics from filings. The daily check moves to 23:00 UTC, after the US close; an overnight watch at 13:00 UTC alerts before the open and writes events, not rows.

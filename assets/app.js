@@ -12,8 +12,18 @@
   const latest = runs[runs.length-1], prev = runs.length>1?runs[runs.length-2]:null, base = runs[0];
   const stageName = (n)=>{const s=fw.stages.find(x=>x.n===n);return s?s.name:('Stage '+n);};
 
-  // live line
-  $('live').innerHTML = `Last run <b>${esc(fmtDate(latest.date))}</b> &middot; ${runs.length} trading days on record`;
+  // status line and overnight strip (assets/status.js); the header re-renders every two minutes and the page reloads when the evening row lands
+  let status=null; try{const r=await fetch('data/status.json',{cache:'no-store'}); if(r.ok) status=await r.json();}catch(e){}
+  $('live').innerHTML = AIBW.headerHTML(latest, runs.length, new Date());
+  const strip = AIBW.stripHTML(latest, status, events, new Date());
+  if(strip){ const el=$('strip'); el.className='strip '+strip.cls; el.innerHTML=strip.html; el.hidden=false; }
+  setInterval(async()=>{
+    const now=new Date(); $('live').innerHTML = AIBW.headerHTML(latest, runs.length, now);
+    if(AIBW.daily(latest, now).state!=='ok'){
+      try{ const r=await fetch('data/runs.json',{cache:'no-store'}); if(r.ok){ const rows=await r.json(); const last=rows.reduce((m,x)=>x.date>m.date?x:m, rows[0]);
+        if(last.date>latest.date || (last.date===latest.date && last.as_of!==latest.as_of)) location.reload(); } }catch(e){}
+    }
+  }, 120000);
 
   // NOW
   const ampClass = latest.amplifier==='HIGH'?'r':latest.amplifier==='MEDIUM'?'y':'g';
