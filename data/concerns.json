@@ -437,10 +437,10 @@
     ],
     "resolve_if": "A dated CDS or bond print from a wire or vendor, or absence of one by the deadline",
     "deadline": "2026-11-20",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "partly",
+    "resolved": "2026-11-09",
+    "outcome": "A fresh Oracle CDS print appeared (IFR and a CNBC-sourced report both put it around 295-305bp for the week of Nov 9), restoring freshness for C1 alone. CoreWeave's bond/CDS data stayed thin -- only a single T4 aggregator's Nov 2 TRACE citation (notes near 80-84 cents) -- so the two-fresh-red breadth test for Stage 5 still was not met this run.",
+    "url": "briefs/2026-11-09.md"
   },
   {
     "id": "c32",
@@ -466,6 +466,36 @@
     ],
     "resolve_if": "Anthropic's next filing (10-Q or further S-1 amendment) or IPO prospectus financials",
     "deadline": "2026-12-15",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c34",
+    "opened": "2026-11-09",
+    "concern": "CoreWeave's Nov 11 Q3 report shows going-concern language, a covenant breach, or is accompanied by a fresh bond/CDS print confirming distress, which combined with Oracle's newly fresher CDS print could satisfy Stage 5's two-fresh-red breadth test",
+    "signals": [
+      "C5",
+      "C1"
+    ],
+    "resolve_if": "CoreWeave's Q3 earnings release and call, or a dated bond/CDS print in the following days",
+    "deadline": "2026-11-13",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c35",
+    "opened": "2026-11-09",
+    "concern": "Nvidia's board investigation into CEO Jensen Huang's reported relationship with an alleged Chinese intelligence operative leads to his removal or suspension, a delayed filing, or a sustained NVDA decline beyond 30% from its Oct 6 high within 30 days",
+    "signals": [
+      "A1",
+      "D1"
+    ],
+    "resolve_if": "A Nvidia company statement or SEC filing on the investigation's outcome, or 30 trading days of price action",
+    "deadline": "2026-12-09",
     "status": "open",
     "resolved": null,
     "outcome": null,

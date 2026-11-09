@@ -1279,5 +1279,41 @@
     "t": "Taiwan's TAIEX closed Monday's session +4.94% to 41,661.70 from Friday's 39,701.64, with Taipei-listed TSMC (2330.TW) +4.68% to NT$2,235, crossing the overnight watch's 3% Asian-index threshold as chip names rebound from the Nov 5 rout; US equity futures (ES=F +0.92%, NQ=F +1.02%) and NVDA's premarket quote (-5.28% vs Friday's $186.64 close) stayed under their own thresholds.",
     "url": "https://finance.yahoo.com/quote/%5ETWII/",
     "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T1",
+    "signals": ["F5"],
+    "t": "BLS reported October nonfarm payrolls rose 165,000 (vs. a roughly 59k consensus), well above every forecast, with unemployment falling to 4.1% from 4.2% -- a resilient labor market that argues against near-term Fed cuts and keeps F5 pressured from the hawkish side.",
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "hard",
+    "tier": "T2",
+    "signals": ["A1", "A4", "D1"],
+    "t": "Nvidia's board opened an independent investigation into CEO Jensen Huang after reports that he had a relationship with a woman identified by intelligence agencies as a Chinese intelligence operative; NVDA fell 4.27% to $178.67 (-26.6% from its Oct 6 high) even as the rest of the chip complex rallied sharply (SOX +6.9%, AMD +13.3%, AVGO +8.8%), a governance shock specific to the sector's single most important name.",
+    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "hard",
+    "tier": "T3",
+    "signals": ["D5"],
+    "t": "A cluster of AI-startup shutdowns and layoffs surfaced this week: privacy-assistant startup Ollie wound down Nov 6 weeks after a $7.5M Khosla-led seed round, AI21 Labs cut about 60% of its staff to focus on its Maestro agent platform, and Amazon reportedly closed its AGI Lab as part of unit-wide layoffs, alongside smaller shutdowns (SmartLayer, ClimateAI, NeuroPixel.AI) -- enough for D5 to move from isolated cases to 'several notable shutdowns in a month.'",
+    "url": "https://aiweekly.co/alerts/ollie-to-shut-down-nov-6-weeks-after-75m-khosla-seed",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "hard",
+    "tier": "T3",
+    "signals": ["C1"],
+    "t": "Oracle's five-year CDS got its first fresher-than-stale dated print since mid-October: IFR's capital-markets coverage for the week of Nov 7-13 puts the spread at roughly 305bp, and a separate report citing CNBC puts it at about 295bp Monday morning after touching 300bp the prior Thursday -- consistent with each other and keeping C1 red, now on less-stale evidence.",
+    "url": "https://www.ifre.com/topic-codes/2509450/cds-market-flashes-warning-on-ai-ratings-downgrades",
+    "tag": null
   }
 ]

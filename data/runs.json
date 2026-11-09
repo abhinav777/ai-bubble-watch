@@ -8751,5 +8751,237 @@
     "brief": "briefs/2026-11-06.md",
     "circularity": "HIGH",
     "circularity_note": "G1 and G2 hold yellow, unchanged in color; G4 is newly scorable (yellow) on Anthropic's Nov 2 S-1/A, which shows commitments ($895.4bn) now outgrowing a single quarter's revenue ($16.96bn) alongside a swing to an operating loss. G3 stays not-yet-scorable pending the next Nvidia and Oracle 10-Qs. 0 red / 3 yellow (G1, G2, G4) in Pillar G keeps circularity at HIGH."
+  },
+  {
+    "date": "2026-11-09",
+    "as_of": "close",
+    "close_date": "2026-11-09",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer -- a sharp chip-sector rebound (SOX +6.9%, AMD +13.3%, AVGO +8.8%) masked NVDA's idiosyncratic -4.3% day on a board investigation into CEO Jensen Huang's reported ties to an alleged Chinese intelligence operative; D5 flips to yellow on an AI-startup shutdown wave and Oracle's CDS gets a fresher dated print, but the stage, credit-stress flag, amplifier and circularity are all unchanged from Nov 6.",
+    "credit_stress": true,
+    "reds": 5,
+    "yellows": 12,
+    "greens": 8,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "0 red / 4 yellow in Pillar F (F1, F3, F4, F5), unchanged in composition; F2 (MOVE 85.98, Nov 9) stays green, extending its decline from 92.77 on Nov 6. F5 ticked up to +68.5bp (2y 4.56% minus the 3.875% FOMC midpoint) but stays inside the 0-75bp yellow band.",
+    "read": "Nov 9 was a broad relief rally in the chip complex -- SOX jumped 6.86% to 10,033.93 and AMD, AVGO and MU all rose 6-13% -- but NVDA diverged, falling 4.27% to $178.67 after Nvidia's board opened an independent investigation into CEO Jensen Huang's reported relationship with a woman US intelligence identified as a Chinese operative, a governance shock layered on an existing -26.6% drawdown. VIX plunged 22% to 19.92, its first close back under the yellow threshold since the Nov 5 rout, and NDX bounced 3.4% to -11.0% from its high, but hysteresis requires a second confirming close before either returns to green. Oracle's five-year CDS got its first meaningfully fresher dated print since mid-October (~295-305bp this week, IFR and a CNBC-sourced report converge), keeping C1 red on less-stale evidence, but CoreWeave's bond/CDS data stayed thin so the two-fresh-red breadth test for Stage 5 still isn't met. A cluster of AI-startup shutdowns and layoffs (Ollie, AI21 Labs' 60% staff cut, Amazon's AGI Lab closure) pushes D5 from green to yellow, the only color change today. Stage holds at 1 with the credit-stress flag, amplifier MEDIUM and circularity HIGH, all unchanged from Nov 6.",
+    "changed": [
+      {
+        "signal": "D5",
+        "from": "G",
+        "to": "Y",
+        "why": "A cluster of AI-startup shutdowns and layoffs this week (Ollie, AI21 Labs' 60% staff cut, Amazon's AGI Lab closure, plus SmartLayer, ClimateAI, NeuroPixel.AI) moves D5 from isolated cases to 'several notable shutdowns in a month'"
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "Y",
+        "v": "NVDA $178.67 (Nov 9, -4.27% day on the Huang board-investigation news), -26.59% from $243.37 (Oct 6) intraday high -- first close beyond the 25% red threshold since Nov 6 (-23.31%); needs a second consecutive close to confirm red under hysteresis"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 10,033.93 (Nov 9, +6.86% day, a sharp rebound from Nov 6's 9,390.25), -31.53% from 14,655.29 (Jun 22) -- stays past the >20% red threshold"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 27,907.63 (Nov 9, +3.40% day), -11.01% from 31,361.37 (Oct 6) -- stays in the 10-20% yellow band, despite today's bounce from Nov 6's -13.94%"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct 12-Nov 9): SOX -18.0%, NVDA -21.1%, MU -25.9%, AMD -14.4%, AVGO -9.9% vs RSP +3.64% -- lag of 14-30pts, red stays despite today's rebound"
+      },
+      "A5": {
+        "c": "Y",
+        "v": "VIX 19.92 (Nov 9 close, -22.3% day) -- first close below the 20 yellow/green threshold since Nov 6 (25.64); needs a second consecutive close to confirm green under hysteresis"
+      },
+      "A6": {
+        "c": "R",
+        "v": "No new rout session (today was a broad rally); Nov 5's SOX -12.25% single day remains within the trailing week (3 trading days ago) -- stays red, and would roll off absent a repeat by roughly Nov 12-13"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: all four hyperscalers raised/held 2027 capex guidance through Oct 29; none reports again until late Jan/Feb 2027"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "No enacted pause or permit denial found this run; New Mexico's Project Jupiter air-permit decision remains pending (due Nov 23). A single research firm (Luminix) counts 164 cancelled/withdrawn US data-center sites (14.1GW, $69.9bn) as of Nov 4 -- T4-sourced, noted but not used to change the color"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: no new Nvidia print; next results/10-Q expected late November"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC's October revenue not yet released (expected ~Nov 10); DRAM/HBM contract prices continue rising (Counterpoint: Q3 DRAM revenue +369% YoY; TrendForce: 2027 HBM ASPs seen +121% YoY), even as memory-maker shares fell 18.7-26.1% Oct 29-Nov 6 on demand-durability worries -- no pricing softness found"
+      },
+      "B5": {
+        "c": "Y",
+        "v": "No enacted state pause or permit denial found this run; Georgia's HB 1059 and Virginia's HB 1515 remain at 'introduced' status, Ohio's ballot moratorium initiative is unlikely to qualify -- unchanged from Nov 6"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Fresher dated print found: IFR's capital-markets coverage for the week of Nov 7-13 puts Oracle's 5y CDS at ~305bp; a separate report citing CNBC puts it at ~295bp Monday morning (Nov 9) after touching 300bp the prior Thursday (Nov 5) -- the two converge and keep C1 red, now on less-stale evidence than the mid-October figure carried since Oct 20"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.20% (Nov 6: 8.06% tech HY minus 4.86% 10y), label 'Moderate risk', stays under the 3.5% threshold; site had not yet refreshed to Nov 9"
+      },
+      "C3": {
+        "c": "G",
+        "v": "342bp (FRED BAMLH0A0HYM2 CSV fallback, Nov 6, latest available after the direct API's secret-injection failure), down from 348bp (Nov 5) -- stays under the 350bp threshold"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: Oracle's concurrent $10bn stock + $10bn senior-notes offering (priced Nov 2) still has no dated post-crash secondary-market print found; a single T4 aggregator cites FINRA TRACE data putting CoreWeave's 9.75% 2031 notes near 79.75 cents on Nov 2, unconfirmed by a second source"
+      },
+      "C5": {
+        "c": "R",
+        "v": "CoreWeave equity $48.98 (Nov 9, +5.56% day, rebounding with the sector), -64.57% from its May 2026 high, after closing $46.40 (-66.4%) on Nov 6. A single T4 aggregator citing FINRA TRACE puts its 9.75% 2031 notes near 79.75-84.37 cents on Nov 2 -- straddling the 80-cent line and not independently corroborated, so still treated as thin/stale for the Stage 5 freshness test. CoreWeave's Q3 results (Nov 11) are the next real catalyst"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$50bn (restated Oct 8) and Anthropic's Q3 revenue of $16.96bn (Nov 2 S-1/A) against a swing to an operating loss; no new run-rate data this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "OpenAI closed an initial ~$11bn tranche of its round at a $1.25T valuation (Bloomberg, Nov 6), with the total target cut from $30bn to roughly $20bn and the remainder expected 'in the coming weeks' -- a markup versus the $852bn March round, not a down round; round stays open past its original timeline"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU rental prices remain mixed with no collapse evidence; Akash's marketplace H100 rate was $2.73/hr (checked Nov 3), within its recent range"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Census BTOS Question 7 'Yes' share still 24.2% (cycle 202622), after 24.6% (202621) and 23.8% (202620) -- confirmed unchanged from the last run; no new cycle posted yet (next due ~Nov 19)"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "A cluster of shutdowns/layoffs this week: Ollie wound down Nov 6 (weeks after a $7.5M Khosla-led seed), AI21 Labs cut ~60% of staff, Amazon reportedly closed its AGI Lab, plus smaller shutdowns (SmartLayer, ClimateAI, NeuroPixel.AI) -- enough to move from isolated cases to 'several notable shutdowns in a month'; sourcing is T3/T4-heavy (aiweekly.co, dealroom.co, crowdfundinsider.com)"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct 13) put 'AI bubble' tail risk at 23%, behind bond yields; scattered reports of a November survey (cash 3.7%, 'most bullish in months') have unclear or conflicting dates and were not used to update this signal -- November survey not confirmed published"
+      },
+      "E2": {
+        "c": "Y",
+        "v": "GDELT failed twice this run (429 rate-limit, then a connection reset) despite the mandated wait and retry, so no clean 7-day/12-month ratio could be computed. Google News RSS hit its ~100-item cap for 'AI bubble' in the trailing 7 days again, with Bloomberg, the Guardian, FT, NYT, Reuters and Le Monde all running pieces. Scored yellow as a judgment call on RSS/wire saturation, same approach as the prior two runs"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch eased to 82 'Extreme' (Nov 9, from 84 on Nov 6); aibubblemonitor.com eased to 42 'Neutral' (Nov 9, from 44.7); boomorbubble.ai's gauges endpoint now returns HTTP 410 'This dashboard has been retired... moved to the AI Investment Brief' -- carrying its last value (0/5 red, Nov 3) and flagging the retirement for a framework review. Trackers still disagree in direction; E3 stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: no new secondary/convertible pricing or notable insider-selling print found this run; Nvidia director Mark Stevens' prior sales and Oracle's Nov 2 offering remain the latest dated items"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX 4.864% (Nov 9 close); Treasury CSV 10yr 4.88% (Nov 9) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 85.98 (Nov 9, -7.3% day) -- stays under the 100 green threshold, extending its decline from 92.77 on Nov 6"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium (FRED THREEFYTP10) 0.9089% (Oct 30, latest available print, now stale) -- stays inside the 0.5-1.0% yellow band; no Treasury auction in the trailing 7 days (next 10y ~Nov 10)"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Brent $92.40 (Nov 9), down from $98.32 (Nov 6) but still inside the $80-100 yellow band. Breakeven 2.22% (Treasury CSV/FRED T10YIE, Nov 9) stays under the 2.4% green line. September CPI (3.7% headline) keeps the 3-4% yellow band; October CPI due ~Nov 10, not yet released"
+      },
+      "F5": {
+        "c": "Y",
+        "v": "Treasury daily yield-curve CSV: 2-year 4.56% (Nov 9) minus the 3.875% FOMC midpoint = +68.5bp -- stays in the 0-75bp yellow band, up slightly from +63.5bp on Nov 6"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried: OpenAI closed an initial ~$11bn tranche (Nov 6) of its round at a $1.25T valuation, with ~$9bn still to be raised toward a $20bn target; investor composition for this tranche not disclosed by Bloomberg's sourcing, so the structured-terms/UAE-compute-pairing pattern from the prior reading stands unchanged"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Unchanged: OpenAI's ~$50bn run-rate against ~$1.4tn of reported multi-year compute commitments, and Anthropic's $895.4bn of commitments against $16.96bn of Q3 revenue, both keep the loop-cash-gap ratio in the upper 2-5x yellow band. No confirmed deferral found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; confirmed no new Nvidia or Oracle 10-Q since Aug 26 / Sep 11, 2026 respectively (carried)"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: Anthropic's Nov 2 S-1/A (revenue $16.96bn, operating loss $567mn, commitments $895.4bn) and OpenAI's ~$50bn run-rate against ~$1.4tn of commitments; no new filing this run"
+      }
+    },
+    "market": {
+      "spx": 7549.94,
+      "ndx": 27907.63,
+      "sox": 10033.93,
+      "sox_dd": -31.53,
+      "nvda": 178.67,
+      "nvda_dd": -26.59,
+      "ndx_dd": -11.01,
+      "tnx": 4.86,
+      "vix": 19.92,
+      "hy_oas": 342,
+      "move": 85.98,
+      "term_premium": 0.91,
+      "breakeven": 2.22,
+      "brent": 92.4,
+      "orcl": 119.79,
+      "crwv": 48.98
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 82,
+        "label": "Extreme",
+        "date": "2026-11-09",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 42,
+        "label": "Neutral",
+        "date": "2026-11-09",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 7.15,
+        "v2027": 22.5,
+        "date": "2026-11-09",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Nvidia's board launched an independent investigation into CEO Jensen Huang after reports he had a relationship with a woman US intelligence identified as a Chinese operative; NVDA fell 4.27% to $178.67 even as the rest of the chip sector rallied sharply.",
+        "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "SOX surged 6.86% to 10,033.93 and AMD +13.3%, AVGO +8.8%, MU +6.3% in a broad rebound from the Nov 5-6 rout levels; VIX fell 22% to 19.92, its first close back under 20 since Nov 5.",
+        "url": "https://finance.yahoo.com/quote/%5ESOX/"
+      },
+      {
+        "kind": "HARD",
+        "t": "A cluster of AI-startup shutdowns and layoffs surfaced this week: Ollie wound down, AI21 Labs cut 60% of staff, and Amazon reportedly closed its AGI Lab -- moving D5 from isolated cases to a notable monthly wave.",
+        "url": "https://aiweekly.co/alerts/ollie-to-shut-down-nov-6-weeks-after-75m-khosla-seed"
+      }
+    ],
+    "sources": {
+      "T1": 6,
+      "T2": 3,
+      "T3": 3,
+      "T4": 6,
+      "T5": 3
+    },
+    "run_url": null,
+    "brief": "briefs/2026-11-09.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable pending the next Nvidia and Oracle 10-Q. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov 6."
   }
 ]
