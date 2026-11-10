@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-09T13:15:31Z",
-    "date": "2026-11-09",
+    "last_run_utc": "2026-11-10T13:14:10Z",
+    "date": "2026-11-10",
     "result": "alert",
-    "note": "Taiwan's TAIEX +4.9% and TSMC +4.7% as chips rebound from the Nov 5 rout; US futures about +1%."
+    "note": "SoftBank +13.9% and KOSPI +4.4% extend Monday's chip rebound; TSMC Oct revenue +59.7% YoY (vs Sep's 54.6%), settling concern c30 (no deceleration)."
   }
 }
