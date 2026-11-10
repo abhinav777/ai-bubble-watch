@@ -8983,5 +8983,255 @@
     "brief": "briefs/2026-11-09.md",
     "circularity": "HIGH",
     "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable pending the next Nvidia and Oracle 10-Q. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov 6."
+  },
+  {
+    "date": "2026-11-10",
+    "as_of": "close",
+    "close_date": "2026-11-10",
+    "stage": 5,
+    "stage_label": "Credit event (Stage 5), concurrent with an ongoing Stage 1 price break",
+    "credit_stress": false,
+    "reds": 7,
+    "yellows": 8,
+    "greens": 10,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "1 red (F5) / 3 yellow (F1, F3, F4) in Pillar F -- exactly one red keeps the amplifier at MEDIUM, same tier as Nov 9's 0-red/4-yellow composition. F5 flips red: the 2-year Treasury yield rose to 4.73% (Nov 10, Treasury CSV) after a hot October CPI and a tailed 10-year auction, putting it +85.5bp over the Fed's 3.875% midpoint, above the 75bp threshold.",
+    "read": "Two mechanical triggers moved today, not a single new shock. First, hysteresis: NVDA's -29.4% drawdown is a second straight close past 25% (A1 to red) and VIX's 19.46 is a second straight close under 20 (A5 to green). Second, and larger, Stage 5's breadth-and-freshness test -- unmet since Nov 6 because CoreWeave's credit data was too thin -- is now satisfied: multiple outlets (Benzinga/S&P Global Market Intelligence, Motley Fool, CNBC-sourced aggregators) converge on CoreWeave's 5-year CDS hitting a record ~1,289bp on Nov 5 before easing to ~1,155-1,195bp, alongside Oracle's CDS at ~295-315bp (Nov 9) -- two fresh credit reds. Separately, B5 is corrected to red: Texas Governor Abbott's Aug 3 executive order paused new data-center grid connections pending an ERCOT/PUCT audit (Abbott: \"halted up to 1,800 data center projects\"), later extended via a TCEQ permit freeze -- an enacted state pause that B5's rubric calls red outright, missed in this tracker's scoring since the signal was added Nov 6. A hot October CPI (+0.4% headline, +0.3% core m/m) and a tailed 10-year Treasury auction (bid-to-cover 2.46, lowest since May) pushed the 2-year to 4.73%, flipping F5 red without moving the MEDIUM amplifier.",
+    "changed": [
+      {
+        "signal": "A1",
+        "from": "Y",
+        "to": "R",
+        "why": "Second consecutive close beyond the 25% drawdown threshold (-29.41%, Nov10, after -26.59% Nov9) confirms the hysteresis cross from yellow to red."
+      },
+      {
+        "signal": "A5",
+        "from": "Y",
+        "to": "G",
+        "why": "Second consecutive close below 20 (19.46, Nov10, after 19.92 Nov9) confirms the hysteresis cross from yellow to green."
+      },
+      {
+        "signal": "B5",
+        "from": "Y",
+        "to": "R",
+        "why": "Correction: Texas Gov. Abbott's Aug 3, 2026 executive order directing ERCOT/PUCT to audit and pause new data-center grid connections, later extended via TCEQ halting data-center air permits, is an enacted/executive-ordered state pause -- the B5 red bar -- that prior runs' scoring had missed; no rescission found as of Nov 10."
+      },
+      {
+        "signal": "E2",
+        "from": "Y",
+        "to": "G",
+        "why": "GDELT's 7-day 'AI bubble' article volume (derived from the successful 12-month timeline call after the direct 7-day call was rate-limited twice) averaged about 8.6 articles/day over Nov4-10 vs a 22.0/day 12-month mean, ~39% of the mean and back under the 1.5x threshold."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $168.89 (Nov10, -5.47% day), -29.41% from $239.24 (Oct6) high -- second consecutive close past 25%, confirming red under hysteresis"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 9,998.33 (Nov10, -0.35% day), -31.68% from 14,634.72 (Jun22) -- stays past the 20% red threshold"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 27,740.79 (Nov10, -0.60% day), -11.16% from 31,224.47 (Oct6) -- stays in the 10-20% yellow band"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct13-Nov10): SOX -18.1%, NVDA -26.1%, MU -23.9%, AMD -14.9%, AVGO -7.1% vs RSP +3.55% -- lag of 10.6-29.6pts, stays red"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 19.46 (Nov10 close, -2.3% day) -- second consecutive close below 20, confirming green under hysteresis"
+      },
+      "A6": {
+        "c": "R",
+        "v": "NVDA -5.47% today is a fresh single-day -5%+ move; Nov5's SOX -12.25% remains within the trailing week (4 trading days ago) -- stays red"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: all four hyperscalers raised/held 2027 capex guidance through Oct29; none reports again until late Jan/Feb 2027"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "No company-confirmed pause at a named hyperscaler, Stargate, xAI or top neocloud found; Texas's statewide grid-connection pause (see B5) is a state regulatory action, not a company confirmation. New Mexico's Project Jupiter permit decision remains pending (due Nov23)"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: no new Nvidia print; next results/10-Q expected late November"
+      },
+      "B4": {
+        "c": "G",
+        "v": "TSMC's October revenue (SEC 6-K, Nov10) grew 59.7% YoY, accelerating from September's 54.6% pace; DRAM/HBM contract prices still rising (~20% QoQ in 4Q26 per TrendForce Oct20); spot DDR4 roughly flat -- no softening"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Correction: Texas Gov. Abbott's Aug3, 2026 executive order directed ERCOT/PUCT to audit all data centers in the interconnection queue and denied grid access to projects failing the review, later extended via a TCEQ permit freeze; Abbott said the directive 'halted up to 1,800 data center projects.' No rescission of the statewide order found (a narrower local Hill County moratorium was separately rescinded in June). This is an enacted/executive-ordered state pause -- the red bar -- missed in this tracker's B5 scoring since the signal was added Nov6"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried/corroborated: Oracle's 5y CDS ~295-315bp (IFR, week of Nov7-13; CNBC-sourced reporting, Monday Nov9) -- stays red, fresh (1 trading day stale)"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.12% (Nov9: 8.00% tech HY minus 4.88% 10y), label 'Moderate risk', stays under the 3.5% threshold"
+      },
+      "C3": {
+        "c": "G",
+        "v": "342bp carried (FRED CSV fallback, Nov6 -- FRED API and fredgraph.csv both failed with secret-injection errors this run), stays under the 350bp threshold"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: no new dated post-crash secondary-market print found for Oracle's Nov2 notes or CoreWeave's 2031/2032 notes beyond the thin Nov2 TRACE citation already carried"
+      },
+      "C5": {
+        "c": "R",
+        "v": "CoreWeave equity $48.73 (Nov10, -0.51% day), -64.68% from its May2026 high. Its 5-year CDS reportedly hit a record ~1,289bp intraday Nov5, easing to ~1,155-1,195bp by Nov6 (Benzinga citing S&P Global Market Intelligence; Motley Fool; CNBC-sourced aggregators; implied 5-year default probability >60%), corroborating the bonds-below-80 call first made Oct14-15. Q3 results (expected imminently) are the next test"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$50bn (restated Oct8) and Anthropic's Q3 revenue of $16.96bn (Nov2 S-1/A) against a swing to an operating loss; no new run-rate data this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "Carried: OpenAI closed an initial ~$11bn tranche (Nov6) at a $1.25T valuation (Coatue, T. Rowe Price named among first-close investors; SoftBank, Sequoia, Founders Fund, a16z in the broader round), with the remainder (up to ~$20bn total) expected 'in the coming weeks' -- a markup, not a down round; round stays open past its original timeline"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU rental prices remain mixed with no collapse evidence; Uvik's October index put median on-demand H100 SXM at $4.20/hr, up from 2025 lows"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Census BTOS Question7 'Yes' share still 24.2% (cycle202622), after 24.6% (202621) and 23.8% (202620) -- unchanged, flat over three readings; next cycle due ~Nov19"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: the shutdown/layoff cluster from last week (Ollie, AI21 Labs' 60% cut, Amazon's AGI Lab closure, SmartLayer, ClimateAI, NeuroPixel.AI) is still the latest; no new item found this run"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct13) put 'AI bubble' tail risk at 23%, behind bond yields; November survey not yet published (expected mid-Nov)"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT's direct 7-day call was rate-limited (429) twice; derived from the successful 12-month timelinevolraw call's last 7 days instead: ~8.6 articles/day (Nov4-10) vs a 22.0/day 12-month mean, ~39% of the mean, under the 1.5x threshold. Google News RSS stayed near its ~100-item weekly cap (97 items), noted as context but not overriding the GDELT-based score"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch eased to 82 'Extreme' (Nov10, from 83 on Nov9); aibubblemonitor.com rose to 45.4 'Neutral' (Nov10, from 42 on Nov9); boomorbubble.ai's gauges endpoint still returns HTTP410 'retired' -- carrying 0/5 red, Nov3. Trackers disagree in direction; E3 stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: no new secondary/convertible pricing or notable insider-selling print found this run; Nvidia director Mark Stevens' prior sales and Oracle's Nov2 offering remain the latest dated items"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Treasury CSV 10yr 4.98% (Nov10); Yahoo ^TNX 4.983 -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 92.43 (Nov10, +7.5% day) -- stays under the 100 green threshold"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium (FRED THREEFYTP10) 0.9089% carried (Oct30, latest available before FRED and fredgraph.csv both failed this run) -- stays inside the 0.5-1.0% yellow band. Fresh event: the Nov10 10-year Treasury auction tailed (high yield 5.02% vs 5.010% WI, bid-to-cover 2.46 -- lowest since May, indirect bidders 61.2% -- lowest since Oct2023); one tailed auction keeps F3 yellow, a second consecutive tail would be needed for red"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.20% (Treasury CSV, nominal 10yr 4.98% minus real 10yr 2.78%, Nov10) stays under the 2.4% green line. Brent $92.06 (Nov10) stays inside the $80-100 yellow band. October CPI rose 0.4% headline / 0.3% core month-over-month (hot, above forecast), but BLS cannot publish an official year-over-year figure for October due to the 2025 shutdown data gap; BofA's unofficial interpolation (~3.8% headline, ~2.7% core) is used only as context and keeps the 3-4% yellow band either way versus September's confirmed 3.7%"
+      },
+      "F5": {
+        "c": "R",
+        "v": "Treasury daily yield-curve CSV: 2-year 4.73% (Nov10, up from 4.56% Nov9 on the hot CPI and tailed auction) minus the 3.875% FOMC midpoint = +85.5bp -- crosses above the 75bp yellow/red threshold for the first time since the signal was redefined Nov6"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's initial ~$11bn tranche (closed Nov6) at a $1.25T valuation, with Coatue and T. Rowe Price named among first-close investors and SoftBank/Sequoia/Founders Fund/a16z in the broader round; ~$9bn still to be raised toward a ~$20bn target. Investor composition doesn't show suppliers as majority, but the round has been open since late October"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Unchanged: OpenAI's ~$50bn run-rate against ~$1.4tn of reported multi-year compute commitments, and Anthropic's $895.4bn of commitments against $16.96bn of Q3 revenue, both keep the loop-cash-gap ratio in the upper 2-5x yellow band. No confirmed deferral found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; confirmed no new Nvidia or Oracle 10-Q since Aug26 / Sep11, 2026 respectively (carried)"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: Anthropic's Nov2 S-1/A (revenue $16.96bn, operating loss $567mn, commitments $895.4bn) and OpenAI's ~$50bn run-rate against ~$1.4tn of commitments; no new filing this run"
+      }
+    },
+    "market": {
+      "spx": 7520.93,
+      "ndx": 27740.79,
+      "sox": 9998.33,
+      "sox_dd": -31.68,
+      "nvda": 168.89,
+      "nvda_dd": -29.41,
+      "ndx_dd": -11.16,
+      "tnx": 4.98,
+      "vix": 19.46,
+      "hy_oas": 342,
+      "move": 92.43,
+      "term_premium": 0.91,
+      "breakeven": 2.2,
+      "brent": 92.06,
+      "orcl": 117.98,
+      "crwv": 48.73
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 82,
+        "label": "Extreme",
+        "date": "2026-11-10",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 45.4,
+        "label": "Neutral",
+        "date": "2026-11-10",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 8.95,
+        "v2027": 22.5,
+        "date": "2026-11-10",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "CoreWeave's 5-year CDS reportedly hit a record ~1,289bp intraday on Nov5 before easing to ~1,155-1,195bp, while Oracle's sits ~295-315bp (Nov9) -- together satisfying Stage5's two-fresh-red credit breadth test for the first time since Nov6.",
+        "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk"
+      },
+      {
+        "kind": "HARD",
+        "t": "October CPI rose 0.4% headline / 0.3% core month-over-month, both above forecast, and the Nov10 10-year Treasury auction tailed with the lowest bid-to-cover since May (2.46); the 2-year yield rose to 4.73%, flipping F5 red.",
+        "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "Texas Gov. Abbott's Aug3, 2026 executive order paused new data-center grid connections statewide pending an ERCOT/PUCT audit, later extended to a TCEQ permit freeze -- 'halted up to 1,800 data center projects' -- corrected into B5 as a red, enacted state pause.",
+        "url": "https://www.techrepublic.com/article/news-texas-data-center-grid-approvals-474-gw/"
+      }
+    ],
+    "sources": {
+      "T1": 5,
+      "T2": 7,
+      "T3": 6,
+      "T4": 9,
+      "T5": 1
+    },
+    "run_url": null,
+    "brief": "briefs/2026-11-10.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable pending the next Nvidia and Oracle 10-Q. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov9."
   }
 ]

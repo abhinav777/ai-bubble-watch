@@ -422,10 +422,10 @@
     ],
     "resolve_if": "TSMC's October revenue release",
     "deadline": "2026-11-15",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "did_not",
+    "resolved": "2026-11-10",
+    "outcome": "TSMC's October revenue (SEC Form 6-K) grew 59.7% YoY to NT$586.89bn, accelerating from September's 54.6% pace -- the opposite of a deceleration. B4 stays green.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm"
   },
   {
     "id": "c31",
@@ -437,10 +437,10 @@
     ],
     "resolve_if": "A dated CDS or bond print from a wire or vendor, or absence of one by the deadline",
     "deadline": "2026-11-20",
-    "status": "partly",
-    "resolved": "2026-11-09",
-    "outcome": "A fresh Oracle CDS print appeared (IFR and a CNBC-sourced report both put it around 295-305bp for the week of Nov 9), restoring freshness for C1 alone. CoreWeave's bond/CDS data stayed thin -- only a single T4 aggregator's Nov 2 TRACE citation (notes near 80-84 cents) -- so the two-fresh-red breadth test for Stage 5 still was not met this run.",
-    "url": "briefs/2026-11-09.md"
+    "status": "materialized",
+    "resolved": "2026-11-10",
+    "outcome": "A fresh CoreWeave CDS print also appeared: multiple outlets (Benzinga/S&P Global Market Intelligence, Motley Fool, CNBC-sourced aggregators) converged on a record ~1,289bp intraday Nov5, easing to ~1,155-1,195bp by Nov6. Combined with Oracle's already-fresh ~295-315bp print (Nov9), both C1 and C5 now carry dated reds within 10 trading days, satisfying Stage5's breadth-and-freshness test.",
+    "url": "briefs/2026-11-10.md"
   },
   {
     "id": "c32",
@@ -496,6 +496,36 @@
     ],
     "resolve_if": "A Nvidia company statement or SEC filing on the investigation's outcome, or 30 trading days of price action",
     "deadline": "2026-12-09",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c36",
+    "opened": "2026-11-10",
+    "concern": "The Texas ERCOT/PUCT data-center grid-connection audit (Abbott's Aug3 executive order, newly scored B5 red) gets a legal reversal, a formal end date, or results in a named hyperscaler/Stargate project being granted or denied connection",
+    "signals": [
+      "B5",
+      "B2"
+    ],
+    "resolve_if": "A court ruling, legislative action, ERCOT/PUCT decision, or a named project's grid-connection outcome",
+    "deadline": "2026-12-10",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c37",
+    "opened": "2026-11-10",
+    "concern": "Stage5's credit-event call (triggered today on C1+C5 breadth) holds through CoreWeave's imminent Q3 report and the following two weeks, rather than lapsing back to stale/credit-stress as today's prints age past 10 trading days",
+    "signals": [
+      "C1",
+      "C5"
+    ],
+    "resolve_if": "CoreWeave's Q3 earnings and call, plus the next dated Oracle and CoreWeave CDS/bond prints through Nov24",
+    "deadline": "2026-11-24",
     "status": "open",
     "resolved": null,
     "outcome": null,

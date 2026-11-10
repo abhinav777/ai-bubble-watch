@@ -1336,5 +1336,40 @@
     "t": "TSMC's October revenue, filed via SEC Form 6-K on Nov 10, grew 59.7% year-over-year to NT$586.89bn (up 14.7% from September), accelerating from September's 54.6% pace -- the opposite of the deceleration concern c30 was watching for, so B4 stays green. Separately, Asian chip and AI-adjacent equities extended Monday's US rebound into Tuesday's Asia session: SoftBank (9984.T) rose 13.9% to 3,872 yen and the KOSPI gained 4.4% to 5,239.13, both crossing this watch's move thresholds, while US equity futures (ES=F +0.04%, NQ=F -0.40%) and NVDA/ORCL/CRWV/MSFT/AMD/MU pre-market quotes were flat to slightly lower versus Monday's close.",
     "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
     "tag": null
+  },
+  {
+    "date": "2026-11-10",
+    "type": "framework",
+    "tier": "T2",
+    "signals": [
+      "B5"
+    ],
+    "t": "Correction: B5 moves from yellow to red on a previously-missed fact. Texas Gov. Abbott's Aug 3, 2026 executive order directed ERCOT and the PUCT to audit every data center in the interconnection queue and deny grid access to projects that fail the review, later extended via a TCEQ freeze on data-center air permits; Abbott said the directive 'halted up to 1,800 data center projects.' This is an enacted/executive-ordered state pause -- B5's red bar outright -- that this tracker's B5 scoring had missed since the signal was added Nov 6, scoring yellow on Georgia/Virginia/Ohio items alone. No rescission of the statewide order was found (a narrower local Hill County, TX moratorium was separately rescinded in June after a developer's lawsuit).",
+    "url": "https://www.techrepublic.com/article/news-texas-data-center-grid-approvals-474-gw/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-05",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave's 5-year CDS reportedly hit a record ~1,289bp intraday on Nov 5 (exceeding October's prior high), easing to roughly 1,155-1,195bp by Nov 6, per Benzinga citing S&P Global Market Intelligence, Motley Fool and CNBC-sourced aggregators -- an implied five-year default probability above 60%. Combined with Oracle's ~295-315bp CDS print (Nov 9), this restores Stage 5's two-fresh-red credit breadth-and-freshness test for the first time since the Nov 6 framework revision.",
+    "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+    "tag": null
+  },
+  {
+    "date": "2026-11-10",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F5",
+      "F3",
+      "F4"
+    ],
+    "t": "October CPI rose 0.4% month-over-month headline and 0.3% core, both above forecast (BLS); the year-over-year figure cannot be officially published due to the 2025 government-shutdown data gap. The same day, a $42bn 10-year Treasury auction tailed (high yield 5.02% vs 5.010% when-issued, bid-to-cover 2.46 -- lowest since May, indirect bidders 61.2% -- lowest since Oct 2023), pushing the 2-year yield to 4.73% and flipping F5 red (+85.5bp over the Fed's 3.875% midpoint) for the first time since the signal was redefined Nov 6.",
+    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+    "tag": null
   }
 ]
