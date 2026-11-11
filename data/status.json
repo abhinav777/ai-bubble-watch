@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-10T13:14:10Z",
-    "date": "2026-11-10",
+    "last_run_utc": "2026-11-11T13:09:17Z",
+    "date": "2026-11-11",
     "result": "alert",
-    "note": "SoftBank +13.9% and KOSPI +4.4% extend Monday's chip rebound; TSMC Oct revenue +59.7% YoY (vs Sep's 54.6%), settling concern c30 (no deceleration)."
+    "note": "CoreWeave Q3 beat (+168% rev, raised guide) sends CRWV +14.5% premarket; TAIEX +3.6%, NQ=F +1.8%; eases C5/Stage5 credit worries (c18/c34/c37)."
   }
 }

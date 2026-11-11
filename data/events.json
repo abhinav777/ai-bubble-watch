@@ -1371,5 +1371,16 @@
     "t": "October CPI rose 0.4% month-over-month headline and 0.3% core, both above forecast (BLS); the year-over-year figure cannot be officially published due to the 2025 government-shutdown data gap. The same day, a $42bn 10-year Treasury auction tailed (high yield 5.02% vs 5.010% when-issued, bid-to-cover 2.46 -- lowest since May, indirect bidders 61.2% -- lowest since Oct 2023), pushing the 2-year yield to 4.73% and flipping F5 red (+85.5bp over the Fed's 3.875% midpoint) for the first time since the signal was redefined Nov 6.",
     "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
     "tag": null
+  },
+  {
+    "date": "2026-11-11",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave's Q3 2026 results (reported Nov 10 after the close) beat estimates -- revenue +168% YoY to ~$3.7bn versus ~$3.55bn consensus, adjusted operating income $379mn versus $200-260mn guided, backlog hitting a record $132.5bn, and FY guidance raised -- sending the stock up ~14.5% pre-market (Nov 11), crossing this watch's 7% single-name threshold and cutting against the credit-distress narrative behind C5 and open concerns c18/c34/c37, even as net loss widened to $709mn on $846mn of interest expense. Asian chip-linked equities extended the overnight rebound (TAIEX +3.6%, KOSPI +2.6%, SK Hynix +5.4%, TSMC +4.8%) and US equity futures firmed (NQ=F +1.8%, ES=F +0.8%), both separately crossing this watch's Asia-index and Nasdaq-futures move thresholds.",
+    "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+    "tag": null
   }
 ]
