@@ -481,10 +481,10 @@
     ],
     "resolve_if": "CoreWeave's Q3 earnings release and call, or a dated bond/CDS print in the following days",
     "deadline": "2026-11-13",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "did_not",
+    "resolved": "2026-11-11",
+    "outcome": "CoreWeave's Q3 2026 report (Nov10 after close) was a clean beat-and-raise: revenue $3.66B (+168% YoY), beat its own guide; adjusted operating income $379M (10% margin, up from 5% in Q2); FY26 revenue guidance raised to $13.0-13.3B; backlog $132.5B. No going-concern, covenant-breach, or liquidity-stress language found anywhere in the call or wire coverage.",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/"
   },
   {
     "id": "c35",
@@ -526,6 +526,35 @@
     ],
     "resolve_if": "CoreWeave's Q3 earnings and call, plus the next dated Oracle and CoreWeave CDS/bond prints through Nov24",
     "deadline": "2026-11-24",
+    "status": "did_not",
+    "resolved": "2026-11-11",
+    "outcome": "The Stage5 call did not hold. Under the Nov11 confirmation rule, neither Oracle's nor CoreWeave's cited CDS levels trace to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED, so even keeping C1 red the breadth test (needs two of C1/C3/C4/C5) fails on its own terms. Separately, CoreWeave's Nov10 Q3 beat-and-raise (no going-concern language) removed the factual basis for C5's red score, which is now yellow. Stage falls to 1 (price break) with a credit-stress flag carried by C1 alone.",
+    "url": "briefs/2026-11-11.md"
+  },
+  {
+    "id": "c38",
+    "opened": "2026-11-11",
+    "concern": "Oracle's or CoreWeave's 5-year CDS level is confirmed via a directly-openable T1-T3 source (a filing, wire story, rating-agency release, or specialist credit publication such as IFR, GlobalCapital or Creditflux stating the level and date) rather than only T4 aggregators, as has been the case for two straight runs (Nov10-11)",
+    "signals": [
+      "C1",
+      "C5"
+    ],
+    "resolve_if": "A directly-opened T1-T3 source stating the level and date, or 15 trading days passing with none found",
+    "deadline": "2026-12-02",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c39",
+    "opened": "2026-11-11",
+    "concern": "NDX's drawdown closes under the 10% threshold for a second consecutive session, confirming A3's hysteresis flip from yellow to green (today's -9.13% close is the first)",
+    "signals": [
+      "A3"
+    ],
+    "resolve_if": "Daily NDX closes from Yahoo",
+    "deadline": "2026-11-13",
     "status": "open",
     "resolved": null,
     "outcome": null,

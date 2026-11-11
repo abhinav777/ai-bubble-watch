@@ -9233,5 +9233,237 @@
     "brief": "briefs/2026-11-10.md",
     "circularity": "HIGH",
     "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable pending the next Nvidia and Oracle 10-Q. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov9."
+  },
+  {
+    "date": "2026-11-11",
+    "as_of": "close",
+    "close_date": "2026-11-11",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer",
+    "credit_stress": true,
+    "reds": 6,
+    "yellows": 9,
+    "greens": 10,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "1 red (F5) / 3 yellow (F1, F3, F4) in Pillar F, unchanged in composition from Nov 10. F5 stays red on the 2-year yield (4.73%, carried from Nov 10's Treasury CSV since Nov 11's row is not yet posted) minus the 3.875% FOMC midpoint = +85.5bp.",
+    "read": "Nov 10's Stage 5 call does not survive today's re-scoring. Neither Oracle's nor CoreWeave's cited CDS levels trace to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED under the Nov 11 confirmation rule -- so even counting C1 as red, the Stage 5 breadth test (needs two of C1/C3/C4/C5) fails on its own terms since only one candidate remains. Separately, on genuinely new facts, CoreWeave's Q3 report (Nov 10 after close) was a clean beat-and-raise -- revenue $3.66B (+168% YoY), FY26 guidance raised to $13.0-13.3B, backlog $132.5B -- with no going-concern or covenant language anywhere, pulling C5 from red to yellow regardless of the CDS question. The stage falls back to 1 (price break), with a credit-stress flag carried by Oracle's still-red-but-unconfirmed CDS reading alone. A broad relief rally (SOX +5.66% to 10,564.11, NVDA +2.87%, CRWV +24.71%, VIX -10.1% to 17.49) did not cross any hysteresis-confirming threshold in Pillar A, so none of its four reds moved. Six of 25 Pillars A-E signals are still red -- materially worse than the Sep 15 baseline (1 red, 15 green) even as today's tape was calmer.",
+    "changed": [
+      {
+        "signal": "C5",
+        "from": "R",
+        "to": "Y",
+        "why": "CoreWeave's Q3 beat-and-raise (Nov 10 after close) showed no going-concern, covenant-breach, or liquidity-stress language anywhere in the call, and the ~1,289bp CDS print cited for Nov 10's red call is itself UNCONFIRMED under the new rule (T4-aggregator-only, never an openable T1-T3 original); equity stays past the -30% yellow bar at -55.96% from high but no longer meets the red bar"
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $173.73 (Nov11, +2.87% day), -27.38% from $239.24 (Oct6) high -- stays past the 25% red threshold"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 10,564.11 (Nov11, +5.66% day), -27.81% from 14,634.72 (Jun22) -- stays past the 20% red threshold"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 28,374.25 (Nov11, +2.28% day), -9.13% from 31,224.47 (Oct6) -- first close back under the 10% threshold; hysteresis holds it yellow pending a second confirming close"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct14-Nov11): SOX -9.59%, NVDA -21.50%, MU -11.25%, CRWV -7.62% vs RSP +4.98% -- lag of 12.6-26.5pts (SOX -14.6pts) stays red; AMD (-3.14%, -8.1pts) and AVGO/ORCL (~-5-7pts) sit in the yellow band but the index and several leaders still lag past 10pts while RSP is up"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 17.49 (Nov11, -10.12% day) -- third consecutive close below 20, stays green"
+      },
+      "A6": {
+        "c": "R",
+        "v": "No fresh single-day rout today (all levels up); Nov5's SOX -12.25% is now 4 trading days old, the last session it counts within a rolling 5-day window -- stays red, likely reverts tomorrow absent a new rout"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: all four hyperscalers raised/held 2027 capex guidance through Oct29; none reports again until late Jan/Feb 2027"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Carried: no company-confirmed pause found; New Mexico's Project Jupiter permit case remains stuck at a procedural stay, decision deadline unchanged at Nov23"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: no new Nvidia print; next results/10-Q expected late November"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: no fresher print than TrendForce's Oct20 DRAM/HBM pricing (still rising); TSMC's Oct revenue (+59.7% YoY) already scored Nov10"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Carried: Texas Gov. Abbott's Aug3 ERCOT/PUCT data-center grid-connection pause remains in force; no rescission, court ruling, or named-project decision found"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried color, UNCONFIRMED: Oracle's ~295-315bp figure still circulates only via aggregators citing CNBC; no directly-opened T1-T3 source stating the level and date was found this run. Keeps its red color but no longer counts toward Stage5's breadth test"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.12% (Nov9, carried 2 days stale), label 'Moderate risk' -- stays under 3.5%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "334bp (FRED fredgraph.csv fallback, Nov9 -- FRED API failed again with a secret-injection error) -- stays under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: no new dated post-crash secondary-market print found for Oracle's Nov2 notes or CoreWeave's 2031/2032 notes"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CoreWeave equity $60.77 (Nov11, +24.71% day post-earnings), -55.96% from its May2026 high -- stays past the -30% yellow bar, downgraded from red: its Q3 report (Nov10) was a beat-and-raise with explicitly no going-concern, covenant-breach, or liquidity-stress language in any coverage, and the CDS figure behind Nov10's red call is itself UNCONFIRMED (T4-aggregator-only)"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$50bn (restated Oct8) and Anthropic's Q3 revenue $16.96bn against an operating loss; no new run-rate data this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "Carried: OpenAI's round stays open with ~$9bn still to be raised toward a ~$20bn target at $1.25T; Anthropic's S-1/A price range stays blank ahead of a roadshow reportedly starting the week of Nov9"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU rental prices show no collapse; Akash's live weighted H100 average ~$2.73/hr (Nov3)"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Census BTOS National.xlsx confirmed unchanged: 24.2% (cycle202622), 24.6% (202621), 23.8% (202620) -- not rising over three readings; no new cycle published (next ~Nov19)"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: the shutdown/layoff cluster from last week (Ollie, AI21 Labs, Amazon AGI Lab, SmartLayer, ClimateAI, NeuroPixel.AI) is still the latest; no new item found"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct13) put 'AI bubble' tail risk at 23%; November survey not yet published"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT API rate-limited (429) on both calls (direct and backup); carrying Nov10's reading (~39% of 12-month mean). Google News RSS 102 items in 7 days, roughly flat vs 97 (Nov10) and the 96+ baseline -- no narrative spike"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch rose to 86.4 'Extreme' (Nov11, from 81.8 Nov10); aibubblemonitor.com eased to 44.6 'Neutral' (from 45.4); boomorbubble.ai's gauges endpoint remains retired (HTTP410), carried 0/5 red 'Boom' (Nov3). Trackers disagree in direction, stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: no new secondary/convertible pricing or notable insider-selling print found; Oracle's Nov2 offering and Nvidia director Mark Stevens' sales remain the latest dated items"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX 4.998% (Nov11) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 92.43 carried (Nov10; Yahoo has not posted Nov11) -- stays under the 100 green threshold"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.9089% carried (Oct30, stale -- FRED API failed again); no new Treasury auction tail found in the trailing 7 days -- stays yellow"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.20% (Treasury CSV, Nov10 carried) stays under 2.4%. Brent $92.63 (Nov11) stays inside $80-100. No new official October CPI YoY published -- carries September's confirmed 3.7% in the 3-4% band"
+      },
+      "F5": {
+        "c": "R",
+        "v": "2-year yield 4.73% (Treasury CSV, Nov10 carried -- Nov11 row not yet posted) minus the 3.875% FOMC midpoint = +85.5bp -- stays above the 75bp threshold"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's remaining ~$9bn stays open toward the ~$20bn target at $1.25T; no supplier-majority evidence found"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Carried: no confirmed deferral or renegotiation of a major vendor commitment found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; no new Nvidia or Oracle 10-Q found (sec.gov was unreachable this run -- could not directly verify EDGAR, but neither filing is expected before late Nov/mid-Dec)"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: no new Anthropic filing beyond the Nov2 S-1/A (revenue $16.96bn, operating loss $567mn, commitments $895.4bn); Ramp AI Index's September reading (55.9% overall) is context only"
+      }
+    },
+    "market": {
+      "spx": 7619.38,
+      "ndx": 28374.25,
+      "sox": 10564.11,
+      "sox_dd": -27.81,
+      "nvda": 173.73,
+      "nvda_dd": -27.38,
+      "ndx_dd": -9.13,
+      "tnx": 4.998,
+      "vix": 17.49,
+      "hy_oas": 334,
+      "move": 92.43,
+      "term_premium": 0.91,
+      "breakeven": 2.2,
+      "brent": 92.63,
+      "orcl": 128.38,
+      "crwv": 60.77
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 86.4,
+        "label": "Extreme",
+        "date": "2026-11-11",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 44.6,
+        "label": "Neutral",
+        "date": "2026-11-11",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 7.4,
+        "v2027": 24.5,
+        "date": "2026-11-11",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "CoreWeave's Q3 2026 results (reported after close Nov10) beat on revenue ($3.66B, +168% YoY) and raised FY26 guidance to $13.0-13.3B with backlog at $132.5B; no going-concern or covenant-breach language found anywhere in the call, directly undercutting the basis for Nov10's C5 red score.",
+        "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/"
+      },
+      {
+        "kind": "HARD",
+        "t": "A broad AI-complex relief rally on Nov11: SOX +5.66% to 10,564.11, NVDA +2.87% to $173.73, CRWV +24.71% to $60.77, and VIX fell 10.1% to 17.49, though none of Pillar A's four reds crossed a hysteresis-confirming threshold.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d"
+      },
+      {
+        "kind": "HARD",
+        "t": "Polymarket's 'AI bubble burst in 2026?' contract priced Yes at 7.4% on Nov11 (down from 8.95% Nov10), while the 'by June 30, 2027' contract rose slightly to 24.5% (from 22.5%).",
+        "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by"
+      }
+    ],
+    "sources": {
+      "T1": 6,
+      "T2": 1,
+      "T3": 3,
+      "T4": 3,
+      "T5": 2
+    },
+    "run_url": "https://claude.ai/code/session_01QebKNJo7UaKHyFKxgCsF5p",
+    "brief": "briefs/2026-11-11.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable (sec.gov was unreachable this run). 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov10."
   }
 ]

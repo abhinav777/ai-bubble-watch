@@ -1382,5 +1382,29 @@
     "t": "CoreWeave's Q3 2026 results (reported Nov 10 after the close) beat estimates -- revenue +168% YoY to ~$3.7bn versus ~$3.55bn consensus, adjusted operating income $379mn versus $200-260mn guided, backlog hitting a record $132.5bn, and FY guidance raised -- sending the stock up ~14.5% pre-market (Nov 11), crossing this watch's 7% single-name threshold and cutting against the credit-distress narrative behind C5 and open concerns c18/c34/c37, even as net loss widened to $709mn on $846mn of interest expense. Asian chip-linked equities extended the overnight rebound (TAIEX +3.6%, KOSPI +2.6%, SK Hynix +5.4%, TSMC +4.8%) and US equity futures firmed (NQ=F +1.8%, ES=F +0.8%), both separately crossing this watch's Asia-index and Nasdaq-futures move thresholds.",
     "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
     "tag": null
+  },
+  {
+    "date": "2026-11-11",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C5",
+      "D1"
+    ],
+    "t": "CoreWeave's Q3 2026 results (reported after close Nov10): revenue $3.66B (+168% YoY), beat its own guide; adjusted operating income $379M (10% margin, up from 5% in Q2); FY26 revenue guidance raised to $13.0-13.3B; backlog $132.5B. No going-concern or covenant-breach language found anywhere in the call. Stock closed +24.71% to $60.77 on Nov11.",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-11",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "C1",
+      "C5"
+    ],
+    "t": "Re-scored under the Nov11 confirmation rule: neither Oracle's nor CoreWeave's dated CDS prints (the basis for Nov10's Stage5 call) could be traced to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED. Combined with CoreWeave's Q3 beat removing the going-concern basis for C5 (now yellow), the stage falls from 5 to 1 (price break), with a credit-stress flag carried by C1's still-red-but-unconfirmed Oracle CDS reading alone.",
+    "url": "briefs/2026-11-11.md",
+    "tag": null
   }
 ]
