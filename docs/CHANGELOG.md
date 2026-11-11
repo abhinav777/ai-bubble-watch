@@ -2,6 +2,10 @@
 
 Changes to the rules, the data sources and the dashboard, newest first. This file mirrors the `changelog` array in `data/framework.json`; daily readings live in `data/runs.json` and the briefs.
 
+## 2026-11-11 (C1, C4, C5)
+
+Stage 5 confirmation rule. A credit print now counts toward Stage 5 only when it was read in a primary source, a wire or a specialist credit publication dated on or after the print. A level that arrives only through aggregators is kept as a lead: the signal keeps its color, the stage stays where confirmed evidence puts it, the label reads 'credit stress (fresh print unconfirmed)', and a concern is opened to find confirmation within five trading days. Prompted by the Nov 10 Stage 5 call, which rested on an aggregator-relayed CoreWeave CDS level that the brief itself marked unverified; that row stands as recorded and the next run re-scores under the new rule. IFR and Creditflux join the specialist tier for credit.
+
 ## 2026-11-10 (A1, A5, B5, F5)
 
 B5 corrected from yellow to red: Texas Gov. Abbott's Aug 3, 2026 executive order paused new data-center grid connections pending an ERCOT/PUCT audit, later extended via a TCEQ permit freeze -- an enacted/executive-ordered state pause that B5's own rubric calls red outright. This had been missed in B5's scoring since the signal was added Nov 6; no rescission of the statewide order was found. Separately, Stage 5's two-fresh-red credit breadth test is met for the first time since Nov 6: CoreWeave's 5-year CDS (record ~1,289bp Nov5, easing to ~1,155-1,195bp) corroborates Oracle's already-fresh ~295-315bp print (Nov9), via Benzinga/S&P Global Market Intelligence, Motley Fool and CNBC-sourced reporting. Stage moves from 1 to 5 (concurrent with the ongoing Stage 1 price break). Hysteresis also confirmed two signals on second consecutive closes: A1 (NVDA drawdown) to red, A5 (VIX) to green. F5 flips red for the first time (2-year yield +85.5bp over the Fed's midpoint) on a hot October CPI and a tailed 10-year Treasury auction, though the macro amplifier stays MEDIUM.

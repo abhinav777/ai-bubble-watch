@@ -35,7 +35,7 @@
     : `<p class="small" style="margin-top:8px">No signal changed color in the latest run.</p>`;
   $('now-body').innerHTML = `
     <p class="lead">Stage ${latest.stage} of 5: ${esc(latest.stage_label||stageName(latest.stage))}.</p>
-    ${latest.credit_stress?`<p class="small" style="margin-top:-6px"><span class="chip r">Credit stress</span> in the leveraged layer: a credit signal is red, but not broadly or freshly enough for Stage 5.</p>`:''}
+    ${latest.credit_stress?`<p class="small" style="margin-top:-6px"><span class="chip r">Credit stress</span> in the leveraged layer: a credit signal is red, but not broadly, freshly or verifiably enough for Stage 5.</p>`:''}
     <div class="now-grid">
       <div class="kpi"><div class="k">Stage</div><div class="v ${stageClass}">${latest.stage}</div><div class="s">${esc(stageName(latest.stage))}</div></div>
       <div class="kpi"><div class="k">Signals, A to E</div><div class="v"><span class="r">${latest.reds}</span> <span style="color:var(--muted);font-size:18px">red</span> <span class="y">${latest.yellows}</span> <span style="color:var(--muted);font-size:18px">yellow</span></div><div class="s">${latest.greens} green of ${nAE}</div></div>

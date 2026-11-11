@@ -38,7 +38,7 @@
     {
       "n": 5,
       "name": "Credit event",
-      "rule": "Two or more of C1, C3, C4, C5 red on prints dated within 10 trading days, or C3 above 500 bp, or a confirmed default, covenant breach or going-concern notice. A lone or stale credit red sets the credit-stress flag instead",
+      "rule": "Two or more of C1, C3, C4, C5 red on prints dated within 10 trading days and read in a primary source, a wire or a specialist credit publication, or C3 above 500 bp, or a confirmed default, covenant breach or going-concern notice. A lone, stale or unconfirmed credit red sets the credit-stress flag instead",
       "dotcom": "2001 - 2002: debt-funded builders default"
     }
   ],
@@ -351,12 +351,12 @@
       "tier": "T3",
       "name": "Specialists, inside their domain",
       "can": "Change a color in their domain only",
-      "examples": "SemiAnalysis, TrendForce, The Information, DCD, GlobalCapital, ASR, SFA, TechCrunch, Axios, Epoch AI, FactSet Insight, GPU price indices"
+      "examples": "SemiAnalysis, TrendForce, The Information, DCD, GlobalCapital, IFR, Creditflux, ASR, SFA, TechCrunch, Axios, Epoch AI, FactSet Insight, GPU price indices"
     },
     {
       "tier": "T4",
       "name": "Aggregators and secondary",
-      "can": "Leads only; cannot change a color",
+      "can": "Leads only; cannot change a color or count toward a stage rule",
       "examples": "Motley Fool, 24/7 Wall St, Benzinga, GuruFocus, Seeking Alpha news, TipRanks, MarketBeat, Investing.com, crypto news, MT Newswires Market Chatter, Substacks, X"
     },
     {
@@ -546,14 +546,28 @@
     {
       "date": "2026-11-10",
       "t": "B5 corrected from yellow to red: Texas Gov. Abbott's Aug 3, 2026 executive order paused new data-center grid connections pending an ERCOT/PUCT audit, later extended via a TCEQ permit freeze -- an enacted/executive-ordered state pause that B5's own rubric calls red outright. This had been missed in B5's scoring since the signal was added Nov 6; no rescission of the statewide order was found. Separately, Stage 5's two-fresh-red credit breadth test is met for the first time since Nov 6: CoreWeave's 5-year CDS (record ~1,289bp Nov5, easing to ~1,155-1,195bp) corroborates Oracle's already-fresh ~295-315bp print (Nov9), via Benzinga/S&P Global Market Intelligence, Motley Fool and CNBC-sourced reporting. Stage moves from 1 to 5 (concurrent with the ongoing Stage 1 price break). Hysteresis also confirmed two signals on second consecutive closes: A1 (NVDA drawdown) to red, A5 (VIX) to green. F5 flips red for the first time (2-year yield +85.5bp over the Fed's midpoint) on a hot October CPI and a tailed 10-year Treasury auction, though the macro amplifier stays MEDIUM.",
-      "signals": ["A1", "A5", "B5", "F5"]
+      "signals": [
+        "A1",
+        "A5",
+        "B5",
+        "F5"
+      ]
+    },
+    {
+      "date": "2026-11-11",
+      "signals": [
+        "C1",
+        "C4",
+        "C5"
+      ],
+      "t": "Stage 5 confirmation rule. A credit print now counts toward Stage 5 only when it was read in a primary source, a wire or a specialist credit publication dated on or after the print. A level that arrives only through aggregators is kept as a lead: the signal keeps its color, the stage stays where confirmed evidence puts it, the label reads 'credit stress (fresh print unconfirmed)', and a concern is opened to find confirmation within five trading days. Prompted by the Nov 10 Stage 5 call, which rested on an aggregator-relayed CoreWeave CDS level that the brief itself marked unverified; that row stands as recorded and the next run re-scores under the new rule. IFR and Creditflux join the specialist tier for credit."
     }
   ],
   "circularity": {
     "rule": "Pillar G is scored on funding events and filings, not daily prices, and is excluded from the 24-signal count. LOW = 0 red and at most 1 yellow (N not counted); HIGH = 0 red and 2+ yellow; BREAKING = any red. A G1 red joins the Stage 2 rule; a G2, G3 or G4 red joins the Stage 3 rule. Confirmed Sep 25, 2026 with dated sources: G1 Y, G2 Y, G3 N, G4 N, level HIGH."
   },
   "scoring": {
-    "rule": "Revised 2026-11-06 after the seven-week retrospective. Hysteresis: level-based signals (A1, A2, A3, A5, C2, C3, F1, F2, F3's term-premium leg, F5) change color only after two consecutive closes beyond the threshold; event-based signals change immediately; Pillar F moves are not listed as changed signals. Credit stress: when any of C1, C4, C5 is red but Stage 5's breadth-and-freshness test is not met, the row is flagged 'credit stress in the leveraged layer'. Counts cover the 25 signals in pillars A to E. Cadence: the full check runs after the US close (23:00 UTC); an overnight watch before the open (13:00 UTC) alerts only on moves or facts that would flip a signal or settle a concern, and writes an event rather than a row."
+    "rule": "Revised 2026-11-06 after the seven-week retrospective. Hysteresis: level-based signals (A1, A2, A3, A5, C2, C3, F1, F2, F3's term-premium leg, F5) change color only after two consecutive closes beyond the threshold; event-based signals change immediately; Pillar F moves are not listed as changed signals. Credit stress: when any of C1, C4, C5 is red but Stage 5's breadth-and-freshness test is not met, the row is flagged 'credit stress in the leveraged layer'. Confirmation (added 2026-11-11): a credit print counts toward Stage 5 only when read in a T1-T3 source published on or after the print's date; a level relayed only by aggregators keeps the signal's color, leaves the stage where confirmed evidence puts it, labels the row 'credit stress (fresh print unconfirmed)' and opens a concern to confirm it within five trading days. Counts cover the 25 signals in pillars A to E. Cadence: the full check runs after the US close (23:00 UTC); an overnight watch before the open (13:00 UTC) alerts only on moves or facts that would flip a signal or settle a concern, and writes an event rather than a row."
   },
   "reviews": [
     {
