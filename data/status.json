@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-11T13:09:17Z",
-    "date": "2026-11-11",
-    "result": "alert",
-    "note": "CoreWeave Q3 beat (+168% rev, raised guide) sends CRWV +14.5% premarket; TAIEX +3.6%, NQ=F +1.8%; eases C5/Stage5 credit worries (c18/c34/c37)."
+    "last_run_utc": "2026-11-12T13:00:56Z",
+    "date": "2026-11-12",
+    "result": "quiet",
+    "note": "Nothing crossed a threshold. ES=F -0.4%, NQ=F -1.0%; Nikkei -0.7%, KOSPI -0.6%, TAIEX -2.6%, SoftBank -3.0%, TSMC -2.3%."
   }
 }
