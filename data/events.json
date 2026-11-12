@@ -1406,5 +1406,50 @@
     "t": "Re-scored under the Nov11 confirmation rule: neither Oracle's nor CoreWeave's dated CDS prints (the basis for Nov10's Stage5 call) could be traced to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED. Combined with CoreWeave's Q3 beat removing the going-concern basis for C5 (now yellow), the stage falls from 5 to 1 (price break), with a credit-stress flag carried by C1's still-red-but-unconfirmed Oracle CDS reading alone.",
     "url": "briefs/2026-11-11.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A4"
+    ],
+    "t": "NVDA closed -30.53% below its Oct6 52-week high ($166.19 vs $239.24) on a -4.34% day, the first close past the 30% mark; SOX -0.54% to 10,506.67 (-28.21% from high), CRWV -6.86% to $56.60 -- a broad giveback of Monday's relief rally.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G4"
+    ],
+    "t": "Anthropic's amended S-1 sets IPO terms at $70-78 per share, up to $64.4bn raised and roughly $1.3-1.4T valuation (Reuters, via Stock Analysis, Nov10), with Alphabet, Nvidia and Microsoft agreeing to buy a separate share class at the IPO price; a possible debut as early as next week. The range sits below the $1.5-2T target floated in October's S-1 but above its last priced round (~$965B-$1T, May Series H) -- a haircut on the ask, not a down round.",
+    "url": "https://stockanalysis.com/news/anthropic-ipo-targets-64-billion/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A3",
+      "A6"
+    ],
+    "t": "Two Pillar A signals moved for mechanical reasons rather than new facts: A3 (Nasdaq-100 drawdown) confirmed its hysteresis flip from yellow to green on a second consecutive close under the 10% threshold (NDX -9.40%, Nov12); A6 (single-day rout) eased from red to yellow as Nov5's SOX -12.25% session aged out of the trailing 5-trading-day window, leaving only NVDA's -5.47% close (Nov10) inside it -- one qualifying day, not the two needed to stay red. Reds (Pillars A-E) fall from 6 to 5; greens rise from 10 to 11. Stage holds at 1 (price break) with the credit-stress flag carried by Oracle's still-unconfirmed CDS reading (C1), now unconfirmed for a third straight run.",
+    "url": "briefs/2026-11-12.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "framework",
+    "tier": null,
+    "signals": [],
+    "t": "boomorbubble.ai's /api/gauges endpoint now returns a permanent-retirement message (\"This dashboard has been retired. Updates have moved to the AI Investment Brief.\") rather than gauge data. Its contribution to E3 stays carried at 0/5 red 'Boom' from Nov3 until a replacement source is identified; treat it as a dead feed in future runs rather than retrying it daily.",
+    "url": "https://boomorbubble.ai/api/gauges",
+    "tag": null
   }
 ]

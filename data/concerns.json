@@ -248,10 +248,10 @@
     ],
     "resolve_if": "A dated bond or CDS print, or CoreWeave's Q3 report on Nov 11",
     "deadline": "2026-11-12",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "did_not",
+    "resolved": "2026-11-12",
+    "outcome": "CoreWeave's Q3 2026 report (Nov10 after close) was a clean beat-and-raise with no going-concern or covenant-breach language; C5 was downgraded from red to yellow on Nov11 and stayed yellow through the deadline (equity -58.98% from high on Nov12, but no fresh bond/CDS distress evidence found).",
+    "url": "briefs/2026-11-11.md"
   },
   {
     "id": "c19",
@@ -555,6 +555,21 @@
     ],
     "resolve_if": "Daily NDX closes from Yahoo",
     "deadline": "2026-11-13",
+    "status": "materialized",
+    "resolved": "2026-11-12",
+    "outcome": "NDX closed -9.40% below its Oct6 high on Nov12, a second consecutive close under the 10% threshold, confirming A3's hysteresis flip from yellow to green.",
+    "url": "briefs/2026-11-12.md"
+  },
+  {
+    "id": "c40",
+    "opened": "2026-11-12",
+    "concern": "Nvidia's Nov17 Q3 FY27 earnings call and 10-Q show a miss, guide-down or sequential data-center decline (B3), or a filing-fingerprint deterioration -- DSO +10 days YoY, top-two customer share +5pts, or a new large customer stake paired with a purchase commitment (G3)",
+    "signals": [
+      "B3",
+      "G3"
+    ],
+    "resolve_if": "Nvidia's Nov17 earnings call and the subsequent 10-Q filing",
+    "deadline": "2026-11-24",
     "status": "open",
     "resolved": null,
     "outcome": null,

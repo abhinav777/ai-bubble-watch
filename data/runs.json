@@ -9465,5 +9465,243 @@
     "brief": "briefs/2026-11-11.md",
     "circularity": "HIGH",
     "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable (sec.gov was unreachable this run). 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov10."
+  },
+  {
+    "date": "2026-11-12",
+    "as_of": "close",
+    "close_date": "2026-11-12",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer",
+    "credit_stress": true,
+    "reds": 5,
+    "yellows": 9,
+    "greens": 11,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "1 red (F5) / 3 yellow (F1, F3, F4) in Pillar F, unchanged in composition from Nov11. F5 stays red on a fresh print: the 2-year yield (4.86%, Nov12 Treasury CSV) minus the 3.875% FOMC midpoint = +98.5bp, confirming Nov10's 85.5bp reading on a second real (non-carried) close since Nov11 was a bond-market holiday.",
+    "read": "Monday's relief rally gave back ground: NVDA fell 4.34% to $166.19, closing below -30% from its Oct6 high for the first time, while SOX (-0.54%) and CRWV (-6.86%) also retreated; VIX rose to 18.70 but stayed under 20. Two signals moved for mechanical reasons rather than new facts: A3 (Nasdaq-100 drawdown) confirmed its hysteresis flip to green on a second straight sub-10% close, and A6 (single-day rout) eased from red to yellow as Nov5's -12.25% SOX session aged out of the trailing-week window, leaving only Nov10's NVDA -5.47% close inside it. Oracle's CDS remains stuck red-but-unconfirmed for a third straight run -- still no directly-openable T1-T3 print -- so the credit-stress flag persists without meeting Stage5's breadth test. Anthropic set IPO terms ($70-78/share, up to ~$1.3-1.4T, Reuters via Stock Analysis Nov10), below the $1.5-2T target floated in October, with a debut possibly next week; this is a price-discovery haircut on an ask, not a down round against its last priced round (~$965B-$1T), so D2 stays yellow rather than red.",
+    "changed": [
+      {
+        "signal": "A3",
+        "from": "Y",
+        "to": "G",
+        "why": "NDX closed -9.40% below its Oct6 high (Nov12), a second consecutive close under the 10% threshold, confirming the hysteresis flip to green."
+      },
+      {
+        "signal": "A6",
+        "from": "R",
+        "to": "Y",
+        "why": "Nov5's SOX -12.25% session is now outside the trailing 5-trading-day window; the only rout left inside it is NVDA's -5.47% close on Nov10 -- one qualifying day, not two, and no SOX -8%/NVDA -10% day."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $166.19 (Nov12, -4.34% day), -30.53% from $239.24 (Oct6) high -- first close past 30% below high"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 10,506.67 (Nov12, -0.54% day), -28.21% from 14,634.72 (Jun22)"
+      },
+      "A3": {
+        "c": "G",
+        "v": "NDX 28,289.19 (Nov12, -0.30% day), -9.40% from 31,224.47 (Oct6) -- second consecutive close under 10%, hysteresis flip to green confirmed"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct15-Nov12): SOX -9.28%, NVDA -23.50%, MU -14.26%, CRWV -18.78%, ORCL -5.47% vs RSP +2.66% -- lag of 8-26pts, several past 10pts while RSP up"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 18.70 (Nov12, +6.92% day) -- stays under 20"
+      },
+      "A6": {
+        "c": "Y",
+        "v": "No fresh single-day rout today; Nov5's SOX -12.25% has aged out of the trailing 5-trading-day window; NVDA's -5.47% close on Nov10 is the only qualifying -5%+ day left inside the window -- one day, not two, keeps A6 yellow rather than green"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: all four hyperscalers raised/held 2027 capex guidance through Oct29; none reports again until late Jan/Feb 2027"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Carried: no company-confirmed pause found; New Mexico's Project Jupiter permit case remains pending, decision deadline unchanged at Nov23"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: no new Nvidia print; results/10-Q due Nov17"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: no fresher print than TrendForce's Oct20 DRAM/HBM pricing (still rising) and TSMC's Oct revenue (+59.7% YoY)"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Carried: Texas Gov. Abbott's Aug3 ERCOT/PUCT data-center grid-connection pause remains in force; no rescission, court ruling, or named-project decision found"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried color, UNCONFIRMED for a third straight run: Oracle's CDS circulates only via T4 aggregators (techspot, letsdatascience, kucoin) with conflicting levels (215-315bp); no directly-opened T1-T3 source stating the level and date found"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.13% (Nov11, 1 day stale), label 'Moderate risk' -- stays under 3.5%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "330bp (FRED fredgraph.csv fallback, Nov11 -- FRED API secret injection failed again) -- stays under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: no new dated post-crash secondary-market print found for Oracle's Nov2 notes or CoreWeave's 2031/2032 notes"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CoreWeave equity $56.60 (Nov12, -6.86% day), -58.98% from its May2026 high -- stays past the -30% yellow bar; no going-concern, covenant-breach, or fresh distress print found since Nov10's Q3 beat-and-raise"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$50bn (restated Oct8) and Anthropic's Q3 revenue $16.96bn against an operating loss; no new run-rate data this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "Anthropic's amended S-1 sets IPO terms at $70-78/share, up to $64.4B raised, ~$1.3-1.4T valuation (Reuters via Stock Analysis, Nov10) -- below the $1.5-2T target floated in October, but still above its last priced round (~$965B-$1T, May Series H), so this is a haircut on the ask rather than a down round; OpenAI's round stays open toward its ~$20bn target at $1.25T"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU rental prices show no collapse; on-demand H100 roughly $1.50-2.70/hr across providers (late Oct readings)"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Census BTOS National.xlsx confirmed unchanged: 24.2% (cycle202622), 24.6% (202621), 23.8% (202620) -- not rising over three readings; no new cycle published (next ~Nov19)"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: the shutdown/layoff cluster from last week (Ollie, AI21 Labs, Amazon AGI Lab, SmartLayer, ClimateAI, NeuroPixel.AI) is still the latest; no new item found"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct13) put 'AI bubble' tail risk at 23%; November survey not yet published"
+      },
+      "E2": {
+        "c": "G",
+        "v": "GDELT blocked on both calls (ws_closed_mid_exchange); Google News RSS hit its 100-item cap over 5.81 days (Nov6 18:52 - Nov12 14:12), close to the ~7-day baseline pace rather than the ~3-4 day spikes seen in early October -- no clear narrative spike"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch eased to 81.8 'Extreme' (Nov12, from 86.4 Nov11); aibubblemonitor.com rose to 46.3 'Neutral' (from 44.6); boomorbubble.ai's dashboard has been permanently retired per its own API message, carried 0/5 red 'Boom' (Nov3); Polymarket's 2026 burst-odds eased to 6.6% while the 2027 market rose to 26%. Trackers disagree in direction, stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: no new secondary/convertible pricing or notable insider-selling print found; Oracle's Nov2 offering and Nvidia director Mark Stevens' sales remain the latest dated items"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Yahoo ^TNX 5.103% (Nov12, +2.10% day) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 98.43 (Nov12, Yahoo; no Nov11 print posted -- Veterans Day bond holiday) -- stays under the 100 green threshold on the two most recent real closes (92.43 Nov10, 98.43 Nov12)"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.8738% (FRED fredgraph.csv, Nov6, now 4 business days stale -- API secret injection failed, no fresher CSV row found); no new Treasury auction tail found in the trailing 7 days -- stays yellow"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.24% (FRED CSV and Treasury CSV cross-check, Nov12) stays under 2.4%. Brent $95.77 (Nov12, +3.24% day) stays inside $80-100. No official October CPI YoY published -- carries September's confirmed 3.7% in the 3-4% band"
+      },
+      "F5": {
+        "c": "R",
+        "v": "2-year yield 4.86% (Treasury CSV, Nov12) minus the 3.875% FOMC midpoint = +98.5bp -- a fresh print (not carried) confirming red for a second real trading day after 4.73%/+85.5bp on Nov10 (no Nov11 print, bond holiday)"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's round stays open toward the ~$20bn target at $1.25T; no supplier-majority evidence found"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Carried: no confirmed deferral or renegotiation of a major vendor commitment found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; Nvidia's Q3 FY27 results and 10-Q are due Nov17"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: no new Anthropic filing beyond the Nov2 S-1/A (revenue $16.96bn, operating loss $567mn, commitments $895.4bn); its amended S-1 setting IPO terms ($70-78/sh) this week adds pricing context but no new financials"
+      }
+    },
+    "market": {
+      "spx": 7592.4,
+      "ndx": 28289.19,
+      "sox": 10506.67,
+      "sox_dd": -28.21,
+      "nvda": 166.19,
+      "nvda_dd": -30.53,
+      "ndx_dd": -9.4,
+      "tnx": 5.103,
+      "vix": 18.7,
+      "hy_oas": 330,
+      "move": 98.43,
+      "term_premium": 0.8738,
+      "breakeven": 2.24,
+      "brent": 95.77,
+      "orcl": 127.11,
+      "crwv": 56.6
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 81.8,
+        "label": "Extreme",
+        "date": "2026-11-12",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 46.3,
+        "label": "Neutral",
+        "date": "2026-11-12",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 6.6,
+        "v2027": 26.0,
+        "date": "2026-11-12",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "NVDA closed -30.53% below its 52-week high ($166.19 vs $239.24, Oct6), the first close past the 30% mark, on a -4.34% day; SOX fell to -28.21% below its high and CRWV -6.86%, erasing most of Monday's relief rally.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA"
+      },
+      {
+        "kind": "HARD",
+        "t": "Anthropic's amended S-1 sets IPO terms at $70-78 per share, up to $64.4bn raised and roughly $1.3-1.4T valuation, with Alphabet, Nvidia and Microsoft agreeing to buy a separate share class at the IPO price -- below the $1.5-2T target floated in October.",
+        "url": "https://stockanalysis.com/news/anthropic-ipo-targets-64-billion/"
+      },
+      {
+        "kind": "HARD",
+        "t": "NDX's drawdown closed at -9.40% (Nov12), a second consecutive close under the 10% threshold, confirming A3's hysteresis flip from yellow to green and resolving concern c39.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ENDX"
+      }
+    ],
+    "sources": {
+      "T1": 4,
+      "T2": 2,
+      "T3": 1,
+      "T4": 2,
+      "T5": 2
+    },
+    "run_url": "https://claude.ai/code/session_01QebKNKUTMLrsynKKijX4zz",
+    "brief": "briefs/2026-11-12.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1, G2 and G4 all hold yellow with no new filings this run; G3 stays not-yet-scorable pending Nvidia's Nov17 Q3 FY27 results and 10-Q. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov11."
   }
 ]

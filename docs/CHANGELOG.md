@@ -2,6 +2,10 @@
 
 Changes to the rules, the data sources and the dashboard, newest first. This file mirrors the `changelog` array in `data/framework.json`; daily readings live in `data/runs.json` and the briefs.
 
+## 2026-11-12 (A3, A6)
+
+Two Pillar A signals moved on mechanics rather than new facts: A3 confirmed its hysteresis flip to green on a second straight sub-10% NDX close, and A6 eased from red to yellow as Nov5's SOX rout aged out of the trailing 5-day window, leaving only one qualifying -5% day (NVDA, Nov10) inside it. Reds fall from 6 to 5; greens rise from 10 to 11. Oracle's CDS stays red-but-unconfirmed for a third straight run. Separately, boomorbubble.ai's /api/gauges endpoint began returning a permanent-retirement message instead of gauge data; its E3 contribution stays carried at 0/5 red from Nov3 until a replacement source is found.
+
 ## 2026-11-11 (C1, C4, C5)
 
 Stage 5 confirmation rule. A credit print now counts toward Stage 5 only when it was read in a primary source, a wire or a specialist credit publication dated on or after the print. A level that arrives only through aggregators is kept as a lead: the signal keeps its color, the stage stays where confirmed evidence puts it, the label reads 'credit stress (fresh print unconfirmed)', and a concern is opened to find confirmation within five trading days. Prompted by the Nov 10 Stage 5 call, which rested on an aggregator-relayed CoreWeave CDS level that the brief itself marked unverified; that row stands as recorded and the next run re-scores under the new rule. IFR and Creditflux join the specialist tier for credit.
