@@ -574,5 +574,35 @@
     "resolved": null,
     "outcome": null,
     "url": null
+  },
+  {
+    "id": "c41",
+    "opened": "2026-11-13",
+    "concern": "BofA's November Global Fund Manager Survey (due mid-month and not yet published as of Nov13) shows 'AI bubble' tail-risk share above 45% together with rising cash allocation, which would flip E1 to red",
+    "signals": [
+      "E1"
+    ],
+    "resolve_if": "BofA's November FMS release",
+    "deadline": "2026-11-21",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c42",
+    "opened": "2026-11-13",
+    "concern": "CoreWeave's or Oracle's dollar bonds trade below 80 cents on the dollar in a directly-opened T1-T3 price print (FINRA TRACE, Bloomberg, Reuters, or a specialist credit publication) within 30 days -- distinct from the CDS-confirmation question already tracked by c38 -- which would flip C5 or sharpen C1/C4's credit read",
+    "signals": [
+      "C5",
+      "C1",
+      "C4"
+    ],
+    "resolve_if": "A directly-opened T1-T3 bond cash-price print for either issuer's dollar notes, or 30 trading days passing with none found",
+    "deadline": "2026-12-13",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
   }
 ]

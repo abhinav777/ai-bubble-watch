@@ -1451,5 +1451,17 @@
     "t": "boomorbubble.ai's /api/gauges endpoint now returns a permanent-retirement message (\"This dashboard has been retired. Updates have moved to the AI Investment Brief.\") rather than gauge data. Its contribution to E3 stays carried at 0/5 red 'Boom' from Nov3 until a replacement source is identified; treat it as a dead feed in future runs rather than retrying it daily.",
     "url": "https://boomorbubble.ai/api/gauges",
     "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "G1",
+      "D2"
+    ],
+    "t": "OpenAI's first $11bn tranche of its up-to-$20bn funding round closed Nov6 at a $1.25T pre-money valuation, below the $1.4T target floated in September; multiple aggregators citing Reuters/Bloomberg name SoftBank and Abu Dhabi's MGX as confirmed outside participants, while reports that Amazon, Nvidia and Microsoft 'anchored' the tranche may recycle March-round language and are less certain -- neither Reuters nor Bloomberg's original reporting was directly opened.",
+    "url": "https://nairametrics.com/2026/11/07/openai-secures-11-billion-in-fresh-funding-at-1-25-trillion-valuation/",
+    "tag": null
   }
 ]
