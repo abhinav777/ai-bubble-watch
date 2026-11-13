@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-12T13:00:56Z",
-    "date": "2026-11-12",
+    "last_run_utc": "2026-11-13T14:40:26Z",
+    "date": "2026-11-13",
     "result": "quiet",
-    "note": "Nothing crossed a threshold. ES=F -0.4%, NQ=F -1.0%; Nikkei -0.7%, KOSPI -0.6%, TAIEX -2.6%, SoftBank -3.0%, TSMC -2.3%."
+    "note": "Nothing crossed a threshold. ES=F +0.2%, NQ=F -0.3%; Nikkei +0.5%, KOSPI -1.0%, TAIEX +1.3%, SoftBank -5.1%, TSMC +0.4%."
   }
 }
