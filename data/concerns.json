@@ -92,10 +92,10 @@
     ],
     "resolve_if": "A MOVE close above 130",
     "deadline": "2026-11-15",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "expired",
+    "resolved": "2026-11-16",
+    "outcome": "MOVE never crossed 130 through the Nov15 deadline. Latest close 101.28 (Nov16, Yahoo ^MOVE) -- a first close above the 100 yellow threshold but far from the 130 disorderly-market line.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE"
   },
   {
     "id": "c08",
@@ -496,10 +496,10 @@
     ],
     "resolve_if": "A Nvidia company statement or SEC filing on the investigation's outcome, or 30 trading days of price action",
     "deadline": "2026-12-09",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "materialized",
+    "resolved": "2026-11-16",
+    "outcome": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026; CFO Colette Kress named interim CEO, Harvey C. Jones named first independent Board Chair, per the company's 8-K (sec.gov blocked on this network, corroborated by NBC News, Washington Post and CNN). This was missed in the Nov13 daily run and only confirmed in this Nov16 run.",
+    "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
   },
   {
     "id": "c36",
@@ -600,6 +600,34 @@
     ],
     "resolve_if": "A directly-opened T1-T3 bond cash-price print for either issuer's dollar notes, or 30 trading days passing with none found",
     "deadline": "2026-12-13",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c43",
+    "opened": "2026-11-16",
+    "concern": "NDX's drawdown from its Oct6 high crosses 20% on a closing basis (now -12.90% Nov16, up from -10.51% Nov13), which would flip A3 from yellow to red under the hysteresis rule",
+    "signals": [
+      "A3"
+    ],
+    "resolve_if": "Two consecutive NDX closes past -20% from the Oct6 high (Yahoo ^NDX), or 30 days passing without it",
+    "deadline": "2026-12-16",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c44",
+    "opened": "2026-11-16",
+    "concern": "VIX closes above 20 for a second consecutive trading day (first close 22.91 on Nov16, first since Nov13's 19.30), which would flip A5 from green to yellow under the hysteresis rule",
+    "signals": [
+      "A5"
+    ],
+    "resolve_if": "A second consecutive VIX close above 20 (Yahoo ^VIX), or two weeks passing without it",
+    "deadline": "2026-11-30",
     "status": "open",
     "resolved": null,
     "outcome": null,

@@ -1475,5 +1475,28 @@
     "t": "SK Hynix closed -7.89% to KRW1,120,000 (Nov16 vs Nov13's 1,216,000), crossing the single-name 7% Asia-chip alert threshold, while KOSPI fell 3.59% to 5,100.50 and Taiwan's TAIEX fell 6.03% to 41,040.08 in a broad overnight memory/AI-chip rout (Yahoo Finance; a Seoul Economic Daily piece dated Nov16 cites heavy pension-fund selling amid AI-bubble concerns, a T2/T3 source not directly opened here). This bears on A2 (SOX/chip price break) and B4 (memory/HBM supply chain); a separate search claim that Nvidia CEO Jensen Huang had resigned (tied to open concern c35) could not be confirmed -- sec.gov and nvidianews.nvidia.com are blocked on this network, and other results described the board investigation as still open with Huang retaining the board's backing as of Nov9-10 -- so it is flagged for the daily check, not scored as fact here.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1"
+    ],
+    "t": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026, per an SEC 8-K naming CFO Colette Kress interim CEO and Harvey C. Jones the company's first independent Board Chair. Press reports (NBC News, Washington Post, CNN) tie the exit to revelations of extramarital relationships, including one with an individual alleged to have ties to Chinese intelligence, following the board's Nov6-9 independent investigation. sec.gov is blocked on this network and could not be opened directly; this fact was missed entirely in the Nov13 daily run, which attributed that week's price action to generic risk-off with no company-specific catalyst identified.",
+    "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+    "tag": null
+  },
+  {
+    "date": "2026-11-16",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A3",
+      "A6"
+    ],
+    "t": "Two Pillar A signals moved on mechanics: A3 (NDX drawdown) confirmed its hysteresis flip back to yellow on a second consecutive close past the 10% line (-10.51% Nov13, -12.90% Nov16); A6 (single-day rout) flipped to red as today's SOX -5.28% joined Nov10's NVDA -5.47% inside the trailing 5-trading-day window. Reds (Pillars A-E) rise from 5 to 6; greens fall from 11 to 10. Concern c35 (Jensen Huang investigation outcome) is resolved as materialized on confirmation of his Nov12 resignation.",
+    "url": "briefs/2026-11-16.md",
+    "tag": null
   }
 ]

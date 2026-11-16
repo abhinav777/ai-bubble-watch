@@ -2,6 +2,10 @@
 
 Changes to the rules, the data sources and the dashboard, newest first. This file mirrors the `changelog` array in `data/framework.json`; daily readings live in `data/runs.json` and the briefs.
 
+## 2026-11-16 (A3, A6)
+
+A3 (NDX drawdown) confirmed its hysteresis flip back to yellow on a second consecutive close past the 10% line, and A6 (single-day rout) flipped to red as two qualifying -5%+ days (NVDA Nov10, SOX Nov16) landed inside the trailing 5-trading-day window. Separately, this run surfaced a major miss: Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026, with CFO Colette Kress named interim CEO and Harvey C. Jones the company's first independent Board Chair -- a fact the Nov13 daily run did not catch at all. Concern c35, opened Nov9 to track exactly this outcome, is resolved as materialized. FRED's API and FINRA's token endpoint both failed again with secret-injection errors; sec.gov, cnbc.com, reuters.com, nbcnews.com, aljazeera.com and videocardz.com are blocked on this network, so the resignation is sourced via WebSearch-indexed copies of NBC News, Washington Post and CNN rather than a directly-opened primary filing.
+
 ## 2026-11-12 (A3, A6)
 
 Two Pillar A signals moved on mechanics rather than new facts: A3 confirmed its hysteresis flip to green on a second straight sub-10% NDX close, and A6 eased from red to yellow as Nov5's SOX rout aged out of the trailing 5-day window, leaving only one qualifying -5% day (NVDA, Nov10) inside it. Reds fall from 6 to 5; greens rise from 10 to 11. Oracle's CDS stays red-but-unconfirmed for a third straight run. Separately, boomorbubble.ai's /api/gauges endpoint began returning a permanent-retirement message instead of gauge data; its E3 contribution stays carried at 0/5 red from Nov3 until a replacement source is found.

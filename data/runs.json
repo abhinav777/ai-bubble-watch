@@ -9928,5 +9928,243 @@
     "brief": "briefs/2026-11-13.md",
     "circularity": "HIGH",
     "circularity_note": "G1, G2 and G4 all hold yellow; G1's read updates on OpenAI's confirmed $11bn Nov6 close but the mixed outside/strategic investor composition doesn't move the color. G3 stays not-yet-scorable pending Nvidia's Nov17 Q3 FY27 results and 10-Q. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov12."
+  },
+  {
+    "date": "2026-11-16",
+    "as_of": "close",
+    "close_date": "2026-11-16",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer",
+    "credit_stress": true,
+    "reds": 6,
+    "yellows": 9,
+    "greens": 10,
+    "amplifier": "MEDIUM",
+    "amplifier_note": "1 red (F5) / 3 yellow (F1, F3, F4) in Pillar F, unchanged in composition from Nov13. F5 stays red on a fresh print: 2-year yield 4.83% (Treasury CSV, Nov16) minus the 3.875% FOMC midpoint = +95.5bp.",
+    "read": "A broad risk-off day: an overnight Asia memory/AI-chip rout (SK Hynix -7.89%, KOSPI -3.59%, Taiwan -6.03%, Nov16) spread into the US close, with NVDA -4.12% to $156.14 (-34.73% from its Oct6 high), SOX -5.28% to 9,610.65 (-34.33% from high), MU -7.62%, TSM -6.34% and AMD -5.58%. Two Pillar A signals moved on mechanics: A3 (Nasdaq-100 drawdown, -12.90%) confirmed a hysteresis flip back to yellow on a second straight close past the 10% line, and A6 (single-day rout) flipped to red as today's SOX -5.28% joined Nov10's NVDA -5.47% inside the trailing 5-trading-day window -- two qualifying days, not one. Separately, this run confirmed a major fact the Nov13 row missed entirely: Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026, with CFO Colette Kress named interim CEO and Harvey C. Jones the company's first independent Board Chair (SEC 8-K, corroborated by NBC News, Washington Post and CNN; sec.gov itself is blocked on this network). Reuters tied part of today's selloff to continued fallout from that news weighing on sentiment ahead of Anthropic's IPO. Open concern c35, which tracked exactly this outcome, is resolved as materialized. No hyperscaler capex cut, data-center pause, or down round was found; Oracle's CDS stays red-but-unconfirmed for a fifth straight run, and the stage holds at 1 with the credit-stress flag carried by that unconfirmed print. Nvidia reports Q3 FY27 results tomorrow (Nov17), its first under interim CEO Kress.",
+    "changed": [
+      {
+        "signal": "A3",
+        "from": "G",
+        "to": "Y",
+        "why": "Second consecutive close past the 10% NDX drawdown threshold (-10.51% Nov13, -12.90% Nov16); hysteresis confirms the flip back to yellow."
+      },
+      {
+        "signal": "A6",
+        "from": "Y",
+        "to": "R",
+        "why": "Two qualifying -5%+ single-day moves now sit inside the trailing 5-trading-day window: NVDA -5.47% (Nov10) and SOX -5.28% (Nov16)."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $156.14 (Nov16, -4.12% day), -34.73% from $239.24 (Oct6) high -- a fresh closing low"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 9,610.65 (Nov16, -5.28% day), -34.33% from 14,634.72 (Jun22) -- a fresh closing low"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 27,197.15 (Nov16, -2.67% day), -12.90% from 31,224.47 (Oct6) -- second consecutive close past 10%, hysteresis flips it back to yellow"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct19-Nov16): NVDA -28.08%, SOX -15.07%, MU -20.54%, CRWV -18.39%, TSM -11.13%, ORCL -8.10% vs RSP +2.59% -- lag of 10.7-30.7pts for most names while RSP is up"
+      },
+      "A5": {
+        "c": "G",
+        "v": "VIX 22.91 (Nov16, +18.70% day) -- first close above 20 since Nov13's 19.30; hysteresis needs a second consecutive close to flip"
+      },
+      "A6": {
+        "c": "R",
+        "v": "Two qualifying -5%+ days now inside the trailing 5-trading-day window (Nov10-16): NVDA -5.47% (Nov10) and SOX -5.28% (Nov16)"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: Amazon reaffirmed ~$220B 2026 capex (Oct29), Alphabet $195-205B, Meta $135-145B; aggregate ~$720B+ across the four hyperscalers; no cuts found"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Carried: no company-confirmed pause; New Mexico's Project Jupiter air-permit decision still due Nov23"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: no new Nvidia print; Q3 FY27 results and 10-Q due Nov17, Kress's first call as interim CEO"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: no fresher contract-price print than TrendForce's Oct20 DRAM/HBM data and TSMC's Oct revenue (+59.7% YoY); today's SK Hynix/Samsung equity rout is a price move, not new contract-pricing evidence"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Carried: Texas Gov. Abbott's Aug3 ERCOT/PUCT data-center grid-connection pause remains in force; incoming Gov.-elect Hinojosa has pledged to extend a halt on approvals from January"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried color, UNCONFIRMED for a fifth straight run: an Oracle CDS level (~298-305bp) circulates only via aggregators (FourWeekMBA, techspot) relaying a Nov6 CNBC/Deutsche Bank print; CNBC itself is blocked on this network and no directly-opened T1-T3 source was found"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.05% (Nov13, 3 trading days stale), label 'Moderate risk' -- stays under 3.5%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "323bp (FRED fredgraph.csv fallback, Nov13 -- FRED API secret injection failed again) -- stays under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: CoreWeave ruled out new unsecured debt on its Nov10 Q3 call; no dated post-earnings secondary cash-price print found to confirm recovery above Nov2's 79.75-cent TRACE print"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CoreWeave equity $49.88 (Nov16, -6.12% day), -63.85% from its May2026 high -- stays past the -30% yellow bar; no going-concern or covenant-breach print found"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$50-70bn (restated Oct8/targeted year-end) and Anthropic's Q3 revenue $16.96bn against an operating loss; no new run-rate data this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "Carried: Anthropic's IPO terms ($70-78/share, ~$1.2-1.4T, sources differ) remain unpriced as of Nov16; unconfirmed estimates point to pricing around Nov19-24; OpenAI's round stays open toward its ~$20bn target"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU rental prices show no collapse; marketplace H100 on-demand lows ~$1.33/hr (Nov4), specialist clouds ~$2.69/hr, hyperscaler list prices $10-12/GPU-hr"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Census BTOS National.xlsx confirmed unchanged: 24.2% (cycle202622), 24.6% (202621), 23.8% (202620) -- not rising over three readings; no new cycle published"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: the early-November shutdown/layoff cluster (Ollie, AI21 Labs, Amazon AGI Lab, SmartLayer, ClimateAI, NeuroPixel.AI) is still the latest notable cluster; no new wave found this run"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct13) put 'AI bubble' tail risk at 23%; November survey not yet published"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS hit its 100-item cap over 6.50 days (Nov10 09:26 - Nov16 21:29), a modestly faster pace than Nov13's 6.95-day cap but well under 1.5x baseline; GDELT's 12-month comparison blocked (429 twice, after a 10s retry) and its 7-day window returned only a sparse, partial Nov10-14 sample -- no clear narrative spike"
+      },
+      "E3": {
+        "c": "G",
+        "v": "aibubble.watch eased to 81.8 'Extreme' (Nov16, from 82.4 Nov13); aibubblemonitor.com eased to 45.7 'Neutral' (from 47.9); boomorbubble.ai stays retired, carried 0/5 red 'Boom' (Nov3); Polymarket's 2026 burst-odds rose to 7.8% (from 6.9%) while the 2027 market eased to 18% (from 18.5%). Trackers disagree in direction, stays green"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: no new dated secondary/convertible pricing or notable insider-selling print found this run beyond Oracle's Nov2 offering and Nvidia director Mark Stevens' sales; Meta's ~$35bn stock/preferred offering could not be dated to this window"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Treasury CSV 10yr 5.12% / Yahoo ^TNX 5.121% (Nov16) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 101.28 (Nov16, Yahoo, +2.52% day) -- first close above the 100 green threshold since Nov13's 98.79; hysteresis needs a second consecutive close to flip"
+      },
+      "F3": {
+        "c": "Y",
+        "v": "Term premium 0.8738% (FRED fredgraph.csv, Nov6, now 6 business days stale -- API secret injection failed again, no fresher CSV row found) -- stays yellow on the term-premium reading alone"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.20% (Treasury CSV nominal-minus-real cross-check and FRED CSV, Nov16) stays under 2.4%. Brent $91.84 (Nov16, -4.17% day) stays inside the $80-100 yellow band. October CPI (released Nov10) rose 0.4% MoM, core 0.3% MoM; no annual rate exists due to the 2025 shutdown gap, so carries September's confirmed 3.7% YoY in the 3-4% band"
+      },
+      "F5": {
+        "c": "R",
+        "v": "2-year yield 4.83% (Treasury CSV, Nov16) minus the 3.875% FOMC midpoint = +95.5bp -- a fresh print confirming red"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's first $11bn tranche closed Nov6 at $1.25T pre-money with SoftBank and MGX as confirmed outside participants; mixed outside/strategic read, round stays open toward ~$20bn"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Carried: no confirmed deferral or renegotiation of a major vendor commitment found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; Nvidia's Q3 FY27 results and 10-Q are due Nov17, its first earnings release under interim CEO Colette Kress following Jensen Huang's Nov12 resignation"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: no new Anthropic filing beyond the Nov2 S-1/A (revenue $16.96bn, operating loss $567mn, commitments $895.4bn); IPO terms still unpriced as of Nov16"
+      }
+    },
+    "market": {
+      "spx": 7416.59,
+      "ndx": 27197.15,
+      "sox": 9610.65,
+      "sox_dd": -34.33,
+      "nvda": 156.14,
+      "nvda_dd": -34.73,
+      "ndx_dd": -12.9,
+      "tnx": 5.121,
+      "vix": 22.91,
+      "hy_oas": 323,
+      "move": 101.28,
+      "term_premium": 0.8738,
+      "breakeven": 2.2,
+      "brent": 91.84,
+      "orcl": 119.09,
+      "crwv": 49.88
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 81.8,
+        "label": "Extreme",
+        "date": "2026-11-16",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 45.7,
+        "label": "Neutral",
+        "date": "2026-11-16",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 7.8,
+        "v2027": 18,
+        "date": "2026-11-16",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026; CFO Colette Kress is interim CEO and Harvey C. Jones is the company's first independent Board Chair, per an SEC 8-K corroborated by NBC News, Washington Post and CNN. This fact was missed entirely in the Nov13 daily run.",
+        "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
+      },
+      {
+        "kind": "HARD",
+        "t": "An overnight Asia memory/AI-chip rout (SK Hynix -7.89%, KOSPI -3.59%, Taiwan -6.03%, Nov16) spread into the US close: NVDA -4.12% to $156.14 (-34.73% from its Oct6 high), SOX -5.28% to 9,610.65 (-34.33% from high), MU -7.62%, TSM -6.34%.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA"
+      },
+      {
+        "kind": "OPINION",
+        "t": "Anthropic's IPO remains unpriced as of Nov16 despite its roadshow continuing; unconfirmed estimates point to pricing around Nov19-24 at its filed $70-78/share range (~$1.2-1.4T, sources differ), below the $1.5-2T range floated in October.",
+        "url": "https://fortune.com/2026/11/10/anthropic-lower-than-expected-ipo-valuation-smart-strategy-or-red-flag/"
+      }
+    ],
+    "sources": {
+      "T1": 5,
+      "T2": 3,
+      "T3": 2,
+      "T4": 5,
+      "T5": 1
+    },
+    "run_url": null,
+    "brief": "briefs/2026-11-16.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1, G2 and G4 all hold yellow; G3 stays not-yet-scorable pending Nvidia's Nov17 Q3 FY27 results and 10-Q, its first under interim CEO Kress. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov13."
   }
 ]
