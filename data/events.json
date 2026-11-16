@@ -1463,5 +1463,17 @@
     "t": "OpenAI's first $11bn tranche of its up-to-$20bn funding round closed Nov6 at a $1.25T pre-money valuation, below the $1.4T target floated in September; multiple aggregators citing Reuters/Bloomberg name SoftBank and Abu Dhabi's MGX as confirmed outside participants, while reports that Amazon, Nvidia and Microsoft 'anchored' the tranche may recycle March-round language and are less certain -- neither Reuters nor Bloomberg's original reporting was directly opened.",
     "url": "https://nairametrics.com/2026/11/07/openai-secures-11-billion-in-fresh-funding-at-1-25-trillion-valuation/",
     "tag": null
+  },
+  {
+    "date": "2026-11-16",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "B4"
+    ],
+    "t": "SK Hynix closed -7.89% to KRW1,120,000 (Nov16 vs Nov13's 1,216,000), crossing the single-name 7% Asia-chip alert threshold, while KOSPI fell 3.59% to 5,100.50 and Taiwan's TAIEX fell 6.03% to 41,040.08 in a broad overnight memory/AI-chip rout (Yahoo Finance; a Seoul Economic Daily piece dated Nov16 cites heavy pension-fund selling amid AI-bubble concerns, a T2/T3 source not directly opened here). This bears on A2 (SOX/chip price break) and B4 (memory/HBM supply chain); a separate search claim that Nvidia CEO Jensen Huang had resigned (tied to open concern c35) could not be confirmed -- sec.gov and nvidianews.nvidia.com are blocked on this network, and other results described the board investigation as still open with Huang retaining the board's backing as of Nov9-10 -- so it is flagged for the daily check, not scored as fact here.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=1d",
+    "tag": null
   }
 ]
