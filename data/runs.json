@@ -10412,7 +10412,7 @@
       "T4": 3,
       "T5": 3
     },
-    "run_url": null,
+    "run_url": "https://github.com/abhinav777/ai-bubble-watch/commit/b6ef186",
     "brief": "briefs/2026-11-17.md",
     "circularity": "HIGH",
     "circularity_note": "G1, G2 and G4 all hold yellow; G3 stays not-yet-scorable pending Nvidia's Q3 FY27 10-Q, expected within days of the Nov17 earnings release. New dated evidence strengthens G1's yellow: Anthropic's IPO structure discloses AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC together committing roughly $26bn to buy non-voting shares in a private placement alongside the public offering pricing tomorrow. 0 red / 3 yellow keeps circularity at HIGH, unchanged from Nov16."
