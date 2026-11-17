@@ -1498,5 +1498,75 @@
     "t": "Two Pillar A signals moved on mechanics: A3 (NDX drawdown) confirmed its hysteresis flip back to yellow on a second consecutive close past the 10% line (-10.51% Nov13, -12.90% Nov16); A6 (single-day rout) flipped to red as today's SOX -5.28% joined Nov10's NVDA -5.47% inside the trailing 5-trading-day window. Reds (Pillars A-E) rise from 5 to 6; greens fall from 11 to 10. Concern c35 (Jensen Huang investigation outcome) is resolved as materialized on confirmation of his Nov12 resignation.",
     "url": "briefs/2026-11-16.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B3"
+    ],
+    "t": "Nvidia's Q3 FY27 results (first under interim CEO Colette Kress, following Jensen Huang's Nov12 resignation): revenue $115.8bn (+103% YoY, vs ~$108bn consensus), Data Center revenue $107.6bn (+110% YoY), GAAP EPS $2.70; Q4 guidance $130bn +/-3% assuming no China data-center compute revenue, gross margin guided 71-72%. A clean beat and raise, flipping B3 green.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1",
+      "G4"
+    ],
+    "t": "Anthropic set its IPO price range at $70-78 per share (implying roughly $1.26-1.41T depending on share-count method), below the $1.5-2T target floated in October; the public offering covers about 825 million Class A shares. Pricing is expected Nov18 with trading to begin Nov19 on Nasdaq under ticker ANT.",
+    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G1"
+    ],
+    "t": "Alongside Anthropic's public IPO offering, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC have each agreed to buy non-voting Class N shares at the IPO price in a separate private placement reported at roughly $26bn combined -- suppliers anchoring a large slice of the raise.",
+    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "F3"
+    ],
+    "t": "Correction caught this run: F3 (term premium or auction reception) moves from yellow to red on a previously-uncaught fact -- the $42bn 10-year Treasury note auction (Nov10) tailed 1bp and the $25bn 30-year bond auction (Nov12) tailed 0.4bp with bid-to-cover falling to 2.36 from 2.54, meeting F3's 'two consecutive tails' red criterion as an event separate from the term-premium leg (which stays under 1.0%). Macro amplifier rises from MEDIUM to HIGH for the first time since early October.",
+    "url": "https://www.newsquawk.com/headlines/us-sells-usd-25bln-of-30-year-bonds-tail-04bps-",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "E2"
+    ],
+    "t": "Narrative volume spiked sharply: Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in roughly 25.6 hours (Nov16 18:04 to Nov17 19:39 GMT), the fastest cap-fill this tracker has recorded, versus a roughly 7-day baseline pace -- flipping E2 from green to red. GDELT's 12-month comparator stayed rate-limited (429) even after a mandated 10-second retry.",
+    "url": "https://news.google.com/rss/search?q=%22AI+bubble%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A5",
+      "A6",
+      "E3"
+    ],
+    "t": "Three mechanical/tracker moves: A5 (VIX) confirmed its hysteresis flip to yellow on a second consecutive close above 20 (25.46, Nov17); A6 (single-day rout) eased red to yellow as Nov10's NVDA -5.47% session rolled out of the trailing 5-day window, leaving only Nov16's SOX -5.28% inside it; E3 (composite trackers) flipped green to yellow as aibubble.watch and Polymarket's 2026 burst-odds both ticked up while aibubblemonitor.com eased -- two of three deteriorating.",
+    "url": "briefs/2026-11-17.md",
+    "tag": null
   }
 ]

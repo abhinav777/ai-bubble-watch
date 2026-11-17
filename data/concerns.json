@@ -350,10 +350,10 @@
     ],
     "resolve_if": "Pricing and first-week trading",
     "deadline": "2026-12-15",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "partly",
+    "resolved": "2026-11-17",
+    "outcome": "Anthropic set its IPO price range at $70-78/share (~$1.26-1.41T), below the $1.5-2T range floated in October -- a haircut on the ask, not a down round from its last private mark (~$965B-$1T). Pricing is due Nov18 and trading begins Nov19; the first-week-trading half of this concern stays open through the Dec15 deadline.",
+    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
   },
   {
     "id": "c26",
@@ -570,10 +570,10 @@
     ],
     "resolve_if": "Nvidia's Nov17 earnings call and the subsequent 10-Q filing",
     "deadline": "2026-11-24",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "partly",
+    "resolved": "2026-11-17",
+    "outcome": "Nvidia's Q3 FY27 results (Nov17, first under interim CEO Kress) were a clean beat and raise -- revenue $115.8B (+103% YoY) vs ~$108B consensus, Q4 guide $130B -- not a miss or guide-down; B3 moved to green. The 10-Q (needed for G3's DSO/concentration/stake fingerprints) had not appeared on EDGAR as of this run's close, so the filing-fingerprint half of this concern stays open through the Nov24 deadline.",
+    "url": "briefs/2026-11-17.md"
   },
   {
     "id": "c41",
@@ -628,6 +628,34 @@
     ],
     "resolve_if": "A second consecutive VIX close above 20 (Yahoo ^VIX), or two weeks passing without it",
     "deadline": "2026-11-30",
+    "status": "materialized",
+    "resolved": "2026-11-17",
+    "outcome": "VIX closed 25.46 on Nov17, a second consecutive close above 20 following Nov16's 22.91, confirming A5's hysteresis flip from green to yellow.",
+    "url": "briefs/2026-11-17.md"
+  },
+  {
+    "id": "c45",
+    "opened": "2026-11-17",
+    "concern": "F3's new 'two consecutive tails' red (and the macro amplifier's jump to HIGH) holds through the next long-end Treasury auction rather than reversing on a single clean auction",
+    "signals": [
+      "F3"
+    ],
+    "resolve_if": "The results of the next 10-year or 30-year Treasury auction, or 30 days passing without one",
+    "deadline": "2026-12-09",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c46",
+    "opened": "2026-11-17",
+    "concern": "The Nov17 narrative spike (Google News RSS filling its weekly cap in ~1 day) persists into next week rather than reverting to baseline pace, which would suggest a genuine shift rather than a one-day reaction to the Huang fallout and Nvidia's earnings",
+    "signals": [
+      "E2"
+    ],
+    "resolve_if": "The next run's Google News RSS cap-fill time, or GDELT's 7-day volume once its comparator is reachable again",
+    "deadline": "2026-11-24",
     "status": "open",
     "resolved": null,
     "outcome": null,

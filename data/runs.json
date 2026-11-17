@@ -10166,5 +10166,255 @@
     "brief": "briefs/2026-11-16.md",
     "circularity": "HIGH",
     "circularity_note": "G1, G2 and G4 all hold yellow; G3 stays not-yet-scorable pending Nvidia's Nov17 Q3 FY27 results and 10-Q, its first under interim CEO Kress. 0 red / 3 yellow in Pillar G keeps circularity at HIGH, unchanged from Nov13."
+  },
+  {
+    "date": "2026-11-17",
+    "as_of": "close",
+    "close_date": "2026-11-17",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer",
+    "credit_stress": true,
+    "reds": 6,
+    "yellows": 12,
+    "greens": 7,
+    "amplifier": "HIGH",
+    "amplifier_note": "2 red (F3, F5) / 3 yellow (F1, F2, F4) in Pillar F. F3 flips yellow to red on a previously-uncaught fact: both of the two most recent long-end Treasury auctions tailed -- the $42bn 10-year note (Nov10, tailed 1bp, bid-to-cover 2.46) and the $25bn 30-year bond (Nov12, tailed 0.4bp, bid-to-cover 2.36 vs 2.54 prior) -- meeting F3's 'two consecutive tails' red criterion as an auction-reception event, separate from its term-premium leg (0.9864%, Nov13, still under 1.0%). F2 (MOVE) also confirms its hysteresis flip to yellow on a second straight close above 100 (101.88, Nov17). Amplifier rises from MEDIUM to HIGH for the first time since early October, shortening the watch horizon to the coming week and flagging C1, C4, C5 and D2 as at elevated risk of flipping.",
+    "read": "Nvidia's first earnings report since Jensen Huang's Nov12 resignation was a clean beat-and-raise under interim CEO Colette Kress: Q3 FY27 revenue $115.8B (+103% YoY, vs ~$108B consensus), Data Center revenue $107.6B (+110%), and Q4 guidance of $130B, flipping B3 green with the strongest print of this tracker's life -- yet NVDA closed roughly flat (-0.44%) and stayed 35% below its Oct6 high, with the broader complex still digesting Monday's selloff. Two Pillar A signals eased on pure mechanics rather than new facts (A5 and A6 reshuffled within their windows) while this run also caught a macro fact missed since Nov10-12: both of the two most recent long-end Treasury auctions tailed, meeting F3's own 'two consecutive tails' red criterion and pushing the macro amplifier to HIGH for the first time since early October. Narrative volume spiked hard: Google News RSS's 'AI bubble' query filled its 100-item weekly cap in about one day versus a roughly 7-day baseline pace, the fastest this tracker has recorded, flipping E2 red -- almost certainly a reaction to the Huang fallout and today's earnings rather than new fundamental news, since no Pillar B or C signal confirmed a capex cut or fresh credit default. Anthropic set its IPO at $70-78/share (~$1.26-1.41T), below October's $1.5-2T target, with AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC together committing roughly $26bn to buy non-voting shares alongside the public offering -- a concrete, dated supplier-anchoring fact for circularity (G1) -- with pricing due tomorrow (Nov18) and trading Nov19. Net: Stage holds at 1 (price break) with credit stress carried by Oracle's still-unconfirmed CDS print, but the picture is modestly worse than yesterday on breadth (yellows 9->12, greens 10->7) even as the single most consequential hard data point of the day -- Nvidia's results -- argues against an imminent capex-driven pop.",
+    "changed": [
+      {
+        "signal": "A5",
+        "from": "G",
+        "to": "Y",
+        "why": "Second consecutive VIX close above 20 (22.91 Nov16, 25.46 Nov17) confirms the hysteresis flip."
+      },
+      {
+        "signal": "A6",
+        "from": "R",
+        "to": "Y",
+        "why": "Nov10's NVDA -5.47% session rolled out of the trailing 5-trading-day window; only Nov16's SOX -5.28% remains -- one qualifying day, not the two needed to stay red."
+      },
+      {
+        "signal": "E2",
+        "from": "G",
+        "to": "R",
+        "why": "Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in roughly 25.6 hours (Nov16 18:04 - Nov17 19:39 GMT), the fastest this tracker has recorded, far above the >3x-baseline red threshold. GDELT's comparator was unavailable (429 rate-limited twice, including after the mandated 10s retry)."
+      },
+      {
+        "signal": "E3",
+        "from": "G",
+        "to": "Y",
+        "why": "Two of three trackers deteriorated: aibubble.watch ticked up to 82 'Extreme' (from 81.8) and Polymarket's 2026 burst-odds rose to 8.35% (from 7.8%), while aibubblemonitor.com eased to 43.1 'Neutral' (from 45.7) and boomorbubble.ai stays retired/carried."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $155.46 (Nov17, -0.44% day), -35.02% from $239.24 (Oct6) high"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 9,642.88 (Nov17, +0.34% day), -34.11% from 14,634.72 (Jun22)"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 27,001.79 (Nov17, -0.72% day), -13.52% from 31,224.47 (Oct6) -- third straight close past the 10% line"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct20-Nov17): NVDA -28.18%, SOX -14.54%, MU -20.50%, CRWV -19.70%, TSM -15.38%, ORCL -12.31% vs RSP -0.05% -- lag of 12-28pts while RSP is flat"
+      },
+      "A5": {
+        "c": "Y",
+        "v": "VIX 25.46 (Nov17, +11.13% day) -- second consecutive close above 20 (22.91 Nov16), hysteresis confirms the flip to yellow"
+      },
+      "A6": {
+        "c": "Y",
+        "v": "Only SOX -5.28% (Nov16) remains inside the trailing 5-trading-day window (Nov11-17); NVDA's -5.47% (Nov10) rolled out -- one qualifying day, not two"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: Amazon ~$220B, Alphabet $195-205B, Meta $135-145B 2026 guidance all stand; no cuts found"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Carried: no company-confirmed pause; New Mexico's Project Jupiter air-permit decision due Nov23"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Nvidia Q3 FY27: revenue $115.8B (+103% YoY) vs ~$108B consensus; Data Center $107.6B (+110% YoY); Q4 guide $130B +/-3%; first report under interim CEO Kress -- clean beat and raise"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: no fresher print than TSMC's October revenue (+59.7% YoY) and TrendForce's Oct20 DRAM/HBM data"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Carried: Texas Gov. Abbott's Aug3 ERCOT/PUCT data-center grid-connection pause remains in force"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried color, UNCONFIRMED for a sixth straight run: an Oracle CDS level (~295-315bp) circulates only via aggregators/CNBC-cited pieces; no directly-opened T1-T3 source found again this run"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.13% (Nov16), label 'Moderate risk' -- stays under 3.5%"
+      },
+      "C3": {
+        "c": "G",
+        "v": "334bp (FRED fredgraph.csv fallback, Nov16 -- FRED API secret injection failed again) -- stays under 350bp"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: no new dated post-pricing secondary print found this run"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CoreWeave equity $49.89 (Nov17, +0.02% day), -63.84% from its May2026 high -- stays past the -30% yellow bar; no going-concern language found"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI run-rate ~$50bn (restated Oct8) and Anthropic's Q3 revenue $16.96bn against an operating loss; no new run-rate data this run"
+      },
+      "D2": {
+        "c": "Y",
+        "v": "Anthropic's IPO price range set at $70-78/share (~$1.26-1.41T), below October's $1.5-2T target; pricing due Nov18, trading begins Nov19 -- still unpriced as of today's close"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: no collapse in GPU rental prices found; Uvik's Oct7 index shows H100 SXM median $4.20/hr"
+      },
+      "D4": {
+        "c": "Y",
+        "v": "Census BTOS National.xlsx confirmed unchanged: 24.2% (cycle202622), 24.6% (202621), 23.8% (202620) -- flat over three readings; no new cycle published"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: the early-November shutdown/layoff cluster (Ollie, AI21 Labs, Amazon AGI Lab, SmartLayer, ClimateAI, NeuroPixel.AI) plus Character.AI's unresolved Oct12 Chapter 11 sale process remains the latest notable cluster"
+      },
+      "E1": {
+        "c": "G",
+        "v": "Carried: BofA October FMS (Oct13) put 'AI bubble' tail risk at 23%; November survey not yet published"
+      },
+      "E2": {
+        "c": "R",
+        "v": "Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in ~25.6 hours (Nov16 18:04 - Nov17 19:39 GMT), roughly 6-7x the recent baseline pace -- the fastest cap-fill this tracker has recorded; GDELT's 12-month comparator stayed 429-blocked after the mandated retry"
+      },
+      "E3": {
+        "c": "Y",
+        "v": "aibubble.watch ticked up to 82 'Extreme' (Nov17, from 81.8); aibubblemonitor.com eased to 43.1 'Neutral' (from 45.7); boomorbubble.ai stays retired, carried 0/5 red 'Boom' (Nov3); Polymarket's 2026 burst-odds rose to 8.35% (from 7.8%) while the 2027 market held at 18% -- two of three deteriorating"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: no new dated secondary/convertible pricing or notable insider-selling print found this run"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Treasury CSV 10yr 5.10% / Yahoo ^TNX 5.103% (Nov17) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 101.88 (Nov17, Yahoo, +0.59% day) -- second consecutive close above 100 (101.28 Nov16); hysteresis confirms the flip to yellow"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Two consecutive tailed long-end auctions: $42bn 10-year (Nov10, tail 1bp) and $25bn 30-year (Nov12, tail 0.4bp, bid-to-cover 2.36 vs 2.54 prior) -- meets the 'two consecutive tails' red criterion; term premium itself (0.9864%, Nov13, stale) stays under 1.0%"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.21% (Treasury CSV cross-check and FRED T10YIE, Nov17) stays under 2.4%. Brent $93.07 (Nov17, +0.68% day) stays inside the $80-100 yellow band. October CPI (3.7% YoY) carried due to the shutdown data gap"
+      },
+      "F5": {
+        "c": "R",
+        "v": "2-year yield 4.80% (Treasury CSV, Nov17) minus the 3.875% FOMC midpoint = +92.5bp -- a fresh print confirming red for a second straight day"
+      },
+      "G1": {
+        "c": "Y",
+        "v": "Carried, with new dated evidence: OpenAI's round stays open toward its ~$20bn target; separately, Anthropic's IPO structure has AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC together committing ~$26bn to buy non-voting Class N shares at the IPO price, a private placement alongside the public offering -- suppliers anchoring a meaningful slice of the raise"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Carried: no confirmed deferral or renegotiation of a major vendor commitment found this run"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; Nvidia's Q3 FY27 10-Q (quarter ended Oct25) had not appeared on EDGAR as of this run's close, expected to follow the Nov17 earnings release within days"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: no new Anthropic filing beyond the Nov2 S-1/A (revenue $16.96bn, operating loss $567mn, commitments $895.4bn); IPO terms set at $70-78/share, pricing due Nov18"
+      }
+    },
+    "market": {
+      "spx": 7340.53,
+      "ndx": 27001.79,
+      "sox": 9642.88,
+      "sox_dd": -34.11,
+      "nvda": 155.46,
+      "nvda_dd": -35.02,
+      "ndx_dd": -13.52,
+      "tnx": 5.103,
+      "vix": 25.46,
+      "hy_oas": 334,
+      "move": 101.88,
+      "term_premium": 0.9864,
+      "breakeven": 2.21,
+      "brent": 93.07,
+      "orcl": 115.0,
+      "crwv": 49.89
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 82,
+        "label": "Extreme",
+        "date": "2026-11-17",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 43.1,
+        "label": "Neutral",
+        "date": "2026-11-17",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 8.35,
+        "v2027": 18,
+        "date": "2026-11-17",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "Nvidia's Q3 FY27 results (first under interim CEO Colette Kress): revenue $115.8B (+103% YoY, vs ~$108B consensus), Data Center revenue $107.6B (+110% YoY), Q4 guidance $130B +/-3% -- a clean beat and raise.",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027"
+      },
+      {
+        "kind": "HARD",
+        "t": "Anthropic set its IPO price range at $70-78/share (~$1.26-1.41T), below October's $1.5-2T target, with AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC together committing ~$26bn to buy non-voting Class N shares alongside the public offering; pricing due Nov18, trading Nov19.",
+        "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
+      },
+      {
+        "kind": "HARD",
+        "t": "Both of the two most recent long-end Treasury auctions tailed -- the $42bn 10-year (Nov10, 1bp tail) and $25bn 30-year (Nov12, 0.4bp tail, bid-to-cover 2.36 vs 2.54 prior) -- meeting F3's 'two consecutive tails' red criterion and lifting the macro amplifier to HIGH.",
+        "url": "https://www.newsquawk.com/headlines/us-sells-usd-25bln-of-30-year-bonds-tail-04bps-"
+      }
+    ],
+    "sources": {
+      "T1": 7,
+      "T2": 2,
+      "T3": 4,
+      "T4": 3,
+      "T5": 3
+    },
+    "run_url": null,
+    "brief": "briefs/2026-11-17.md",
+    "circularity": "HIGH",
+    "circularity_note": "G1, G2 and G4 all hold yellow; G3 stays not-yet-scorable pending Nvidia's Q3 FY27 10-Q, expected within days of the Nov17 earnings release. New dated evidence strengthens G1's yellow: Anthropic's IPO structure discloses AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC together committing roughly $26bn to buy non-voting shares in a private placement alongside the public offering pricing tomorrow. 0 red / 3 yellow keeps circularity at HIGH, unchanged from Nov16."
   }
 ]
