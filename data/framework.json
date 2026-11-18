@@ -368,8 +368,8 @@
   ],
   "calendar": [
     {
-      "when": "Nov 18-19",
-      "what": "Anthropic IPO prices Nov18 ($70-78/share range, ~$1.26-1.41T) and begins trading Nov19 on Nasdaq (ANT). A pulled/postponed offering turns E4 red (Stage 2)."
+      "when": "Nov 19",
+      "what": "Anthropic's ANT shares begin trading on Nasdaq after pricing at $83/share (Nov18, above range, ~7x oversubscribed). First close vs. the $83 issue price tests D2/G1's green flip and E4's day-one-doubling trigger."
     },
     {
       "when": "Mid-Nov",
@@ -586,6 +586,16 @@
         "F2"
       ],
       "t": "Nvidia's Q3 FY27 results (first under interim CEO Kress) beat and raised cleanly -- revenue $115.8B (+103% YoY), Data Center $107.6B, Q4 guide $130B -- flipping B3 green; the 10-Q needed for G3 had not appeared by this run's close. Two Pillar A signals moved on mechanics (A5 confirmed its hysteresis flip to yellow on a second VIX close above 20; A6 eased red to yellow as Nov10's rout aged out of its trailing window). This run also caught a macro fact missed on Nov10-12: both of the two most recent long-end Treasury auctions tailed, meeting F3's 'two consecutive tails' red criterion and lifting the macro amplifier to HIGH for the first time since early October; F2 (MOVE) separately confirmed its own hysteresis flip to yellow. Narrative volume spiked sharply (Google News RSS filled its weekly cap in ~1 day instead of ~7), flipping E2 red, and two of three composite trackers nudged worse, flipping E3 to yellow. Anthropic set IPO terms at $70-78/share (~$1.26-1.41T, below October's $1.5-2T target) with seven chip/hyperscaler suppliers committing ~$26bn to a parallel private placement -- new dated evidence for G1's circularity read. Reds hold at 6 but yellows rise from 9 to 12 and greens fall from 10 to 7; Stage holds at 1 (price break) with credit stress carried by Oracle's still-unconfirmed CDS print."
+    },
+    {
+      "date": "2026-11-18",
+      "signals": [
+        "D2",
+        "E2",
+        "E3",
+        "G1"
+      ],
+      "t": "Yesterday's two negative moves both reversed. Anthropic priced its IPO at $83/share -- above the $70-78 range and ~7x oversubscribed, implying >$1.5T -- flipping D2 (rounds oversubscribed) and G1 (majority outside capital with a valuation step-up) green; its ~$26bn supplier private placement is a minority of the combined raise. Separately, Google News RSS's 'AI bubble' 7-day cap-fill reverted to ~6.7 days (near the ~7-day baseline) from Nov17's ~25.6-hour spike, flipping E2 back to green, while two of three composite trackers eased, flipping E3 to green. Reds fall from 6 to 5; yellows from 12 to 10; greens rise from 7 to 10. Stage holds at 1 (price break) with credit stress carried by Oracle's still-unconfirmed CDS print, now unconfirmed for a seventh straight run. Circularity stays HIGH (G2, G4 yellow; G3 not yet scorable) but on a 2-yellow rather than 3-yellow reading."
     }
   ],
   "circularity": {

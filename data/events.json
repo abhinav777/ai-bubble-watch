@@ -1568,5 +1568,30 @@
     "t": "Three mechanical/tracker moves: A5 (VIX) confirmed its hysteresis flip to yellow on a second consecutive close above 20 (25.46, Nov17); A6 (single-day rout) eased red to yellow as Nov10's NVDA -5.47% session rolled out of the trailing 5-day window, leaving only Nov16's SOX -5.28% inside it; E3 (composite trackers) flipped green to yellow as aibubble.watch and Polymarket's 2026 burst-odds both ticked up while aibubblemonitor.com eased -- two of three deteriorating.",
     "url": "briefs/2026-11-17.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-18",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1",
+      "E4"
+    ],
+    "t": "Anthropic priced its IPO at $83/share, above the $70-78 range, implying a valuation north of $1.5T (versus the $1.26-1.41T floor the range implied); the public offering closed roughly 7x oversubscribed. Trading begins Nov19 on Nasdaq under ticker ANT. Flips D2 (private pricing, rounds oversubscribed) and G1 (majority outside capital with a valuation step-up) green.",
+    "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-18",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "E2",
+      "E3"
+    ],
+    "t": "Yesterday's narrative spike reverted: Google News RSS's 7-day 'AI bubble' query, which filled its 100-item cap in ~25.6 hours on Nov17, filled it in ~159.8 hours (~6.7 days) today -- back near the ~7-day baseline pace -- flipping E2 from red to green. E3 also eased to green as two of three actively-tracked composite trackers (aibubblemonitor, Polymarket 2026 burst-odds) improved rather than deteriorated. Reds (Pillars A-E) fall from 6 to 5; greens rise from 7 to 10.",
+    "url": "briefs/2026-11-18.md",
+    "tag": null
   }
 ]

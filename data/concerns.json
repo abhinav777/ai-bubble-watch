@@ -656,6 +656,22 @@
     ],
     "resolve_if": "The next run's Google News RSS cap-fill time, or GDELT's 7-day volume once its comparator is reachable again",
     "deadline": "2026-11-24",
+    "status": "did_not",
+    "resolved": "2026-11-18",
+    "outcome": "Google News RSS's 7-day cap-fill time reverted to ~159.8 hours (~6.7 days, near the ~7-day baseline) within 24 hours, rather than persisting; the Nov17 spike reflected a one-day reaction to the Huang-resignation fallout and Nvidia's earnings, not a genuine narrative shift.",
+    "url": "briefs/2026-11-18.md"
+  },
+  {
+    "id": "c47",
+    "opened": "2026-11-18",
+    "concern": "Anthropic's ANT shares, trading for the first time on Nov19, open or close below the $83 IPO price (cutting against today's D2/G1 green flips) or pop into day-one-doubling territory (an E4 yellow trigger)",
+    "signals": [
+      "D2",
+      "G1",
+      "E4"
+    ],
+    "resolve_if": "Nov19's closing price for ANT on Nasdaq",
+    "deadline": "2026-11-20",
     "status": "open",
     "resolved": null,
     "outcome": null,
