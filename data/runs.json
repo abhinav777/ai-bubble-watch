@@ -10662,7 +10662,7 @@
       "T4": 8,
       "T5": 4
     },
-    "run_url": null,
+    "run_url": "https://github.com/abhinav777/ai-bubble-watch/commit/0717d86",
     "brief": "briefs/2026-11-18.md",
     "circularity": "HIGH",
     "circularity_note": "G1 flips to green (0 red, 2 yellow: G2, G4; G3 stays not-yet-scorable, excluded) -- still HIGH under the 2+-yellow rule, but on firmer footing than yesterday's 3-yellow reading. Anthropic's oversubscribed, above-range IPO close is the clearest G1 evidence yet that outside capital, not suppliers, is carrying the frontier-lab funding round."
