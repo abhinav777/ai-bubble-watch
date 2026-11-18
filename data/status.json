@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-17T13:08:45Z",
-    "date": "2026-11-17",
+    "last_run_utc": "2026-11-18T13:08:01Z",
+    "date": "2026-11-18",
     "result": "quiet",
-    "note": "Nothing crossed a threshold. ES=F flat, NQ=F +0.4%; Asia continued lower but under bar (Nikkei -1.3%, KOSPI -2.6%, SoftBank -4.0%)."
+    "note": "Nothing crossed a threshold. Futures flat (ES +0.2%, NQ +0.6%); Asia higher (SoftBank +3.1%, KOSPI +2.0%, Nikkei +0.3%); premarket AI names under 3.5%."
   }
 }
