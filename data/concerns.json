@@ -1,680 +1,708 @@
 [
-  {
-    "id": "c01",
-    "opened": "2026-09-15",
-    "concern": "SoftBank's $10-20B bond for its OpenAI stake prices wide of ~8.5%, is downsized, or is pulled",
-    "signals": [
-      "C4"
-    ],
-    "resolve_if": "Pricing outcome of the deal",
-    "deadline": "2026-09-30",
-    "status": "did_not",
-    "resolved": "2026-09-24",
-    "outcome": "Priced $11.1B on Sep 24, about 3x covered, at 8.625%, 9.25% and 9.75% dollar coupons, SoftBank's highest ever, with a 65-80bp new-issue concession. Neither downsized nor pulled.",
-    "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html"
-  },
-  {
-    "id": "c02",
-    "opened": "2026-09-25",
-    "concern": "SoftBank's new notes trade below 98 in their first week of secondary trading",
-    "signals": [
-      "C4"
-    ],
-    "resolve_if": "A dated secondary print on the new notes",
-    "deadline": "2026-10-15",
-    "status": "materialized",
-    "resolved": "2026-10-01",
-    "outcome": "The notes fell to a 96.75 bid shortly after pricing (Reuters via Japan Times); C4 went back to yellow on Oct 1. The oversubscribed book was bought with price, and secondary trading was the better test.",
-    "url": "briefs/2026-10-01.md"
-  },
-  {
-    "id": "c03",
-    "opened": "2026-09-15",
-    "concern": "A hyperscaler trims 2027 capex guidance in Q3 earnings; two or more cutting would be the capex cliff (Stage 4)",
-    "signals": [
-      "B1"
-    ],
-    "resolve_if": "Q3 calls of Meta, Microsoft, Alphabet, Amazon",
-    "deadline": "2026-10-31",
-    "status": "did_not",
-    "resolved": "2026-10-30",
-    "outcome": "All four raised or held: Meta narrowed 2026 guidance up to $135-145B; Microsoft and Alphabet roughly doubled quarterly capex year over year; Amazon held ~$220B and signalled 'meaningfully more' in 2027. B1 stayed green.",
-    "url": "briefs/2026-10-30.md"
-  },
-  {
-    "id": "c04",
-    "opened": "2026-09-15",
-    "concern": "Micron's fiscal Q4 (Sep 30) shows softening DRAM or HBM pricing",
-    "signals": [
-      "B4"
-    ],
-    "resolve_if": "Micron results and commentary",
-    "deadline": "2026-10-01",
-    "status": "did_not",
-    "resolved": "2026-09-30",
-    "outcome": "Micron pre-guided and then delivered revenue of $49-51B with an 86% gross margin; DRAM spot prices were up about 52% since January. No softening.",
-    "url": "briefs/2026-10-01.md"
-  },
-  {
-    "id": "c05",
-    "opened": "2026-09-15",
-    "concern": "TSMC's monthly revenue growth falls under 25% year over year",
-    "signals": [
-      "B4"
-    ],
-    "resolve_if": "TSMC September revenue and Q3 call",
-    "deadline": "2026-10-15",
-    "status": "did_not",
-    "resolved": "2026-10-15",
-    "outcome": "TSMC's Q3 revenue grew 50.9% year over year and it raised 2026 capex guidance to $60-64B.",
-    "url": "briefs/2026-10-16.md"
-  },
-  {
-    "id": "c06",
-    "opened": "2026-09-17",
-    "concern": "The 10-year Treasury yield breaches 5.25% and holds there (F1 red)",
-    "signals": [
-      "F1"
-    ],
-    "resolve_if": "Daily closes from Yahoo or Treasury",
-    "deadline": "2026-10-31",
-    "status": "partly",
-    "resolved": "2026-10-08",
-    "outcome": "It crossed: F1 read red on Oct 1 and Oct 5-8 with the 10-year near 5.3%, then fell back under 5% by Oct 22 and sat at 4.90% on Nov 4. A brief breach, not a regime.",
-    "url": "briefs/2026-10-08.md"
-  },
-  {
-    "id": "c07",
-    "opened": "2026-09-17",
-    "concern": "The MOVE bond-volatility index rises above 130, the disorderly-market threshold",
-    "signals": [
-      "F2"
-    ],
-    "resolve_if": "A MOVE close above 130",
-    "deadline": "2026-11-15",
-    "status": "expired",
-    "resolved": "2026-11-16",
-    "outcome": "MOVE never crossed 130 through the Nov15 deadline. Latest close 101.28 (Nov16, Yahoo ^MOVE) -- a first close above the 100 yellow threshold but far from the 130 disorderly-market line.",
-    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE"
-  },
-  {
-    "id": "c08",
-    "opened": "2026-09-17",
-    "concern": "Oracle's five-year CDS prints above 250bp, the Stage 5 credit trigger",
-    "signals": [
-      "C1"
-    ],
-    "resolve_if": "A dated CDS print from a wire or vendor",
-    "deadline": "2026-12-31",
-    "status": "materialized",
-    "resolved": "2026-10-20",
-    "outcome": "Record 288bp on Oct 15 (S&P Global and LSEG data via Reuters), then 295-315bp on Oct 19 per CNBC. C1 turned red on Oct 20 once a wire-attributed print existed.",
-    "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html"
-  },
-  {
-    "id": "c09",
-    "opened": "2026-09-15",
-    "concern": "CoreWeave's bonds trade below 80 cents or a neocloud shows going-concern stress (C5 red)",
-    "signals": [
-      "C5"
-    ],
-    "resolve_if": "A dated bond or CDS print, or a filing",
-    "deadline": "2026-12-31",
-    "status": "materialized",
-    "resolved": "2026-10-16",
-    "outcome": "CoreWeave's 9.625% notes due 2032 traded below 80 cents on Oct 14-15 (Bloomberg, citing TRACE, via CNBC) with CDS near 1,200bp; the equity was down 61% from its high by Nov 3.",
-    "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
-  },
-  {
-    "id": "c10",
-    "opened": "2026-09-15",
-    "concern": "A down round or cancelled tender at a top-five lab (D2 red, the funding window closing)",
-    "signals": [
-      "D2"
-    ],
-    "resolve_if": "Terms of any closed round or tender",
-    "deadline": "2026-12-31",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c11",
-    "opened": "2026-09-28",
-    "concern": "OpenAI's ~$30B round closes, and the terms show whether outside capital or suppliers carried it",
-    "signals": [
-      "G1",
-      "D2"
-    ],
-    "resolve_if": "A confirmed close with investors and valuation, or 90 days open",
-    "deadline": "2026-12-15",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c12",
-    "opened": "2026-09-22",
-    "concern": "Anthropic's IPO slips from its October target or reprices",
-    "signals": [
-      "D2",
-      "E4"
-    ],
-    "resolve_if": "Filing and marketing dates",
-    "deadline": "2026-11-30",
-    "status": "partly",
-    "resolved": "2026-10-26",
-    "outcome": "Marketing slipped from October to the week of Nov 9 (WSJ, Sep 26). The public S-1 arrived Oct 26 targeting $1.5-2T and a Thanksgiving-week debut. Delayed, not withdrawn, and the filing showed near-breakeven operations.",
-    "url": "https://fortune.com/2026/10/26/anthropics-s-1/"
-  },
-  {
-    "id": "c13",
-    "opened": "2026-09-24",
-    "concern": "The Fed hikes again at the Oct 27-28 meeting, pressuring F1 and F5",
-    "signals": [
-      "F5"
-    ],
-    "resolve_if": "FOMC statement",
-    "deadline": "2026-10-28",
-    "status": "did_not",
-    "resolved": "2026-10-28",
-    "outcome": "Held at 3.75-4.00% on a 10-2 vote, both dissents favoring a hike. Hawkish hold, no hike.",
-    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
-  },
-  {
-    "id": "c14",
-    "opened": "2026-10-05",
-    "concern": "The Oct 7 10-year and Oct 8 30-year Treasury auctions tail, adding a second F3 trigger",
-    "signals": [
-      "F3"
-    ],
-    "resolve_if": "Auction results",
-    "deadline": "2026-10-09",
-    "status": "did_not",
-    "resolved": "2026-10-09",
-    "outcome": "The 10-year cleared strong at 5.300% with a 2.77 bid-to-cover and no tail; the 30-year cleared in line at 5.618% with 2.54 and no tail.",
-    "url": "briefs/2026-10-09.md"
-  },
-  {
-    "id": "c15",
-    "opened": "2026-10-13",
-    "concern": "September CPI (Oct 14) comes in hot enough to push the inflation regime to red (F4)",
-    "signals": [
-      "F4"
-    ],
-    "resolve_if": "BLS CPI release",
-    "deadline": "2026-10-14",
-    "status": "partly",
-    "resolved": "2026-10-14",
-    "outcome": "Headline rose to 3.7% from 3.4% with core at 2.6% and gasoline up 34% year over year. Hot, but F4 stayed yellow because headline remained under 4%.",
-    "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html"
-  },
-  {
-    "id": "c16",
-    "opened": "2026-09-25",
-    "concern": "Oracle's Project Jupiter force-majeure dispute with Blue Owl and STACK becomes a confirmed site pause (B2 red)",
-    "signals": [
-      "B2"
-    ],
-    "resolve_if": "A company statement or the New Mexico air-permit decision",
-    "deadline": "2026-11-23",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c17",
-    "opened": "2026-10-13",
-    "concern": "The Asia memory and chip rout spreads into a US single-day rout severe enough for A6 red",
-    "signals": [
-      "A6"
-    ],
-    "resolve_if": "NVDA -10% or SOX -8% in a day, or two -5% days in a week",
-    "deadline": "2026-11-06",
-    "status": "partly",
-    "resolved": "2026-10-30",
-    "outcome": "SOX fell 6.7% on Oct 22 and 7.2% on Oct 30, two 5%-plus days but in different weeks and never 8%. A6 reached yellow only.",
-    "url": "briefs/2026-11-02.md"
-  },
-  {
-    "id": "c18",
-    "opened": "2026-10-16",
-    "concern": "CoreWeave's bonds stay below 80 cents rather than recovering, keeping C5 red on fresh evidence",
-    "signals": [
-      "C5"
-    ],
-    "resolve_if": "A dated bond or CDS print, or CoreWeave's Q3 report on Nov 11",
-    "deadline": "2026-11-12",
-    "status": "did_not",
-    "resolved": "2026-11-12",
-    "outcome": "CoreWeave's Q3 2026 report (Nov10 after close) was a clean beat-and-raise with no going-concern or covenant-breach language; C5 was downgraded from red to yellow on Nov11 and stayed yellow through the deadline (equity -58.98% from high on Nov12, but no fresh bond/CDS distress evidence found).",
-    "url": "briefs/2026-11-11.md"
-  },
-  {
-    "id": "c19",
-    "opened": "2026-10-29",
-    "concern": "Amazon trims 2027 capex in its Oct 29 report, the last of the four hyperscaler guides",
-    "signals": [
-      "B1"
-    ],
-    "resolve_if": "Amazon Q3 call",
-    "deadline": "2026-10-30",
-    "status": "did_not",
-    "resolved": "2026-10-30",
-    "outcome": "Held 2026 capex near $220B, signalled 'meaningfully more' for 2027 and guided AWS growth above 40% through 2028.",
-    "url": "briefs/2026-10-30.md"
-  },
-  {
-    "id": "c20",
-    "opened": "2026-11-02",
-    "concern": "AMD's Q3 report (Nov 3) misses or guides weak, compounding the chip selloff",
-    "signals": [
-      "B3",
-      "B4"
-    ],
-    "resolve_if": "AMD results",
-    "deadline": "2026-11-04",
-    "status": "did_not",
-    "resolved": "2026-11-04",
-    "outcome": "Revenue of $13.4B came in above the high end of AMD's own $12.7-13.3B guide with non-GAAP EPS of $2.09; the stock rose 3.65%.",
-    "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
-  },
-  {
-    "id": "c21",
-    "opened": "2026-11-03",
-    "concern": "Broad high-yield spreads cross 350bp (C3 yellow), the first sign the single-name stress is spreading",
-    "signals": [
-      "C3"
-    ],
-    "resolve_if": "FRED HY OAS or carried proxy",
-    "deadline": "2026-11-30",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c22",
-    "opened": "2026-09-15",
-    "concern": "A top-five lab's revenue run-rate growth halves or internal targets are reported missed (D1 yellow)",
-    "signals": [
-      "D1"
-    ],
-    "resolve_if": "Dated reporting on run-rates",
-    "deadline": "2026-12-31",
-    "status": "materialized",
-    "resolved": "2026-10-15",
-    "outcome": "OpenAI told investors its September run-rate was nearing $50B, about $20B below the ~$70B figure that had circulated (FT and Reuters, Oct 8). D1 moved to yellow.",
-    "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854"
-  },
-  {
-    "id": "c23",
-    "opened": "2026-09-21",
-    "concern": "The semiconductor index re-crosses a 20% drawdown from its June high (A2 red)",
-    "signals": [
-      "A2"
-    ],
-    "resolve_if": "Daily closes",
-    "deadline": "2026-12-31",
-    "status": "materialized",
-    "resolved": "2026-10-15",
-    "outcome": "SOX closed 20.16% below its high on Oct 14 and was 29.4% below by Nov 2.",
-    "url": "briefs/2026-10-15.md"
-  },
-  {
-    "id": "c24",
-    "opened": "2026-11-04",
-    "concern": "New governors in Texas, Ohio and Georgia, states with about 39% of planned data-center gigawatts, enact pauses that halt a hyperscaler, Stargate or top-neocloud project (B2 red)",
-    "signals": [
-      "B2",
-      "G2"
-    ],
-    "resolve_if": "A company-confirmed pause or a signed state measure",
-    "deadline": "2027-03-31",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c25",
-    "opened": "2026-11-04",
-    "concern": "Anthropic's IPO prices inside its $1.5-2T range and holds above issue in its first weeks",
-    "signals": [
-      "D2",
-      "G1",
-      "E4"
-    ],
-    "resolve_if": "Pricing and first-week trading",
-    "deadline": "2026-12-15",
-    "status": "partly",
-    "resolved": "2026-11-17",
-    "outcome": "Anthropic set its IPO price range at $70-78/share (~$1.26-1.41T), below the $1.5-2T range floated in October -- a haircut on the ask, not a down round from its last private mark (~$965B-$1T). Pricing is due Nov18 and trading begins Nov19; the first-week-trading half of this concern stays open through the Dec15 deadline.",
-    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
-  },
-  {
-    "id": "c26",
-    "opened": "2026-10-16",
-    "concern": "The Stage 5 call, made on two single-name prints, generalizes into broad credit stress",
-    "signals": [
-      "C3",
-      "C4"
-    ],
-    "resolve_if": "HY OAS above 500bp, a second AI issuer's bonds distressed, or a default; or spreads normalizing and the prints reversing",
-    "deadline": "2026-12-31",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c27",
-    "opened": "2026-09-15",
-    "concern": "Oracle gets its planned ~$40B FY27 debt and equity raise done, and on what terms",
-    "signals": [
-      "C4",
-      "C1"
-    ],
-    "resolve_if": "Deal pricing",
-    "deadline": "2026-12-31",
-    "status": "partly",
-    "resolved": "2026-11-02",
-    "outcome": "Priced $10B of stock at $116, 20% below the September baseline, plus $10B of notes at 7.00-8.65% coupons, 145-175bp wider than its February deal. Done, but at junk-like coupons and with equity dilution.",
-    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm"
-  },
-  {
-    "id": "c28",
-    "opened": "2026-09-15",
-    "concern": "The share of fund managers naming an AI bubble as the top tail risk rises above 30% (E1 yellow)",
-    "signals": [
-      "E1"
-    ],
-    "resolve_if": "BofA Global Fund Manager Survey",
-    "deadline": "2026-10-15",
-    "status": "did_not",
-    "resolved": "2026-10-13",
-    "outcome": "It fell to 23% in the October survey from 28% in September, behind bond yields and inflation.",
-    "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html"
-  },
-  {
-    "id": "c29",
-    "opened": "2026-11-05",
-    "concern": "Oracle's reported $7bn Tencent AI-chip leasing deal (announced Oct 1) was cancelled, per a Nov 4 T4 aggregator report (Motley Fool/Yahoo) with no T1-T3 confirmation found",
-    "signals": [
-      "B2"
-    ],
-    "resolve_if": "A Reuters, Bloomberg, FT, Oracle or Tencent statement confirming or denying the cancellation",
-    "deadline": "2026-11-19",
-    "status": "materialized",
-    "resolved": "2026-11-04",
-    "outcome": "Bloomberg (Nov 4), citing the FT, and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped the $7bn Tencent AI-chip leasing deal under US political pressure; Guangdong officials separately pushed Tencent toward domestic chips. Treated as a geopolitical export-control event, not a credible AI-demand pullback -- B2 stayed yellow rather than moving to red.",
-    "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says"
-  },
-  {
-    "id": "c30",
-    "opened": "2026-11-05",
-    "concern": "TSMC's October monthly revenue release (due ~Nov 10) shows a sharp deceleration from September's +54.6% YoY pace, the first supply-chain confirmation that AI chip demand is cooling (B4 red)",
-    "signals": [
-      "B4"
-    ],
-    "resolve_if": "TSMC's October revenue release",
-    "deadline": "2026-11-15",
-    "status": "did_not",
-    "resolved": "2026-11-10",
-    "outcome": "TSMC's October revenue (SEC Form 6-K) grew 59.7% YoY to NT$586.89bn, accelerating from September's 54.6% pace -- the opposite of a deceleration. B4 stays green.",
-    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm"
-  },
-  {
-    "id": "c31",
-    "opened": "2026-11-06",
-    "concern": "A fresh dated Oracle 5-year CDS print, or a fresh CoreWeave bond/CDS print, appears within 10 trading days (by Nov 20) -- which would restore Stage 5's breadth-and-freshness test after today's reclassification to Stage 1",
-    "signals": [
-      "C1",
-      "C5"
-    ],
-    "resolve_if": "A dated CDS or bond print from a wire or vendor, or absence of one by the deadline",
-    "deadline": "2026-11-20",
-    "status": "materialized",
-    "resolved": "2026-11-10",
-    "outcome": "A fresh CoreWeave CDS print also appeared: multiple outlets (Benzinga/S&P Global Market Intelligence, Motley Fool, CNBC-sourced aggregators) converged on a record ~1,289bp intraday Nov5, easing to ~1,155-1,195bp by Nov6. Combined with Oracle's already-fresh ~295-315bp print (Nov9), both C1 and C5 now carry dated reds within 10 trading days, satisfying Stage5's breadth-and-freshness test.",
-    "url": "briefs/2026-11-10.md"
-  },
-  {
-    "id": "c32",
-    "opened": "2026-11-06",
-    "concern": "SOX sees a second -8%+ single day, or NVDA a -10%+ single day, within two weeks of the Nov 5 rout (by Nov 20) -- testing whether that session was a one-off panic or the start of a sustained break",
-    "signals": [
-      "A6"
-    ],
-    "resolve_if": "Daily closes from Yahoo",
-    "deadline": "2026-11-20",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c33",
-    "opened": "2026-11-06",
-    "concern": "Anthropic's compute/lease commitments ($895.4bn after the Nov 2 S-1/A, up from $518bn on Oct 26) keep outgrowing revenue in its next disclosure, or it posts a second straight quarterly operating loss, pushing G4 toward red",
-    "signals": [
-      "G4",
-      "G2"
-    ],
-    "resolve_if": "Anthropic's next filing (10-Q or further S-1 amendment) or IPO prospectus financials",
-    "deadline": "2026-12-15",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c34",
-    "opened": "2026-11-09",
-    "concern": "CoreWeave's Nov 11 Q3 report shows going-concern language, a covenant breach, or is accompanied by a fresh bond/CDS print confirming distress, which combined with Oracle's newly fresher CDS print could satisfy Stage 5's two-fresh-red breadth test",
-    "signals": [
-      "C5",
-      "C1"
-    ],
-    "resolve_if": "CoreWeave's Q3 earnings release and call, or a dated bond/CDS print in the following days",
-    "deadline": "2026-11-13",
-    "status": "did_not",
-    "resolved": "2026-11-11",
-    "outcome": "CoreWeave's Q3 2026 report (Nov10 after close) was a clean beat-and-raise: revenue $3.66B (+168% YoY), beat its own guide; adjusted operating income $379M (10% margin, up from 5% in Q2); FY26 revenue guidance raised to $13.0-13.3B; backlog $132.5B. No going-concern, covenant-breach, or liquidity-stress language found anywhere in the call or wire coverage.",
-    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/"
-  },
-  {
-    "id": "c35",
-    "opened": "2026-11-09",
-    "concern": "Nvidia's board investigation into CEO Jensen Huang's reported relationship with an alleged Chinese intelligence operative leads to his removal or suspension, a delayed filing, or a sustained NVDA decline beyond 30% from its Oct 6 high within 30 days",
-    "signals": [
-      "A1",
-      "D1"
-    ],
-    "resolve_if": "A Nvidia company statement or SEC filing on the investigation's outcome, or 30 trading days of price action",
-    "deadline": "2026-12-09",
-    "status": "materialized",
-    "resolved": "2026-11-16",
-    "outcome": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026; CFO Colette Kress named interim CEO, Harvey C. Jones named first independent Board Chair, per the company's 8-K (sec.gov blocked on this network, corroborated by NBC News, Washington Post and CNN). This was missed in the Nov13 daily run and only confirmed in this Nov16 run.",
-    "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
-  },
-  {
-    "id": "c36",
-    "opened": "2026-11-10",
-    "concern": "The Texas ERCOT/PUCT data-center grid-connection audit (Abbott's Aug3 executive order, newly scored B5 red) gets a legal reversal, a formal end date, or results in a named hyperscaler/Stargate project being granted or denied connection",
-    "signals": [
-      "B5",
-      "B2"
-    ],
-    "resolve_if": "A court ruling, legislative action, ERCOT/PUCT decision, or a named project's grid-connection outcome",
-    "deadline": "2026-12-10",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c37",
-    "opened": "2026-11-10",
-    "concern": "Stage5's credit-event call (triggered today on C1+C5 breadth) holds through CoreWeave's imminent Q3 report and the following two weeks, rather than lapsing back to stale/credit-stress as today's prints age past 10 trading days",
-    "signals": [
-      "C1",
-      "C5"
-    ],
-    "resolve_if": "CoreWeave's Q3 earnings and call, plus the next dated Oracle and CoreWeave CDS/bond prints through Nov24",
-    "deadline": "2026-11-24",
-    "status": "did_not",
-    "resolved": "2026-11-11",
-    "outcome": "The Stage5 call did not hold. Under the Nov11 confirmation rule, neither Oracle's nor CoreWeave's cited CDS levels trace to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED, so even keeping C1 red the breadth test (needs two of C1/C3/C4/C5) fails on its own terms. Separately, CoreWeave's Nov10 Q3 beat-and-raise (no going-concern language) removed the factual basis for C5's red score, which is now yellow. Stage falls to 1 (price break) with a credit-stress flag carried by C1 alone.",
-    "url": "briefs/2026-11-11.md"
-  },
-  {
-    "id": "c38",
-    "opened": "2026-11-11",
-    "concern": "Oracle's or CoreWeave's 5-year CDS level is confirmed via a directly-openable T1-T3 source (a filing, wire story, rating-agency release, or specialist credit publication such as IFR, GlobalCapital or Creditflux stating the level and date) rather than only T4 aggregators, as has been the case for two straight runs (Nov10-11)",
-    "signals": [
-      "C1",
-      "C5"
-    ],
-    "resolve_if": "A directly-opened T1-T3 source stating the level and date, or 15 trading days passing with none found",
-    "deadline": "2026-12-02",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c39",
-    "opened": "2026-11-11",
-    "concern": "NDX's drawdown closes under the 10% threshold for a second consecutive session, confirming A3's hysteresis flip from yellow to green (today's -9.13% close is the first)",
-    "signals": [
-      "A3"
-    ],
-    "resolve_if": "Daily NDX closes from Yahoo",
-    "deadline": "2026-11-13",
-    "status": "materialized",
-    "resolved": "2026-11-12",
-    "outcome": "NDX closed -9.40% below its Oct6 high on Nov12, a second consecutive close under the 10% threshold, confirming A3's hysteresis flip from yellow to green.",
-    "url": "briefs/2026-11-12.md"
-  },
-  {
-    "id": "c40",
-    "opened": "2026-11-12",
-    "concern": "Nvidia's Nov17 Q3 FY27 earnings call and 10-Q show a miss, guide-down or sequential data-center decline (B3), or a filing-fingerprint deterioration -- DSO +10 days YoY, top-two customer share +5pts, or a new large customer stake paired with a purchase commitment (G3)",
-    "signals": [
-      "B3",
-      "G3"
-    ],
-    "resolve_if": "Nvidia's Nov17 earnings call and the subsequent 10-Q filing",
-    "deadline": "2026-11-24",
-    "status": "partly",
-    "resolved": "2026-11-17",
-    "outcome": "Nvidia's Q3 FY27 results (Nov17, first under interim CEO Kress) were a clean beat and raise -- revenue $115.8B (+103% YoY) vs ~$108B consensus, Q4 guide $130B -- not a miss or guide-down; B3 moved to green. The 10-Q (needed for G3's DSO/concentration/stake fingerprints) had not appeared on EDGAR as of this run's close, so the filing-fingerprint half of this concern stays open through the Nov24 deadline.",
-    "url": "briefs/2026-11-17.md"
-  },
-  {
-    "id": "c41",
-    "opened": "2026-11-13",
-    "concern": "BofA's November Global Fund Manager Survey (due mid-month and not yet published as of Nov13) shows 'AI bubble' tail-risk share above 45% together with rising cash allocation, which would flip E1 to red",
-    "signals": [
-      "E1"
-    ],
-    "resolve_if": "BofA's November FMS release",
-    "deadline": "2026-11-21",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c42",
-    "opened": "2026-11-13",
-    "concern": "CoreWeave's or Oracle's dollar bonds trade below 80 cents on the dollar in a directly-opened T1-T3 price print (FINRA TRACE, Bloomberg, Reuters, or a specialist credit publication) within 30 days -- distinct from the CDS-confirmation question already tracked by c38 -- which would flip C5 or sharpen C1/C4's credit read",
-    "signals": [
-      "C5",
-      "C1",
-      "C4"
-    ],
-    "resolve_if": "A directly-opened T1-T3 bond cash-price print for either issuer's dollar notes, or 30 trading days passing with none found",
-    "deadline": "2026-12-13",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c43",
-    "opened": "2026-11-16",
-    "concern": "NDX's drawdown from its Oct6 high crosses 20% on a closing basis (now -12.90% Nov16, up from -10.51% Nov13), which would flip A3 from yellow to red under the hysteresis rule",
-    "signals": [
-      "A3"
-    ],
-    "resolve_if": "Two consecutive NDX closes past -20% from the Oct6 high (Yahoo ^NDX), or 30 days passing without it",
-    "deadline": "2026-12-16",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c44",
-    "opened": "2026-11-16",
-    "concern": "VIX closes above 20 for a second consecutive trading day (first close 22.91 on Nov16, first since Nov13's 19.30), which would flip A5 from green to yellow under the hysteresis rule",
-    "signals": [
-      "A5"
-    ],
-    "resolve_if": "A second consecutive VIX close above 20 (Yahoo ^VIX), or two weeks passing without it",
-    "deadline": "2026-11-30",
-    "status": "materialized",
-    "resolved": "2026-11-17",
-    "outcome": "VIX closed 25.46 on Nov17, a second consecutive close above 20 following Nov16's 22.91, confirming A5's hysteresis flip from green to yellow.",
-    "url": "briefs/2026-11-17.md"
-  },
-  {
-    "id": "c45",
-    "opened": "2026-11-17",
-    "concern": "F3's new 'two consecutive tails' red (and the macro amplifier's jump to HIGH) holds through the next long-end Treasury auction rather than reversing on a single clean auction",
-    "signals": [
-      "F3"
-    ],
-    "resolve_if": "The results of the next 10-year or 30-year Treasury auction, or 30 days passing without one",
-    "deadline": "2026-12-09",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  },
-  {
-    "id": "c46",
-    "opened": "2026-11-17",
-    "concern": "The Nov17 narrative spike (Google News RSS filling its weekly cap in ~1 day) persists into next week rather than reverting to baseline pace, which would suggest a genuine shift rather than a one-day reaction to the Huang fallout and Nvidia's earnings",
-    "signals": [
-      "E2"
-    ],
-    "resolve_if": "The next run's Google News RSS cap-fill time, or GDELT's 7-day volume once its comparator is reachable again",
-    "deadline": "2026-11-24",
-    "status": "did_not",
-    "resolved": "2026-11-18",
-    "outcome": "Google News RSS's 7-day cap-fill time reverted to ~159.8 hours (~6.7 days, near the ~7-day baseline) within 24 hours, rather than persisting; the Nov17 spike reflected a one-day reaction to the Huang-resignation fallout and Nvidia's earnings, not a genuine narrative shift.",
-    "url": "briefs/2026-11-18.md"
-  },
-  {
-    "id": "c47",
-    "opened": "2026-11-18",
-    "concern": "Anthropic's ANT shares, trading for the first time on Nov19, open or close below the $83 IPO price (cutting against today's D2/G1 green flips) or pop into day-one-doubling territory (an E4 yellow trigger)",
-    "signals": [
-      "D2",
-      "G1",
-      "E4"
-    ],
-    "resolve_if": "Nov19's closing price for ANT on Nasdaq",
-    "deadline": "2026-11-20",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
-  }
+ {
+  "id": "c01",
+  "opened": "2026-09-15",
+  "concern": "SoftBank's $10-20B bond for its OpenAI stake prices wide of ~8.5%, is downsized, or is pulled",
+  "signals": [
+   "C4"
+  ],
+  "resolve_if": "Pricing outcome of the deal",
+  "deadline": "2026-09-30",
+  "status": "did_not",
+  "resolved": "2026-09-24",
+  "outcome": "Priced $11.1B on Sep 24, about 3x covered, at 8.625%, 9.25% and 9.75% dollar coupons, SoftBank's highest ever, with a 65-80bp new-issue concession. Neither downsized nor pulled.",
+  "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html"
+ },
+ {
+  "id": "c02",
+  "opened": "2026-09-25",
+  "concern": "SoftBank's new notes trade below 98 in their first week of secondary trading",
+  "signals": [
+   "C4"
+  ],
+  "resolve_if": "A dated secondary print on the new notes",
+  "deadline": "2026-10-15",
+  "status": "materialized",
+  "resolved": "2026-10-01",
+  "outcome": "The notes fell to a 96.75 bid shortly after pricing (Reuters via Japan Times); C4 went back to yellow on Oct 1. The oversubscribed book was bought with price, and secondary trading was the better test.",
+  "url": "briefs/2026-10-01.md"
+ },
+ {
+  "id": "c03",
+  "opened": "2026-09-15",
+  "concern": "A hyperscaler trims 2027 capex guidance in Q3 earnings; two or more cutting would be the capex cliff (Stage 4)",
+  "signals": [
+   "B1"
+  ],
+  "resolve_if": "Q3 calls of Meta, Microsoft, Alphabet, Amazon",
+  "deadline": "2026-10-31",
+  "status": "did_not",
+  "resolved": "2026-10-30",
+  "outcome": "All four raised or held: Meta narrowed 2026 guidance up to $135-145B; Microsoft and Alphabet roughly doubled quarterly capex year over year; Amazon held ~$220B and signalled 'meaningfully more' in 2027. B1 stayed green.",
+  "url": "briefs/2026-10-30.md"
+ },
+ {
+  "id": "c04",
+  "opened": "2026-09-15",
+  "concern": "Micron's fiscal Q4 (Sep 30) shows softening DRAM or HBM pricing",
+  "signals": [
+   "B4"
+  ],
+  "resolve_if": "Micron results and commentary",
+  "deadline": "2026-10-01",
+  "status": "did_not",
+  "resolved": "2026-09-30",
+  "outcome": "Micron pre-guided and then delivered revenue of $49-51B with an 86% gross margin; DRAM spot prices were up about 52% since January. No softening.",
+  "url": "briefs/2026-10-01.md"
+ },
+ {
+  "id": "c05",
+  "opened": "2026-09-15",
+  "concern": "TSMC's monthly revenue growth falls under 25% year over year",
+  "signals": [
+   "B4"
+  ],
+  "resolve_if": "TSMC September revenue and Q3 call",
+  "deadline": "2026-10-15",
+  "status": "did_not",
+  "resolved": "2026-10-15",
+  "outcome": "TSMC's Q3 revenue grew 50.9% year over year and it raised 2026 capex guidance to $60-64B.",
+  "url": "briefs/2026-10-16.md"
+ },
+ {
+  "id": "c06",
+  "opened": "2026-09-17",
+  "concern": "The 10-year Treasury yield breaches 5.25% and holds there (F1 red)",
+  "signals": [
+   "F1"
+  ],
+  "resolve_if": "Daily closes from Yahoo or Treasury",
+  "deadline": "2026-10-31",
+  "status": "partly",
+  "resolved": "2026-10-08",
+  "outcome": "It crossed: F1 read red on Oct 1 and Oct 5-8 with the 10-year near 5.3%, then fell back under 5% by Oct 22 and sat at 4.90% on Nov 4. A brief breach, not a regime.",
+  "url": "briefs/2026-10-08.md"
+ },
+ {
+  "id": "c07",
+  "opened": "2026-09-17",
+  "concern": "The MOVE bond-volatility index rises above 130, the disorderly-market threshold",
+  "signals": [
+   "F2"
+  ],
+  "resolve_if": "A MOVE close above 130",
+  "deadline": "2026-11-15",
+  "status": "expired",
+  "resolved": "2026-11-16",
+  "outcome": "MOVE never crossed 130 through the Nov15 deadline. Latest close 101.28 (Nov16, Yahoo ^MOVE) -- a first close above the 100 yellow threshold but far from the 130 disorderly-market line.",
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE"
+ },
+ {
+  "id": "c08",
+  "opened": "2026-09-17",
+  "concern": "Oracle's five-year CDS prints above 250bp, the Stage 5 credit trigger",
+  "signals": [
+   "C1"
+  ],
+  "resolve_if": "A dated CDS print from a wire or vendor",
+  "deadline": "2026-12-31",
+  "status": "materialized",
+  "resolved": "2026-10-20",
+  "outcome": "Record 288bp on Oct 15 (S&P Global and LSEG data via Reuters), then 295-315bp on Oct 19 per CNBC. C1 turned red on Oct 20 once a wire-attributed print existed.",
+  "url": "https://www.cnbc.com/2026/10/19/oracle-debt-faces-an-ai-stress-test-why-some-investors-arent-worried-.html"
+ },
+ {
+  "id": "c09",
+  "opened": "2026-09-15",
+  "concern": "CoreWeave's bonds trade below 80 cents or a neocloud shows going-concern stress (C5 red)",
+  "signals": [
+   "C5"
+  ],
+  "resolve_if": "A dated bond or CDS print, or a filing",
+  "deadline": "2026-12-31",
+  "status": "materialized",
+  "resolved": "2026-10-16",
+  "outcome": "CoreWeave's 9.625% notes due 2032 traded below 80 cents on Oct 14-15 (Bloomberg, citing TRACE, via CNBC) with CDS near 1,200bp; the equity was down 61% from its high by Nov 3.",
+  "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html"
+ },
+ {
+  "id": "c10",
+  "opened": "2026-09-15",
+  "concern": "A down round or cancelled tender at a top-five lab (D2 red, the funding window closing)",
+  "signals": [
+   "D2"
+  ],
+  "resolve_if": "Terms of any closed round or tender",
+  "deadline": "2026-12-31",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c11",
+  "opened": "2026-09-28",
+  "concern": "OpenAI's ~$30B round closes, and the terms show whether outside capital or suppliers carried it",
+  "signals": [
+   "G1",
+   "D2"
+  ],
+  "resolve_if": "A confirmed close with investors and valuation, or 90 days open",
+  "deadline": "2026-12-15",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c12",
+  "opened": "2026-09-22",
+  "concern": "Anthropic's IPO slips from its October target or reprices",
+  "signals": [
+   "D2",
+   "E4"
+  ],
+  "resolve_if": "Filing and marketing dates",
+  "deadline": "2026-11-30",
+  "status": "partly",
+  "resolved": "2026-10-26",
+  "outcome": "Marketing slipped from October to the week of Nov 9 (WSJ, Sep 26). The public S-1 arrived Oct 26 targeting $1.5-2T and a Thanksgiving-week debut. Delayed, not withdrawn, and the filing showed near-breakeven operations.",
+  "url": "https://fortune.com/2026/10/26/anthropics-s-1/"
+ },
+ {
+  "id": "c13",
+  "opened": "2026-09-24",
+  "concern": "The Fed hikes again at the Oct 27-28 meeting, pressuring F1 and F5",
+  "signals": [
+   "F5"
+  ],
+  "resolve_if": "FOMC statement",
+  "deadline": "2026-10-28",
+  "status": "did_not",
+  "resolved": "2026-10-28",
+  "outcome": "Held at 3.75-4.00% on a 10-2 vote, both dissents favoring a hike. Hawkish hold, no hike.",
+  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+ },
+ {
+  "id": "c14",
+  "opened": "2026-10-05",
+  "concern": "The Oct 7 10-year and Oct 8 30-year Treasury auctions tail, adding a second F3 trigger",
+  "signals": [
+   "F3"
+  ],
+  "resolve_if": "Auction results",
+  "deadline": "2026-10-09",
+  "status": "did_not",
+  "resolved": "2026-10-09",
+  "outcome": "The 10-year cleared strong at 5.300% with a 2.77 bid-to-cover and no tail; the 30-year cleared in line at 5.618% with 2.54 and no tail.",
+  "url": "briefs/2026-10-09.md"
+ },
+ {
+  "id": "c15",
+  "opened": "2026-10-13",
+  "concern": "September CPI (Oct 14) comes in hot enough to push the inflation regime to red (F4)",
+  "signals": [
+   "F4"
+  ],
+  "resolve_if": "BLS CPI release",
+  "deadline": "2026-10-14",
+  "status": "partly",
+  "resolved": "2026-10-14",
+  "outcome": "Headline rose to 3.7% from 3.4% with core at 2.6% and gasoline up 34% year over year. Hot, but F4 stayed yellow because headline remained under 4%.",
+  "url": "https://www.cnbc.com/2026/10/14/cpi-inflation-breakdown-september-2026.html"
+ },
+ {
+  "id": "c16",
+  "opened": "2026-09-25",
+  "concern": "Oracle's Project Jupiter force-majeure dispute with Blue Owl and STACK becomes a confirmed site pause (B2 red)",
+  "signals": [
+   "B2"
+  ],
+  "resolve_if": "A company statement or the New Mexico air-permit decision",
+  "deadline": "2026-11-23",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c17",
+  "opened": "2026-10-13",
+  "concern": "The Asia memory and chip rout spreads into a US single-day rout severe enough for A6 red",
+  "signals": [
+   "A6"
+  ],
+  "resolve_if": "NVDA -10% or SOX -8% in a day, or two -5% days in a week",
+  "deadline": "2026-11-06",
+  "status": "partly",
+  "resolved": "2026-10-30",
+  "outcome": "SOX fell 6.7% on Oct 22 and 7.2% on Oct 30, two 5%-plus days but in different weeks and never 8%. A6 reached yellow only.",
+  "url": "briefs/2026-11-02.md"
+ },
+ {
+  "id": "c18",
+  "opened": "2026-10-16",
+  "concern": "CoreWeave's bonds stay below 80 cents rather than recovering, keeping C5 red on fresh evidence",
+  "signals": [
+   "C5"
+  ],
+  "resolve_if": "A dated bond or CDS print, or CoreWeave's Q3 report on Nov 11",
+  "deadline": "2026-11-12",
+  "status": "did_not",
+  "resolved": "2026-11-12",
+  "outcome": "CoreWeave's Q3 2026 report (Nov10 after close) was a clean beat-and-raise with no going-concern or covenant-breach language; C5 was downgraded from red to yellow on Nov11 and stayed yellow through the deadline (equity -58.98% from high on Nov12, but no fresh bond/CDS distress evidence found).",
+  "url": "briefs/2026-11-11.md"
+ },
+ {
+  "id": "c19",
+  "opened": "2026-10-29",
+  "concern": "Amazon trims 2027 capex in its Oct 29 report, the last of the four hyperscaler guides",
+  "signals": [
+   "B1"
+  ],
+  "resolve_if": "Amazon Q3 call",
+  "deadline": "2026-10-30",
+  "status": "did_not",
+  "resolved": "2026-10-30",
+  "outcome": "Held 2026 capex near $220B, signalled 'meaningfully more' for 2027 and guided AWS growth above 40% through 2028.",
+  "url": "briefs/2026-10-30.md"
+ },
+ {
+  "id": "c20",
+  "opened": "2026-11-02",
+  "concern": "AMD's Q3 report (Nov 3) misses or guides weak, compounding the chip selloff",
+  "signals": [
+   "B3",
+   "B4"
+  ],
+  "resolve_if": "AMD results",
+  "deadline": "2026-11-04",
+  "status": "did_not",
+  "resolved": "2026-11-04",
+  "outcome": "Revenue of $13.4B came in above the high end of AMD's own $12.7-13.3B guide with non-GAAP EPS of $2.09; the stock rose 3.65%.",
+  "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
+ },
+ {
+  "id": "c21",
+  "opened": "2026-11-03",
+  "concern": "Broad high-yield spreads cross 350bp (C3 yellow), the first sign the single-name stress is spreading",
+  "signals": [
+   "C3"
+  ],
+  "resolve_if": "FRED HY OAS or carried proxy",
+  "deadline": "2026-11-30",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c22",
+  "opened": "2026-09-15",
+  "concern": "A top-five lab's revenue run-rate growth halves or internal targets are reported missed (D1 yellow)",
+  "signals": [
+   "D1"
+  ],
+  "resolve_if": "Dated reporting on run-rates",
+  "deadline": "2026-12-31",
+  "status": "materialized",
+  "resolved": "2026-10-15",
+  "outcome": "OpenAI told investors its September run-rate was nearing $50B, about $20B below the ~$70B figure that had circulated (FT and Reuters, Oct 8). D1 moved to yellow.",
+  "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854"
+ },
+ {
+  "id": "c23",
+  "opened": "2026-09-21",
+  "concern": "The semiconductor index re-crosses a 20% drawdown from its June high (A2 red)",
+  "signals": [
+   "A2"
+  ],
+  "resolve_if": "Daily closes",
+  "deadline": "2026-12-31",
+  "status": "materialized",
+  "resolved": "2026-10-15",
+  "outcome": "SOX closed 20.16% below its high on Oct 14 and was 29.4% below by Nov 2.",
+  "url": "briefs/2026-10-15.md"
+ },
+ {
+  "id": "c24",
+  "opened": "2026-11-04",
+  "concern": "New governors in Texas, Ohio and Georgia, states with about 39% of planned data-center gigawatts, enact pauses that halt a hyperscaler, Stargate or top-neocloud project (B2 red)",
+  "signals": [
+   "B2",
+   "G2"
+  ],
+  "resolve_if": "A company-confirmed pause or a signed state measure",
+  "deadline": "2027-03-31",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c25",
+  "opened": "2026-11-04",
+  "concern": "Anthropic's IPO prices inside its $1.5-2T range and holds above issue in its first weeks",
+  "signals": [
+   "D2",
+   "G1",
+   "E4"
+  ],
+  "resolve_if": "Pricing and first-week trading",
+  "deadline": "2026-12-15",
+  "status": "partly",
+  "resolved": "2026-11-17",
+  "outcome": "Anthropic set its IPO price range at $70-78/share (~$1.26-1.41T), below the $1.5-2T range floated in October -- a haircut on the ask, not a down round from its last private mark (~$965B-$1T). Pricing is due Nov18 and trading begins Nov19; the first-week-trading half of this concern stays open through the Dec15 deadline.",
+  "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion"
+ },
+ {
+  "id": "c26",
+  "opened": "2026-10-16",
+  "concern": "The Stage 5 call, made on two single-name prints, generalizes into broad credit stress",
+  "signals": [
+   "C3",
+   "C4"
+  ],
+  "resolve_if": "HY OAS above 500bp, a second AI issuer's bonds distressed, or a default; or spreads normalizing and the prints reversing",
+  "deadline": "2026-12-31",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c27",
+  "opened": "2026-09-15",
+  "concern": "Oracle gets its planned ~$40B FY27 debt and equity raise done, and on what terms",
+  "signals": [
+   "C4",
+   "C1"
+  ],
+  "resolve_if": "Deal pricing",
+  "deadline": "2026-12-31",
+  "status": "partly",
+  "resolved": "2026-11-02",
+  "outcome": "Priced $10B of stock at $116, 20% below the September baseline, plus $10B of notes at 7.00-8.65% coupons, 145-175bp wider than its February deal. Done, but at junk-like coupons and with equity dilution.",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm"
+ },
+ {
+  "id": "c28",
+  "opened": "2026-09-15",
+  "concern": "The share of fund managers naming an AI bubble as the top tail risk rises above 30% (E1 yellow)",
+  "signals": [
+   "E1"
+  ],
+  "resolve_if": "BofA Global Fund Manager Survey",
+  "deadline": "2026-10-15",
+  "status": "did_not",
+  "resolved": "2026-10-13",
+  "outcome": "It fell to 23% in the October survey from 28% in September, behind bond yields and inflation.",
+  "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html"
+ },
+ {
+  "id": "c29",
+  "opened": "2026-11-05",
+  "concern": "Oracle's reported $7bn Tencent AI-chip leasing deal (announced Oct 1) was cancelled, per a Nov 4 T4 aggregator report (Motley Fool/Yahoo) with no T1-T3 confirmation found",
+  "signals": [
+   "B2"
+  ],
+  "resolve_if": "A Reuters, Bloomberg, FT, Oracle or Tencent statement confirming or denying the cancellation",
+  "deadline": "2026-11-19",
+  "status": "materialized",
+  "resolved": "2026-11-04",
+  "outcome": "Bloomberg (Nov 4), citing the FT, and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped the $7bn Tencent AI-chip leasing deal under US political pressure; Guangdong officials separately pushed Tencent toward domestic chips. Treated as a geopolitical export-control event, not a credible AI-demand pullback -- B2 stayed yellow rather than moving to red.",
+  "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says"
+ },
+ {
+  "id": "c30",
+  "opened": "2026-11-05",
+  "concern": "TSMC's October monthly revenue release (due ~Nov 10) shows a sharp deceleration from September's +54.6% YoY pace, the first supply-chain confirmation that AI chip demand is cooling (B4 red)",
+  "signals": [
+   "B4"
+  ],
+  "resolve_if": "TSMC's October revenue release",
+  "deadline": "2026-11-15",
+  "status": "did_not",
+  "resolved": "2026-11-10",
+  "outcome": "TSMC's October revenue (SEC Form 6-K) grew 59.7% YoY to NT$586.89bn, accelerating from September's 54.6% pace -- the opposite of a deceleration. B4 stays green.",
+  "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm"
+ },
+ {
+  "id": "c31",
+  "opened": "2026-11-06",
+  "concern": "A fresh dated Oracle 5-year CDS print, or a fresh CoreWeave bond/CDS print, appears within 10 trading days (by Nov 20) -- which would restore Stage 5's breadth-and-freshness test after today's reclassification to Stage 1",
+  "signals": [
+   "C1",
+   "C5"
+  ],
+  "resolve_if": "A dated CDS or bond print from a wire or vendor, or absence of one by the deadline",
+  "deadline": "2026-11-20",
+  "status": "materialized",
+  "resolved": "2026-11-10",
+  "outcome": "A fresh CoreWeave CDS print also appeared: multiple outlets (Benzinga/S&P Global Market Intelligence, Motley Fool, CNBC-sourced aggregators) converged on a record ~1,289bp intraday Nov5, easing to ~1,155-1,195bp by Nov6. Combined with Oracle's already-fresh ~295-315bp print (Nov9), both C1 and C5 now carry dated reds within 10 trading days, satisfying Stage5's breadth-and-freshness test.",
+  "url": "briefs/2026-11-10.md"
+ },
+ {
+  "id": "c32",
+  "opened": "2026-11-06",
+  "concern": "SOX sees a second -8%+ single day, or NVDA a -10%+ single day, within two weeks of the Nov 5 rout (by Nov 20) -- testing whether that session was a one-off panic or the start of a sustained break",
+  "signals": [
+   "A6"
+  ],
+  "resolve_if": "Daily closes from Yahoo",
+  "deadline": "2026-11-20",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c33",
+  "opened": "2026-11-06",
+  "concern": "Anthropic's compute/lease commitments ($895.4bn after the Nov 2 S-1/A, up from $518bn on Oct 26) keep outgrowing revenue in its next disclosure, or it posts a second straight quarterly operating loss, pushing G4 toward red",
+  "signals": [
+   "G4",
+   "G2"
+  ],
+  "resolve_if": "Anthropic's next filing (10-Q or further S-1 amendment) or IPO prospectus financials",
+  "deadline": "2026-12-15",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c34",
+  "opened": "2026-11-09",
+  "concern": "CoreWeave's Nov 11 Q3 report shows going-concern language, a covenant breach, or is accompanied by a fresh bond/CDS print confirming distress, which combined with Oracle's newly fresher CDS print could satisfy Stage 5's two-fresh-red breadth test",
+  "signals": [
+   "C5",
+   "C1"
+  ],
+  "resolve_if": "CoreWeave's Q3 earnings release and call, or a dated bond/CDS print in the following days",
+  "deadline": "2026-11-13",
+  "status": "did_not",
+  "resolved": "2026-11-11",
+  "outcome": "CoreWeave's Q3 2026 report (Nov10 after close) was a clean beat-and-raise: revenue $3.66B (+168% YoY), beat its own guide; adjusted operating income $379M (10% margin, up from 5% in Q2); FY26 revenue guidance raised to $13.0-13.3B; backlog $132.5B. No going-concern, covenant-breach, or liquidity-stress language found anywhere in the call or wire coverage.",
+  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/"
+ },
+ {
+  "id": "c35",
+  "opened": "2026-11-09",
+  "concern": "Nvidia's board investigation into CEO Jensen Huang's reported relationship with an alleged Chinese intelligence operative leads to his removal or suspension, a delayed filing, or a sustained NVDA decline beyond 30% from its Oct 6 high within 30 days",
+  "signals": [
+   "A1",
+   "D1"
+  ],
+  "resolve_if": "A Nvidia company statement or SEC filing on the investigation's outcome, or 30 trading days of price action",
+  "deadline": "2026-12-09",
+  "status": "materialized",
+  "resolved": "2026-11-16",
+  "outcome": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026; CFO Colette Kress named interim CEO, Harvey C. Jones named first independent Board Chair, per the company's 8-K (sec.gov blocked on this network, corroborated by NBC News, Washington Post and CNN). This was missed in the Nov13 daily run and only confirmed in this Nov16 run.",
+  "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402"
+ },
+ {
+  "id": "c36",
+  "opened": "2026-11-10",
+  "concern": "The Texas ERCOT/PUCT data-center grid-connection audit (Abbott's Aug3 executive order, newly scored B5 red) gets a legal reversal, a formal end date, or results in a named hyperscaler/Stargate project being granted or denied connection",
+  "signals": [
+   "B5",
+   "B2"
+  ],
+  "resolve_if": "A court ruling, legislative action, ERCOT/PUCT decision, or a named project's grid-connection outcome",
+  "deadline": "2026-12-10",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c37",
+  "opened": "2026-11-10",
+  "concern": "Stage5's credit-event call (triggered today on C1+C5 breadth) holds through CoreWeave's imminent Q3 report and the following two weeks, rather than lapsing back to stale/credit-stress as today's prints age past 10 trading days",
+  "signals": [
+   "C1",
+   "C5"
+  ],
+  "resolve_if": "CoreWeave's Q3 earnings and call, plus the next dated Oracle and CoreWeave CDS/bond prints through Nov24",
+  "deadline": "2026-11-24",
+  "status": "did_not",
+  "resolved": "2026-11-11",
+  "outcome": "The Stage5 call did not hold. Under the Nov11 confirmation rule, neither Oracle's nor CoreWeave's cited CDS levels trace to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED, so even keeping C1 red the breadth test (needs two of C1/C3/C4/C5) fails on its own terms. Separately, CoreWeave's Nov10 Q3 beat-and-raise (no going-concern language) removed the factual basis for C5's red score, which is now yellow. Stage falls to 1 (price break) with a credit-stress flag carried by C1 alone.",
+  "url": "briefs/2026-11-11.md"
+ },
+ {
+  "id": "c38",
+  "opened": "2026-11-11",
+  "concern": "Oracle's or CoreWeave's 5-year CDS level is confirmed via a directly-openable T1-T3 source (a filing, wire story, rating-agency release, or specialist credit publication such as IFR, GlobalCapital or Creditflux stating the level and date) rather than only T4 aggregators, as has been the case for two straight runs (Nov10-11)",
+  "signals": [
+   "C1",
+   "C5"
+  ],
+  "resolve_if": "A directly-opened T1-T3 source stating the level and date, or 15 trading days passing with none found",
+  "deadline": "2026-12-02",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c39",
+  "opened": "2026-11-11",
+  "concern": "NDX's drawdown closes under the 10% threshold for a second consecutive session, confirming A3's hysteresis flip from yellow to green (today's -9.13% close is the first)",
+  "signals": [
+   "A3"
+  ],
+  "resolve_if": "Daily NDX closes from Yahoo",
+  "deadline": "2026-11-13",
+  "status": "materialized",
+  "resolved": "2026-11-12",
+  "outcome": "NDX closed -9.40% below its Oct6 high on Nov12, a second consecutive close under the 10% threshold, confirming A3's hysteresis flip from yellow to green.",
+  "url": "briefs/2026-11-12.md"
+ },
+ {
+  "id": "c40",
+  "opened": "2026-11-12",
+  "concern": "Nvidia's Nov17 Q3 FY27 earnings call and 10-Q show a miss, guide-down or sequential data-center decline (B3), or a filing-fingerprint deterioration -- DSO +10 days YoY, top-two customer share +5pts, or a new large customer stake paired with a purchase commitment (G3)",
+  "signals": [
+   "B3",
+   "G3"
+  ],
+  "resolve_if": "Nvidia's Nov17 earnings call and the subsequent 10-Q filing",
+  "deadline": "2026-11-24",
+  "status": "partly",
+  "resolved": "2026-11-17",
+  "outcome": "Nvidia's Q3 FY27 results (Nov17, first under interim CEO Kress) were a clean beat and raise -- revenue $115.8B (+103% YoY) vs ~$108B consensus, Q4 guide $130B -- not a miss or guide-down; B3 moved to green. The 10-Q (needed for G3's DSO/concentration/stake fingerprints) had not appeared on EDGAR as of this run's close, so the filing-fingerprint half of this concern stays open through the Nov24 deadline.",
+  "url": "briefs/2026-11-17.md"
+ },
+ {
+  "id": "c41",
+  "opened": "2026-11-13",
+  "concern": "BofA's November Global Fund Manager Survey (due mid-month and not yet published as of Nov13) shows 'AI bubble' tail-risk share above 45% together with rising cash allocation, which would flip E1 to red",
+  "signals": [
+   "E1"
+  ],
+  "resolve_if": "BofA's November FMS release",
+  "deadline": "2026-11-21",
+  "status": "did_not",
+  "resolved": "2026-11-19",
+  "outcome": "BofA's November FMS (published Nov17) showed AI-bubble tail risk at 34% (up from 23% in October but well under the 45% bar) while cash fell to 3.6% from 3.9% -- the opposite of rising. E1's red combination was not met.",
+  "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/"
+ },
+ {
+  "id": "c42",
+  "opened": "2026-11-13",
+  "concern": "CoreWeave's or Oracle's dollar bonds trade below 80 cents on the dollar in a directly-opened T1-T3 price print (FINRA TRACE, Bloomberg, Reuters, or a specialist credit publication) within 30 days -- distinct from the CDS-confirmation question already tracked by c38 -- which would flip C5 or sharpen C1/C4's credit read",
+  "signals": [
+   "C5",
+   "C1",
+   "C4"
+  ],
+  "resolve_if": "A directly-opened T1-T3 bond cash-price print for either issuer's dollar notes, or 30 trading days passing with none found",
+  "deadline": "2026-12-13",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c43",
+  "opened": "2026-11-16",
+  "concern": "NDX's drawdown from its Oct6 high crosses 20% on a closing basis (now -12.90% Nov16, up from -10.51% Nov13), which would flip A3 from yellow to red under the hysteresis rule",
+  "signals": [
+   "A3"
+  ],
+  "resolve_if": "Two consecutive NDX closes past -20% from the Oct6 high (Yahoo ^NDX), or 30 days passing without it",
+  "deadline": "2026-12-16",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c44",
+  "opened": "2026-11-16",
+  "concern": "VIX closes above 20 for a second consecutive trading day (first close 22.91 on Nov16, first since Nov13's 19.30), which would flip A5 from green to yellow under the hysteresis rule",
+  "signals": [
+   "A5"
+  ],
+  "resolve_if": "A second consecutive VIX close above 20 (Yahoo ^VIX), or two weeks passing without it",
+  "deadline": "2026-11-30",
+  "status": "materialized",
+  "resolved": "2026-11-17",
+  "outcome": "VIX closed 25.46 on Nov17, a second consecutive close above 20 following Nov16's 22.91, confirming A5's hysteresis flip from green to yellow.",
+  "url": "briefs/2026-11-17.md"
+ },
+ {
+  "id": "c45",
+  "opened": "2026-11-17",
+  "concern": "F3's new 'two consecutive tails' red (and the macro amplifier's jump to HIGH) holds through the next long-end Treasury auction rather than reversing on a single clean auction",
+  "signals": [
+   "F3"
+  ],
+  "resolve_if": "The results of the next 10-year or 30-year Treasury auction, or 30 days passing without one",
+  "deadline": "2026-12-09",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c46",
+  "opened": "2026-11-17",
+  "concern": "The Nov17 narrative spike (Google News RSS filling its weekly cap in ~1 day) persists into next week rather than reverting to baseline pace, which would suggest a genuine shift rather than a one-day reaction to the Huang fallout and Nvidia's earnings",
+  "signals": [
+   "E2"
+  ],
+  "resolve_if": "The next run's Google News RSS cap-fill time, or GDELT's 7-day volume once its comparator is reachable again",
+  "deadline": "2026-11-24",
+  "status": "did_not",
+  "resolved": "2026-11-18",
+  "outcome": "Google News RSS's 7-day cap-fill time reverted to ~159.8 hours (~6.7 days, near the ~7-day baseline) within 24 hours, rather than persisting; the Nov17 spike reflected a one-day reaction to the Huang-resignation fallout and Nvidia's earnings, not a genuine narrative shift.",
+  "url": "briefs/2026-11-18.md"
+ },
+ {
+  "id": "c47",
+  "opened": "2026-11-18",
+  "concern": "Anthropic's ANT shares, trading for the first time on Nov19, open or close below the $83 IPO price (cutting against today's D2/G1 green flips) or pop into day-one-doubling territory (an E4 yellow trigger)",
+  "signals": [
+   "D2",
+   "G1",
+   "E4"
+  ],
+  "resolve_if": "Nov19's closing price for ANT on Nasdaq",
+  "deadline": "2026-11-20",
+  "status": "did_not",
+  "resolved": "2026-11-19",
+  "outcome": "ANT opened at $111.50 (+34% over the $83 issue price) and closed its first day at $97.17 (+17%) -- neither below issue nor a day-one double.",
+  "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17%25/"
+ },
+ {
+  "id": "c48",
+  "opened": "2026-11-19",
+  "concern": "Census BTOS's next cycle (202624, due roughly Dec3) holds above the 24.6% level that triggered today's D4 green flip, rather than today's 25.0% reading proving a one-cycle blip",
+  "signals": [
+   "D4"
+  ],
+  "resolve_if": "The next published BTOS National.xlsx cycle (202624)",
+  "deadline": "2026-12-10",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ },
+ {
+  "id": "c49",
+  "opened": "2026-11-19",
+  "concern": "BofA's December FMS (due roughly mid-December) shows AI-bubble tail risk continuing to climb from today's 34% toward the 45% red bar while cash allocation turns from falling to rising -- E1's specific red combination",
+  "signals": [
+   "E1"
+  ],
+  "resolve_if": "The next published BofA Global Fund Manager Survey",
+  "deadline": "2026-12-20",
+  "status": "open",
+  "resolved": null,
+  "outcome": null,
+  "url": null
+ }
 ]
