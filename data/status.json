@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-18T13:08:01Z",
-    "date": "2026-11-18",
-    "result": "quiet",
-    "note": "Nothing crossed a threshold. Futures flat (ES +0.2%, NQ +0.6%); Asia higher (SoftBank +3.1%, KOSPI +2.0%, Nikkei +0.3%); premarket AI names under 3.5%."
+    "last_run_utc": "2026-11-19T13:12:57Z",
+    "date": "2026-11-19",
+    "result": "alert",
+    "note": "Taiwan -4.4% (TSMC-led tech rout, Yahoo) and Nasdaq futures +2.0% (Anthropic-IPO relief) both cross overnight thresholds; no tracked signal flipped yet."
   }
 }

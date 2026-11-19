@@ -1593,5 +1593,17 @@
     "t": "Yesterday's narrative spike reverted: Google News RSS's 7-day 'AI bubble' query, which filled its 100-item cap in ~25.6 hours on Nov17, filled it in ~159.8 hours (~6.7 days) today -- back near the ~7-day baseline pace -- flipping E2 from red to green. E3 also eased to green as two of three actively-tracked composite trackers (aibubblemonitor, Polymarket 2026 burst-odds) improved rather than deteriorated. Reds (Pillars A-E) fall from 6 to 5; greens rise from 7 to 10.",
     "url": "briefs/2026-11-18.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-19",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A3"
+    ],
+    "t": "Taiwan's TWII closed -4.40% (38,426.89 vs 40,194.91 Nov18, Yahoo ^TWII) in a TSMC-led regional tech rout, while Nasdaq-100 futures rose about +2.03% (27,739.5 vs 27,186.75 Nov18 close, Yahoo NQ=F) on relief from Anthropic's oversubscribed $83 IPO pricing; ES=F futures were up about +1.19%. Both cross the overnight watch's standalone alert thresholds (an Asian index moving 3%+ and US equity futures moving 1.5%+) though neither directly flips one of the 25 tracked daily signals as of this pre-market check; the moves bear on Pillar A's price-break read (A2 semiconductor / A3 Nasdaq exposure) and set up today's open, including concern c47's test of whether ANT holds above its $83 issue price.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETWII?range=5d&interval=1d&includePrePost=true",
+    "tag": null
   }
 ]
