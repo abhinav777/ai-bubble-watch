@@ -10900,7 +10900,7 @@
    "T4": 5,
    "T5": 3
   },
-  "run_url": null,
+  "run_url": "https://github.com/abhinav777/ai-bubble-watch/commit/b461be5",
   "brief": "briefs/2026-11-19.md",
   "circularity": "HIGH",
   "circularity_note": "Unchanged at HIGH (G1 green; 2 yellow: G2, G4; G3 stays not-yet-scorable, excluded). Anthropic's ANT closing its first trading day up 17% over issue -- after fading from a 34% intraday pop -- reaffirms G1's green flip with real secondary-market trading, the better test than an oversubscribed book alone."
