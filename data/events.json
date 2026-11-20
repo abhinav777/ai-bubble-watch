@@ -1653,5 +1653,14 @@
   "t": "Mechanical notes: F2 (MOVE) confirmed its hysteresis flip to green on a second consecutive close under 100 (96.04, Nov19), though the macro amplifier stays HIGH on F3/F5. D4 (BTOS) and E1 (BofA FMS) swapped colors in opposite directions (D4 yellow to green, E1 green to yellow), leaving Pillars A-E's totals unchanged at 5 red/10 yellow/10 green. Stage stays at 1 with credit stress carried by C1 alone, now unconfirmed for an eighth straight run.",
   "url": "briefs/2026-11-19.md",
   "tag": null
+ },
+ {
+  "date": "2026-11-20",
+  "type": "overnight",
+  "tier": "T1",
+  "signals": ["A1", "A2", "A6"],
+  "t": "Asia closed sharply lower overnight -- Nikkei -5.06% (56,436.65 vs 59,444.21 Nov19, Yahoo ^N225), Kospi -5.22% (4,869.96 vs 5,137.89, ^KS11), Taiex -6.23% (36,033.29 vs 38,426.89, ^TWII) and SoftBank -14.48% (3,025 vs 3,537 yen, 9984.T), while Nasdaq-100 futures (NQ=F) fell -1.85% (26,108.75 vs 26,600.25) and pre-market AMD and CoreWeave were down -6.48% and -5.33%, crossing the overnight watch's 1.5% futures, 3% Asia and 7% SoftBank/TSMC/SK Hynix alert thresholds. This bears on Pillar A's price-break read (A1 NVDA drawdown, A2 SOX, A6 single-day rout) heading into today's US open and the daily check's test of concern c32 (SOX/NVDA single-day rout, deadline today).",
+  "url": "https://query1.finance.yahoo.com/v8/finance/chart/9984.T?range=5d&interval=1d&includePrePost=true",
+  "tag": null
  }
 ]
