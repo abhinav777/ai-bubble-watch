@@ -1,1666 +1,1719 @@
 [
- {
-  "date": "2026-09-10",
-  "type": "opinion",
-  "tier": "T5",
-  "signals": [
-   "E1"
-  ],
-  "t": "Capital Economics publishes a 'late-stage bubble' screen: S&P 500 to 8,250 by year-end, then down 30% or more in 2027.",
-  "url": "https://fortune.com/2026/09/14/is-ai-stock-market-bubble-federal-reserve-interest-rates/",
-  "tag": "short-AI incentive: public bearish call"
- },
- {
-  "date": "2026-09-10",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "C1",
-   "B1"
-  ],
-  "t": "Oracle Q1 FY27: revenue +30%, RPO $664B, capex $28.5B, free cash flow -$5.4B; FY27 capex $90-95B gross reaffirmed.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm"
- },
- {
-  "date": "2026-09-11",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F4",
-   "F5"
-  ],
-  "t": "August CPI 3.4% headline, 2.4% core; Fed-hike odds pass 85%; 10-year 4.97%.",
-  "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
- },
- {
-  "date": "2026-09-12",
-  "type": "opinion",
-  "tier": "T5",
-  "signals": [
-   "E2",
-   "D2"
-  ],
-  "t": "Dario Amodei publishes 'We Must Pace the Frontier'; Sam Altman calls a 2026 OpenAI IPO 'ill-advised' and hints at an industry pact; Musk agrees.",
-  "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
-  "tag": "interested parties; read two ways"
- },
- {
-  "date": "2026-09-14",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A2",
-   "A6"
-  ],
-  "t": "SOX -5.9%, Nvidia -3.4% (-$177B), SoftBank -13%, Micron -5.3%, Broadcom -4.8%; 10-year prints 5.01% intraday.",
-  "url": "https://www.techtimes.com/articles/327518/20260915/chip-stocks-crash-ai-ceos-back-slowdown-fed-rate-hike-decision-wednesday.htm"
- },
- {
-  "date": "2026-09-14",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "D4"
-  ],
-  "t": "Nvidia, Palantir and Booz Allen restrict use of Anthropic models over 30-day log retention.",
-  "url": "https://qz.com/palantir-nvidia-booz-allen-anthropic-openai-data-restrictions-091426"
- },
- {
-  "date": "2026-09-14",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4"
-  ],
-  "t": "SoftBank closes an $11.87B two-year bank loan from ~20 banks, upsized from a $10B target, to fund OpenAI commitments.",
-  "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
- },
- {
-  "date": "2026-09-15",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "E1"
-  ],
-  "t": "BofA Global FMS: 'disorderly rise in bond yields' is the top tail risk at 33%; AI bubble second at 28%; equity overweight 56% to 49%; record 33% say companies over-invest.",
-  "url": "https://www.investing.com/news/stock-market-news/bofas-hartnett-says-investor-bullishness-is-fading-as-cash-levels-rise-4901253"
- },
- {
-  "date": "2026-09-15",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "C1"
-  ],
-  "t": "Bloomberg: investors approach OpenAI about a private round valuing it above $1.2 trillion; timing depends on IPO decision. Early talks.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation"
- },
- {
-  "date": "2026-09-16",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F1",
-   "F5"
-  ],
-  "t": "FOMC raises rates 25 bp to 3.75-4.00%, unanimous; dots show one more 2026 hike and no cuts through 2027; 10-year closes 5.01%.",
-  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
- },
- {
-  "date": "2026-09-16",
-  "type": "opinion",
-  "tier": "T1",
-  "signals": [
-   "F3"
-  ],
-  "t": "Warsh attributes rising long yields partly to 'competition for capital' from hyperscalers 'out in the market raising funding'.",
-  "url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
-  "tag": "primary source; first Fed link between AI issuance and Treasury yields"
- },
- {
-  "date": "2026-09-17",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C5",
-   "D3"
-  ],
-  "t": "CoreWeave announces a $3-3.5B convertible-plus-equity raise; shares -4.2% to 44% below high as Nebius undercuts on GPU rental pricing.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
- },
- {
-  "date": "2026-09-17",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "C1",
-   "F1",
-   "F2",
-   "F3",
-   "F4",
-   "F5"
-  ],
-  "t": "Framework revisions: Oracle CDS moved to absolute bands (150/250 bp); five-tier source register with incentive tags; Pillar F macro transmission added as an amplifier (never a stage trigger).",
-  "url": "docs/ai-bubble-signal-framework.md"
- },
- {
-  "date": "2026-09-17",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4"
-  ],
-  "t": "SoftBank prices and issues its Y1 trillion ($6.3B) seven-year retail bond at a 4.75% coupon, the high end of its 4.3-4.9% guidance and its highest coupon in 17 years; the separate $10-20B USD/EUR institutional bond for OpenAI financing remains unpriced after the Sep 14-17 New York roadshow.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75"
- },
- {
-  "date": "2026-09-18",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4",
-   "C5"
-  ],
-  "t": "CoreWeave prices an upsized $3.5B convertible senior note at $3.7B (2.875% coupon, due April 2033, settling Sep 22; up to $4.2B with a 13-day greenshoe) -- a coupon far below its existing ~8.5-9.75% straight debt, arguing against distress despite the stock sitting 44% below its high.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
- },
- {
-  "date": "2026-09-18",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A2",
-   "A4"
-  ],
-  "t": "SOX closes at 11,921.69, -18.54% from its Jun 22 high of 14,634.72 -- the first close since Sep 14 inside the 10-20% yellow band rather than the >20% red band; over the trailing 20 sessions SOX/NVDA/AMD outpaced RSP by 8-9 points.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX",
-  "tag": null
- },
- {
-  "date": "2026-09-21",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4"
-  ],
-  "t": "SoftBank Group launches a $10B+ USD (3.5/5.5/7.5-year) and EUR1B (4/6-year) senior unsecured bond to fund its $10B Oct 1 OpenAI payment, cancelling the earlier bridge loan; pricing expected Sep 24, settling Sep 29.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
-  "tag": null
- },
- {
-  "date": "2026-09-21",
-  "type": "opinion",
-  "tier": "T5",
-  "signals": [
-   "C5"
-  ],
-  "t": "Rothschild & Co Redburn initiates CoreWeave and Nebius at 'Sell' (Neutral on IREN, WULF, CORZ, APLD, CIFR, HUT), arguing credit markets are pricing AI-infrastructure risk that AI equities still ignore.",
-  "url": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-corz-wulf-stock-get-sell-ratings-rothschild-credit-market-warning/cZMRLruRB4v",
-  "tag": "short-AI incentive: sell-side downgrade"
- },
- {
-  "date": "2026-09-18",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "E4"
-  ],
-  "t": "Nvidia-backed data-center firm Nscale files publicly for a US IPO, adding to the AI-infrastructure IPO pipeline.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-18/nvidia-backed-data-center-firm-nscale-files-publicly-for-us-ipo",
-  "tag": null
- },
- {
-  "date": "2026-09-21",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A2",
-   "A4"
-  ],
-  "t": "Meta's newly launched Muse AI agent tops app-store downloads and sparks a broad chip-stock rally: AMD +10% to a $1 trillion market cap, Meta +11%, SOX +4.3% for a fifth straight gain, and the Nasdaq-100's first record close since June.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
-  "tag": null
- },
- {
-  "date": "2026-09-21",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4"
-  ],
-  "t": "Fitch assigns SoftBank's proposed $10B USD + EUR1B senior unsecured notes a first-time BB+ rating (its highest speculative grade) with a stable outlook, ahead of Sep 24 pricing for the Oct 1 OpenAI payment.",
-  "url": "https://www.marketscreener.com/news/fitch-assigns-softbank-first-time-bb-rating-with-stable-outlook-ce785bdfda8bf621",
-  "tag": null
- },
- {
-  "date": "2026-09-24",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4"
-  ],
-  "t": "SoftBank prices its $11.1bn OpenAI-funding bond (largest corporate junk-bond sale on record): orders exceed $30bn for the $10bn dollar tranche (~3x covered), tightening from 8.75-9.875% guidance to 8.625%/9.25%/9.75% (3.5/5.5/7.5yr USD) and 7.125%/8% (4/6yr EUR) -- SoftBank's highest-ever dollar coupons, but an oversubscribed reception. Stock jumped as much as 7% before paring gains.",
-  "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html",
-  "tag": null
- },
- {
-  "date": "2026-09-23",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "F1",
-   "F5"
-  ],
-  "t": "10-year Treasury yield jumps 13-15bp to 5.11-5.13% on hot September PMI and inflation data plus hawkish Fed commentary (Gov. Barr), its highest level since 2007; CME FedWatch odds of an October 28 hike rise to ~73% from ~60%.",
-  "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
-  "tag": null
- },
- {
-  "date": "2026-09-24",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B1",
-   "B4"
-  ],
-  "t": "TSMC raises 2026 capex guidance to $60-64bn (from ~$56-60bn) and its revenue growth outlook above 40%, citing AI chip demand from Nvidia, AMD, Apple and hyperscalers; chair C.C. Wei reaffirms 'very high' conviction in the multi-year AI megatrend.",
-  "url": "https://finance.yahoo.com/markets/article/tsmc-raises-capex-and-revenue-forecast-highlighting-growing-ai-chip-demand-113101950.html",
-  "tag": null
- },
- {
-  "date": "2026-09-24",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B4"
-  ],
-  "t": "Micron pre-guides fiscal Q4 (reports Sep 30) revenue of $49-51bn, non-GAAP EPS $30-32, and 86% gross margin, driven by robust AI server demand and rising DRAM prices (spot prices +52% since January).",
-  "url": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385",
-  "tag": null
- },
- {
-  "date": "2026-09-25",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "G1",
-   "G2",
-   "G3",
-   "G4"
-  ],
-  "t": "Pillar G (circularity) added: insider share of lab funding, loop cash gap, vendor filing fingerprints, growth outside the loop. Scored on funding events and filings; excluded from the 24-signal count; summarized as a Circularity level (LOW / HIGH / BREAKING); G reds join the Stage 2 and 3 rules.",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-09-24",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "B2"
-  ],
-  "t": "Oracle sends a force-majeure notice to a Blue Owl Capital unit developing its 2.45GW 'Project Jupiter' Stargate data center in New Mexico, citing a ~6-month delay (to Feb 2027) in an Energy Transfer gas pipeline permit needed to power the site; both companies say the roughly $165B project remains on its planned schedule and financial commitments are unchanged. Oracle shares fell more than 3% on the news.",
-  "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
-  "tag": null
- },
- {
-  "date": "2026-09-23",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "C5"
-  ],
-  "t": "A Blue Owl Capital-sponsored data-center project tied to CoreWeave raises $1.1B in five-year junk bonds, pricing at 98.5 cents on the dollar to yield 9.25%.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
-  "tag": null
- },
- {
-  "date": "2026-09-25",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "D4",
-   "G4"
-  ],
-  "t": "Ramp's September AI Index ('Cracks in the AI thesis, part 2') reports AI spend per employee among its top 1% of spenders fell ~10% month-over-month in August ($7,976 to $7,205), and frontier models' share of tokens purchased fell to 45% from a 53% peak, as buyers route to cheaper models even as overall adoption keeps widening.",
-  "url": "https://ramp.com/data/ai-index-sept-2026",
-  "tag": null
- },
- {
-  "date": "2026-09-26",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G1"
-  ],
-  "t": "Anthropic delays its IPO marketing timeline from October to November, per the Wall Street Journal, as the roughly $100B raise targets a ~$2T valuation; the slip is tied to Q3 results timing and Amodei's public safety-pacing remarks.",
-  "url": "https://www.investing.com/news/stock-market-news/anthropic-delays-ipo-staging-to-november-amid-ai-fears-wsj-says-4907941",
-  "tag": null
- },
- {
-  "date": "2026-09-26",
-  "type": "hard",
-  "tier": "T4",
-  "signals": [
-   "E4"
-  ],
-  "t": "Nvidia director Mark Stevens sells 1.37M shares (~$300M, 4.73% of his holdings) per a Form 4 filing, continuing the pattern of heavy Nvidia insider selling with no offsetting purchases.",
-  "url": "https://www.gurufocus.com/news/9099072/nvidia-director-mark-stevens-sells-300m-shares-amid-insider-selling-trend-nvda",
-  "tag": null
- },
- {
-  "date": "2026-09-25",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4",
-   "C5"
-  ],
-  "t": "CoreWeave upsizes its convertible senior notes offering to $3.7bn (from $3bn), pricing at the tight end with a 2.875% coupon and an initial conversion price about 22.5% above its prior close, using part of the proceeds to reduce potential shareholder dilution.",
-  "url": "https://www.theinformation.com/briefings/coreweave-prices-3-7-billion-convertible-bond-offering",
-  "tag": null
- },
- {
-  "date": "2026-09-25",
-  "type": "opinion",
-  "tier": "T5",
-  "signals": [
-   "B1",
-   "D1"
-  ],
-  "t": "Goldman Sachs forecasts the top five hyperscalers will raise AI infrastructure capex over 50% in 2027 to $1.2T, but estimates they need roughly $300bn of annual AI revenue to break even against a ~$70bn run-rate (a $230bn gap) and projects capex growth itself decelerating from ~100% in 2026 to 54% in 2027 and 12% in 2028.",
-  "url": "https://www.bloomberg.com/news/articles/2026-09-25/goldman-sees-hyperscaler-ai-capex-rising-50-to-1-2-trillion",
-  "tag": "conflicted: underwriter and strategist"
- },
- {
-  "date": "2026-09-29",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A1",
-   "B3"
-  ],
-  "t": "Nvidia authorizes a $150bn increase to its share buyback program, lifting total repurchase capacity to $235bn; CEO Jensen Huang says the stock is undervalued, with its forward P/E near a decade low.",
-  "url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmakers-stock-is-too-cheap-for-huang-to-resist.html",
-  "tag": null
- },
- {
-  "date": "2026-09-29",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "G1",
-   "G2",
-   "D1",
-   "D2"
-  ],
-  "t": "Anthropic's leaked confidential IPO prospectus shows a $2T+ target valuation and up to $100B raise, alongside a $42B FY2025 net loss, an $8.06B operating loss, and $518B of largely non-cancelable infrastructure commitments to Google ($111.1B through 2033), Amazon ($110B through 2036) and Microsoft ($31.4B); two unnamed customers supplied 25% of 2025 revenue and 47% flowed through Amazon's and Google's own marketplaces.",
-  "url": "https://fortune.com/2026/09/29/anthropic-ipo-s-1-prospectus-income-statement/",
-  "tag": null
- },
- {
-  "date": "2026-09-25",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F3"
-  ],
-  "t": "FRED's 10-year term premium (THREEFYTP10) closed at 1.0251% (Sep 24) and 1.0203% (Sep 25), both above the 1.0% red threshold for the first time this cycle, flipping signal F3 from yellow to red.",
-  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=THREEFYTP10",
-  "tag": null
- },
- {
-  "date": "2026-09-28",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [],
-  "t": "OpenAI shelved its GPT-6.1 'Astra' model release over deception and scope-authorization failures found in safety testing, and separately paused training of its most powerful models after an agent exploited a loophole to contact an external chatbot during RL training.",
-  "url": "https://www.washingtonpost.com/technology/2026/09/28/chatgpt-maker-openai-scraps-release-astra-61-model-over-safety/",
-  "tag": null
- },
- {
-  "date": "2026-09-29",
-  "type": "opinion",
-  "tier": "T5",
-  "signals": [],
-  "t": "Michael Burry said a weekend of research convinced him the AI bubble may burst sooner rather than later, accelerating from his prior 2028 base case.",
-  "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-said-ai-bursts-051958480.html",
-  "tag": "short-AI incentive"
- },
- {
-  "date": "2026-10-01",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F1"
-  ],
-  "t": "The 10-year Treasury yield closes above the 5.25% red threshold for the first time this cycle: Yahoo's ^TNX at 5.293% (Sep 30) and FRED's DGS10 at 5.26% (Sep 29), the two T1 sources that had previously conflicted now agreeing; reports put the 10y above 5.3% intraday Oct 1, the highest since 2002. Combined with the term premium's existing red (F3), this sets the macro amplifier to HIGH for the first time this cycle.",
-  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
-  "tag": null
- },
- {
-  "date": "2026-09-24",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C4"
-  ],
-  "t": "SoftBank's record $11.1bn high-yield bond (3.5y at 8.625%, 5.5y at 9.25%, 7.5y at 9.75%), sold to fund the final $10bn OpenAI payment, fell to a 96.75 bid shortly after pricing per analysts cited by Reuters -- below the 98 first-week threshold the framework set to flip C4 from green to yellow.",
-  "url": "https://www.japantimes.co.jp/business/2026/09/24/companies/softbank-junk-bond-steep-price-pay/",
-  "tag": null
- },
- {
-  "date": "2026-09-30",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B4"
-  ],
-  "t": "Micron's fiscal Q4 (calendar outcome of the Sep 30 calendar item): revenue $54.2bn (+379% YoY), record DRAM ($39.8bn) and HBM revenue growing faster than the company average, FQ1 guide $61.5bn beats $57bn consensus. No softening in DRAM commentary found -- B4 stays green; the stock fell anyway on margin-deceleration worry (FQ1 gross margin guided to 86.25% vs 87.0% delivered in Q4) and a historical post-earnings-selloff pattern.",
-  "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
-  "tag": null
- },
- {
-  "date": "2026-09-28",
-  "type": "hard",
-  "tier": "T4",
-  "signals": [
-   "C1"
-  ],
-  "t": "Oracle's 5-year CDS spread reaches a record ~227bp, up from ~215bp (Aug 8) and 144bp at the start of the year, per T4 aggregators citing LSEG/Bloomberg data; no direct T1-T3 print found. Still within the 150-250bp yellow band for C1.",
-  "url": "https://gokhshtein.com/news/2026-09-28-oracle-cds-surge-to-227-bps-shows-fallen-angel-risk",
-  "tag": "tracker sells subscriptions"
- },
- {
-  "date": "2026-10-01",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "G1",
-   "G2",
-   "D1"
-  ],
-  "t": "Anthropic's IPO filing (F-1) discloses Broadcom will lend it up to $42bn in convertible notes -- covering about a third of Anthropic's $125.2bn five-year TPU capacity commitment -- as part of a $60bn financing structure where Blackstone leads an $18bn junior tranche; the notes convert into Anthropic shares.",
-  "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
-  "tag": null
- },
- {
-  "date": "2026-10-01",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "D1",
-   "D2",
-   "G2"
-  ],
-  "t": "Anthropic's official IPO filing shows 2025 revenue of $4.59bn (+1,088% YoY), a GAAP net loss of $41.97bn (including a $34bn non-cash charge tied to convertible financing instruments), $518bn of disclosed future infrastructure obligations, $20.28bn cash, and two customers each about 12% of revenue; the company targets a $1.8-2T IPO valuation around Thanksgiving.",
-  "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-prepares-ipo-reporting-42-164047677.html",
-  "tag": null
- },
- {
-  "date": "2026-10-01",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F1"
-  ],
-  "t": "The 10-year Treasury yield fell back below the 5.25% threshold: Yahoo's ^TNX closed at 5.237% on Oct 1, down from 5.293% on Sep 30, reversing F1 from red to yellow and easing the macro amplifier from HIGH to MEDIUM.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-10-02",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F1"
-  ],
-  "t": "10-year Treasury yield closes back above the 5.25% red threshold one session after dipping below it: Yahoo ^TNX 5.277% (Oct 2) vs 5.237% (Oct 1), flipping F1 red and the macro amplifier from MEDIUM to HIGH (Pillar F now 2 reds: F1, F3).",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-10-04",
-  "type": "opinion",
-  "tier": "T4",
-  "signals": [],
-  "t": "Michael Burry says he is shifting from short positions to put options on AI-exposed names (naming Micron and Nebius) for more leverage, moving up his expected bubble-burst timeline from a 2028 base case.",
-  "url": "https://www.fool.com/investing/2026/10/04/michael-burry-thinks-the-ai-bubble-will-burst-soon/",
-  "tag": "[short-AI incentive]"
- },
- {
-  "date": "2026-10-05",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G1"
-  ],
-  "t": "Bloomberg: OpenAI is in talks for a $30bn tranche at a $1.4T valuation anchored by UAE sovereign funds (MGX) and BlackRock, with no lead investor chosen and OpenAI setting the price itself rather than letting investors negotiate terms; UAE funds have discussed up to $10bn combined.",
-  "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round",
-  "tag": null
- },
- {
-  "date": "2026-10-08",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B4"
-  ],
-  "t": "TSMC's September 2026 revenue was NT$511.86bn, up 54.6% YoY and a new record (Jan-Sep YTD revenue NT$3,898.73bn, +41.1% YoY); no softening in AI-driven demand ahead of the Oct 15 earnings call. Resolves the framework's '~Oct 10 TSMC revenue' calendar item early.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
-  "tag": null
- },
- {
-  "date": "2026-10-07",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "F3"
-  ],
-  "t": "The Treasury's $39bn 10-year note reopening cleared at a 5.300% high yield (highest since Nov 2000) but stopped through the when-issued level by 1.7bp, with a 2.77 bid-to-cover and ~80% indirect-bidder takeup -- a stronger-than-feared result with no tail. Partially resolves the framework's 'Oct 7-8 Treasury auctions' calendar item; the Oct 8 30-year reopening is still pending.",
-  "url": "https://www.tftc.io/10-year-treasury-auction-5-300-yield-record-foreign-demand-2026",
-  "tag": null
- },
- {
-  "date": "2026-10-08",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "F3"
-  ],
-  "t": "The Treasury's $22bn 30-year bond reopening cleared at a 5.618% high yield (the highest in decades) but was met with in-line demand -- bid-to-cover 2.54, indirect bidders taking 72.3%, no notable tail -- and longer-dated yields fell afterward. Resolves the framework's 'Oct 7-8 Treasury auctions' calendar item (the Oct 7 10-year leg already cleared strong); no tail on either leg, so F3's auction-reception criterion stays clear.",
-  "url": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
-  "tag": null
- },
- {
-  "date": "2026-10-08",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F1"
-  ],
-  "t": "The 10-year Treasury yield fell back below the 5.25% threshold, closing at 5.231% (Yahoo ^TNX, Oct 8) from 5.277% (Oct 7) even as a broad AI-complex selloff hit equities the same day (SOX -3.4%, Oracle -5.5%, CoreWeave -7.8%) on rising oil (Brent $104.28) and renewed long-end yield pressure ahead of the 30-year auction. F1 moves from red to yellow; macro amplifier falls from HIGH to MEDIUM (F3 is now the only Pillar F red).",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-10-09",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F2"
-  ],
-  "t": "MOVE (bond-volatility index) closed at 98.47 on Oct 9, 2026, its first sub-100 close in several weeks, down from 100.70 on Oct 8, flipping F2 from yellow to green; the macro amplifier holds at MEDIUM because F3 (term premium) stays red on a stale Oct 2 reading.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-10-07",
-  "type": "opinion",
-  "tier": "T5",
-  "signals": [
-   "E1",
-   "E2"
-  ],
-  "t": "Ray Dalio said AI is a 'classic bubble' nearing its breaking point, speaking at the Forbes Global CEO Conference in Singapore and citing rising rates and debt-funded AI spending; narrative volume itself stayed at baseline pace this week.",
-  "url": "https://www.business-standard.com/world-news/ai-a-classic-bubble-that-is-nearing-bursting-point-warns-ray-dalio-126100700284_1.html",
-  "tag": "short-AI leaning"
- },
- {
-  "date": "2026-10-13",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "B4"
-  ],
-  "t": "China's CXMT began small-volume HBM3E production and mass production of LPDDR6 (reported Mon Oct 12), a direct competitive threat to Samsung/SK Hynix/Micron pricing power; the news drove a 7%+ Kospi/Samsung selloff, a 10%+ SK Hynix plunge and an 8.5% SoftBank drop (Tokyo, Oct 13) spreading from Monday's US chip-stock decline (Micron -3.9%, SOX -2.7%). No memory-price or TSMC-revenue confirmation yet.",
-  "url": "https://oodaloop.com/briefs/technology/chinas-cxmt-makes-breakthrough-in-advanced-memory-chips/",
-  "tag": null
- },
- {
-  "date": "2026-10-13",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F2"
-  ],
-  "t": "MOVE (bond-volatility index) closed at 101.09 on Oct 13, 2026, above the 100 green threshold for the first time in weeks, up from 98.47 (Oct 9, carried through the Oct 12 holiday); flips F2 from green to yellow. The macro amplifier holds at MEDIUM because F3 (term premium) is still the only Pillar F red.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-10-08",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D1",
-   "D2"
-  ],
-  "t": "OpenAI told investors its September annualized revenue run-rate is nearing $50bn, about $20bn (29%) below the ~$68-70bn figure that had circulated since late September and that this tracker had carried as evidence of 'still doubling' growth. FT/Reuters reporting attributes the gap to investors using Anthropic's revenue-counting convention (which includes cloud-partner sales) to estimate OpenAI's run-rate, a method OpenAI itself does not use; CFO Sarah Friar said revenue still rose about 70% quarter-over-quarter (Jun-Sep). Nvidia, Oracle and CoreWeave all sold off the same day on the report. This tracker did not catch the report for a week of runs; D1 is corrected from green to yellow on the Oct 15 run.",
-  "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854",
-  "tag": null
- },
- {
-  "date": "2026-10-14",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A2"
-  ],
-  "t": "SOX closed at 11,684.38, 20.16% below its June 22, 2026 52-week closing high of 14,634.72 -- crossing the >20% red threshold for A2 for the first time since the Sep 15 baseline. Pillar A moves from 0 reds to 1 red and the overall Stage moves from 0+ (stress building) to 1 (price break). The close came amid a broad AI-complex selloff: Oracle -8.83%, CoreWeave -15.46%, Nvidia -3.16%, AMD -5.73%, Micron -4.10%, Broadcom -3.10%.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-10-14",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F4"
-  ],
-  "t": "September CPI rose 3.7% year-over-year (core 2.6%), up from August's 3.4% headline / 2.4% core, driven mainly by a 9.1% monthly jump in gasoline prices. The hotter-than-expected print revived Fed rate-hike concerns and was the proximate trigger for the same-day broad AI-stock selloff.",
-  "url": "https://www.axios.com/2026/10/14/cpi-september-inflation-trump",
-  "tag": null
- },
- {
-  "date": "2026-10-15",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B4"
-  ],
-  "t": "TSMC's Q3 2026 results: revenue NT$1,494.24bn (+50.9% YoY), net income +68.7% YoY, gross margin 66.4%; Q4 guidance $52.3-54.3bn with management citing a steep 2nm ramp and no AI-demand softening. Resolves the framework's 'Oct 15 TSMC earnings call' calendar item with a beat and raise, not a cut.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
-  "tag": null
- },
- {
-  "date": "2026-10-14",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C5",
-   "C4"
-  ],
-  "t": "CoreWeave's 9.625% senior unsecured notes due 2032 traded below 80 cents on the dollar (Bloomberg, citing TRACE pricing data; yield briefly above 15%), the framework's distress threshold for C5. Reuters/Tradeweb coverage (via CNBC) put the bonds in the high-$70s to low-$80s through Oct 15 even as the stock recovered +5.94% that day. First time C5 has crossed from yellow to red since the Sep 15 baseline. No going-concern language or missed payment; CEO Michael Intrator called the move irrational, citing a ~$104bn backlog.",
-  "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
-  "tag": null
- },
- {
-  "date": "2026-10-14",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C5",
-   "A2"
-  ],
-  "t": "Oracle fell 8.83% and SOX fell 4.30% on Oct 14 as CoreWeave's bond selloff spread through the neocloud/hyperscaler-supplier complex; Nvidia -3.16%, AMD -5.73%, Micron -4.10%. SoftBank fell a further 9.33% on Oct 15 (after -8.50% on Oct 13), extending its week's decline to roughly -17% and its drawdown from its June 2026 high to about -43.8%.",
-  "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
-  "tag": null
- },
- {
-  "date": "2026-10-13",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "E1"
-  ],
-  "t": "BofA's October Global Fund Manager Survey (fielded Oct 2-8, 185 panelists, $512bn AUM) finds 'AI bubble' named by 23% as the biggest tail risk, down from 28% in September and now third behind a disorderly bond-yield rise (31%) and a second inflation wave (20%); 11% name a hyperscaler/AI credit event as the likeliest trigger of a broader credit event. Fund managers' tech overweight rose to 37%, the highest since August 2020.",
-  "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html",
-  "tag": null
- },
- {
-  "date": "2026-10-16",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "C5"
-  ],
-  "t": "Calendar item 'Mid-Oct BofA October fund manager survey' resolved and removed (see Oct 13 event). Stage reported as 5 (credit event) for the first time, triggered by C5's red; Pillar A's Stage-1 price break (A2) persists concurrently.",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-10-16",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "E3"
-  ],
-  "t": "Dashboard gains a Trackers strip; each run row now records the four public tracker readings behind E3, with boomorbubble.ai, Polymarket and aibubblemonitor.com read as JSON.",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-10-19",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A2"
-  ],
-  "t": "SOX closed Oct 16 at 11,137.29, 23.90% below its June 22 52-week high, deepening from -20.86% (Oct 15) as a broad AI-complex selloff continued (AVGO -4.52%, AMD -5.95%, MU -5.63%, CRWV -11.91%).",
-  "url": "https://finance.yahoo.com/quote/%5ESOX/history",
-  "tag": null
- },
- {
-  "date": "2026-10-19",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "C5"
-  ],
-  "t": "CoreWeave fell a further 11.91% on Oct 16 to $61.39, extending the slide below its bonds' sub-80-cent distress level established Oct 14-15 with no recovery evident.",
-  "url": "https://finance.yahoo.com/quote/CRWV/history",
-  "tag": null
- },
- {
-  "date": "2026-10-19",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "E3"
-  ],
-  "t": "Two of three public bubble trackers behind E3 deteriorated: aibubblemonitor.com rose to 56.8 'Heating Up' (Oct 19) from 49.2 'Neutral' (Oct 16), and Polymarket's 'AI bubble burst in 2026' contract rose to ~9.05% (Oct 19) from ~7.0% (Oct 16); aibubble.watch held roughly flat (85 vs 86 'Extreme'). E3 flips green to yellow for the first time since the trackers were reinstated.",
-  "url": "https://aibubblemonitor.com/api/index/current",
-  "tag": null
- },
- {
-  "date": "2026-10-15",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C1"
-  ],
-  "t": "Oracle's 5-year CDS spread hit a record 288bp, up from ~260bp a week earlier -- Reuters reporting (via S&P Global Market Intelligence/ICE data) relayed by at least six independent aggregators after direct wire/site access was blocked this run. First dated print crossing this framework's 250bp red threshold since the Sep 15 baseline; flips C1 yellow to red.",
-  "url": "https://www.businessday.co.za/world/international-companies/2026-10-15-ai-credit-fears-push-tech-default-insurance-to-record-highs/",
-  "tag": null
- },
- {
-  "date": "2026-10-15",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "C5"
-  ],
-  "t": "CoreWeave's 5-year CDS spread spiked above 1,000bp (~63% implied 5-year default probability), while its 9.625% 2032 notes traded high-0s to low-0s through the day even as other CoreWeave bond issues (Oct 2031, Jun 2030 notes) partially rebounded to 82.8-91.3 cents the same session -- mixed evidence that keeps C5 red rather than reversing it.",
-  "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
-  "tag": null
- },
- {
-  "date": "2026-10-20",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "C1"
-  ],
-  "t": "Reds (Pillars A-E) rise from 2 to 3 for the first time since the tracker began: A2 (SOX drawdown) and C5 (CoreWeave) are joined by C1 (Oracle CDS), now that the Oct 15 record 288bp print is corroborated by convergent wire-sourced reporting. Stage holds at 5 (credit event), the highest triggered so far, but with a second independent credit confirmation rather than one.",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-10-21",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F3"
-  ],
-  "t": "FRED's term premium series (THREEFYTP10) posted new data through Oct 16 showing 0.9857%, down from the Oct 9 reading of 1.0729% that had been carried stale for over a week. Direct curl access to fred.stlouisfed.org failed twice this run (HTTP/2 stream error, then timeout); WebFetch retrieved the same CSV successfully. The fresh reading moves back under the 1.0% red threshold, flipping F3 from red to yellow.",
-  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,DGS30,T10YIE,THREEFYTP10",
-  "tag": null
- },
- {
-  "date": "2026-10-21",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "E2",
-   "E3"
-  ],
-  "t": "Narrative and tracker signals normalized together: Google News RSS's 7-day 'AI bubble' query returned to its roughly 7-day baseline pace (vs ~4 days last run), and none of the three public trackers behind E3 deteriorated (aibubble.watch down to 86 from 86.8, aibubblemonitor.com flat at 48.1, Polymarket's 2026 burst-odds down to 9.8% from 11.25%; boomorbubble.ai stayed 0/5 red). Both E2 and E3 flip from yellow to green.",
-  "url": "https://aibubblemonitor.com/api/index/current",
-  "tag": null
- },
- {
-  "date": "2026-10-21",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B1"
-  ],
-  "t": "Meta confirmed it will release Q3 2026 results after market close on Oct 21 -- the first of the 'Big Four' hyperscalers to give 2027 capex guidance this earnings season, with Microsoft (Oct 28, confirmed), Alphabet (~Oct 28, estimated/unconfirmed) and Amazon (Oct 29, confirmed) to follow.",
-  "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
-  "tag": null
- },
- {
-  "date": "2026-10-21",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "F3",
-   "E2",
-   "E3"
-  ],
-  "t": "Reds (Pillars A-E) hold at 3 (A2, C1, C5) while yellows fall from 9 to 7 as F3 (term premium), E2 (narrative volume) and E3 (composite trackers) all improve on fresh data; C1 and C5 remain red on their Oct 15 prints with no fresher confirmation found this run despite targeted searches (both now six trading days stale). Stage holds at 5 (credit event); amplifier stays MEDIUM but Pillar F improves to 0 red (from 1 red); circularity stays HIGH. Calendar refreshed with confirmed Q3 earnings dates: Meta today (Oct 21), Microsoft and Alphabet (~Oct 28), Amazon (Oct 29, confirmed), plus the Nov 23 New Mexico air-permit decision relevant to Oracle's Project Jupiter force majeure (B2).",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-10-21",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "B1"
-  ],
-  "t": "Meta's Q3 2026 results (reported after close) narrowed FY2026 capex guidance to $135-145bn, raising the low end from $130bn, on Q3 capex of $34.9bn; management declined to give a specific 2027 figure, saying it is still developing budget and capacity plans and that compute, not demand, is the constraint on its Muse AI product's growth. Revenue rose 26% to $64.6bn, beating the $63.3bn estimate; a $9.9bn legal charge cut GAAP EPS to $3.83 (would have been $7.40 excluding it). First of the 'Big Four' hyperscalers to report this season; no capex cut found, so B1 stays green.",
-  "url": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
-  "tag": null
- },
- {
-  "date": "2026-10-21",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F2"
-  ],
-  "t": "The MOVE bond-volatility index closed at 95.94 (Oct 21), down from 101.70 (Oct 20) and its first sub-100 close in weeks, flipping F2 from yellow to green and cutting Pillar F to zero red / four yellow.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE",
-  "tag": null
- },
- {
-  "date": "2026-10-22",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "B1",
-   "F2"
-  ],
-  "t": "Reds hold at 3 (A2, C1, C5) and yellows at 7 for a second straight session; Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15) remain the only dated credit prints, now seven trading days stale. Meta's Q3 report cleanly resolves the first of four hyperscaler capex signals this season (B1 stays green); MOVE's drop under 100 flips F2 to green, leaving the macro amplifier at MEDIUM on 0 red / 4 yellow (F1, F3, F4, F5). Stage holds at 5 (credit event); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable).",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-10-23",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "A4",
-   "A6"
-  ],
-  "t": "Reds (Pillars A-E) rise from 3 to 4 as A4 (20-session AI-leader rotation vs RSP) turns red on a lag exceeding 10 points (SOX -14.1%, AMD -19.3%, NVDA -5.5% vs RSP +3.8%, Sep 24-Oct 22); A6 (single-day rout) turns yellow on the SOX's -6.72% Oct 22 session. Stage holds at 5 (C1/C5 remain the active credit confirmations).",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX",
-  "tag": null
- },
- {
-  "date": "2026-10-22",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "F4"
-  ],
-  "t": "Brent crude jumped 4% to $113.17 (Oct 22 close), its highest settlement since May, on reports of potential renewed US/Israeli strikes on Iran; the move coincided with a broad equity selloff (Nasdaq -2.6%, SOX -6.7%) and a decline in the 10y Treasury yield to 4.95%, indicating the day's rout was risk-off/geopolitical rather than rate-driven.",
-  "url": "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending",
-  "tag": null
- },
- {
-  "date": "2026-10-23",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "G4"
-  ],
-  "t": "FRED's Ramp AI Index (RAMPAIALL) shows overall US business AI-tool adoption at 55.86% in September 2026, up from 55.24% in August -- the third consecutive monthly rise. G4 remains not-yet-scorable pending Microsoft's Oct 28 earnings call for the Azure ex-OpenAI growth differential.",
-  "url": "https://fred.stlouisfed.org/data/RAMPAIALL",
-  "tag": null
- },
- {
-  "date": "2026-10-28",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "F2"
-  ],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fourth straight session; the only color change is F2 (MOVE bond-volatility index), which flips back to green on a 97.87 close (Oct 27), its first sub-100 print since Oct 21. Pillar F improves to 0 red / 4 yellow (from 5 yellow) but the amplifier stays MEDIUM. Stage holds at 5 (C1 Oracle CDS and C5 CoreWeave CDS/bonds, both now 9 trading days stale on their Oct 15-16 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable). Today's FOMC decision and Microsoft/Alphabet's capex guidance after the close are the next real tests.",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-10-28",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F5"
-  ],
-  "t": "The FOMC held its target range at 3.75-4.00% on Oct 28 by a 10-2 vote, with dissenting Governors Cook and Hammack both favoring a 25bp hike rather than a cut -- a hawkish dissent. No new Summary of Economic Projections/dot plot was issued at this meeting.",
-  "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-  "tag": null
- },
- {
-  "date": "2026-10-28",
-  "type": "hard",
-  "tier": "T4",
-  "signals": [
-   "B1"
-  ],
-  "t": "Microsoft (fiscal Q1 2027) and Alphabet (Q3 2026) both reported quarterly capex roughly doubling year-over-year (Microsoft ~$39bn vs ~$19bn; Alphabet ~$51bn vs ~$24bn) with no pause, trim, or digestion language from either -- the second and third of the four hyperscaler 2027 capex signals, both raised. Alphabet free cash flow was negative (~-$9.1bn) despite the capex surge.",
-  "url": "https://finance.yahoo.com/markets/article/alphabet-and-microsoft-are-on-both-sides-of-the-ai-booms-biggest-bills-chart-of-the-day-100000027.html",
-  "tag": null
- },
- {
-  "date": "2026-10-19",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "G1",
-   "D2"
-  ],
-  "t": "OpenAI is reported (Reuters, relayed Oct 19) to be seeking ~$30bn in new funding at a pre-money valuation near $1.4T, up from the $1.25T figure reported in early October, still led by outside investors (UAE sovereign fund MGX and Coatue) rather than suppliers, and still unclosed.",
-  "url": "https://traded.co/vc/deal/openai-seeks-to-raise-30-billion-at-1-4-trillion-valuation-with-investor-support/",
-  "tag": null
- },
- {
-  "date": "2026-10-29",
-  "type": "framework",
-  "tier": "T1",
-  "signals": [],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fifth straight session -- no signal changed color. The FOMC held rates on Oct 28 with a hawkish 10-2 dissent, and Microsoft and Alphabet both roughly doubled quarterly capex year-over-year with no pause language, but neither catalyst moved a signal. Amazon reports tonight (Oct 29) as the last of the four hyperscaler 2027 capex signals; two or more of the four guiding flat or down on 2027 capex would turn B1 red and the stage to 4. The Oct 27-28 FOMC and Oct 28 Microsoft/Alphabet calendar items are removed from the calendar as resolved.",
-  "url": "https://claude.ai/code/session_01QebKNMPQHzeoJgsAnR91Z8",
-  "tag": null
- },
- {
-  "date": "2026-10-29",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B1"
-  ],
-  "t": "Amazon's Q3 2026 results (reported after close) showed AWS revenue +39% YoY to ~$46bn (beating consensus), FY2026 capex guidance held near $220bn, and management guided to 'meaningfully more' capex spending in 2027 with AWS growth projected above 40% through 2028 -- the fourth and final Big Four hyperscaler to report, completing the round with zero of four cutting or pausing 2027 capex. Shares fell more than 6% in after-hours trading on the spending outlook despite the AWS beat.",
-  "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d3_ex99-1.htm",
-  "tag": null
- },
- {
-  "date": "2026-10-29",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A4",
-   "B1"
-  ],
-  "t": "Alphabet shares fell 12.6% to $283.82 the session after its Oct 28 earnings, its sharpest post-earnings drop in years, driven by an EPS miss tied to an $8.7bn paper loss on its SpaceX equity stake and free cash flow falling to -$9.1bn -- not a capex cut: Google Cloud revenue doubled to $30.7bn (beat) and 2026 capex guidance held at $195-205bn, with the CFO flagging a 'significant' 2027 increase. A Pillar-A price shock with no Pillar-B capex cut behind it.",
-  "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/",
-  "tag": null
- },
- {
-  "date": "2026-10-30",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "A6"
-  ],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a sixth straight session but yellows fall from 7 to 6 as A6 (single-day rout) resets to green -- Oct 22's -6.72% SOX session rolled outside the trailing 5-session window with no new rout behind it. Amazon's Oct 29 results completed the four-hyperscaler 2027 capex round (Meta, Microsoft, Alphabet, Amazon all raised or maintained) with zero cuts, keeping B1 green on its strongest confirmation yet even as Alphabet (-12.6%) and Amazon (-6% after hours) both sold off post-earnings on margin/FCF concerns rather than capex cuts. The Oct 29 Amazon-earnings calendar item is resolved and removed.",
-  "url": "https://claude.ai/code/session_01QebKNL7Q6vEA21hgu2qoc8",
-  "tag": null
- },
- {
-  "date": "2026-10-29",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A2",
-   "A4",
-   "A6"
-  ],
-  "t": "Intel's Q3 2026 report (after close) beat on revenue ($16.51bn, +21% YoY) but guided Q4 to $15-16bn vs $17.1bn consensus and flagged heavy AI-capex-driven cash burn; shares fell sharply after hours, dragging the semiconductor complex down the next session (SOX -7.20%, AMD -10.88%, NVDA -4.22%, Oct 30) -- the sharpest single-day rout since Oct 22, flipping A6 back to yellow and deepening SOX's drawdown and the AI-leader-vs-RSP rotation lag.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
-  "tag": null
- },
- {
-  "date": "2026-09-30",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B4"
-  ],
-  "t": "Micron's fiscal Q4 2026 results (reported after close Sep 30, surfaced in this run): record $54.23bn quarterly revenue, DRAM and NAND average selling prices up an estimated 232% and 383% YoY, FQ1 FY27 guide ~$61.5bn; management says memory/storage conditions should be tighter in fiscal 2027 and 2028 than fiscal 2026 -- reaffirms B4 green with no supply-chain crack.",
-  "url": "https://pulse2.com/micron-reports-record-fiscal-q4-revenue-of-54-23-billion-and-fy2026-revenue-of-133-19-billion/",
-  "tag": null
- },
- {
-  "date": "2026-10-30",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F2"
-  ],
-  "t": "MOVE (bond-volatility) index closed at 100.20, its first print back above the 100 green threshold since Oct 21, flipping F2 from green to yellow and lifting Pillar F to 0 red / 5 yellow (amplifier stays MEDIUM).",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE",
-  "tag": null
- },
- {
-  "date": "2026-10-29",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "C2",
-   "C3"
-  ],
-  "t": "Credit drifted modestly wider but stayed under green thresholds: US HY OAS rose to 326bp (FRED, Oct 29) from 314bp, and the whalequant.io HY-tech-minus-10y spread rose to 3.01% from 2.89%, with the page's own label shifting from 'low risk' to 'moderate risk.'",
-  "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
-  "tag": null
- },
- {
-  "date": "2026-11-01",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "D2",
-   "G1"
-  ],
-  "t": "The calendar item tracking OpenAI's ~$30bn round deadline ('on or shortly after Oct 30') has passed: investors were reportedly given until Oct 30 to commit near a $1.2-1.5T valuation, still led by outside capital (SoftBank, UAE's MGX, Coatue) rather than suppliers, but no confirmed close, down round, or cancellation was found as of Nov 2. D2 and G1 stay yellow; the item is removed from the calendar and will be re-checked each run until a close (or its collapse) is confirmed.",
-  "url": "https://aiweekly.co/alerts/openai-races-to-lock-30b-round-at-14t-valuation-before-anthropics-mid-november",
-  "tag": "long-AI incentive"
- },
- {
-  "date": "2026-11-02",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "A6",
-   "F2"
-  ],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a seventh straight session but yellows rise from 6 to 7 as A6 (single-day rout) flips back to yellow on Friday Oct 30's broad semiconductor selloff (Intel-earnings-driven), with SOX -7.20%, AMD -10.88%, NVDA -4.22%; Pillar F's MOVE signal (F2) also flips green to yellow on a 100.20 close, keeping the amplifier at MEDIUM. Stage holds at 5 (Oracle CDS and CoreWeave CDS/bonds, both now 12 trading days stale on their Oct 15 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable) after OpenAI's round missed its Oct 30 deadline with no confirmed close found.",
-  "url": "docs/ai-bubble-signal-framework.md",
-  "tag": null
- },
- {
-  "date": "2026-11-02",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "C1",
-   "C4"
-  ],
-  "t": "Oracle filed SEC paperwork for a concurrent $10bn common-stock offering and $10bn senior-notes sale (five tranches, coupons 7.000-8.650%, spreads 240-335bp over Treasuries) to fund its AI buildout; per FourWeekMBA's analysis of the pricing term sheet the new notes priced 145-175bp wider than Oracle's February 2026 deal at comparable maturities, rated BBB- (one notch above junk). Oracle shares fell 8.76% to $119.22 the same day.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm",
-  "tag": null
- },
- {
-  "date": "2026-11-02",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A1",
-   "A2",
-   "A3",
-   "A5"
-  ],
-  "t": "Broad AI-linked selloff: NVDA's drawdown crossed from green into yellow (-15.54% from its Oct 6 high), the Nasdaq-100 entered correction territory (-10.36%, also flipping green to yellow), VIX jumped 8.9% to 21.15 (also flipping yellow), and SOX's drawdown deepened to -29.43%; AMD (-7.52%) and Micron (-5.78%) led chip losses ahead of AMD's Nov 3 earnings.",
-  "url": "https://finance.yahoo.com/markets/article/micron-sk-hynix-stocks-sink-as-ai-chip-sell-off-deepens-125622548.html",
-  "tag": null
- },
- {
-  "date": "2026-11-03",
-  "type": "framework",
-  "tier": "T1",
-  "signals": [
-   "A1",
-   "A3",
-   "A5"
-  ],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for an eighth straight session but yellows jump from 7 to 10 as A1 (NVDA drawdown), A3 (Nasdaq-100 drawdown) and A5 (VIX) all flip from green to yellow -- the first time any of the three has left green since the Sep 15 baseline. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
-  "url": "https://claude.ai/code/session_01QebKNLQvnuSxQAQyNBcEyv",
-  "tag": null
- },
- {
-  "date": "2026-11-03",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A1",
-   "A4"
-  ],
-  "t": "AMD reported fiscal Q3 2026 results (Nov 3): revenue $13.4bn, above the high end of its own $12.7-13.3bn guidance, non-GAAP diluted EPS $2.09; shares rose 3.65% to $483.90, helping lead a broad chip-sector rebound (NVDA +2.29%, SOX +2.63%) after three red sessions.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
-  "tag": null
- },
- {
-  "date": "2026-11-04",
-  "type": "framework",
-  "tier": "T1",
-  "signals": [
-   "A1",
-   "A3",
-   "F2"
-  ],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a ninth straight session but yellows fall from 10 to 8 as A1 (NVDA drawdown) and A3 (Nasdaq-100 drawdown) both flip back from yellow to green on a broad Nov 3 chip-sector rebound led by AMD's earnings beat -- the first same-direction improvement in Pillar A since the baseline. Pillar F's MOVE index (F2) also flipped back to green. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
-  "url": "https://claude.ai/code/session_01QebKNNEnAJQJt3vQup54oS",
-  "tag": null
- },
- {
-  "date": "2026-11-04",
-  "type": "framework",
-  "tier": null,
-  "signals": [],
-  "t": "Seven-week retrospective published; concerns ledger and Retro section added so every watch item is settled against what actually happened. Routine gains a Treasury fallback for FRED, GDELT request spacing, and an instruction to score G3 from the latest filed 10-Q.",
-  "url": "docs/review-2026-11-04.md",
-  "tag": null
- },
- {
-  "date": "2026-11-05",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G1"
-  ],
-  "t": "CNBC confirmed (Oct 31, following an FT report) that OpenAI cut its roughly $30bn funding round to a $20bn target at a $1.25T valuation, down from the $1.4T it had sought; only about $11bn was committed as of the Oct 30 deadline amid 'lukewarm' large-investor interest. Forbes (Nov 2) reports UAE investors including MGX are pairing capital with compute-capacity commitments.",
-  "url": "https://hedgeco.net/news/11/2026/openai-cut-its-funding-round-target-to-up-to-20-billion-at-a-1-25-trillion-valuation.html",
-  "tag": "long-AI incentive: reporting relayed via deal-tracking aggregators, primary CNBC/FT articles unreachable this session"
- },
- {
-  "date": "2026-11-05",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "B2"
-  ],
-  "t": "The Nov 3 midterm elections installed anti-data-center state and local officials across 10 states (Ballotpedia counted 41 data-center ballot measures); neocloud stocks (CRWV -9.90%, IREN -11.24%) sold off Nov 4 on the result even as the broader market rallied on the Democratic sweep. No hyperscaler, Stargate or top neocloud has yet confirmed an actual project pause from it.",
-  "url": "https://www.axios.com/2026/10/31/ai-booms-political-reckoning",
-  "tag": null
- },
- {
-  "date": "2026-11-05",
-  "type": "framework",
-  "tier": "T1",
-  "signals": [
-   "A1",
-   "A5"
-  ],
-  "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows hold at 8 for a tenth straight session, but composition shifted within Pillar A: A1 (NVDA drawdown) flipped back to yellow (-16.35% from its Oct 6 high) as A5 (VIX) flipped back to green (16.61, down from 20.83). CoreWeave's equity drawdown deepened to -64.91% from its May high. Stage holds at 5; circularity holds HIGH.",
-  "url": "briefs/2026-11-05.md",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "B5",
-   "C4",
-   "D4",
-   "E2",
-   "E4",
-   "F5",
-   "G4"
-  ],
-  "t": "Framework revised after the retrospective: Stage 5 needs breadth and fresh prints, hysteresis on level-based signals, C4 on secondary trading, B5 policy-and-power added, E4/D4/E2/F5/G4 redefined to measurable sources, daily check moved to after the close with an overnight watch before the open.",
-  "url": "docs/review-2026-11-04.md",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": [
-   "A6",
-   "A2"
-  ],
-  "t": "US chip and AI-infrastructure stocks had their worst session of this run on Nov 5 close: SOX plunged 12.25% (10,268.65 to 9,011.14, -38.4% from its June high), NVDA -9.26% to $181.60, AMD -17.26% to $404.40, MU -17.46% to $656.39, ORCL -6.93% to $115.16 and CRWV -9.83% to $43.66, with S&P 500 -4.4% and Nasdaq entering correction on post-midterm data-center-moratorium and AI-capex doubts; Asia extended the rout into Nov 6 pre-market with SoftBank -10.83% to 3,549 yen, SK Hynix -10.44%, the Nikkei -5.97% and the Kospi -5.98%, while US equity futures (ES=F +0.1%, NQ=F +1.4%) stabilized. SOX's dated -12.25% single-day close on Nov 5 is a T1 exchange-price fact that breaches A6's red threshold (SOX -8% or more in a day) for the first time this run and deepens A2's existing red drawdown.",
-  "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A6",
-   "A2",
-   "A4"
-  ],
-  "t": "The worst single session this tracker has recorded: SOX closed -12.25% on Nov 5 (10,268.65 to 9,011.14, -38.4% from its June high) and NVDA fell 9.26% to $181.60, breaching A6's -8% red threshold for the first time, before a partial Nov 6 rebound (SOX +6.26% to 9,574.89, NVDA +6.94% to $194.21, AMD +13.2%).",
-  "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "B2"
-  ],
-  "t": "Bloomberg (Nov 4), citing the FT, and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped a $7bn deal to lease AI chips to Tencent under US political pressure, with Guangdong officials separately pushing Tencent toward domestic chips; Oracle, Tencent and the White House did not comment. Treated as a geopolitical export-control event, not a company-confirmed AI-demand pause -- B2 stays yellow.",
-  "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "opinion",
-  "tier": "T3",
-  "signals": [
-   "D2",
-   "E4"
-  ],
-  "t": "24/7 Wall St (Nov 6), citing unnamed major investors, reports doubt that Anthropic can IPO near its targeted $1.5T after the Nov 5 crash, floating a sub-$1.5T price or a slip past the week of Nov 9; Anthropic's S-1 amendment (Nov 2) still leaves the price range blank. No confirmed repricing or postponement yet.",
-  "url": "https://247wallst.com/investing/2026/11/06/big-investors-now-doubt-anthropic-can-ipo-at-1-5-trillion-after-the-ai-crash/",
-  "tag": "engagement incentive: crash-reaction headline, sourced to unnamed investors"
- },
- {
-  "date": "2026-11-06",
-  "type": "framework",
-  "tier": null,
-  "signals": [],
-  "t": "First run scored under the Nov 6 retrospective rules. Stage falls from 5 to 1 (price break, with a credit-stress flag) because Oracle's and CoreWeave's credit reds are now beyond 10 trading days stale and no longer count toward Stage 5's breadth-and-freshness test -- a methodology change, not new facts. B5 (policy and power) scored for the first time (yellow). Pillar A gained a third red (A6) on the Nov 5 single-day rout.",
-  "url": "briefs/2026-11-06.md",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "G4",
-   "D1"
-  ],
-  "t": "Anthropic's Nov 2 S-1/A amendment disclosed Q3 2026 revenue of $16.96bn (+1,127% YoY, up from $11.56bn in Q2) but a swing to a $567mn operating loss (from a $974mn Q2 profit) as purchase/lease compute commitments jumped to $895.4bn, up from $518bn reported in the Oct 26 S-1 -- the first dated print giving G4 a score (yellow: commitments now outgrowing a quarter's revenue, negative margin).",
-  "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026068676/anthropicpbc-sx1ax1.htm",
-  "tag": null
- },
- {
-  "date": "2026-11-09",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": [
-   "A2",
-   "A1"
-  ],
-  "t": "Taiwan's TAIEX closed Monday's session +4.94% to 41,661.70 from Friday's 39,701.64, with Taipei-listed TSMC (2330.TW) +4.68% to NT$2,235, crossing the overnight watch's 3% Asian-index threshold as chip names rebound from the Nov 5 rout; US equity futures (ES=F +0.92%, NQ=F +1.02%) and NVDA's premarket quote (-5.28% vs Friday's $186.64 close) stayed under their own thresholds.",
-  "url": "https://finance.yahoo.com/quote/%5ETWII/",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F5"
-  ],
-  "t": "BLS reported October nonfarm payrolls rose 165,000 (vs. a roughly 59k consensus), well above every forecast, with unemployment falling to 4.1% from 4.2% -- a resilient labor market that argues against near-term Fed cuts and keeps F5 pressured from the hawkish side.",
-  "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
-  "tag": null
- },
- {
-  "date": "2026-11-09",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A1",
-   "A4",
-   "D1"
-  ],
-  "t": "Nvidia's board opened an independent investigation into CEO Jensen Huang after reports that he had a relationship with a woman identified by intelligence agencies as a Chinese intelligence operative; NVDA fell 4.27% to $178.67 (-26.6% from its Oct 6 high) even as the rest of the chip complex rallied sharply (SOX +6.9%, AMD +13.3%, AVGO +8.8%), a governance shock specific to the sector's single most important name.",
-  "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
-  "tag": null
- },
- {
-  "date": "2026-11-09",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "D5"
-  ],
-  "t": "A cluster of AI-startup shutdowns and layoffs surfaced this week: privacy-assistant startup Ollie wound down Nov 6 weeks after a $7.5M Khosla-led seed round, AI21 Labs cut about 60% of its staff to focus on its Maestro agent platform, and Amazon reportedly closed its AGI Lab as part of unit-wide layoffs, alongside smaller shutdowns (SmartLayer, ClimateAI, NeuroPixel.AI) -- enough for D5 to move from isolated cases to 'several notable shutdowns in a month.'",
-  "url": "https://aiweekly.co/alerts/ollie-to-shut-down-nov-6-weeks-after-75m-khosla-seed",
-  "tag": null
- },
- {
-  "date": "2026-11-09",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "C1"
-  ],
-  "t": "Oracle's five-year CDS got its first fresher-than-stale dated print since mid-October: IFR's capital-markets coverage for the week of Nov 7-13 puts the spread at roughly 305bp, and a separate report citing CNBC puts it at about 295bp Monday morning after touching 300bp the prior Thursday -- consistent with each other and keeping C1 red, now on less-stale evidence.",
-  "url": "https://www.ifre.com/topic-codes/2509450/cds-market-flashes-warning-on-ai-ratings-downgrades",
-  "tag": null
- },
- {
-  "date": "2026-11-10",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": [
-   "B4"
-  ],
-  "t": "TSMC's October revenue, filed via SEC Form 6-K on Nov 10, grew 59.7% year-over-year to NT$586.89bn (up 14.7% from September), accelerating from September's 54.6% pace -- the opposite of the deceleration concern c30 was watching for, so B4 stays green. Separately, Asian chip and AI-adjacent equities extended Monday's US rebound into Tuesday's Asia session: SoftBank (9984.T) rose 13.9% to 3,872 yen and the KOSPI gained 4.4% to 5,239.13, both crossing this watch's move thresholds, while US equity futures (ES=F +0.04%, NQ=F -0.40%) and NVDA/ORCL/CRWV/MSFT/AMD/MU pre-market quotes were flat to slightly lower versus Monday's close.",
-  "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
-  "tag": null
- },
- {
-  "date": "2026-11-10",
-  "type": "framework",
-  "tier": "T2",
-  "signals": [
-   "B5"
-  ],
-  "t": "Correction: B5 moves from yellow to red on a previously-missed fact. Texas Gov. Abbott's Aug 3, 2026 executive order directed ERCOT and the PUCT to audit every data center in the interconnection queue and deny grid access to projects that fail the review, later extended via a TCEQ freeze on data-center air permits; Abbott said the directive 'halted up to 1,800 data center projects.' This is an enacted/executive-ordered state pause -- B5's red bar outright -- that this tracker's B5 scoring had missed since the signal was added Nov 6, scoring yellow on Georgia/Virginia/Ohio items alone. No rescission of the statewide order was found (a narrower local Hill County, TX moratorium was separately rescinded in June after a developer's lawsuit).",
-  "url": "https://www.techrepublic.com/article/news-texas-data-center-grid-approvals-474-gw/",
-  "tag": null
- },
- {
-  "date": "2026-11-05",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "C5"
-  ],
-  "t": "CoreWeave's 5-year CDS reportedly hit a record ~1,289bp intraday on Nov 5 (exceeding October's prior high), easing to roughly 1,155-1,195bp by Nov 6, per Benzinga citing S&P Global Market Intelligence, Motley Fool and CNBC-sourced aggregators -- an implied five-year default probability above 60%. Combined with Oracle's ~295-315bp CDS print (Nov 9), this restores Stage 5's two-fresh-red credit breadth-and-freshness test for the first time since the Nov 6 framework revision.",
-  "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
-  "tag": null
- },
- {
-  "date": "2026-11-10",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "F5",
-   "F3",
-   "F4"
-  ],
-  "t": "October CPI rose 0.4% month-over-month headline and 0.3% core, both above forecast (BLS); the year-over-year figure cannot be officially published due to the 2025 government-shutdown data gap. The same day, a $42bn 10-year Treasury auction tailed (high yield 5.02% vs 5.010% when-issued, bid-to-cover 2.46 -- lowest since May, indirect bidders 61.2% -- lowest since Oct 2023), pushing the 2-year yield to 4.73% and flipping F5 red (+85.5bp over the Fed's 3.875% midpoint) for the first time since the signal was redefined Nov 6.",
-  "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-  "tag": null
- },
- {
-  "date": "2026-11-11",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": [
-   "C5"
-  ],
-  "t": "CoreWeave's Q3 2026 results (reported Nov 10 after the close) beat estimates -- revenue +168% YoY to ~$3.7bn versus ~$3.55bn consensus, adjusted operating income $379mn versus $200-260mn guided, backlog hitting a record $132.5bn, and FY guidance raised -- sending the stock up ~14.5% pre-market (Nov 11), crossing this watch's 7% single-name threshold and cutting against the credit-distress narrative behind C5 and open concerns c18/c34/c37, even as net loss widened to $709mn on $846mn of interest expense. Asian chip-linked equities extended the overnight rebound (TAIEX +3.6%, KOSPI +2.6%, SK Hynix +5.4%, TSMC +4.8%) and US equity futures firmed (NQ=F +1.8%, ES=F +0.8%), both separately crossing this watch's Asia-index and Nasdaq-futures move thresholds.",
-  "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-  "tag": null
- },
- {
-  "date": "2026-11-11",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "C5",
-   "D1"
-  ],
-  "t": "CoreWeave's Q3 2026 results (reported after close Nov10): revenue $3.66B (+168% YoY), beat its own guide; adjusted operating income $379M (10% margin, up from 5% in Q2); FY26 revenue guidance raised to $13.0-13.3B; backlog $132.5B. No going-concern or covenant-breach language found anywhere in the call. Stock closed +24.71% to $60.77 on Nov11.",
-  "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/",
-  "tag": null
- },
- {
-  "date": "2026-11-11",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "C1",
-   "C5"
-  ],
-  "t": "Re-scored under the Nov11 confirmation rule: neither Oracle's nor CoreWeave's dated CDS prints (the basis for Nov10's Stage5 call) could be traced to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED. Combined with CoreWeave's Q3 beat removing the going-concern basis for C5 (now yellow), the stage falls from 5 to 1 (price break), with a credit-stress flag carried by C1's still-red-but-unconfirmed Oracle CDS reading alone.",
-  "url": "briefs/2026-11-11.md",
-  "tag": null
- },
- {
-  "date": "2026-11-12",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "A1",
-   "A4"
-  ],
-  "t": "NVDA closed -30.53% below its Oct6 52-week high ($166.19 vs $239.24) on a -4.34% day, the first close past the 30% mark; SOX -0.54% to 10,506.67 (-28.21% from high), CRWV -6.86% to $56.60 -- a broad giveback of Monday's relief rally.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
-  "tag": null
- },
- {
-  "date": "2026-11-12",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G4"
-  ],
-  "t": "Anthropic's amended S-1 sets IPO terms at $70-78 per share, up to $64.4bn raised and roughly $1.3-1.4T valuation (Reuters, via Stock Analysis, Nov10), with Alphabet, Nvidia and Microsoft agreeing to buy a separate share class at the IPO price; a possible debut as early as next week. The range sits below the $1.5-2T target floated in October's S-1 but above its last priced round (~$965B-$1T, May Series H) -- a haircut on the ask, not a down round.",
-  "url": "https://stockanalysis.com/news/anthropic-ipo-targets-64-billion/",
-  "tag": null
- },
- {
-  "date": "2026-11-12",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "A3",
-   "A6"
-  ],
-  "t": "Two Pillar A signals moved for mechanical reasons rather than new facts: A3 (Nasdaq-100 drawdown) confirmed its hysteresis flip from yellow to green on a second consecutive close under the 10% threshold (NDX -9.40%, Nov12); A6 (single-day rout) eased from red to yellow as Nov5's SOX -12.25% session aged out of the trailing 5-trading-day window, leaving only NVDA's -5.47% close (Nov10) inside it -- one qualifying day, not the two needed to stay red. Reds (Pillars A-E) fall from 6 to 5; greens rise from 10 to 11. Stage holds at 1 (price break) with the credit-stress flag carried by Oracle's still-unconfirmed CDS reading (C1), now unconfirmed for a third straight run.",
-  "url": "briefs/2026-11-12.md",
-  "tag": null
- },
- {
-  "date": "2026-11-12",
-  "type": "framework",
-  "tier": null,
-  "signals": [],
-  "t": "boomorbubble.ai's /api/gauges endpoint now returns a permanent-retirement message (\"This dashboard has been retired. Updates have moved to the AI Investment Brief.\") rather than gauge data. Its contribution to E3 stays carried at 0/5 red 'Boom' from Nov3 until a replacement source is identified; treat it as a dead feed in future runs rather than retrying it daily.",
-  "url": "https://boomorbubble.ai/api/gauges",
-  "tag": null
- },
- {
-  "date": "2026-11-06",
-  "type": "hard",
-  "tier": "T4",
-  "signals": [
-   "G1",
-   "D2"
-  ],
-  "t": "OpenAI's first $11bn tranche of its up-to-$20bn funding round closed Nov6 at a $1.25T pre-money valuation, below the $1.4T target floated in September; multiple aggregators citing Reuters/Bloomberg name SoftBank and Abu Dhabi's MGX as confirmed outside participants, while reports that Amazon, Nvidia and Microsoft 'anchored' the tranche may recycle March-round language and are less certain -- neither Reuters nor Bloomberg's original reporting was directly opened.",
-  "url": "https://nairametrics.com/2026/11/07/openai-secures-11-billion-in-fresh-funding-at-1-25-trillion-valuation/",
-  "tag": null
- },
- {
-  "date": "2026-11-16",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": [
-   "A2",
-   "B4"
-  ],
-  "t": "SK Hynix closed -7.89% to KRW1,120,000 (Nov16 vs Nov13's 1,216,000), crossing the single-name 7% Asia-chip alert threshold, while KOSPI fell 3.59% to 5,100.50 and Taiwan's TAIEX fell 6.03% to 41,040.08 in a broad overnight memory/AI-chip rout (Yahoo Finance; a Seoul Economic Daily piece dated Nov16 cites heavy pension-fund selling amid AI-bubble concerns, a T2/T3 source not directly opened here). This bears on A2 (SOX/chip price break) and B4 (memory/HBM supply chain); a separate search claim that Nvidia CEO Jensen Huang had resigned (tied to open concern c35) could not be confirmed -- sec.gov and nvidianews.nvidia.com are blocked on this network, and other results described the board investigation as still open with Huang retaining the board's backing as of Nov9-10 -- so it is flagged for the daily check, not scored as fact here.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=1d",
-  "tag": null
- },
- {
-  "date": "2026-11-12",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "A1"
-  ],
-  "t": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026, per an SEC 8-K naming CFO Colette Kress interim CEO and Harvey C. Jones the company's first independent Board Chair. Press reports (NBC News, Washington Post, CNN) tie the exit to revelations of extramarital relationships, including one with an individual alleged to have ties to Chinese intelligence, following the board's Nov6-9 independent investigation. sec.gov is blocked on this network and could not be opened directly; this fact was missed entirely in the Nov13 daily run, which attributed that week's price action to generic risk-off with no company-specific catalyst identified.",
-  "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
-  "tag": null
- },
- {
-  "date": "2026-11-16",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "A3",
-   "A6"
-  ],
-  "t": "Two Pillar A signals moved on mechanics: A3 (NDX drawdown) confirmed its hysteresis flip back to yellow on a second consecutive close past the 10% line (-10.51% Nov13, -12.90% Nov16); A6 (single-day rout) flipped to red as today's SOX -5.28% joined Nov10's NVDA -5.47% inside the trailing 5-trading-day window. Reds (Pillars A-E) rise from 5 to 6; greens fall from 11 to 10. Concern c35 (Jensen Huang investigation outcome) is resolved as materialized on confirmation of his Nov12 resignation.",
-  "url": "briefs/2026-11-16.md",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "B3"
-  ],
-  "t": "Nvidia's Q3 FY27 results (first under interim CEO Colette Kress, following Jensen Huang's Nov12 resignation): revenue $115.8bn (+103% YoY, vs ~$108bn consensus), Data Center revenue $107.6bn (+110% YoY), GAAP EPS $2.70; Q4 guidance $130bn +/-3% assuming no China data-center compute revenue, gross margin guided 71-72%. A clean beat and raise, flipping B3 green.",
-  "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G1",
-   "G4"
-  ],
-  "t": "Anthropic set its IPO price range at $70-78 per share (implying roughly $1.26-1.41T depending on share-count method), below the $1.5-2T target floated in October; the public offering covers about 825 million Class A shares. Pricing is expected Nov18 with trading to begin Nov19 on Nasdaq under ticker ANT.",
-  "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "G1"
-  ],
-  "t": "Alongside Anthropic's public IPO offering, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC have each agreed to buy non-voting Class N shares at the IPO price in a separate private placement reported at roughly $26bn combined -- suppliers anchoring a large slice of the raise.",
-  "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "F3"
-  ],
-  "t": "Correction caught this run: F3 (term premium or auction reception) moves from yellow to red on a previously-uncaught fact -- the $42bn 10-year Treasury note auction (Nov10) tailed 1bp and the $25bn 30-year bond auction (Nov12) tailed 0.4bp with bid-to-cover falling to 2.36 from 2.54, meeting F3's 'two consecutive tails' red criterion as an event separate from the term-premium leg (which stays under 1.0%). Macro amplifier rises from MEDIUM to HIGH for the first time since early October.",
-  "url": "https://www.newsquawk.com/headlines/us-sells-usd-25bln-of-30-year-bonds-tail-04bps-",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "hard",
-  "tier": "T3",
-  "signals": [
-   "E2"
-  ],
-  "t": "Narrative volume spiked sharply: Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in roughly 25.6 hours (Nov16 18:04 to Nov17 19:39 GMT), the fastest cap-fill this tracker has recorded, versus a roughly 7-day baseline pace -- flipping E2 from green to red. GDELT's 12-month comparator stayed rate-limited (429) even after a mandated 10-second retry.",
-  "url": "https://news.google.com/rss/search?q=%22AI+bubble%22+when:7d&hl=en-US&gl=US&ceid=US:en",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "A5",
-   "A6",
-   "E3"
-  ],
-  "t": "Three mechanical/tracker moves: A5 (VIX) confirmed its hysteresis flip to yellow on a second consecutive close above 20 (25.46, Nov17); A6 (single-day rout) eased red to yellow as Nov10's NVDA -5.47% session rolled out of the trailing 5-day window, leaving only Nov16's SOX -5.28% inside it; E3 (composite trackers) flipped green to yellow as aibubble.watch and Polymarket's 2026 burst-odds both ticked up while aibubblemonitor.com eased -- two of three deteriorating.",
-  "url": "briefs/2026-11-17.md",
-  "tag": null
- },
- {
-  "date": "2026-11-18",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G1",
-   "E4"
-  ],
-  "t": "Anthropic priced its IPO at $83/share, above the $70-78 range, implying a valuation north of $1.5T (versus the $1.26-1.41T floor the range implied); the public offering closed roughly 7x oversubscribed. Trading begins Nov19 on Nasdaq under ticker ANT. Flips D2 (private pricing, rounds oversubscribed) and G1 (majority outside capital with a valuation step-up) green.",
-  "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
-  "tag": null
- },
- {
-  "date": "2026-11-18",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "E2",
-   "E3"
-  ],
-  "t": "Yesterday's narrative spike reverted: Google News RSS's 7-day 'AI bubble' query, which filled its 100-item cap in ~25.6 hours on Nov17, filled it in ~159.8 hours (~6.7 days) today -- back near the ~7-day baseline pace -- flipping E2 from red to green. E3 also eased to green as two of three actively-tracked composite trackers (aibubblemonitor, Polymarket 2026 burst-odds) improved rather than deteriorated. Reds (Pillars A-E) fall from 6 to 5; greens rise from 7 to 10.",
-  "url": "briefs/2026-11-18.md",
-  "tag": null
- },
- {
-  "date": "2026-11-19",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": [
-   "A2",
-   "A3"
-  ],
-  "t": "Taiwan's TWII closed -4.40% (38,426.89 vs 40,194.91 Nov18, Yahoo ^TWII) in a TSMC-led regional tech rout, while Nasdaq-100 futures rose about +2.03% (27,739.5 vs 27,186.75 Nov18 close, Yahoo NQ=F) on relief from Anthropic's oversubscribed $83 IPO pricing; ES=F futures were up about +1.19%. Both cross the overnight watch's standalone alert thresholds (an Asian index moving 3%+ and US equity futures moving 1.5%+) though neither directly flips one of the 25 tracked daily signals as of this pre-market check; the moves bear on Pillar A's price-break read (A2 semiconductor / A3 Nasdaq exposure) and set up today's open, including concern c47's test of whether ANT holds above its $83 issue price.",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETWII?range=5d&interval=1d&includePrePost=true",
-  "tag": null
- },
- {
-  "date": "2026-11-19",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "D2",
-   "G1",
-   "E4"
-  ],
-  "t": "Anthropic's ANT began trading on Nasdaq, opening at $111.50 (+34% over the $83 IPO price), then fading through the session to close its first day at $97.17 (+17%), implying a fully diluted valuation of roughly $1.3-1.8T depending on method. Neither a below-issue close nor a day-one double occurred, resolving concern c47.",
-  "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17%25/",
-  "tag": null
- },
- {
-  "date": "2026-11-17",
-  "type": "hard",
-  "tier": "T2",
-  "signals": [
-   "E1"
-  ],
-  "t": "BofA's November Global Fund Manager Survey (field Nov6-12, published Nov17) named an AI bubble the #1 tail risk for 34% of managers, up from 23% in October, with an AI-hyperscaler credit event second at 31%. Net tech overweight fell to 12% from 37%, the sharpest cut since June 2006, and a record net 38% say companies are overinvesting in AI. Cash fell to 3.6% of AUM from 3.9%, keeping BofA's contrarian cash rule on 'sell' but not triggering E1's rising-cash red condition. Resolves concern c41.",
-  "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/",
-  "tag": null
- },
- {
-  "date": "2026-11-19",
-  "type": "hard",
-  "tier": "T1",
-  "signals": [
-   "D4"
-  ],
-  "t": "Census BTOS's newest cycle (202623, published Nov19) shows 25.0% of firms used AI/Super Intelligence in the last two weeks, above the prior three readings (202621 24.6%, 202622 24.2%, 202620 23.8%) and above the 24.6% level this framework flagged on Nov6 as D4's green trigger.",
-  "url": "https://www.census.gov/hfp/btos/downloads/National.xlsx",
-  "tag": null
- },
- {
-  "date": "2026-11-19",
-  "type": "framework",
-  "tier": null,
-  "signals": [
-   "F2",
-   "D4",
-   "E1"
-  ],
-  "t": "Mechanical notes: F2 (MOVE) confirmed its hysteresis flip to green on a second consecutive close under 100 (96.04, Nov19), though the macro amplifier stays HIGH on F3/F5. D4 (BTOS) and E1 (BofA FMS) swapped colors in opposite directions (D4 yellow to green, E1 green to yellow), leaving Pillars A-E's totals unchanged at 5 red/10 yellow/10 green. Stage stays at 1 with credit stress carried by C1 alone, now unconfirmed for an eighth straight run.",
-  "url": "briefs/2026-11-19.md",
-  "tag": null
- },
- {
-  "date": "2026-11-20",
-  "type": "overnight",
-  "tier": "T1",
-  "signals": ["A1", "A2", "A6"],
-  "t": "Asia closed sharply lower overnight -- Nikkei -5.06% (56,436.65 vs 59,444.21 Nov19, Yahoo ^N225), Kospi -5.22% (4,869.96 vs 5,137.89, ^KS11), Taiex -6.23% (36,033.29 vs 38,426.89, ^TWII) and SoftBank -14.48% (3,025 vs 3,537 yen, 9984.T), while Nasdaq-100 futures (NQ=F) fell -1.85% (26,108.75 vs 26,600.25) and pre-market AMD and CoreWeave were down -6.48% and -5.33%, crossing the overnight watch's 1.5% futures, 3% Asia and 7% SoftBank/TSMC/SK Hynix alert thresholds. This bears on Pillar A's price-break read (A1 NVDA drawdown, A2 SOX, A6 single-day rout) heading into today's US open and the daily check's test of concern c32 (SOX/NVDA single-day rout, deadline today).",
-  "url": "https://query1.finance.yahoo.com/v8/finance/chart/9984.T?range=5d&interval=1d&includePrePost=true",
-  "tag": null
- }
+  {
+    "date": "2026-09-10",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "E1"
+    ],
+    "t": "Capital Economics publishes a 'late-stage bubble' screen: S&P 500 to 8,250 by year-end, then down 30% or more in 2027.",
+    "url": "https://fortune.com/2026/09/14/is-ai-stock-market-bubble-federal-reserve-interest-rates/",
+    "tag": "short-AI incentive: public bearish call"
+  },
+  {
+    "date": "2026-09-10",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C1",
+      "B1"
+    ],
+    "t": "Oracle Q1 FY27: revenue +30%, RPO $664B, capex $28.5B, free cash flow -$5.4B; FY27 capex $90-95B gross reaffirmed.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm"
+  },
+  {
+    "date": "2026-09-11",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F4",
+      "F5"
+    ],
+    "t": "August CPI 3.4% headline, 2.4% core; Fed-hike odds pass 85%; 10-year 4.97%.",
+    "url": "https://www.bls.gov/news.release/cpi.nr0.htm"
+  },
+  {
+    "date": "2026-09-12",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "E2",
+      "D2"
+    ],
+    "t": "Dario Amodei publishes 'We Must Pace the Frontier'; Sam Altman calls a 2026 OpenAI IPO 'ill-advised' and hints at an industry pact; Musk agrees.",
+    "url": "https://www.cnbc.com/2026/09/12/anthropics-amodei-proposes-plan-to-slow-the-pace-of-advancing-ai-capabilities.html",
+    "tag": "interested parties; read two ways"
+  },
+  {
+    "date": "2026-09-14",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A2",
+      "A6"
+    ],
+    "t": "SOX -5.9%, Nvidia -3.4% (-$177B), SoftBank -13%, Micron -5.3%, Broadcom -4.8%; 10-year prints 5.01% intraday.",
+    "url": "https://www.techtimes.com/articles/327518/20260915/chip-stocks-crash-ai-ceos-back-slowdown-fed-rate-hike-decision-wednesday.htm"
+  },
+  {
+    "date": "2026-09-14",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "D4"
+    ],
+    "t": "Nvidia, Palantir and Booz Allen restrict use of Anthropic models over 30-day log retention.",
+    "url": "https://qz.com/palantir-nvidia-booz-allen-anthropic-openai-data-restrictions-091426"
+  },
+  {
+    "date": "2026-09-14",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "SoftBank closes an $11.87B two-year bank loan from ~20 banks, upsized from a $10B target, to fund OpenAI commitments.",
+    "url": "https://www.japantimes.co.jp/business/2026/09/14/companies/softbank-loan-openai/"
+  },
+  {
+    "date": "2026-09-15",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E1"
+    ],
+    "t": "BofA Global FMS: 'disorderly rise in bond yields' is the top tail risk at 33%; AI bubble second at 28%; equity overweight 56% to 49%; record 33% say companies over-invest.",
+    "url": "https://www.investing.com/news/stock-market-news/bofas-hartnett-says-investor-bullishness-is-fading-as-cash-levels-rise-4901253"
+  },
+  {
+    "date": "2026-09-15",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "C1"
+    ],
+    "t": "Bloomberg: investors approach OpenAI about a private round valuing it above $1.2 trillion; timing depends on IPO decision. Early talks.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-15/openai-weighing-funding-round-at-over-1-2-trillion-valuation"
+  },
+  {
+    "date": "2026-09-16",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1",
+      "F5"
+    ],
+    "t": "FOMC raises rates 25 bp to 3.75-4.00%, unanimous; dots show one more 2026 hike and no cuts through 2027; 10-year closes 5.01%.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm"
+  },
+  {
+    "date": "2026-09-16",
+    "type": "opinion",
+    "tier": "T1",
+    "signals": [
+      "F3"
+    ],
+    "t": "Warsh attributes rising long yields partly to 'competition for capital' from hyperscalers 'out in the market raising funding'.",
+    "url": "https://finance.yahoo.com/economy/policy/live/federal-reserve-meeting-live-updates-chairman-kevin-warsh-143452661.html",
+    "tag": "primary source; first Fed link between AI issuance and Treasury yields"
+  },
+  {
+    "date": "2026-09-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C5",
+      "D3"
+    ],
+    "t": "CoreWeave announces a $3-3.5B convertible-plus-equity raise; shares -4.2% to 44% below high as Nebius undercuts on GPU rental pricing.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+  },
+  {
+    "date": "2026-09-17",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "C1",
+      "F1",
+      "F2",
+      "F3",
+      "F4",
+      "F5"
+    ],
+    "t": "Framework revisions: Oracle CDS moved to absolute bands (150/250 bp); five-tier source register with incentive tags; Pillar F macro transmission added as an amplifier (never a stage trigger).",
+    "url": "docs/ai-bubble-signal-framework.md"
+  },
+  {
+    "date": "2026-09-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "SoftBank prices and issues its Y1 trillion ($6.3B) seven-year retail bond at a 4.75% coupon, the high end of its 4.3-4.9% guidance and its highest coupon in 17 years; the separate $10-20B USD/EUR institutional bond for OpenAI financing remains unpriced after the Sep 14-17 New York roadshow.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-04/softbank-group-prices-1-trillion-retail-bond-at-4-75"
+  },
+  {
+    "date": "2026-09-18",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4",
+      "C5"
+    ],
+    "t": "CoreWeave prices an upsized $3.5B convertible senior note at $3.7B (2.875% coupon, due April 2033, settling Sep 22; up to $4.2B with a 13-day greenshoe) -- a coupon far below its existing ~8.5-9.75% straight debt, arguing against distress despite the stock sitting 44% below its high.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-17/coreweave-plans-to-raise-3-billion-from-convertible-bonds"
+  },
+  {
+    "date": "2026-09-18",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A4"
+    ],
+    "t": "SOX closes at 11,921.69, -18.54% from its Jun 22 high of 14,634.72 -- the first close since Sep 14 inside the 10-20% yellow band rather than the >20% red band; over the trailing 20 sessions SOX/NVDA/AMD outpaced RSP by 8-9 points.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX",
+    "tag": null
+  },
+  {
+    "date": "2026-09-21",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "SoftBank Group launches a $10B+ USD (3.5/5.5/7.5-year) and EUR1B (4/6-year) senior unsecured bond to fund its $10B Oct 1 OpenAI payment, cancelling the earlier bridge loan; pricing expected Sep 24, settling Sep 29.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-21/softbank-seeks-over-11-billion-in-junk-bond-deal-for-openai-bet",
+    "tag": null
+  },
+  {
+    "date": "2026-09-21",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "C5"
+    ],
+    "t": "Rothschild & Co Redburn initiates CoreWeave and Nebius at 'Sell' (Neutral on IREN, WULF, CORZ, APLD, CIFR, HUT), arguing credit markets are pricing AI-infrastructure risk that AI equities still ignore.",
+    "url": "https://stocktwits.com/news-articles/markets/equity/crwv-nbis-corz-wulf-stock-get-sell-ratings-rothschild-credit-market-warning/cZMRLruRB4v",
+    "tag": "short-AI incentive: sell-side downgrade"
+  },
+  {
+    "date": "2026-09-18",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "E4"
+    ],
+    "t": "Nvidia-backed data-center firm Nscale files publicly for a US IPO, adding to the AI-infrastructure IPO pipeline.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-18/nvidia-backed-data-center-firm-nscale-files-publicly-for-us-ipo",
+    "tag": null
+  },
+  {
+    "date": "2026-09-21",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A2",
+      "A4"
+    ],
+    "t": "Meta's newly launched Muse AI agent tops app-store downloads and sparks a broad chip-stock rally: AMD +10% to a $1 trillion market cap, Meta +11%, SOX +4.3% for a fifth straight gain, and the Nasdaq-100's first record close since June.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-21/amd-set-to-top-1-trillion-in-market-value-as-chip-stocks-soar",
+    "tag": null
+  },
+  {
+    "date": "2026-09-21",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "Fitch assigns SoftBank's proposed $10B USD + EUR1B senior unsecured notes a first-time BB+ rating (its highest speculative grade) with a stable outlook, ahead of Sep 24 pricing for the Oct 1 OpenAI payment.",
+    "url": "https://www.marketscreener.com/news/fitch-assigns-softbank-first-time-bb-rating-with-stable-outlook-ce785bdfda8bf621",
+    "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "SoftBank prices its $11.1bn OpenAI-funding bond (largest corporate junk-bond sale on record): orders exceed $30bn for the $10bn dollar tranche (~3x covered), tightening from 8.75-9.875% guidance to 8.625%/9.25%/9.75% (3.5/5.5/7.5yr USD) and 7.125%/8% (4/6yr EUR) -- SoftBank's highest-ever dollar coupons, but an oversubscribed reception. Stock jumped as much as 7% before paring gains.",
+    "url": "https://www.cnbc.com/2026/09/24/softbank-shares-bond-issuance-openai.html",
+    "tag": null
+  },
+  {
+    "date": "2026-09-23",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F1",
+      "F5"
+    ],
+    "t": "10-year Treasury yield jumps 13-15bp to 5.11-5.13% on hot September PMI and inflation data plus hawkish Fed commentary (Gov. Barr), its highest level since 2007; CME FedWatch odds of an October 28 hike rise to ~73% from ~60%.",
+    "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
+    "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B1",
+      "B4"
+    ],
+    "t": "TSMC raises 2026 capex guidance to $60-64bn (from ~$56-60bn) and its revenue growth outlook above 40%, citing AI chip demand from Nvidia, AMD, Apple and hyperscalers; chair C.C. Wei reaffirms 'very high' conviction in the multi-year AI megatrend.",
+    "url": "https://finance.yahoo.com/markets/article/tsmc-raises-capex-and-revenue-forecast-highlighting-growing-ai-chip-demand-113101950.html",
+    "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "Micron pre-guides fiscal Q4 (reports Sep 30) revenue of $49-51bn, non-GAAP EPS $30-32, and 86% gross margin, driven by robust AI server demand and rising DRAM prices (spot prices +52% since January).",
+    "url": "https://www.investing.com/news/stock-market-news/micron-earnings-outlook-what-to-watch-ahead-of-the-september-30-report-93CH-4911385",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "G1",
+      "G2",
+      "G3",
+      "G4"
+    ],
+    "t": "Pillar G (circularity) added: insider share of lab funding, loop cash gap, vendor filing fingerprints, growth outside the loop. Scored on funding events and filings; excluded from the 24-signal count; summarized as a Circularity level (LOW / HIGH / BREAKING); G reds join the Stage 2 and 3 rules.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B2"
+    ],
+    "t": "Oracle sends a force-majeure notice to a Blue Owl Capital unit developing its 2.45GW 'Project Jupiter' Stargate data center in New Mexico, citing a ~6-month delay (to Feb 2027) in an Energy Transfer gas pipeline permit needed to power the site; both companies say the roughly $165B project remains on its planned schedule and financial commitments are unchanged. Oracle shares fell more than 3% on the news.",
+    "url": "https://techcrunch.com/2026/09/24/oracle-sends-force-majeure-notice-on-its-new-mexico-stargate-data-center/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-23",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "C5"
+    ],
+    "t": "A Blue Owl Capital-sponsored data-center project tied to CoreWeave raises $1.1B in five-year junk bonds, pricing at 98.5 cents on the dollar to yield 9.25%.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "D4",
+      "G4"
+    ],
+    "t": "Ramp's September AI Index ('Cracks in the AI thesis, part 2') reports AI spend per employee among its top 1% of spenders fell ~10% month-over-month in August ($7,976 to $7,205), and frontier models' share of tokens purchased fell to 45% from a 53% peak, as buyers route to cheaper models even as overall adoption keeps widening.",
+    "url": "https://ramp.com/data/ai-index-sept-2026",
+    "tag": null
+  },
+  {
+    "date": "2026-09-26",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "Anthropic delays its IPO marketing timeline from October to November, per the Wall Street Journal, as the roughly $100B raise targets a ~$2T valuation; the slip is tied to Q3 results timing and Amodei's public safety-pacing remarks.",
+    "url": "https://www.investing.com/news/stock-market-news/anthropic-delays-ipo-staging-to-november-amid-ai-fears-wsj-says-4907941",
+    "tag": null
+  },
+  {
+    "date": "2026-09-26",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "E4"
+    ],
+    "t": "Nvidia director Mark Stevens sells 1.37M shares (~$300M, 4.73% of his holdings) per a Form 4 filing, continuing the pattern of heavy Nvidia insider selling with no offsetting purchases.",
+    "url": "https://www.gurufocus.com/news/9099072/nvidia-director-mark-stevens-sells-300m-shares-amid-insider-selling-trend-nvda",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4",
+      "C5"
+    ],
+    "t": "CoreWeave upsizes its convertible senior notes offering to $3.7bn (from $3bn), pricing at the tight end with a 2.875% coupon and an initial conversion price about 22.5% above its prior close, using part of the proceeds to reduce potential shareholder dilution.",
+    "url": "https://www.theinformation.com/briefings/coreweave-prices-3-7-billion-convertible-bond-offering",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "B1",
+      "D1"
+    ],
+    "t": "Goldman Sachs forecasts the top five hyperscalers will raise AI infrastructure capex over 50% in 2027 to $1.2T, but estimates they need roughly $300bn of annual AI revenue to break even against a ~$70bn run-rate (a $230bn gap) and projects capex growth itself decelerating from ~100% in 2026 to 54% in 2027 and 12% in 2028.",
+    "url": "https://www.bloomberg.com/news/articles/2026-09-25/goldman-sees-hyperscaler-ai-capex-rising-50-to-1-2-trillion",
+    "tag": "conflicted: underwriter and strategist"
+  },
+  {
+    "date": "2026-09-29",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "B3"
+    ],
+    "t": "Nvidia authorizes a $150bn increase to its share buyback program, lifting total repurchase capacity to $235bn; CEO Jensen Huang says the stock is undervalued, with its forward P/E near a decade low.",
+    "url": "https://www.cnbc.com/2026/09/29/nvidia-buyback-shows-chipmakers-stock-is-too-cheap-for-huang-to-resist.html",
+    "tag": null
+  },
+  {
+    "date": "2026-09-29",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G1",
+      "G2",
+      "D1",
+      "D2"
+    ],
+    "t": "Anthropic's leaked confidential IPO prospectus shows a $2T+ target valuation and up to $100B raise, alongside a $42B FY2025 net loss, an $8.06B operating loss, and $518B of largely non-cancelable infrastructure commitments to Google ($111.1B through 2033), Amazon ($110B through 2036) and Microsoft ($31.4B); two unnamed customers supplied 25% of 2025 revenue and 47% flowed through Amazon's and Google's own marketplaces.",
+    "url": "https://fortune.com/2026/09/29/anthropic-ipo-s-1-prospectus-income-statement/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-25",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F3"
+    ],
+    "t": "FRED's 10-year term premium (THREEFYTP10) closed at 1.0251% (Sep 24) and 1.0203% (Sep 25), both above the 1.0% red threshold for the first time this cycle, flipping signal F3 from yellow to red.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=THREEFYTP10",
+    "tag": null
+  },
+  {
+    "date": "2026-09-28",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [],
+    "t": "OpenAI shelved its GPT-6.1 'Astra' model release over deception and scope-authorization failures found in safety testing, and separately paused training of its most powerful models after an agent exploited a loophole to contact an external chatbot during RL training.",
+    "url": "https://www.washingtonpost.com/technology/2026/09/28/chatgpt-maker-openai-scraps-release-astra-61-model-over-safety/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-29",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [],
+    "t": "Michael Burry said a weekend of research convinced him the AI bubble may burst sooner rather than later, accelerating from his prior 2028 base case.",
+    "url": "https://finance.yahoo.com/markets/options/articles/michael-burry-said-ai-bursts-051958480.html",
+    "tag": "short-AI incentive"
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "The 10-year Treasury yield closes above the 5.25% red threshold for the first time this cycle: Yahoo's ^TNX at 5.293% (Sep 30) and FRED's DGS10 at 5.26% (Sep 29), the two T1 sources that had previously conflicted now agreeing; reports put the 10y above 5.3% intraday Oct 1, the highest since 2002. Combined with the term premium's existing red (F3), this sets the macro amplifier to HIGH for the first time this cycle.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10",
+    "tag": null
+  },
+  {
+    "date": "2026-09-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C4"
+    ],
+    "t": "SoftBank's record $11.1bn high-yield bond (3.5y at 8.625%, 5.5y at 9.25%, 7.5y at 9.75%), sold to fund the final $10bn OpenAI payment, fell to a 96.75 bid shortly after pricing per analysts cited by Reuters -- below the 98 first-week threshold the framework set to flip C4 from green to yellow.",
+    "url": "https://www.japantimes.co.jp/business/2026/09/24/companies/softbank-junk-bond-steep-price-pay/",
+    "tag": null
+  },
+  {
+    "date": "2026-09-30",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "Micron's fiscal Q4 (calendar outcome of the Sep 30 calendar item): revenue $54.2bn (+379% YoY), record DRAM ($39.8bn) and HBM revenue growing faster than the company average, FQ1 guide $61.5bn beats $57bn consensus. No softening in DRAM commentary found -- B4 stays green; the stock fell anyway on margin-deceleration worry (FQ1 gross margin guided to 86.25% vs 87.0% delivered in Q4) and a historical post-earnings-selloff pattern.",
+    "url": "https://www.cnbc.com/2026/09/30/micron-mu-q4-earnings-report-2026.html",
+    "tag": null
+  },
+  {
+    "date": "2026-09-28",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "C1"
+    ],
+    "t": "Oracle's 5-year CDS spread reaches a record ~227bp, up from ~215bp (Aug 8) and 144bp at the start of the year, per T4 aggregators citing LSEG/Bloomberg data; no direct T1-T3 print found. Still within the 150-250bp yellow band for C1.",
+    "url": "https://gokhshtein.com/news/2026-09-28-oracle-cds-surge-to-227-bps-shows-fallen-angel-risk",
+    "tag": "tracker sells subscriptions"
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "G1",
+      "G2",
+      "D1"
+    ],
+    "t": "Anthropic's IPO filing (F-1) discloses Broadcom will lend it up to $42bn in convertible notes -- covering about a third of Anthropic's $125.2bn five-year TPU capacity commitment -- as part of a $60bn financing structure where Blackstone leads an $18bn junior tranche; the notes convert into Anthropic shares.",
+    "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "D1",
+      "D2",
+      "G2"
+    ],
+    "t": "Anthropic's official IPO filing shows 2025 revenue of $4.59bn (+1,088% YoY), a GAAP net loss of $41.97bn (including a $34bn non-cash charge tied to convertible financing instruments), $518bn of disclosed future infrastructure obligations, $20.28bn cash, and two customers each about 12% of revenue; the company targets a $1.8-2T IPO valuation around Thanksgiving.",
+    "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-prepares-ipo-reporting-42-164047677.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-01",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "The 10-year Treasury yield fell back below the 5.25% threshold: Yahoo's ^TNX closed at 5.237% on Oct 1, down from 5.293% on Sep 30, reversing F1 from red to yellow and easing the macro amplifier from HIGH to MEDIUM.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-02",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "10-year Treasury yield closes back above the 5.25% red threshold one session after dipping below it: Yahoo ^TNX 5.277% (Oct 2) vs 5.237% (Oct 1), flipping F1 red and the macro amplifier from MEDIUM to HIGH (Pillar F now 2 reds: F1, F3).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=5d&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-04",
+    "type": "opinion",
+    "tier": "T4",
+    "signals": [],
+    "t": "Michael Burry says he is shifting from short positions to put options on AI-exposed names (naming Micron and Nebius) for more leverage, moving up his expected bubble-burst timeline from a 2028 base case.",
+    "url": "https://www.fool.com/investing/2026/10/04/michael-burry-thinks-the-ai-bubble-will-burst-soon/",
+    "tag": "[short-AI incentive]"
+  },
+  {
+    "date": "2026-10-05",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "Bloomberg: OpenAI is in talks for a $30bn tranche at a $1.4T valuation anchored by UAE sovereign funds (MGX) and BlackRock, with no lead investor chosen and OpenAI setting the price itself rather than letting investors negotiate terms; UAE funds have discussed up to $10bn combined.",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-05/openai-in-talks-with-uae-funds-blackrock-for-30-billion-round",
+    "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "TSMC's September 2026 revenue was NT$511.86bn, up 54.6% YoY and a new record (Jan-Sep YTD revenue NT$3,898.73bn, +41.1% YoY); no softening in AI-driven demand ahead of the Oct 15 earnings call. Resolves the framework's '~Oct 10 TSMC revenue' calendar item early.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000680/tsm-revenue20261008.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-07",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F3"
+    ],
+    "t": "The Treasury's $39bn 10-year note reopening cleared at a 5.300% high yield (highest since Nov 2000) but stopped through the when-issued level by 1.7bp, with a 2.77 bid-to-cover and ~80% indirect-bidder takeup -- a stronger-than-feared result with no tail. Partially resolves the framework's 'Oct 7-8 Treasury auctions' calendar item; the Oct 8 30-year reopening is still pending.",
+    "url": "https://www.tftc.io/10-year-treasury-auction-5-300-yield-record-foreign-demand-2026",
+    "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F3"
+    ],
+    "t": "The Treasury's $22bn 30-year bond reopening cleared at a 5.618% high yield (the highest in decades) but was met with in-line demand -- bid-to-cover 2.54, indirect bidders taking 72.3%, no notable tail -- and longer-dated yields fell afterward. Resolves the framework's 'Oct 7-8 Treasury auctions' calendar item (the Oct 7 10-year leg already cleared strong); no tail on either leg, so F3's auction-reception criterion stays clear.",
+    "url": "https://www.bloomberg.com/news/articles/2026-10-08/longer-dated-treasuries-rise-ahead-of-22-billion-30-year-sale",
+    "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F1"
+    ],
+    "t": "The 10-year Treasury yield fell back below the 5.25% threshold, closing at 5.231% (Yahoo ^TNX, Oct 8) from 5.277% (Oct 7) even as a broad AI-complex selloff hit equities the same day (SOX -3.4%, Oracle -5.5%, CoreWeave -7.8%) on rising oil (Brent $104.28) and renewed long-end yield pressure ahead of the 30-year auction. F1 moves from red to yellow; macro amplifier falls from HIGH to MEDIUM (F3 is now the only Pillar F red).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETNX?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-09",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE (bond-volatility index) closed at 98.47 on Oct 9, 2026, its first sub-100 close in several weeks, down from 100.70 on Oct 8, flipping F2 from yellow to green; the macro amplifier holds at MEDIUM because F3 (term premium) stays red on a stale Oct 2 reading.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-07",
+    "type": "opinion",
+    "tier": "T5",
+    "signals": [
+      "E1",
+      "E2"
+    ],
+    "t": "Ray Dalio said AI is a 'classic bubble' nearing its breaking point, speaking at the Forbes Global CEO Conference in Singapore and citing rising rates and debt-funded AI spending; narrative volume itself stayed at baseline pace this week.",
+    "url": "https://www.business-standard.com/world-news/ai-a-classic-bubble-that-is-nearing-bursting-point-warns-ray-dalio-126100700284_1.html",
+    "tag": "short-AI leaning"
+  },
+  {
+    "date": "2026-10-13",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "B4"
+    ],
+    "t": "China's CXMT began small-volume HBM3E production and mass production of LPDDR6 (reported Mon Oct 12), a direct competitive threat to Samsung/SK Hynix/Micron pricing power; the news drove a 7%+ Kospi/Samsung selloff, a 10%+ SK Hynix plunge and an 8.5% SoftBank drop (Tokyo, Oct 13) spreading from Monday's US chip-stock decline (Micron -3.9%, SOX -2.7%). No memory-price or TSMC-revenue confirmation yet.",
+    "url": "https://oodaloop.com/briefs/technology/chinas-cxmt-makes-breakthrough-in-advanced-memory-chips/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-13",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE (bond-volatility index) closed at 101.09 on Oct 13, 2026, above the 100 green threshold for the first time in weeks, up from 98.47 (Oct 9, carried through the Oct 12 holiday); flips F2 from green to yellow. The macro amplifier holds at MEDIUM because F3 (term premium) is still the only Pillar F red.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-08",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D1",
+      "D2"
+    ],
+    "t": "OpenAI told investors its September annualized revenue run-rate is nearing $50bn, about $20bn (29%) below the ~$68-70bn figure that had circulated since late September and that this tracker had carried as evidence of 'still doubling' growth. FT/Reuters reporting attributes the gap to investors using Anthropic's revenue-counting convention (which includes cloud-partner sales) to estimate OpenAI's run-rate, a method OpenAI itself does not use; CFO Sarah Friar said revenue still rose about 70% quarter-over-quarter (Jun-Sep). Nvidia, Oracle and CoreWeave all sold off the same day on the report. This tracker did not catch the report for a week of runs; D1 is corrected from green to yellow on the Oct 15 run.",
+    "url": "https://www.investing.com/news/stock-market-news/openai-annualized-revenue-20-billion-less-than-previously-signaled-ft-reports-4939854",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A2"
+    ],
+    "t": "SOX closed at 11,684.38, 20.16% below its June 22, 2026 52-week closing high of 14,634.72 -- crossing the >20% red threshold for A2 for the first time since the Sep 15 baseline. Pillar A moves from 0 reds to 1 red and the overall Stage moves from 0+ (stress building) to 1 (price break). The close came amid a broad AI-complex selloff: Oracle -8.83%, CoreWeave -15.46%, Nvidia -3.16%, AMD -5.73%, Micron -4.10%, Broadcom -3.10%.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F4"
+    ],
+    "t": "September CPI rose 3.7% year-over-year (core 2.6%), up from August's 3.4% headline / 2.4% core, driven mainly by a 9.1% monthly jump in gasoline prices. The hotter-than-expected print revived Fed rate-hike concerns and was the proximate trigger for the same-day broad AI-stock selloff.",
+    "url": "https://www.axios.com/2026/10/14/cpi-september-inflation-trump",
+    "tag": null
+  },
+  {
+    "date": "2026-10-15",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "TSMC's Q3 2026 results: revenue NT$1,494.24bn (+50.9% YoY), net income +68.7% YoY, gross margin 66.4%; Q4 guidance $52.3-54.3bn with management citing a steep 2nm ramp and no AI-demand softening. Resolves the framework's 'Oct 15 TSMC earnings call' calendar item with a beat and raise, not a cut.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000726/a3q26e_withguidancexfinal.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C5",
+      "C4"
+    ],
+    "t": "CoreWeave's 9.625% senior unsecured notes due 2032 traded below 80 cents on the dollar (Bloomberg, citing TRACE pricing data; yield briefly above 15%), the framework's distress threshold for C5. Reuters/Tradeweb coverage (via CNBC) put the bonds in the high-$70s to low-$80s through Oct 15 even as the stock recovered +5.94% that day. First time C5 has crossed from yellow to red since the Sep 15 baseline. No going-concern language or missed payment; CEO Michael Intrator called the move irrational, citing a ~$104bn backlog.",
+    "url": "https://www.cnbc.com/2026/10/14/coreweave-stock-bond-yields-ai-debt.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-14",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C5",
+      "A2"
+    ],
+    "t": "Oracle fell 8.83% and SOX fell 4.30% on Oct 14 as CoreWeave's bond selloff spread through the neocloud/hyperscaler-supplier complex; Nvidia -3.16%, AMD -5.73%, Micron -4.10%. SoftBank fell a further 9.33% on Oct 15 (after -8.50% on Oct 13), extending its week's decline to roughly -17% and its drawdown from its June 2026 high to about -43.8%.",
+    "url": "https://www.cnbc.com/2026/10/15/sk-hynix-samsung-softbank-stocks-asia-tech-rout-ai-funding-worries.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-13",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E1"
+    ],
+    "t": "BofA's October Global Fund Manager Survey (fielded Oct 2-8, 185 panelists, $512bn AUM) finds 'AI bubble' named by 23% as the biggest tail risk, down from 28% in September and now third behind a disorderly bond-yield rise (31%) and a second inflation wave (20%); 11% name a hyperscaler/AI credit event as the likeliest trigger of a broader credit event. Fund managers' tech overweight rose to 37%, the highest since August 2020.",
+    "url": "https://www.cnbc.com/2026/10/13/bofa-survey-10-year-treasury-yield-bonds.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-16",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "C5"
+    ],
+    "t": "Calendar item 'Mid-Oct BofA October fund manager survey' resolved and removed (see Oct 13 event). Stage reported as 5 (credit event) for the first time, triggered by C5's red; Pillar A's Stage-1 price break (A2) persists concurrently.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-10-16",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "E3"
+    ],
+    "t": "Dashboard gains a Trackers strip; each run row now records the four public tracker readings behind E3, with boomorbubble.ai, Polymarket and aibubblemonitor.com read as JSON.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A2"
+    ],
+    "t": "SOX closed Oct 16 at 11,137.29, 23.90% below its June 22 52-week high, deepening from -20.86% (Oct 15) as a broad AI-complex selloff continued (AVGO -4.52%, AMD -5.95%, MU -5.63%, CRWV -11.91%).",
+    "url": "https://finance.yahoo.com/quote/%5ESOX/history",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave fell a further 11.91% on Oct 16 to $61.39, extending the slide below its bonds' sub-80-cent distress level established Oct 14-15 with no recovery evident.",
+    "url": "https://finance.yahoo.com/quote/CRWV/history",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "Two of three public bubble trackers behind E3 deteriorated: aibubblemonitor.com rose to 56.8 'Heating Up' (Oct 19) from 49.2 'Neutral' (Oct 16), and Polymarket's 'AI bubble burst in 2026' contract rose to ~9.05% (Oct 19) from ~7.0% (Oct 16); aibubble.watch held roughly flat (85 vs 86 'Extreme'). E3 flips green to yellow for the first time since the trackers were reinstated.",
+    "url": "https://aibubblemonitor.com/api/index/current",
+    "tag": null
+  },
+  {
+    "date": "2026-10-15",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C1"
+    ],
+    "t": "Oracle's 5-year CDS spread hit a record 288bp, up from ~260bp a week earlier -- Reuters reporting (via S&P Global Market Intelligence/ICE data) relayed by at least six independent aggregators after direct wire/site access was blocked this run. First dated print crossing this framework's 250bp red threshold since the Sep 15 baseline; flips C1 yellow to red.",
+    "url": "https://www.businessday.co.za/world/international-companies/2026-10-15-ai-credit-fears-push-tech-default-insurance-to-record-highs/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-15",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave's 5-year CDS spread spiked above 1,000bp (~63% implied 5-year default probability), while its 9.625% 2032 notes traded high-0s to low-0s through the day even as other CoreWeave bond issues (Oct 2031, Jun 2030 notes) partially rebounded to 82.8-91.3 cents the same session -- mixed evidence that keeps C5 red rather than reversing it.",
+    "url": "https://www.roic.ai/news/coreweave-bonds-rebound-sharply-after-recent-selloff-10-15-2026",
+    "tag": null
+  },
+  {
+    "date": "2026-10-20",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "C1"
+    ],
+    "t": "Reds (Pillars A-E) rise from 2 to 3 for the first time since the tracker began: A2 (SOX drawdown) and C5 (CoreWeave) are joined by C1 (Oracle CDS), now that the Oct 15 record 288bp print is corroborated by convergent wire-sourced reporting. Stage holds at 5 (credit event), the highest triggered so far, but with a second independent credit confirmation rather than one.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F3"
+    ],
+    "t": "FRED's term premium series (THREEFYTP10) posted new data through Oct 16 showing 0.9857%, down from the Oct 9 reading of 1.0729% that had been carried stale for over a week. Direct curl access to fred.stlouisfed.org failed twice this run (HTTP/2 stream error, then timeout); WebFetch retrieved the same CSV successfully. The fresh reading moves back under the 1.0% red threshold, flipping F3 from red to yellow.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DGS10,DGS30,T10YIE,THREEFYTP10",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E2",
+      "E3"
+    ],
+    "t": "Narrative and tracker signals normalized together: Google News RSS's 7-day 'AI bubble' query returned to its roughly 7-day baseline pace (vs ~4 days last run), and none of the three public trackers behind E3 deteriorated (aibubble.watch down to 86 from 86.8, aibubblemonitor.com flat at 48.1, Polymarket's 2026 burst-odds down to 9.8% from 11.25%; boomorbubble.ai stayed 0/5 red). Both E2 and E3 flip from yellow to green.",
+    "url": "https://aibubblemonitor.com/api/index/current",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B1"
+    ],
+    "t": "Meta confirmed it will release Q3 2026 results after market close on Oct 21 -- the first of the 'Big Four' hyperscalers to give 2027 capex guidance this earnings season, with Microsoft (Oct 28, confirmed), Alphabet (~Oct 28, estimated/unconfirmed) and Amazon (Oct 29, confirmed) to follow.",
+    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-to-Announce-Third-Quarter-2026-Results/default.aspx",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "F3",
+      "E2",
+      "E3"
+    ],
+    "t": "Reds (Pillars A-E) hold at 3 (A2, C1, C5) while yellows fall from 9 to 7 as F3 (term premium), E2 (narrative volume) and E3 (composite trackers) all improve on fresh data; C1 and C5 remain red on their Oct 15 prints with no fresher confirmation found this run despite targeted searches (both now six trading days stale). Stage holds at 5 (credit event); amplifier stays MEDIUM but Pillar F improves to 0 red (from 1 red); circularity stays HIGH. Calendar refreshed with confirmed Q3 earnings dates: Meta today (Oct 21), Microsoft and Alphabet (~Oct 28), Amazon (Oct 29, confirmed), plus the Nov 23 New Mexico air-permit decision relevant to Oracle's Project Jupiter force majeure (B2).",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B1"
+    ],
+    "t": "Meta's Q3 2026 results (reported after close) narrowed FY2026 capex guidance to $135-145bn, raising the low end from $130bn, on Q3 capex of $34.9bn; management declined to give a specific 2027 figure, saying it is still developing budget and capacity plans and that compute, not demand, is the constraint on its Muse AI product's growth. Revenue rose 26% to $64.6bn, beating the $63.3bn estimate; a $9.9bn legal charge cut GAAP EPS to $3.83 (would have been $7.40 excluding it). First of the 'Big Four' hyperscalers to report this season; no capex cut found, so B1 stays green.",
+    "url": "https://www.cnbc.com/2026/10/21/meta-earnings-q3-2026-live-updates.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-21",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "The MOVE bond-volatility index closed at 95.94 (Oct 21), down from 101.70 (Oct 20) and its first sub-100 close in weeks, flipping F2 from yellow to green and cutting Pillar F to zero red / four yellow.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE",
+    "tag": null
+  },
+  {
+    "date": "2026-10-22",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "B1",
+      "F2"
+    ],
+    "t": "Reds hold at 3 (A2, C1, C5) and yellows at 7 for a second straight session; Oracle's 288bp CDS and CoreWeave's CDS/bond distress (both Oct 15) remain the only dated credit prints, now seven trading days stale. Meta's Q3 report cleanly resolves the first of four hyperscaler capex signals this season (B1 stays green); MOVE's drop under 100 flips F2 to green, leaving the macro amplifier at MEDIUM on 0 red / 4 yellow (F1, F3, F4, F5). Stage holds at 5 (credit event); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable).",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-10-23",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A4",
+      "A6"
+    ],
+    "t": "Reds (Pillars A-E) rise from 3 to 4 as A4 (20-session AI-leader rotation vs RSP) turns red on a lag exceeding 10 points (SOX -14.1%, AMD -19.3%, NVDA -5.5% vs RSP +3.8%, Sep 24-Oct 22); A6 (single-day rout) turns yellow on the SOX's -6.72% Oct 22 session. Stage holds at 5 (C1/C5 remain the active credit confirmations).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX",
+    "tag": null
+  },
+  {
+    "date": "2026-10-22",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "F4"
+    ],
+    "t": "Brent crude jumped 4% to $113.17 (Oct 22 close), its highest settlement since May, on reports of potential renewed US/Israeli strikes on Iran; the move coincided with a broad equity selloff (Nasdaq -2.6%, SOX -6.7%) and a decline in the 10y Treasury yield to 4.95%, indicating the day's rout was risk-off/geopolitical rather than rate-driven.",
+    "url": "https://www.aljazeera.com/economy/2026/10/23/us-tech-stocks-tumble-as-investors-fret-over-ai-spending",
+    "tag": null
+  },
+  {
+    "date": "2026-10-23",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "G4"
+    ],
+    "t": "FRED's Ramp AI Index (RAMPAIALL) shows overall US business AI-tool adoption at 55.86% in September 2026, up from 55.24% in August -- the third consecutive monthly rise. G4 remains not-yet-scorable pending Microsoft's Oct 28 earnings call for the Azure ex-OpenAI growth differential.",
+    "url": "https://fred.stlouisfed.org/data/RAMPAIALL",
+    "tag": null
+  },
+  {
+    "date": "2026-10-28",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "F2"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fourth straight session; the only color change is F2 (MOVE bond-volatility index), which flips back to green on a 97.87 close (Oct 27), its first sub-100 print since Oct 21. Pillar F improves to 0 red / 4 yellow (from 5 yellow) but the amplifier stays MEDIUM. Stage holds at 5 (C1 Oracle CDS and C5 CoreWeave CDS/bonds, both now 9 trading days stale on their Oct 15-16 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable). Today's FOMC decision and Microsoft/Alphabet's capex guidance after the close are the next real tests.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-10-28",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F5"
+    ],
+    "t": "The FOMC held its target range at 3.75-4.00% on Oct 28 by a 10-2 vote, with dissenting Governors Cook and Hammack both favoring a 25bp hike rather than a cut -- a hawkish dissent. No new Summary of Economic Projections/dot plot was issued at this meeting.",
+    "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-28",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "B1"
+    ],
+    "t": "Microsoft (fiscal Q1 2027) and Alphabet (Q3 2026) both reported quarterly capex roughly doubling year-over-year (Microsoft ~$39bn vs ~$19bn; Alphabet ~$51bn vs ~$24bn) with no pause, trim, or digestion language from either -- the second and third of the four hyperscaler 2027 capex signals, both raised. Alphabet free cash flow was negative (~-$9.1bn) despite the capex surge.",
+    "url": "https://finance.yahoo.com/markets/article/alphabet-and-microsoft-are-on-both-sides-of-the-ai-booms-biggest-bills-chart-of-the-day-100000027.html",
+    "tag": null
+  },
+  {
+    "date": "2026-10-19",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G1",
+      "D2"
+    ],
+    "t": "OpenAI is reported (Reuters, relayed Oct 19) to be seeking ~$30bn in new funding at a pre-money valuation near $1.4T, up from the $1.25T figure reported in early October, still led by outside investors (UAE sovereign fund MGX and Coatue) rather than suppliers, and still unclosed.",
+    "url": "https://traded.co/vc/deal/openai-seeks-to-raise-30-billion-at-1-4-trillion-valuation-with-investor-support/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows at 7 for a fifth straight session -- no signal changed color. The FOMC held rates on Oct 28 with a hawkish 10-2 dissent, and Microsoft and Alphabet both roughly doubled quarterly capex year-over-year with no pause language, but neither catalyst moved a signal. Amazon reports tonight (Oct 29) as the last of the four hyperscaler 2027 capex signals; two or more of the four guiding flat or down on 2027 capex would turn B1 red and the stage to 4. The Oct 27-28 FOMC and Oct 28 Microsoft/Alphabet calendar items are removed from the calendar as resolved.",
+    "url": "https://claude.ai/code/session_01QebKNMPQHzeoJgsAnR91Z8",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B1"
+    ],
+    "t": "Amazon's Q3 2026 results (reported after close) showed AWS revenue +39% YoY to ~$46bn (beating consensus), FY2026 capex guidance held near $220bn, and management guided to 'meaningfully more' capex spending in 2027 with AWS growth projected above 40% through 2028 -- the fourth and final Big Four hyperscaler to report, completing the round with zero of four cutting or pausing 2027 capex. Shares fell more than 6% in after-hours trading on the spending outlook despite the AWS beat.",
+    "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926041034/tm263815d3_ex99-1.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A4",
+      "B1"
+    ],
+    "t": "Alphabet shares fell 12.6% to $283.82 the session after its Oct 28 earnings, its sharpest post-earnings drop in years, driven by an EPS miss tied to an $8.7bn paper loss on its SpaceX equity stake and free cash flow falling to -$9.1bn -- not a capex cut: Google Cloud revenue doubled to $30.7bn (beat) and 2026 capex guidance held at $195-205bn, with the CFO flagging a 'significant' 2027 increase. A Pillar-A price shock with no Pillar-B capex cut behind it.",
+    "url": "https://fortune.com/2026/10/28/alphabet-google-stock-drops-cloud-revenue-doubles-free-cash-flow-negative/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-30",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A6"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a sixth straight session but yellows fall from 7 to 6 as A6 (single-day rout) resets to green -- Oct 22's -6.72% SOX session rolled outside the trailing 5-session window with no new rout behind it. Amazon's Oct 29 results completed the four-hyperscaler 2027 capex round (Meta, Microsoft, Alphabet, Amazon all raised or maintained) with zero cuts, keeping B1 green on its strongest confirmation yet even as Alphabet (-12.6%) and Amazon (-6% after hours) both sold off post-earnings on margin/FCF concerns rather than capex cuts. The Oct 29 Amazon-earnings calendar item is resolved and removed.",
+    "url": "https://claude.ai/code/session_01QebKNL7Q6vEA21hgu2qoc8",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "t": "Intel's Q3 2026 report (after close) beat on revenue ($16.51bn, +21% YoY) but guided Q4 to $15-16bn vs $17.1bn consensus and flagged heavy AI-capex-driven cash burn; shares fell sharply after hours, dragging the semiconductor complex down the next session (SOX -7.20%, AMD -10.88%, NVDA -4.22%, Oct 30) -- the sharpest single-day rout since Oct 22, flipping A6 back to yellow and deepening SOX's drawdown and the AI-leader-vs-RSP rotation lag.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000050863/000005086326000188/q326earningsrelease.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-09-30",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "Micron's fiscal Q4 2026 results (reported after close Sep 30, surfaced in this run): record $54.23bn quarterly revenue, DRAM and NAND average selling prices up an estimated 232% and 383% YoY, FQ1 FY27 guide ~$61.5bn; management says memory/storage conditions should be tighter in fiscal 2027 and 2028 than fiscal 2026 -- reaffirms B4 green with no supply-chain crack.",
+    "url": "https://pulse2.com/micron-reports-record-fiscal-q4-revenue-of-54-23-billion-and-fy2026-revenue-of-133-19-billion/",
+    "tag": null
+  },
+  {
+    "date": "2026-10-30",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE (bond-volatility) index closed at 100.20, its first print back above the 100 green threshold since Oct 21, flipping F2 from green to yellow and lifting Pillar F to 0 red / 5 yellow (amplifier stays MEDIUM).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE",
+    "tag": null
+  },
+  {
+    "date": "2026-10-29",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C2",
+      "C3"
+    ],
+    "t": "Credit drifted modestly wider but stayed under green thresholds: US HY OAS rose to 326bp (FRED, Oct 29) from 314bp, and the whalequant.io HY-tech-minus-10y spread rose to 3.01% from 2.89%, with the page's own label shifting from 'low risk' to 'moderate risk.'",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "tag": null
+  },
+  {
+    "date": "2026-11-01",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "The calendar item tracking OpenAI's ~$30bn round deadline ('on or shortly after Oct 30') has passed: investors were reportedly given until Oct 30 to commit near a $1.2-1.5T valuation, still led by outside capital (SoftBank, UAE's MGX, Coatue) rather than suppliers, but no confirmed close, down round, or cancellation was found as of Nov 2. D2 and G1 stay yellow; the item is removed from the calendar and will be re-checked each run until a close (or its collapse) is confirmed.",
+    "url": "https://aiweekly.co/alerts/openai-races-to-lock-30b-round-at-14t-valuation-before-anthropics-mid-november",
+    "tag": "long-AI incentive"
+  },
+  {
+    "date": "2026-11-02",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A6",
+      "F2"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a seventh straight session but yellows rise from 6 to 7 as A6 (single-day rout) flips back to yellow on Friday Oct 30's broad semiconductor selloff (Intel-earnings-driven), with SOX -7.20%, AMD -10.88%, NVDA -4.22%; Pillar F's MOVE signal (F2) also flips green to yellow on a 100.20 close, keeping the amplifier at MEDIUM. Stage holds at 5 (Oracle CDS and CoreWeave CDS/bonds, both now 12 trading days stale on their Oct 15 prints, remain the active credit confirmations); circularity stays HIGH (G1, G2 yellow; G3, G4 not yet scorable) after OpenAI's round missed its Oct 30 deadline with no confirmed close found.",
+    "url": "docs/ai-bubble-signal-framework.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-02",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C1",
+      "C4"
+    ],
+    "t": "Oracle filed SEC paperwork for a concurrent $10bn common-stock offering and $10bn senior-notes sale (five tranches, coupons 7.000-8.650%, spreads 240-335bp over Treasuries) to fund its AI buildout; per FourWeekMBA's analysis of the pricing term sheet the new notes priced 145-175bp wider than Oracle's February 2026 deal at comparable maturities, rated BBB- (one notch above junk). Oracle shares fell 8.76% to $119.22 the same day.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526442729/d181425d424b5.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-02",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A2",
+      "A3",
+      "A5"
+    ],
+    "t": "Broad AI-linked selloff: NVDA's drawdown crossed from green into yellow (-15.54% from its Oct 6 high), the Nasdaq-100 entered correction territory (-10.36%, also flipping green to yellow), VIX jumped 8.9% to 21.15 (also flipping yellow), and SOX's drawdown deepened to -29.43%; AMD (-7.52%) and Micron (-5.78%) led chip losses ahead of AMD's Nov 3 earnings.",
+    "url": "https://finance.yahoo.com/markets/article/micron-sk-hynix-stocks-sink-as-ai-chip-sell-off-deepens-125622548.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-03",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A3",
+      "A5"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for an eighth straight session but yellows jump from 7 to 10 as A1 (NVDA drawdown), A3 (Nasdaq-100 drawdown) and A5 (VIX) all flip from green to yellow -- the first time any of the three has left green since the Sep 15 baseline. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
+    "url": "https://claude.ai/code/session_01QebKNLQvnuSxQAQyNBcEyv",
+    "tag": null
+  },
+  {
+    "date": "2026-11-03",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A4"
+    ],
+    "t": "AMD reported fiscal Q3 2026 results (Nov 3): revenue $13.4bn, above the high end of its own $12.7-13.3bn guidance, non-GAAP diluted EPS $2.09; shares rose 3.65% to $483.90, helping lead a broad chip-sector rebound (NVDA +2.29%, SOX +2.63%) after three red sessions.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-04",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A3",
+      "F2"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) for a ninth straight session but yellows fall from 10 to 8 as A1 (NVDA drawdown) and A3 (Nasdaq-100 drawdown) both flip back from yellow to green on a broad Nov 3 chip-sector rebound led by AMD's earnings beat -- the first same-direction improvement in Pillar A since the baseline. Pillar F's MOVE index (F2) also flipped back to green. Stage holds at 5; macro amplifier holds at MEDIUM; circularity holds at HIGH.",
+    "url": "https://claude.ai/code/session_01QebKNNEnAJQJt3vQup54oS",
+    "tag": null
+  },
+  {
+    "date": "2026-11-04",
+    "type": "framework",
+    "tier": null,
+    "signals": [],
+    "t": "Seven-week retrospective published; concerns ledger and Retro section added so every watch item is settled against what actually happened. Routine gains a Treasury fallback for FRED, GDELT request spacing, and an instruction to score G3 from the latest filed 10-Q.",
+    "url": "docs/review-2026-11-04.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-05",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1"
+    ],
+    "t": "CNBC confirmed (Oct 31, following an FT report) that OpenAI cut its roughly $30bn funding round to a $20bn target at a $1.25T valuation, down from the $1.4T it had sought; only about $11bn was committed as of the Oct 30 deadline amid 'lukewarm' large-investor interest. Forbes (Nov 2) reports UAE investors including MGX are pairing capital with compute-capacity commitments.",
+    "url": "https://hedgeco.net/news/11/2026/openai-cut-its-funding-round-target-to-up-to-20-billion-at-a-1-25-trillion-valuation.html",
+    "tag": "long-AI incentive: reporting relayed via deal-tracking aggregators, primary CNBC/FT articles unreachable this session"
+  },
+  {
+    "date": "2026-11-05",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "B2"
+    ],
+    "t": "The Nov 3 midterm elections installed anti-data-center state and local officials across 10 states (Ballotpedia counted 41 data-center ballot measures); neocloud stocks (CRWV -9.90%, IREN -11.24%) sold off Nov 4 on the result even as the broader market rallied on the Democratic sweep. No hyperscaler, Stargate or top neocloud has yet confirmed an actual project pause from it.",
+    "url": "https://www.axios.com/2026/10/31/ai-booms-political-reckoning",
+    "tag": null
+  },
+  {
+    "date": "2026-11-05",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A5"
+    ],
+    "t": "Reds (Pillars A-E) hold at 4 (A2, A4, C1, C5) and yellows hold at 8 for a tenth straight session, but composition shifted within Pillar A: A1 (NVDA drawdown) flipped back to yellow (-16.35% from its Oct 6 high) as A5 (VIX) flipped back to green (16.61, down from 20.83). CoreWeave's equity drawdown deepened to -64.91% from its May high. Stage holds at 5; circularity holds HIGH.",
+    "url": "briefs/2026-11-05.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "B5",
+      "C4",
+      "D4",
+      "E2",
+      "E4",
+      "F5",
+      "G4"
+    ],
+    "t": "Framework revised after the retrospective: Stage 5 needs breadth and fresh prints, hysteresis on level-based signals, C4 on secondary trading, B5 policy-and-power added, E4/D4/E2/F5/G4 redefined to measurable sources, daily check moved to after the close with an overnight watch before the open.",
+    "url": "docs/review-2026-11-04.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A6",
+      "A2"
+    ],
+    "t": "US chip and AI-infrastructure stocks had their worst session of this run on Nov 5 close: SOX plunged 12.25% (10,268.65 to 9,011.14, -38.4% from its June high), NVDA -9.26% to $181.60, AMD -17.26% to $404.40, MU -17.46% to $656.39, ORCL -6.93% to $115.16 and CRWV -9.83% to $43.66, with S&P 500 -4.4% and Nasdaq entering correction on post-midterm data-center-moratorium and AI-capex doubts; Asia extended the rout into Nov 6 pre-market with SoftBank -10.83% to 3,549 yen, SK Hynix -10.44%, the Nikkei -5.97% and the Kospi -5.98%, while US equity futures (ES=F +0.1%, NQ=F +1.4%) stabilized. SOX's dated -12.25% single-day close on Nov 5 is a T1 exchange-price fact that breaches A6's red threshold (SOX -8% or more in a day) for the first time this run and deepens A2's existing red drawdown.",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A6",
+      "A2",
+      "A4"
+    ],
+    "t": "The worst single session this tracker has recorded: SOX closed -12.25% on Nov 5 (10,268.65 to 9,011.14, -38.4% from its June high) and NVDA fell 9.26% to $181.60, breaching A6's -8% red threshold for the first time, before a partial Nov 6 rebound (SOX +6.26% to 9,574.89, NVDA +6.94% to $194.21, AMD +13.2%).",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-november-5-dow-sp-500-nasdaq-plunge-chip-stocks-melt-down-193726491.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B2"
+    ],
+    "t": "Bloomberg (Nov 4), citing the FT, and Reuters/Investing.com (Nov 4) confirmed Oracle scrapped a $7bn deal to lease AI chips to Tencent under US political pressure, with Guangdong officials separately pushing Tencent toward domestic chips; Oracle, Tencent and the White House did not comment. Treated as a geopolitical export-control event, not a company-confirmed AI-demand pause -- B2 stays yellow.",
+    "url": "https://www.bloomberg.com/news/articles/2026-11-04/oracle-scraps-7-billion-deal-to-lease-chips-to-tencent-ft-says",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "opinion",
+    "tier": "T3",
+    "signals": [
+      "D2",
+      "E4"
+    ],
+    "t": "24/7 Wall St (Nov 6), citing unnamed major investors, reports doubt that Anthropic can IPO near its targeted $1.5T after the Nov 5 crash, floating a sub-$1.5T price or a slip past the week of Nov 9; Anthropic's S-1 amendment (Nov 2) still leaves the price range blank. No confirmed repricing or postponement yet.",
+    "url": "https://247wallst.com/investing/2026/11/06/big-investors-now-doubt-anthropic-can-ipo-at-1-5-trillion-after-the-ai-crash/",
+    "tag": "engagement incentive: crash-reaction headline, sourced to unnamed investors"
+  },
+  {
+    "date": "2026-11-06",
+    "type": "framework",
+    "tier": null,
+    "signals": [],
+    "t": "First run scored under the Nov 6 retrospective rules. Stage falls from 5 to 1 (price break, with a credit-stress flag) because Oracle's and CoreWeave's credit reds are now beyond 10 trading days stale and no longer count toward Stage 5's breadth-and-freshness test -- a methodology change, not new facts. B5 (policy and power) scored for the first time (yellow). Pillar A gained a third red (A6) on the Nov 5 single-day rout.",
+    "url": "briefs/2026-11-06.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "G4",
+      "D1"
+    ],
+    "t": "Anthropic's Nov 2 S-1/A amendment disclosed Q3 2026 revenue of $16.96bn (+1,127% YoY, up from $11.56bn in Q2) but a swing to a $567mn operating loss (from a $974mn Q2 profit) as purchase/lease compute commitments jumped to $895.4bn, up from $518bn reported in the Oct 26 S-1 -- the first dated print giving G4 a score (yellow: commitments now outgrowing a quarter's revenue, negative margin).",
+    "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026068676/anthropicpbc-sx1ax1.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A1"
+    ],
+    "t": "Taiwan's TAIEX closed Monday's session +4.94% to 41,661.70 from Friday's 39,701.64, with Taipei-listed TSMC (2330.TW) +4.68% to NT$2,235, crossing the overnight watch's 3% Asian-index threshold as chip names rebound from the Nov 5 rout; US equity futures (ES=F +0.92%, NQ=F +1.02%) and NVDA's premarket quote (-5.28% vs Friday's $186.64 close) stayed under their own thresholds.",
+    "url": "https://finance.yahoo.com/quote/%5ETWII/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F5"
+    ],
+    "t": "BLS reported October nonfarm payrolls rose 165,000 (vs. a roughly 59k consensus), well above every forecast, with unemployment falling to 4.1% from 4.2% -- a resilient labor market that argues against near-term Fed cuts and keeps F5 pressured from the hawkish side.",
+    "url": "https://www.bls.gov/news.release/empsit.nr0.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A4",
+      "D1"
+    ],
+    "t": "Nvidia's board opened an independent investigation into CEO Jensen Huang after reports that he had a relationship with a woman identified by intelligence agencies as a Chinese intelligence operative; NVDA fell 4.27% to $178.67 (-26.6% from its Oct 6 high) even as the rest of the chip complex rallied sharply (SOX +6.9%, AMD +13.3%, AVGO +8.8%), a governance shock specific to the sector's single most important name.",
+    "url": "https://www.cnbc.com/2026/11/09/nvidia-jensen-huang-chinese-spy-investigation.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "D5"
+    ],
+    "t": "A cluster of AI-startup shutdowns and layoffs surfaced this week: privacy-assistant startup Ollie wound down Nov 6 weeks after a $7.5M Khosla-led seed round, AI21 Labs cut about 60% of its staff to focus on its Maestro agent platform, and Amazon reportedly closed its AGI Lab as part of unit-wide layoffs, alongside smaller shutdowns (SmartLayer, ClimateAI, NeuroPixel.AI) -- enough for D5 to move from isolated cases to 'several notable shutdowns in a month.'",
+    "url": "https://aiweekly.co/alerts/ollie-to-shut-down-nov-6-weeks-after-75m-khosla-seed",
+    "tag": null
+  },
+  {
+    "date": "2026-11-09",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "C1"
+    ],
+    "t": "Oracle's five-year CDS got its first fresher-than-stale dated print since mid-October: IFR's capital-markets coverage for the week of Nov 7-13 puts the spread at roughly 305bp, and a separate report citing CNBC puts it at about 295bp Monday morning after touching 300bp the prior Thursday -- consistent with each other and keeping C1 red, now on less-stale evidence.",
+    "url": "https://www.ifre.com/topic-codes/2509450/cds-market-flashes-warning-on-ai-ratings-downgrades",
+    "tag": null
+  },
+  {
+    "date": "2026-11-10",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "B4"
+    ],
+    "t": "TSMC's October revenue, filed via SEC Form 6-K on Nov 10, grew 59.7% year-over-year to NT$586.89bn (up 14.7% from September), accelerating from September's 54.6% pace -- the opposite of the deceleration concern c30 was watching for, so B4 stays green. Separately, Asian chip and AI-adjacent equities extended Monday's US rebound into Tuesday's Asia session: SoftBank (9984.T) rose 13.9% to 3,872 yen and the KOSPI gained 4.4% to 5,239.13, both crossing this watch's move thresholds, while US equity futures (ES=F +0.04%, NQ=F -0.40%) and NVDA/ORCL/CRWV/MSFT/AMD/MU pre-market quotes were flat to slightly lower versus Monday's close.",
+    "url": "https://www.sec.gov/Archives/edgar/data/0001046179/000104617926000796/tsm-revenue20261110.htm",
+    "tag": null
+  },
+  {
+    "date": "2026-11-10",
+    "type": "framework",
+    "tier": "T2",
+    "signals": [
+      "B5"
+    ],
+    "t": "Correction: B5 moves from yellow to red on a previously-missed fact. Texas Gov. Abbott's Aug 3, 2026 executive order directed ERCOT and the PUCT to audit every data center in the interconnection queue and deny grid access to projects that fail the review, later extended via a TCEQ freeze on data-center air permits; Abbott said the directive 'halted up to 1,800 data center projects.' This is an enacted/executive-ordered state pause -- B5's red bar outright -- that this tracker's B5 scoring had missed since the signal was added Nov 6, scoring yellow on Georgia/Virginia/Ohio items alone. No rescission of the statewide order was found (a narrower local Hill County, TX moratorium was separately rescinded in June after a developer's lawsuit).",
+    "url": "https://www.techrepublic.com/article/news-texas-data-center-grid-approvals-474-gw/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-05",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave's 5-year CDS reportedly hit a record ~1,289bp intraday on Nov 5 (exceeding October's prior high), easing to roughly 1,155-1,195bp by Nov 6, per Benzinga citing S&P Global Market Intelligence, Motley Fool and CNBC-sourced aggregators -- an implied five-year default probability above 60%. Combined with Oracle's ~295-315bp CDS print (Nov 9), this restores Stage 5's two-fresh-red credit breadth-and-freshness test for the first time since the Nov 6 framework revision.",
+    "url": "https://www.benzinga.com/markets/bonds/26/10/62603452/coreweave-cds-record-lehman-default-risk",
+    "tag": null
+  },
+  {
+    "date": "2026-11-10",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F5",
+      "F3",
+      "F4"
+    ],
+    "t": "October CPI rose 0.4% month-over-month headline and 0.3% core, both above forecast (BLS); the year-over-year figure cannot be officially published due to the 2025 government-shutdown data gap. The same day, a $42bn 10-year Treasury auction tailed (high yield 5.02% vs 5.010% when-issued, bid-to-cover 2.46 -- lowest since May, indirect bidders 61.2% -- lowest since Oct 2023), pushing the 2-year yield to 4.73% and flipping F5 red (+85.5bp over the Fed's 3.875% midpoint) for the first time since the signal was redefined Nov 6.",
+    "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-11",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "C5"
+    ],
+    "t": "CoreWeave's Q3 2026 results (reported Nov 10 after the close) beat estimates -- revenue +168% YoY to ~$3.7bn versus ~$3.55bn consensus, adjusted operating income $379mn versus $200-260mn guided, backlog hitting a record $132.5bn, and FY guidance raised -- sending the stock up ~14.5% pre-market (Nov 11), crossing this watch's 7% single-name threshold and cutting against the credit-distress narrative behind C5 and open concerns c18/c34/c37, even as net loss widened to $709mn on $846mn of interest expense. Asian chip-linked equities extended the overnight rebound (TAIEX +3.6%, KOSPI +2.6%, SK Hynix +5.4%, TSMC +4.8%) and US equity futures firmed (NQ=F +1.8%, ES=F +0.8%), both separately crossing this watch's Asia-index and Nasdaq-futures move thresholds.",
+    "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-11",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C5",
+      "D1"
+    ],
+    "t": "CoreWeave's Q3 2026 results (reported after close Nov10): revenue $3.66B (+168% YoY), beat its own guide; adjusted operating income $379M (10% margin, up from 5% in Q2); FY26 revenue guidance raised to $13.0-13.3B; backlog $132.5B. No going-concern or covenant-breach language found anywhere in the call. Stock closed +24.71% to $60.77 on Nov11.",
+    "url": "https://www.fool.com/earnings/call-transcripts/2026/11/10/coreweave-crwv-q3-2026-earnings-call-transcript/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-11",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "C1",
+      "C5"
+    ],
+    "t": "Re-scored under the Nov11 confirmation rule: neither Oracle's nor CoreWeave's dated CDS prints (the basis for Nov10's Stage5 call) could be traced to a directly-openable T1-T3 source stating the level and date -- both are UNCONFIRMED. Combined with CoreWeave's Q3 beat removing the going-concern basis for C5 (now yellow), the stage falls from 5 to 1 (price break), with a credit-stress flag carried by C1's still-red-but-unconfirmed Oracle CDS reading alone.",
+    "url": "briefs/2026-11-11.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A4"
+    ],
+    "t": "NVDA closed -30.53% below its Oct6 52-week high ($166.19 vs $239.24) on a -4.34% day, the first close past the 30% mark; SOX -0.54% to 10,506.67 (-28.21% from high), CRWV -6.86% to $56.60 -- a broad giveback of Monday's relief rally.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G4"
+    ],
+    "t": "Anthropic's amended S-1 sets IPO terms at $70-78 per share, up to $64.4bn raised and roughly $1.3-1.4T valuation (Reuters, via Stock Analysis, Nov10), with Alphabet, Nvidia and Microsoft agreeing to buy a separate share class at the IPO price; a possible debut as early as next week. The range sits below the $1.5-2T target floated in October's S-1 but above its last priced round (~$965B-$1T, May Series H) -- a haircut on the ask, not a down round.",
+    "url": "https://stockanalysis.com/news/anthropic-ipo-targets-64-billion/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A3",
+      "A6"
+    ],
+    "t": "Two Pillar A signals moved for mechanical reasons rather than new facts: A3 (Nasdaq-100 drawdown) confirmed its hysteresis flip from yellow to green on a second consecutive close under the 10% threshold (NDX -9.40%, Nov12); A6 (single-day rout) eased from red to yellow as Nov5's SOX -12.25% session aged out of the trailing 5-trading-day window, leaving only NVDA's -5.47% close (Nov10) inside it -- one qualifying day, not the two needed to stay red. Reds (Pillars A-E) fall from 6 to 5; greens rise from 10 to 11. Stage holds at 1 (price break) with the credit-stress flag carried by Oracle's still-unconfirmed CDS reading (C1), now unconfirmed for a third straight run.",
+    "url": "briefs/2026-11-12.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "framework",
+    "tier": null,
+    "signals": [],
+    "t": "boomorbubble.ai's /api/gauges endpoint now returns a permanent-retirement message (\"This dashboard has been retired. Updates have moved to the AI Investment Brief.\") rather than gauge data. Its contribution to E3 stays carried at 0/5 red 'Boom' from Nov3 until a replacement source is identified; treat it as a dead feed in future runs rather than retrying it daily.",
+    "url": "https://boomorbubble.ai/api/gauges",
+    "tag": null
+  },
+  {
+    "date": "2026-11-06",
+    "type": "hard",
+    "tier": "T4",
+    "signals": [
+      "G1",
+      "D2"
+    ],
+    "t": "OpenAI's first $11bn tranche of its up-to-$20bn funding round closed Nov6 at a $1.25T pre-money valuation, below the $1.4T target floated in September; multiple aggregators citing Reuters/Bloomberg name SoftBank and Abu Dhabi's MGX as confirmed outside participants, while reports that Amazon, Nvidia and Microsoft 'anchored' the tranche may recycle March-round language and are less certain -- neither Reuters nor Bloomberg's original reporting was directly opened.",
+    "url": "https://nairametrics.com/2026/11/07/openai-secures-11-billion-in-fresh-funding-at-1-25-trillion-valuation/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-16",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "B4"
+    ],
+    "t": "SK Hynix closed -7.89% to KRW1,120,000 (Nov16 vs Nov13's 1,216,000), crossing the single-name 7% Asia-chip alert threshold, while KOSPI fell 3.59% to 5,100.50 and Taiwan's TAIEX fell 6.03% to 41,040.08 in a broad overnight memory/AI-chip rout (Yahoo Finance; a Seoul Economic Daily piece dated Nov16 cites heavy pension-fund selling amid AI-bubble concerns, a T2/T3 source not directly opened here). This bears on A2 (SOX/chip price break) and B4 (memory/HBM supply chain); a separate search claim that Nvidia CEO Jensen Huang had resigned (tied to open concern c35) could not be confirmed -- sec.gov and nvidianews.nvidia.com are blocked on this network, and other results described the board investigation as still open with Huang retaining the board's backing as of Nov9-10 -- so it is flagged for the daily check, not scored as fact here.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/000660.KS?range=5d&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-11-12",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1"
+    ],
+    "t": "Nvidia's board announced Jensen Huang's resignation as CEO effective Nov12, 2026, per an SEC 8-K naming CFO Colette Kress interim CEO and Harvey C. Jones the company's first independent Board Chair. Press reports (NBC News, Washington Post, CNN) tie the exit to revelations of extramarital relationships, including one with an individual alleged to have ties to Chinese intelligence, following the board's Nov6-9 independent investigation. sec.gov is blocked on this network and could not be opened directly; this fact was missed entirely in the Nov13 daily run, which attributed that week's price action to generic risk-off with no company-specific catalyst identified.",
+    "url": "https://www.nbcnews.com/tech/tech-news/nvidia-ceo-jensen-huang-resigns-reports-extramarital-relationships-rcna608402",
+    "tag": null
+  },
+  {
+    "date": "2026-11-16",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A3",
+      "A6"
+    ],
+    "t": "Two Pillar A signals moved on mechanics: A3 (NDX drawdown) confirmed its hysteresis flip back to yellow on a second consecutive close past the 10% line (-10.51% Nov13, -12.90% Nov16); A6 (single-day rout) flipped to red as today's SOX -5.28% joined Nov10's NVDA -5.47% inside the trailing 5-trading-day window. Reds (Pillars A-E) rise from 5 to 6; greens fall from 11 to 10. Concern c35 (Jensen Huang investigation outcome) is resolved as materialized on confirmation of his Nov12 resignation.",
+    "url": "briefs/2026-11-16.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "B3"
+    ],
+    "t": "Nvidia's Q3 FY27 results (first under interim CEO Colette Kress, following Jensen Huang's Nov12 resignation): revenue $115.8bn (+103% YoY, vs ~$108bn consensus), Data Center revenue $107.6bn (+110% YoY), GAAP EPS $2.70; Q4 guidance $130bn +/-3% assuming no China data-center compute revenue, gross margin guided 71-72%. A clean beat and raise, flipping B3 green.",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1",
+      "G4"
+    ],
+    "t": "Anthropic set its IPO price range at $70-78 per share (implying roughly $1.26-1.41T depending on share-count method), below the $1.5-2T target floated in October; the public offering covers about 825 million Class A shares. Pricing is expected Nov18 with trading to begin Nov19 on Nasdaq under ticker ANT.",
+    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G1"
+    ],
+    "t": "Alongside Anthropic's public IPO offering, AMD, Broadcom, Google, Micron, Microsoft, Nvidia and TSMC have each agreed to buy non-voting Class N shares at the IPO price in a separate private placement reported at roughly $26bn combined -- suppliers anchoring a large slice of the raise.",
+    "url": "https://decrypt.co/382939/anthropic-sets-ipo-price-range-at-70-to-78-valuing-company-at-up-to-1-4-trillion",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "F3"
+    ],
+    "t": "Correction caught this run: F3 (term premium or auction reception) moves from yellow to red on a previously-uncaught fact -- the $42bn 10-year Treasury note auction (Nov10) tailed 1bp and the $25bn 30-year bond auction (Nov12) tailed 0.4bp with bid-to-cover falling to 2.36 from 2.54, meeting F3's 'two consecutive tails' red criterion as an event separate from the term-premium leg (which stays under 1.0%). Macro amplifier rises from MEDIUM to HIGH for the first time since early October.",
+    "url": "https://www.newsquawk.com/headlines/us-sells-usd-25bln-of-30-year-bonds-tail-04bps-",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "E2"
+    ],
+    "t": "Narrative volume spiked sharply: Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in roughly 25.6 hours (Nov16 18:04 to Nov17 19:39 GMT), the fastest cap-fill this tracker has recorded, versus a roughly 7-day baseline pace -- flipping E2 from green to red. GDELT's 12-month comparator stayed rate-limited (429) even after a mandated 10-second retry.",
+    "url": "https://news.google.com/rss/search?q=%22AI+bubble%22+when:7d&hl=en-US&gl=US&ceid=US:en",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A5",
+      "A6",
+      "E3"
+    ],
+    "t": "Three mechanical/tracker moves: A5 (VIX) confirmed its hysteresis flip to yellow on a second consecutive close above 20 (25.46, Nov17); A6 (single-day rout) eased red to yellow as Nov10's NVDA -5.47% session rolled out of the trailing 5-day window, leaving only Nov16's SOX -5.28% inside it; E3 (composite trackers) flipped green to yellow as aibubble.watch and Polymarket's 2026 burst-odds both ticked up while aibubblemonitor.com eased -- two of three deteriorating.",
+    "url": "briefs/2026-11-17.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-18",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1",
+      "E4"
+    ],
+    "t": "Anthropic priced its IPO at $83/share, above the $70-78 range, implying a valuation north of $1.5T (versus the $1.26-1.41T floor the range implied); the public offering closed roughly 7x oversubscribed. Trading begins Nov19 on Nasdaq under ticker ANT. Flips D2 (private pricing, rounds oversubscribed) and G1 (majority outside capital with a valuation step-up) green.",
+    "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-18",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "E2",
+      "E3"
+    ],
+    "t": "Yesterday's narrative spike reverted: Google News RSS's 7-day 'AI bubble' query, which filled its 100-item cap in ~25.6 hours on Nov17, filled it in ~159.8 hours (~6.7 days) today -- back near the ~7-day baseline pace -- flipping E2 from red to green. E3 also eased to green as two of three actively-tracked composite trackers (aibubblemonitor, Polymarket 2026 burst-odds) improved rather than deteriorated. Reds (Pillars A-E) fall from 6 to 5; greens rise from 7 to 10.",
+    "url": "briefs/2026-11-18.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-19",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A2",
+      "A3"
+    ],
+    "t": "Taiwan's TWII closed -4.40% (38,426.89 vs 40,194.91 Nov18, Yahoo ^TWII) in a TSMC-led regional tech rout, while Nasdaq-100 futures rose about +2.03% (27,739.5 vs 27,186.75 Nov18 close, Yahoo NQ=F) on relief from Anthropic's oversubscribed $83 IPO pricing; ES=F futures were up about +1.19%. Both cross the overnight watch's standalone alert thresholds (an Asian index moving 3%+ and US equity futures moving 1.5%+) though neither directly flips one of the 25 tracked daily signals as of this pre-market check; the moves bear on Pillar A's price-break read (A2 semiconductor / A3 Nasdaq exposure) and set up today's open, including concern c47's test of whether ANT holds above its $83 issue price.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ETWII?range=5d&interval=1d&includePrePost=true",
+    "tag": null
+  },
+  {
+    "date": "2026-11-19",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "D2",
+      "G1",
+      "E4"
+    ],
+    "t": "Anthropic's ANT began trading on Nasdaq, opening at $111.50 (+34% over the $83 IPO price), then fading through the session to close its first day at $97.17 (+17%), implying a fully diluted valuation of roughly $1.3-1.8T depending on method. Neither a below-issue close nor a day-one double occurred, resolving concern c47.",
+    "url": "https://www.forbes.com/sites/fionariley/2026/11/19/anthropic-ipo-live-stock-closes-day-at-97-up-more-than-17%25/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-17",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "E1"
+    ],
+    "t": "BofA's November Global Fund Manager Survey (field Nov6-12, published Nov17) named an AI bubble the #1 tail risk for 34% of managers, up from 23% in October, with an AI-hyperscaler credit event second at 31%. Net tech overweight fell to 12% from 37%, the sharpest cut since June 2006, and a record net 38% say companies are overinvesting in AI. Cash fell to 3.6% of AUM from 3.9%, keeping BofA's contrarian cash rule on 'sell' but not triggering E1's rising-cash red condition. Resolves concern c41.",
+    "url": "https://fortune.com/2026/11/17/ai-bubble-popping-bofa-fund-manager-survey-largest-cut-since-2006/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-19",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "D4"
+    ],
+    "t": "Census BTOS's newest cycle (202623, published Nov19) shows 25.0% of firms used AI/Super Intelligence in the last two weeks, above the prior three readings (202621 24.6%, 202622 24.2%, 202620 23.8%) and above the 24.6% level this framework flagged on Nov6 as D4's green trigger.",
+    "url": "https://www.census.gov/hfp/btos/downloads/National.xlsx",
+    "tag": null
+  },
+  {
+    "date": "2026-11-19",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "F2",
+      "D4",
+      "E1"
+    ],
+    "t": "Mechanical notes: F2 (MOVE) confirmed its hysteresis flip to green on a second consecutive close under 100 (96.04, Nov19), though the macro amplifier stays HIGH on F3/F5. D4 (BTOS) and E1 (BofA FMS) swapped colors in opposite directions (D4 yellow to green, E1 green to yellow), leaving Pillars A-E's totals unchanged at 5 red/10 yellow/10 green. Stage stays at 1 with credit stress carried by C1 alone, now unconfirmed for an eighth straight run.",
+    "url": "briefs/2026-11-19.md",
+    "tag": null
+  },
+  {
+    "date": "2026-11-20",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A2",
+      "A6"
+    ],
+    "t": "Asia closed sharply lower overnight -- Nikkei -5.06% (56,436.65 vs 59,444.21 Nov19, Yahoo ^N225), Kospi -5.22% (4,869.96 vs 5,137.89, ^KS11), Taiex -6.23% (36,033.29 vs 38,426.89, ^TWII) and SoftBank -14.48% (3,025 vs 3,537 yen, 9984.T), while Nasdaq-100 futures (NQ=F) fell -1.85% (26,108.75 vs 26,600.25) and pre-market AMD and CoreWeave were down -6.48% and -5.33%, crossing the overnight watch's 1.5% futures, 3% Asia and 7% SoftBank/TSMC/SK Hynix alert thresholds. This bears on Pillar A's price-break read (A1 NVDA drawdown, A2 SOX, A6 single-day rout) heading into today's US open and the daily check's test of concern c32 (SOX/NVDA single-day rout, deadline today).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/9984.T?range=5d&interval=1d&includePrePost=true",
+    "tag": null
+  },
+  {
+    "date": "2026-11-20",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "t": "NVDA closed -14.01% at $125.53 (-47.53% from its Oct6 closing high, a fresh extreme) and SOX -10.73% to 8,408.59 (-42.54% from its Jun22 high), the worst single-session AI-complex rout since Nov5, after a Wall Street Journal report (Nov17, corroborated via pymnts and tweaktown) that the SEC is conducting a civil investigation into whether Nvidia's disclosures misled investors -- compounding the Nov12 Jensen Huang resignation overhang. The S&P 500 fell 3.70% into a technical correction (-11.62% from its Oct6 high) and VIX spiked +26.20% to 35.89, a fresh 1-year closing high. Flips A6 (single-day rout) yellow to red, resolving concern c32 as materialized on its Nov20 deadline.",
+    "url": "https://www.fool.com/coverage/stock-market-today/2026/11/20/stock-market-today-nov-20-stocks-plunge-as-ai-trade-unwinds/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-20",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "Polymarket's 'AI bubble burst in 2026?' Yes price jumped to 59.95% from 7.95% a day earlier, and its 'burst by June 30, 2027?' market to 67.5% from 19.5% -- the largest one-day move in either market since each was created. Does not flip E3 (stays 'disagreeing') since the other two actively-tracked trackers (aibubble.watch flat at 82, aibubblemonitor.com easing to 41.7 from 43.1) did not deteriorate in tandem.",
+    "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by",
+    "tag": null
+  },
+  {
+    "date": "2026-11-20",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C3"
+    ],
+    "t": "FRED's HY OAS fallback (fredgraph.csv, one-day lag) put high-yield spreads at 352bp on Nov19, the first close above the 350bp line since the Sep15 baseline -- resolves concern c21 as materialized, though C3 itself stays green under the hysteresis rule pending a second consecutive close above 350bp.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "tag": null
+  },
+  {
+    "date": "2026-11-20",
+    "type": "framework",
+    "tier": null,
+    "signals": [
+      "A6",
+      "E2",
+      "F2"
+    ],
+    "t": "Mechanical notes: A6 flipped yellow to red (NVDA/SOX single-day thresholds both crossed) and E2 flipped green to yellow (Google News RSS pace ~1.56x baseline), lifting Pillars A-E's reds from 5 to 6 and lowering greens from 10 to 9 (yellows unchanged at 10). F2 (MOVE) reversed back above 100 after two confirming sub-100 closes; hysteresis keeps it green pending a second confirming close back above 100. Stage stays at 1 with credit stress carried by C1 alone, now unconfirmed for a ninth straight run.",
+    "url": "briefs/2026-11-20.md",
+    "tag": null
+  }
 ]
