@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-20T13:12:03Z",
-    "date": "2026-11-20",
+    "last_run_utc": "2026-11-23T13:12:41Z",
+    "date": "2026-11-23",
     "result": "alert",
-    "note": "Asia -5 to -6% (Nikkei, Kospi, Taiex), SoftBank -14.5%, Nasdaq futures -1.85% -- crosses futures/Asia/SoftBank thresholds; bears on A1/A2/A6."
+    "note": "US futures NQ=F +3.2%/ES=F +2.4%, NVDA premkt +8.6%, CRWV +7.1% vs Fri close; Kospi -3.3%. Rebound off Fri rout crosses futures/premkt/Asia thresholds."
   }
 }

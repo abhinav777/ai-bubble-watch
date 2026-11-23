@@ -1715,5 +1715,16 @@
     "t": "Mechanical notes: A6 flipped yellow to red (NVDA/SOX single-day thresholds both crossed) and E2 flipped green to yellow (Google News RSS pace ~1.56x baseline), lifting Pillars A-E's reds from 5 to 6 and lowering greens from 10 to 9 (yellows unchanged at 10). F2 (MOVE) reversed back above 100 after two confirming sub-100 closes; hysteresis keeps it green pending a second confirming close back above 100. Stage stays at 1 with credit stress carried by C1 alone, now unconfirmed for a ninth straight run.",
     "url": "briefs/2026-11-20.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A1"
+    ],
+    "t": "US equity futures rebounded sharply from Friday's close -- NQ=F +3.16% to 25,920.25 and ES=F +2.43% to 7,103.25 (Yahoo) -- while NVDA pre-market traded at $136.37 (+8.64%) and CRWV at $42.30 (+7.06%), both crossing the overnight watch's 1.5% futures and 7% single-name pre-market alert thresholds; Kospi fell 3.31% to 4,708.54 (Taiex +2.16%, Stoxx50 +0.74%, Nikkei/SoftBank closed for a Japanese holiday), crossing the 3% Asia threshold. No dated T1-T3 fact explaining the bounce or settling any open concern was found; this bears on A1's NVDA drawdown read heading into today's close.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d&includePrePost=true",
+    "tag": null
   }
 ]
