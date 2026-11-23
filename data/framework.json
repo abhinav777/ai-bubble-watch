@@ -368,8 +368,8 @@
  ],
  "calendar": [
   {
-   "when": "Nov 23",
-   "what": "New Mexico air-permit decision on Oracle's Project Jupiter (B2, B5) -- the hearing previously eyed for around this date has been further postponed with no new date set, per Albuquerque Journal reporting (Nov19 check)."
+   "when": "Dec 7",
+   "what": "Rescheduled New Mexico air-permit hearing on Oracle's Project Jupiter (B2, B5, concern c53) -- Nov23's decision deadline was waived and the hearing postponed again with no pause or approval made (concern c16 resolved did_not)."
   },
   {
    "when": "Nov 17-24",
@@ -596,6 +596,16 @@
     "G1"
    ],
    "t": "Yesterday's two negative moves both reversed. Anthropic priced its IPO at $83/share -- above the $70-78 range and ~7x oversubscribed, implying >$1.5T -- flipping D2 (rounds oversubscribed) and G1 (majority outside capital with a valuation step-up) green; its ~$26bn supplier private placement is a minority of the combined raise. Separately, Google News RSS's 'AI bubble' 7-day cap-fill reverted to ~6.7 days (near the ~7-day baseline) from Nov17's ~25.6-hour spike, flipping E2 back to green, while two of three composite trackers eased, flipping E3 to green. Reds fall from 6 to 5; yellows from 12 to 10; greens rise from 7 to 10. Stage holds at 1 (price break) with credit stress carried by Oracle's still-unconfirmed CDS print, now unconfirmed for a seventh straight run. Circularity stays HIGH (G2, G4 yellow; G3 not yet scorable) but on a 2-yellow rather than 3-yellow reading."
+  },
+  {
+   "date": "2026-11-23",
+   "signals": [
+    "A6",
+    "C3",
+    "E2",
+    "F2"
+   ],
+   "t": "After Friday's SEC-probe-driven rout (NVDA -14.01%, VIX to 35.89), Nvidia's board reinstated Jensen Huang as President/CEO today, reversing his Nov12 resignation; the Trump administration reportedly cleared him of national-security concerns. The reinstatement, not any SEC-probe resolution (which stays open, concern c50), drove the tracker's largest one-day AI-infrastructure rally: NVDA +31.48%, SOX +14.03%, VIX -25.83% to 26.62, and Polymarket's 2026 burst-odds collapsed from 59.95% to 10.95%. A6 (single-day rout, event-based) resets red to green on the up day; E2 (narrative volume) reverts yellow to green as Google News RSS's pace cooled back near baseline. Underneath the rally, credit crept worse on hysteresis: C3 (US HY OAS) confirmed a second consecutive close above 350bp (376bp Nov20), flipping green to yellow. New Mexico again postponed its Project Jupiter decision past today's deadline (concern c16 resolved did_not; rescheduled to the Dec7 hearing as concern c53) and VIX's single Nov20 close above 30 never got a confirming second close (concern c51 resolved did_not). A previously-missed Nov6-7 Bloomberg report of Microsoft paring back Oracle/neocloud capacity commitments reinforces G2's existing yellow without a company-confirmed cancellation. Reds (Pillars A-E) fall from 6 to 5; yellows hold at 10; greens rise from 9 to 10. Stage holds at 1 (price break); macro amplifier stays HIGH as F2 joins F3/F5 red on its own hysteresis confirmation (now 2 red/3 yellow in Pillar F); circularity holds HIGH."
   }
  ],
  "circularity": {

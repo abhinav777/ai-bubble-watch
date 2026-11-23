@@ -1726,5 +1726,69 @@
     "t": "US equity futures rebounded sharply from Friday's close -- NQ=F +3.16% to 25,920.25 and ES=F +2.43% to 7,103.25 (Yahoo) -- while NVDA pre-market traded at $136.37 (+8.64%) and CRWV at $42.30 (+7.06%), both crossing the overnight watch's 1.5% futures and 7% single-name pre-market alert thresholds; Kospi fell 3.31% to 4,708.54 (Taiex +2.16%, Stoxx50 +0.74%, Nikkei/SoftBank closed for a Japanese holiday), crossing the 3% Asia threshold. No dated T1-T3 fact explaining the bounce or settling any open concern was found; this bears on A1's NVDA drawdown read heading into today's close.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=5d&interval=1d&includePrePost=true",
     "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A6"
+    ],
+    "t": "Nvidia's board unanimously reinstated Jensen Huang as President, CEO and board director effective immediately, reversing his Nov12 resignation over a personal-conduct review that had also raised national-security questions. CNBC separately reported the Trump administration told Nvidia's board Huang posed no national-security threat, clearing the path. The WSJ-reported SEC probe into Nvidia's disclosures (Nov17) is unaddressed and remains separately open (concern c50).",
+    "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+    "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "E3"
+    ],
+    "t": "NVDA closed +31.48% at $165.05 (its largest one-day gain on record), SOX +14.03% to 9,588.05, CRWV +22.32%, and VIX fell 25.83% to 26.62 as the Huang reinstatement drove a broad AI-infrastructure short-covering rally; Polymarket's 'AI bubble burst in 2026?' price collapsed to 10.95% from 59.95% a day earlier (2027 market to 27.5% from 67.5%).",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=10d&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B2",
+      "B5"
+    ],
+    "t": "New Mexico's environment department and Oracle waived the Nov23 decision deadline on the Project Jupiter air permit and asked to postpone the Dec7 hearing further; no pause or approval decision was made -- resolves concern c16 (deadline today) as did_not materialize into a confirmed pause.",
+    "url": "https://www.abqjournal.com/news/project-jupiter-air-permit-faces-new-delay/3157572",
+    "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "G2"
+    ],
+    "t": "Previously missed: Bloomberg reported (Nov6-7) that Microsoft is winding down a 2023 deal to rent AI cloud capacity from Oracle (older-generation Nvidia chips that didn't fit Microsoft's needs) and is reassessing more than $80bn in neocloud rental commitments (CoreWeave, Nscale, Nebius); Oracle said demand remains strong. Falls short of a company-confirmed cancellation but fits G2's 'credible T2/T3 report of a deferral or renegotiation' yellow criterion.",
+    "url": "https://www.thestar.com.my/tech/tech-news/2026/11/07/microsoft-is-winding-down-oracle-deal-to-rent-ai-cloud-capacity-bloomberg-news-reports",
+    "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A6",
+      "C3",
+      "E2",
+      "F2"
+    ],
+    "t": "Mechanical/event-based notes: A6 (single-day rout) flips red to green since today was a +31% NVDA/+14% SOX rally, not a rout -- it is event-based with no hysteresis. C3 (US HY OAS) confirms its hysteresis flip from green to yellow on a second consecutive close above 350bp (376bp Nov20, after 352bp Nov19). E2 (narrative volume) reverts yellow to green as Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in ~160.1 hours, near its ~168-hour baseline pace (~1.05x), down from Friday's 1.56x spike; GDELT's 7-day endpoint stayed 429-blocked after the mandated retries. F2 (MOVE) confirms its hysteresis flip from green to yellow on a second consecutive close above 100 (100.91 Nov23, after 106.31 Nov20).",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "tag": null
   }
 ]

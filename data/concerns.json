@@ -220,10 +220,10 @@
     ],
     "resolve_if": "A company statement or the New Mexico air-permit decision",
     "deadline": "2026-11-23",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "did_not",
+    "resolved": "2026-11-23",
+    "outcome": "New Mexico's environment department and Oracle waived the Nov23 decision deadline and postponed the Dec7 hearing further; no pause or approval decision was made by the deadline.",
+    "url": "https://www.abqjournal.com/news/project-jupiter-air-permit-faces-new-delay/3157572"
   },
   {
     "id": "c17",
@@ -729,6 +729,35 @@
     ],
     "resolve_if": "Daily VIX closes from Yahoo (^VIX)",
     "deadline": "2026-12-04",
+    "status": "did_not",
+    "resolved": "2026-11-23",
+    "outcome": "VIX closed at 26.62 (Nov23), -25.83% day, falling back below 30 the very next session after its single first-ever close above 30 (35.89, Nov20) -- the second consecutive close never happened and A5's hysteresis flip to red never confirmed.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?range=10d&interval=1d"
+  },
+  {
+    "id": "c52",
+    "opened": "2026-11-23",
+    "concern": "US HY OAS (C3) falls back under 350bp within the next 10 trading days, confirming Nov20's 376bp print was a transient wobble tied to Friday's equity rout rather than the start of a durable widening trend",
+    "signals": [
+      "C3"
+    ],
+    "resolve_if": "FRED's BAMLH0A0HYM2 series (API or fredgraph.csv fallback)",
+    "deadline": "2026-12-08",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c53",
+    "opened": "2026-11-23",
+    "concern": "New Mexico's NMED issues an actual decision (approval or denial) on Oracle's Project Jupiter air permit at the rescheduled Dec7 hearing, rather than postponing it again",
+    "signals": [
+      "B2",
+      "B5"
+    ],
+    "resolve_if": "A New Mexico environment-department ruling or an Oracle/Blue Owl/STACK statement",
+    "deadline": "2026-12-10",
     "status": "open",
     "resolved": null,
     "outcome": null,
