@@ -1802,5 +1802,67 @@
     "t": "Taiwan's TSMC (2330.TW) closed +9.85% (2,230 TWD Nov24 vs 2,030 Nov23) and the Taiex +8.99%, with the Kospi +6.32% and SK Hynix +6.73% (close but short of the 7% line) and the Nikkei +3.91% (vs Nov20's close, Nov23 was a Japanese holiday) -- Asia catching up to Monday's record NVDA/SOX rally after those exchanges had already closed; Nasdaq futures (NQ=F) pared back -1.65% pre-open (ES=F -0.88%), both crossing Overnight Watch's Asian-index (3%), single-name (7%) and futures (1.5%) alert thresholds. No US pre-market quotes were available for NVDA/ORCL/CRWV/MSFT/AMD/MU at run time. Bears on A1/A2 (NVDA/SOX drawdown) as the supply-chain rally extends Monday's bounce into the US open; no signal color change and no dated T1-T3 news fact found beyond the price data itself.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/2330.TW?range=5d&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-11-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "D2"
+    ],
+    "t": "The AI-complex rally reversed: NVDA -5.86% to $155.38, SOX -7.88% to 8,832.50, AMD -8.86%, MU -11.01%, CRWV -11.85%, and NBIS/IREN/APLD all down 10-12%, described as profit-taking once traders registered that Jensen Huang's reinstatement doesn't resolve the open SEC disclosure probe or the industry's financing questions. Anthropic's ANT closed at $81.90, its first close below its $83 IPO issue price. Flips A6 (single-day rout) back to red: both NVDA and SOX have now posted two separate >5% down days within the trailing week (Nov20 and Nov24).",
+    "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html",
+    "tag": null
+  },
+  {
+    "date": "2026-11-24",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "Polymarket's 'AI bubble burst in 2026?' Yes price jumped to 16.65% from 10.95% a day earlier, and the 'burst by June 30, 2027?' market to 41% from 27.5%; aibubblemonitor.com's composite rose to 44.5 'Neutral' from 39.1, while aibubble.watch eased to 83.5 'Extreme' from 92.8. Two of three actively-read trackers deteriorating flips E3 from green to yellow.",
+    "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by",
+    "tag": null
+  },
+  {
+    "date": "2026-11-23",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C3"
+    ],
+    "t": "FRED's HY OAS fallback (fredgraph.csv) put high-yield spreads at 363bp on Nov23, a third consecutive close above the 350bp line (376bp Nov20, 352bp Nov19), even as equities swung sharply in both directions this week.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "tag": null
+  },
+  {
+    "date": "2026-11-24",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "B5",
+      "B2"
+    ],
+    "t": "ERCOT's Nov5 update to the PUCT on Texas's data-center grid-connection audit (Gov. Abbott's Aug3 executive order) shows first-round responses from 257 developers (about 5,140 questions) reviewed, a shorter second round of developer-specific questions expected, and the review not yet complete; a Batch Zero study is targeted for Dec10, with both items slated for the PUCT's Dec17 open meeting. The statewide pause remains in force; no court ruling, legislative action or named-project outcome yet.",
+    "url": "https://www.gibsondunn.com/texas-data-center-critical-dates-and-procedures-following-the-2026-elections/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-24",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "A6",
+      "E3",
+      "F2"
+    ],
+    "t": "Mechanical/event-based notes: A6 (single-day rout) flips green to red as both NVDA and SOX posted two separate >5% down days within the trailing 5-session window (Nov20, Nov24). E3 (composite trackers) flips green to yellow (two of three deteriorating: Polymarket, aibubblemonitor.com). F2 (MOVE) posted its first close below 100 (98.84, Nov24) after two confirming closes above 100; hysteresis holds it yellow pending a second confirming sub-100 close.",
+    "url": "briefs/2026-11-24.md",
+    "tag": null
   }
 ]

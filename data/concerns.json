@@ -762,5 +762,33 @@
     "resolved": null,
     "outcome": null,
     "url": null
+  },
+  {
+    "id": "c54",
+    "opened": "2026-11-24",
+    "concern": "Anthropic's ANT, which closed below its $83 IPO issue price for the first time today ($81.90), falls toward D2's -10% secondary-discount yellow threshold within 30 days",
+    "signals": [
+      "D2"
+    ],
+    "resolve_if": "ANT's daily close vs its $83 issue price, or 30 days passing without a close 10%+ below issue",
+    "deadline": "2026-12-24",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c55",
+    "opened": "2026-11-24",
+    "concern": "MOVE (bond volatility) confirms a second consecutive close below 100 after today's first sub-100 close (98.84), which would flip F2 back to green under the hysteresis rule",
+    "signals": [
+      "F2"
+    ],
+    "resolve_if": "Yahoo ^MOVE's next close, or 10 trading days passing without a second sub-100 close",
+    "deadline": "2026-12-09",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
   }
 ]

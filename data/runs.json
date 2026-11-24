@@ -11386,5 +11386,243 @@
     "brief": "briefs/2026-11-23.md",
     "circularity": "HIGH",
     "circularity_note": "Unchanged at HIGH (G1 green; 2 yellow: G2, G4; G3 stays not-yet-scorable, excluded). G2's yellow reading is reinforced today by a previously-missed Nov6-7 Bloomberg report of Microsoft paring back Oracle/neocloud capacity commitments; no company-confirmed cancellation found, so no color change."
+  },
+  {
+    "date": "2026-11-24",
+    "as_of": "close",
+    "close_date": "2026-11-24",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer",
+    "credit_stress": true,
+    "reds": 6,
+    "yellows": 11,
+    "greens": 8,
+    "amplifier": "HIGH",
+    "amplifier_note": "Unchanged at HIGH: 2 red (F3, F5) / 3 yellow (F1, F2, F4). F2 (MOVE) posted its first close below 100 (98.84, Nov24) after two confirming closes above 100 (106.31 Nov20, 100.91 Nov23); hysteresis holds it yellow pending a second confirming sub-100 close (concern c55). F5 reconfirmed red on a fresh print: 2-year 4.63% (Treasury CSV, Nov24) minus the 3.875% FOMC midpoint = +75.5bp. F3 stays red on the unchallenged 'two consecutive tails' pattern (Nov10 10y, Nov12 30y); no new long-end auction found since.",
+    "read": "Monday's Jensen-Huang-reinstatement rally reversed sharply: NVDA fell 5.86% to $155.38, SOX 7.88% to 8,832.50, and AMD/MU/CRWV fell 8.86%/11.01%/11.85%, described as profit-taking once traders registered that Huang's return doesn't resolve the open SEC disclosure probe (concern c50) or the industry's financing questions. The move is sharp enough to flip A6 (single-day rout) back to red -- both NVDA and SOX have now posted two separate days beyond -5% within the trailing week (Nov20 and today) -- and flip E3 to yellow as Polymarket's 'bubble burst' odds jumped to 16.65% (2026 market) and 41% (2027 market) from 10.95%/27.5%, and aibubblemonitor.com's composite rose to 44.5 from 39.1, even as aibubble.watch eased to 83.5 from 92.8. Anthropic's ANT closed at $81.90, its first close below its $83 IPO price, though well short of D2's -10% yellow line. Credit held in place rather than following equities either direction: US HY OAS stayed at 363bp (FRED fallback, Nov23), a third straight close above 350bp, while Oracle's CDS print stays unconfirmed by any directly-opened T1-T3 source for an eleventh straight run. Reds (Pillars A-E) rise from 5 to 6, yellows from 10 to 11, greens fall from 10 to 8 -- a real reversal of Monday's improvement -- but every new red sits in Pillar A's noisy price layer; nothing today confirms the capex, revenue or credit-breadth facts that would move the tracker toward Stage 3-5. Stage holds at 1 (price break); macro amplifier stays HIGH; circularity stays HIGH.",
+    "changed": [
+      {
+        "signal": "A6",
+        "from": "G",
+        "to": "R",
+        "why": "NVDA -5.86% and SOX -7.88% today; both have now logged two >5% down days in the trailing week (Nov20: NVDA -14.01%/SOX -10.73%; Nov24 today), meeting the 'two -5% days in one week' red criterion."
+      },
+      {
+        "signal": "E3",
+        "from": "G",
+        "to": "Y",
+        "why": "Two of three actively-read trackers deteriorated: Polymarket's 2026/2027 burst-odds markets jumped to 16.65%/41% from 10.95%/27.5%, and aibubblemonitor.com rose to 44.5 'Neutral' from 39.1; aibubble.watch eased to 83.5 'Extreme' from 92.8."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $155.38 (Nov24, -5.86% day), -35.05% from $239.24 (Oct6) high"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 8,832.50 (Nov24, -7.88% day), -39.65% from 14,634.72 (Jun22) high"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 26,214.17 (Nov24, -1.99% day), -16.05% from 31,224.47 (Oct6) high"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct27-Nov24): MU -32.2%, NVDA -28.7%, CRWV -28.5%, AMD -26.2%, SOX -23.1%, TSM -20.1%, ORCL -16.1% vs RSP -1.6% -- lag of 14.5-30.5pts while RSP roughly flat"
+      },
+      "A5": {
+        "c": "Y",
+        "v": "VIX 26.36 (Nov24, -0.98% day)"
+      },
+      "A6": {
+        "c": "R",
+        "v": "Two qualifying >5% down days inside the trailing 5-session window: NVDA -14.01%/SOX -10.73% (Nov20) and NVDA -5.86%/SOX -7.88% (Nov24) -- meets the 'two -5% days in one week' red criterion"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: no new hyperscaler capex guidance found"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "Carried: New Mexico's Project Jupiter hearing stays postponed to Dec7; no pause or approval decision made"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: Nvidia's Q3 FY27 beat-and-raise (Nov17) stands"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: TSMC October revenue +59.7% YoY stands; no November TSMC figure yet (due ~Dec10); DRAM/HBM pricing stays firm per TrendForce"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Carried: Texas's ERCOT/PUCT pause remains in force; ERCOT's Nov5 update to PUCT shows first-round review of 257 developers' responses, review not complete, Batch Zero study targeted Dec10"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried, UNCONFIRMED for an eleventh straight run: no new dated T1-T3 Oracle CDS print found (concern c38)"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.44% (Nov23, latest available), label 'Moderate risk'"
+      },
+      "C3": {
+        "c": "Y",
+        "v": "363bp (FRED fredgraph.csv fallback, Nov23 -- FRED API secret injection failed again) -- third consecutive close above 350bp (376bp Nov20, 352bp Nov19)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: no new dated post-pricing secondary print found today"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CoreWeave equity $42.60 (Nov24, -11.85% day), -69.12% from its May2026 high; NBIS -10.74%, IREN -11.54%, APLD -11.59% same day; no going-concern language; bond distress (Nov2 79.75 print) stays T4-only"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's reported run-rate stays ambiguous ($50-70bn depending on source); $11bn first tranche closed Nov6 at $1.25T, total target reportedly $15-20bn, still open"
+      },
+      "D2": {
+        "c": "G",
+        "v": "Anthropic's ANT closed $81.90 (Nov24, -6.6% day), its first close below its $83 IPO issue price (-1.3% below) -- short of the -10% yellow line; flagged as concern c54"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU-rental data stays mixed (H100 on-demand medians $1.79-$4.50/hr across sources; B200 rates still rising per SemiAnalysis/Ornn) -- no clear collapse"
+      },
+      "D4": {
+        "c": "G",
+        "v": "Carried: Census BTOS National.xlsx still shows cycle 202623 (25.0%) as the latest; next cycle (202624) not yet published (due ~Dec3, concern c48)"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: isolated/cluster-level cuts continue (Ollie, Character.ai's Oct Chapter 11) but still not a wave across frontier-scale players"
+      },
+      "E1": {
+        "c": "Y",
+        "v": "Carried: BofA's November FMS (published Nov17, 34% tail risk) stands; December survey not due until ~Dec20 (concern c49)"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in ~156.4 hours (Nov18-Nov24), ~1.07x the ~168-hour baseline pace -- stays under the 1.5x yellow line; GDELT's 7-day endpoint 429-blocked again despite the mandated 10s retry"
+      },
+      "E3": {
+        "c": "Y",
+        "v": "Two of three deteriorating: Polymarket's burst-odds jumped to 16.65%/41% (from 10.95%/27.5%) and aibubblemonitor.com rose to 44.5 'Neutral' (from 39.1), while aibubble.watch eased to 83.5 'Extreme' (from 92.8)"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: Oracle's Nov2 stock sale at $116 (about 11% below its pre-deal reference) stays the operative discount; no new offering found today"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Treasury CSV 10yr 4.91% / Yahoo ^TNX 4.904% (Nov24) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "Y",
+        "v": "MOVE 98.84 (Nov24, Yahoo) -- first close below 100 after two confirming closes above (106.31 Nov20, 100.91 Nov23); hysteresis holds yellow pending a second confirming sub-100 close (concern c55)"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Carried: no new long-end Treasury auction since Nov12's tailed 30-year; the 'two consecutive tails' pattern (Nov10 10y tail 1bp/cover 2.46, Nov12 30y tail 0.4bp/cover 2.36) stands unchallenged; term premium itself (0.8888%, Nov20, stale) stays under 1.0%"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.12% (FRED T10YIE / Treasury real-curve CSV, Nov24) stays under 2.4%; Brent $88.50 (Nov24, -0.97% day) stays inside the $80-100 yellow band; September CPI (3.7% YoY, carried) stays the latest usable annual figure"
+      },
+      "F5": {
+        "c": "R",
+        "v": "2-year yield 4.63% (Treasury CSV, Nov24) minus the 3.875% FOMC midpoint = +75.5bp -- a fresh print reconfirming red"
+      },
+      "G1": {
+        "c": "G",
+        "v": "Carried: Anthropic's round terms (IPO priced $83, ~7x oversubscribed, majority outside capital) unchanged; ANT's secondary slide to $81.90 is a post-IPO market move, not a change to the round's terms; OpenAI's round separately reports an $11bn first tranche closed Nov6 at $1.25T, target $15-20bn, still open"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Carried: Microsoft's reported winding-down of Oracle AI-capacity rental and reassessment of >$80bn in neocloud commitments (Bloomberg, Nov6-7) stands; Oracle disputes a demand slowdown; no company-confirmed cancellation"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; Nvidia's Q3 FY27 10-Q (quarter ended Oct25) still not confirmed -- sec.gov remains unreachable on this network"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: no new Anthropic filing or OpenAI run-rate update; Ramp AI Index's October reading (56.8% adoption, +1.0pt MoM) stands as the latest"
+      }
+    },
+    "market": {
+      "spx": 7201.09,
+      "ndx": 26214.17,
+      "sox": 8832.5,
+      "sox_dd": -39.65,
+      "nvda": 155.38,
+      "nvda_dd": -35.05,
+      "ndx_dd": -16.05,
+      "tnx": 4.904,
+      "vix": 26.36,
+      "hy_oas": 363,
+      "move": 98.84,
+      "term_premium": 0.8888,
+      "breakeven": 2.12,
+      "brent": 88.5,
+      "orcl": 109.5,
+      "crwv": 42.6
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 83.5,
+        "label": "Extreme",
+        "date": "2026-11-24",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 44.5,
+        "label": "Neutral",
+        "date": "2026-11-24",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 16.65,
+        "v2027": 41,
+        "date": "2026-11-24",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "NVDA -5.86% to $155.38, SOX -7.88% to 8,832.50, AMD -8.86%, MU -11.01%, CRWV -11.85%, reversing most of Monday's Huang-reinstatement rally as traders focused back on the open SEC probe; Anthropic's ANT closed at $81.90, its first close below its $83 IPO price.",
+        "url": "https://finance.yahoo.com/markets/live/stock-market-today-tuesday-november-24-dow-sp-500-nasdaq-chip-stocks-nvidia-140629923.html"
+      },
+      {
+        "kind": "HARD",
+        "t": "Both NVDA and SOX posted two separate days beyond -5% within the trailing week (Nov20 and Nov24), meeting A6's 'two -5% days in one week' red criterion and flipping it back to red.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=10d&interval=1d"
+      },
+      {
+        "kind": "HARD",
+        "t": "Polymarket's 'AI bubble burst in 2026?' Yes price jumped to 16.65% from 10.95%, and the 'by June 30, 2027?' market to 41% from 27.5%, while aibubblemonitor.com's composite rose to 44.5 from 39.1, flipping E3 to yellow.",
+        "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by"
+      }
+    ],
+    "sources": {
+      "T1": 5,
+      "T2": 1,
+      "T3": 2,
+      "T4": 3,
+      "T5": 2
+    },
+    "run_url": null,
+    "brief": "briefs/2026-11-24.md",
+    "circularity": "HIGH",
+    "circularity_note": "Unchanged at HIGH (G1 green; 2 yellow: G2, G4; G3 stays not-yet-scorable, excluded). No new circularity-relevant filing or funding event found today; Anthropic's ANT closing below its $83 IPO price for the first time bears more on D2/sentiment than on G1's round-terms read, so no color change."
   }
 ]
