@@ -1790,5 +1790,17 @@
     "t": "Mechanical/event-based notes: A6 (single-day rout) flips red to green since today was a +31% NVDA/+14% SOX rally, not a rout -- it is event-based with no hysteresis. C3 (US HY OAS) confirms its hysteresis flip from green to yellow on a second consecutive close above 350bp (376bp Nov20, after 352bp Nov19). E2 (narrative volume) reverts yellow to green as Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in ~160.1 hours, near its ~168-hour baseline pace (~1.05x), down from Friday's 1.56x spike; GDELT's 7-day endpoint stayed 429-blocked after the mandated retries. F2 (MOVE) confirms its hysteresis flip from green to yellow on a second consecutive close above 100 (100.91 Nov23, after 106.31 Nov20).",
     "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
     "tag": null
+  },
+  {
+    "date": "2026-11-24",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A2"
+    ],
+    "t": "Taiwan's TSMC (2330.TW) closed +9.85% (2,230 TWD Nov24 vs 2,030 Nov23) and the Taiex +8.99%, with the Kospi +6.32% and SK Hynix +6.73% (close but short of the 7% line) and the Nikkei +3.91% (vs Nov20's close, Nov23 was a Japanese holiday) -- Asia catching up to Monday's record NVDA/SOX rally after those exchanges had already closed; Nasdaq futures (NQ=F) pared back -1.65% pre-open (ES=F -0.88%), both crossing Overnight Watch's Asian-index (3%), single-name (7%) and futures (1.5%) alert thresholds. No US pre-market quotes were available for NVDA/ORCL/CRWV/MSFT/AMD/MU at run time. Bears on A1/A2 (NVDA/SOX drawdown) as the supply-chain rally extends Monday's bounce into the US open; no signal color change and no dated T1-T3 news fact found beyond the price data itself.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/2330.TW?range=5d&interval=1d",
+    "tag": null
   }
 ]
