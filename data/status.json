@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-24T13:11:17Z",
-    "date": "2026-11-24",
+    "last_run_utc": "2026-11-25T13:12:10Z",
+    "date": "2026-11-25",
     "result": "alert",
-    "note": "Asia catch-up to Mon's NVDA rally: TSMC +9.9%, Taiex +9.0%, Kospi +6.3%, Nikkei +3.9% (Nov24 closes); NQ=F -1.7% pares gains pre-open."
+    "note": "NVDA -5.4%, AMD -6.1%, MU -6.8%, CRWV -7.1% premarket; SoftBank -14.8%, SK Hynix -11.1%, Kospi -6.2% overnight; ES -1.9%/NQ -2.9% futures. Extends A6 rout."
   }
 }

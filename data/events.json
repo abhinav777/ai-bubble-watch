@@ -1864,5 +1864,19 @@
     "t": "Mechanical/event-based notes: A6 (single-day rout) flips green to red as both NVDA and SOX posted two separate >5% down days within the trailing 5-session window (Nov20, Nov24). E3 (composite trackers) flips green to yellow (two of three deteriorating: Polymarket, aibubblemonitor.com). F2 (MOVE) posted its first close below 100 (98.84, Nov24) after two confirming closes above 100; hysteresis holds it yellow pending a second confirming sub-100 close.",
     "url": "briefs/2026-11-24.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-25",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A2",
+      "A6",
+      "D2"
+    ],
+    "t": "US equity futures and premarket AI/chip names extended Tuesday's reversal: ES=F -1.89% and NQ=F -2.86% from Nov24's close (7,217.50/26,275.75) to roughly 7,081/25,526 as of 13:10 UTC, while NVDA -5.4%, AMD -6.1%, MU -6.8%, ORCL -5.0% and CRWV -7.1% fell premarket and Anthropic's ANT fell a further 5.3% to $77.57, extending below its $83 IPO price (concern c54). Asia deepened the rout into its close -- SoftBank -14.8% (9984.T), SK Hynix -11.1% (000660.KS), Kospi -6.2%, Taiex -4.8%, TSMC -3.6% and Nikkei -2.8% -- crossing the Asian-index (3%), single-name (7%) and futures (1.5%) alert thresholds and bearing on A1/A2/A6's price-rout reds and D2/c54's Anthropic secondary-discount watch.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ=F?range=5d&interval=1d",
+    "tag": null
   }
 ]
