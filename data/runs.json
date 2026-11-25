@@ -11624,5 +11624,237 @@
     "brief": "briefs/2026-11-24.md",
     "circularity": "HIGH",
     "circularity_note": "Unchanged at HIGH (G1 green; 2 yellow: G2, G4; G3 stays not-yet-scorable, excluded). No new circularity-relevant filing or funding event found today; Anthropic's ANT closing below its $83 IPO price for the first time bears more on D2/sentiment than on G1's round-terms read, so no color change."
+  },
+  {
+    "date": "2026-11-25",
+    "as_of": "close",
+    "close_date": "2026-11-25",
+    "stage": 1,
+    "stage_label": "Price break (Stage 1), with credit stress in the leveraged layer",
+    "credit_stress": true,
+    "reds": 6,
+    "yellows": 10,
+    "greens": 9,
+    "amplifier": "HIGH",
+    "amplifier_note": "Unchanged at HIGH: 2 red (F3, F5) / 2 yellow (F1, F4) / 1 green (F2). F2 (MOVE) confirmed its hysteresis flip to green with a second consecutive close below 100 (97.54, Nov25, after 98.84 Nov24), resolving concern c55. F5 posted its first close below the 75bp red line (73.5bp: 2-year 4.61% minus the 3.875% FOMC midpoint, Treasury CSV Nov25) but hysteresis holds it red pending a second confirming sub-75bp close (new concern c56). F3 stays red on the unchallenged 'two consecutive tails' pattern (Nov10 10y, Nov12 30y); no new long-end auction found since.",
+    "read": "The AI-complex rout extended for a third straight session: NVDA fell another 3.91% to $149.30 (-37.59% from its Oct6 high) and SOX eased 0.65% to 8,774.86 (-40.04% from high), while VIX jumped 7.3% to 28.29, as markets kept digesting that Jensen Huang's reinstatement doesn't resolve the open SEC/DOJ Megaspeed probe -- the US added Megaspeed and six affiliates to the Commerce Department's Entity List on Nov24, and three House committees plus a Dec3 Senate Banking hearing are now queued to question Huang. SoftBank cratered 14.8% intraday in Tokyo, extending the overnight rout the morning watch had flagged. Credit drifted further from comfortable: US HY OAS rose to 372bp (FRED fredgraph.csv fallback, Nov24; FRED's API secret injection failed again), a fourth consecutive close above the 350bp yellow line, while Oracle's CDS stays unconfirmed by any directly-opened T1-T3 source for a twelfth straight run. Composite trackers diverged rather than confirming each other: Polymarket's 'AI bubble burst' odds jumped further to 20.95% (2026 market, from 16.65%) and 48% (2027 market, from 41%), while aibubble.watch eased to 83.1 'Extreme' (from 83.5) and aibubblemonitor.com fell to 43.2 'Neutral' (from 44.5) -- flipping E3 back to green on disagreement, the only Pillar A-E color change today. Nothing today confirms the capex, revenue or credit-breadth facts that would move the tracker toward Stage 3-5: reds hold at 6, yellows ease to 10, greens rise to 9. Stage holds at 1 (price break) with credit stress in the leveraged layer; macro amplifier stays HIGH; circularity stays HIGH.",
+    "changed": [
+      {
+        "signal": "E3",
+        "from": "Y",
+        "to": "G",
+        "why": "Trackers disagreed rather than confirming: Polymarket's 2026/2027 burst-odds markets rose further to 20.95%/48% (from 16.65%/41%), but aibubble.watch eased to 83.1 'Extreme' (from 83.5) and aibubblemonitor.com fell to 43.2 'Neutral' (from 44.5) -- only one of three deteriorating, short of the 'two of three' yellow bar."
+      }
+    ],
+    "signals": {
+      "A1": {
+        "c": "R",
+        "v": "NVDA $149.30 (Nov25, -3.91% day), -37.59% from $239.24 (Oct6) high"
+      },
+      "A2": {
+        "c": "R",
+        "v": "SOX 8,774.86 (Nov25, -0.65% day), -40.04% from 14,634.72 (Jun22) high"
+      },
+      "A3": {
+        "c": "Y",
+        "v": "NDX 26,046.90 (Nov25, -0.64% day), -16.58% from 31,224.47 (Oct6) high"
+      },
+      "A4": {
+        "c": "R",
+        "v": "20-session (Oct28-Nov25): MU -38.8%, NVDA -30.7%, CRWV -33.4%, AMD -29.8%, ORCL -28.1%, SOX -24.9%, TSM -22.1%, AVGO -14.5% vs RSP -0.8% -- lag of 13.7-38.0pts while RSP roughly flat"
+      },
+      "A5": {
+        "c": "Y",
+        "v": "VIX 28.29 (Nov25, +7.32% day)"
+      },
+      "A6": {
+        "c": "R",
+        "v": "Two qualifying >5% down days inside the trailing 5-session window stand: NVDA -14.01%/SOX -10.73% (Nov20) and NVDA -5.86%/SOX -7.88% (Nov24) -- meets the 'two -5% days in one week' red criterion"
+      },
+      "B1": {
+        "c": "G",
+        "v": "Carried: no new hyperscaler capex guidance found"
+      },
+      "B2": {
+        "c": "Y",
+        "v": "New Mexico's Dec7 Project Jupiter hearing reportedly postponed again pending an Air Quality Bureau recommendation (abqjournal.com via search snippet only -- site blocked on this network, unconfirmed by a directly-opened source); Texas's ERCOT/PUCT pause stays in force with no named-project outcome"
+      },
+      "B3": {
+        "c": "G",
+        "v": "Carried: Nvidia's Q3 FY27 beat-and-raise (Nov17) stands"
+      },
+      "B4": {
+        "c": "G",
+        "v": "Carried: TSMC October revenue +59.7% YoY stands (November figure due ~Dec10); TrendForce's Nov11 forecast of 13-18% QoQ DRAM contract-price gains in Q4 stands despite a small spot-price dip"
+      },
+      "B5": {
+        "c": "R",
+        "v": "Carried: Texas's ERCOT/PUCT pause remains in force; Dec10 Batch Zero study target and Dec17 PUCT meeting stand"
+      },
+      "C1": {
+        "c": "R",
+        "v": "Carried, UNCONFIRMED for a twelfth straight run: no new dated T1-T3 Oracle CDS print found; a T4-aggregated, undated ~295bp figure (CNBC via WealthProfessional) cannot be used (concern c38)"
+      },
+      "C2": {
+        "c": "G",
+        "v": "whalequant.io: HY-tech-minus-10y spread 3.53% (updated 2026-11-24), crossing just above the 3.5% yellow line for the first time -- hysteresis holds it green pending a second confirming close above 3.5% (new concern c57)"
+      },
+      "C3": {
+        "c": "Y",
+        "v": "372bp (FRED fredgraph.csv fallback, Nov24 -- FRED API secret injection failed again) -- a fourth consecutive close above 350bp (376bp Nov20, 352bp Nov19, 363bp Nov23)"
+      },
+      "C4": {
+        "c": "Y",
+        "v": "Carried: no new dated post-pricing secondary print found today"
+      },
+      "C5": {
+        "c": "Y",
+        "v": "CoreWeave equity $42.57 (Nov25, -0.08% day), -69.15% from its May2026 high; NBIS -2.65%, IREN -0.77%, APLD +0.57% same day; no going-concern language; bond distress (Nov2 79.75 print) stays T4-only"
+      },
+      "D1": {
+        "c": "Y",
+        "v": "Carried: OpenAI's reported run-rate stays ambiguous (~$50bn per Oct9 reporting); $11bn first tranche closed Nov6 at $1.25T, total target reportedly $15-20bn, still open"
+      },
+      "D2": {
+        "c": "G",
+        "v": "Anthropic's ANT closed $82.79 (Nov25, +1.09% day), back to -0.25% below its $83 IPO issue price -- short of the -10% yellow line (concern c54)"
+      },
+      "D3": {
+        "c": "G",
+        "v": "Carried: GPU-rental data stays mixed (H100 on-demand medians ~$2.73-$6.16/hr across sources per this week's searches; B200 rates still firm) -- no clear collapse"
+      },
+      "D4": {
+        "c": "G",
+        "v": "Carried: Census BTOS National.xlsx still shows cycle 202623 (25.0%) as the latest; next cycle (202624) not yet published (due ~Dec3, concern c48)"
+      },
+      "D5": {
+        "c": "Y",
+        "v": "Carried: isolated/cluster-level cuts continue (Ollie, Character.ai's Oct Chapter 11 sale process expected to close late Nov/early Dec) but still not a wave across frontier-scale players"
+      },
+      "E1": {
+        "c": "Y",
+        "v": "Carried: BofA's November FMS (published Nov17, 34% tail risk, record tech-allocation cut since 2006) stands; December survey not due until ~mid-Dec (concern c49)"
+      },
+      "E2": {
+        "c": "G",
+        "v": "Google News RSS's 7-day 'AI bubble' query filled its 100-item cap in ~139.9 hours (Nov20-Nov25), ~1.25x the ~175-hour baseline pace for a 100-item fill -- stays under the 1.5x yellow line; GDELT's 7-day endpoint failed twice (connection errors, not 429) despite the mandated retry"
+      },
+      "E3": {
+        "c": "G",
+        "v": "Trackers disagreed: Polymarket's burst-odds rose further to 20.95%/48% (from 16.65%/41%), while aibubble.watch eased to 83.1 'Extreme' (from 83.5) and aibubblemonitor.com fell to 43.2 'Neutral' (from 44.5) -- only one of three deteriorating"
+      },
+      "E4": {
+        "c": "Y",
+        "v": "Carried: Oracle's Nov2 stock sale at $116 (about 11% below its pre-deal reference) stays the operative discount; no new offering found today"
+      },
+      "F1": {
+        "c": "Y",
+        "v": "Treasury CSV 10yr 4.85% / Yahoo ^TNX 4.848% (Nov25) -- stays inside the 4.5-5.25% yellow band"
+      },
+      "F2": {
+        "c": "G",
+        "v": "MOVE 97.54 (Nov25, Yahoo) -- second consecutive close below 100 (98.84 Nov24, 97.54 Nov25), confirming the hysteresis flip to green (resolves concern c55)"
+      },
+      "F3": {
+        "c": "R",
+        "v": "Carried: no new long-end Treasury auction since Nov12's tailed 30-year; the 'two consecutive tails' pattern (Nov10 10y tail 1bp/cover 2.46, Nov12 30y tail 0.4bp/cover 2.36) stands unchallenged; term premium itself (0.8888%, Nov20, stale) stays under 1.0%"
+      },
+      "F4": {
+        "c": "Y",
+        "v": "Breakeven 2.12% (FRED T10YIE / Treasury real-curve CSV, Nov25) stays under 2.4%; Brent $90.82 (Nov25, -0.63% day) stays inside the $80-100 yellow band; September CPI (3.7% YoY, carried) stays the latest usable annual figure"
+      },
+      "F5": {
+        "c": "R",
+        "v": "2-year yield 4.61% (Treasury CSV, Nov25) minus the 3.875% FOMC midpoint = +73.5bp -- first close back below the 75bp red line; hysteresis holds it red pending a second confirming sub-75bp close (new concern c56)"
+      },
+      "G1": {
+        "c": "G",
+        "v": "Carried: Anthropic's round terms (IPO priced $83, majority outside capital) unchanged; OpenAI's round separately reports an $11bn first tranche closed Nov6 at $1.25T, target $15-20bn, still open"
+      },
+      "G2": {
+        "c": "Y",
+        "v": "Carried: Microsoft's reported winding-down of its 2023 Oracle AI-capacity rental deal and reassessment of >$80bn in neocloud commitments (Bloomberg, Nov6-7) stands; Oracle disputes a demand slowdown; no company-confirmed cancellation"
+      },
+      "G3": {
+        "c": "N",
+        "v": "Not yet scorable; Nvidia's Q3 FY27 10-Q (quarter ended Oct25) still not confirmed -- sec.gov remains unreachable (403) on this network"
+      },
+      "G4": {
+        "c": "Y",
+        "v": "Carried: Ramp AI Index's October reading (56.8% adoption, +1.0pt MoM) stands as the latest (confirmed again via search); no new Anthropic filing or OpenAI run-rate update"
+      }
+    },
+    "market": {
+      "spx": 7182.78,
+      "ndx": 26046.9,
+      "sox": 8774.86,
+      "sox_dd": -40.04,
+      "nvda": 149.3,
+      "nvda_dd": -37.59,
+      "ndx_dd": -16.58,
+      "tnx": 4.848,
+      "vix": 28.29,
+      "hy_oas": 372,
+      "move": 97.54,
+      "term_premium": 0.8888,
+      "breakeven": 2.12,
+      "brent": 90.82,
+      "orcl": 103.88,
+      "crwv": 42.57
+    },
+    "trackers": {
+      "aibubble_watch": {
+        "v": 83.1,
+        "label": "Extreme",
+        "date": "2026-11-25",
+        "carried": false
+      },
+      "aibubblemonitor": {
+        "v": 43.2,
+        "label": "Neutral",
+        "date": "2026-11-25",
+        "carried": false
+      },
+      "boomorbubble": {
+        "v": 0,
+        "label": "Boom",
+        "date": "2026-11-03",
+        "carried": true
+      },
+      "polymarket_burst": {
+        "v": 20.95,
+        "v2027": 48,
+        "date": "2026-11-25",
+        "carried": false
+      }
+    },
+    "top": [
+      {
+        "kind": "HARD",
+        "t": "NVDA fell a further 3.91% to $149.30 (-37.59% from its Oct6 high) and SOX eased 0.65% to 8,774.86 (-40.04% from high) as VIX jumped 7.3% to 28.29, extending the rout after the US added Megaspeed and six affiliates to the Commerce Department's Entity List (Nov24) and three House committees plus a Dec3 Senate Banking hearing were queued to question Jensen Huang; SoftBank fell 14.8% intraday in Tokyo.",
+        "url": "https://query1.finance.yahoo.com/v8/finance/chart/NVDA?range=1y&interval=1d"
+      },
+      {
+        "kind": "HARD",
+        "t": "US HY OAS rose to 372bp (FRED fredgraph.csv fallback, Nov24), a fourth consecutive close above the 350bp yellow line (376bp Nov20, 352bp Nov19, 363bp Nov23); FRED's API secret injection failed again.",
+        "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2"
+      },
+      {
+        "kind": "HARD",
+        "t": "Polymarket's 'AI bubble burst in 2026?' Yes price rose to 20.95% (from 16.65%) and the 'by June 30, 2027?' market to 48% (from 41%), even as aibubble.watch eased to 83.1 and aibubblemonitor.com fell to 43.2 -- the divergence flips E3 back to green.",
+        "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by"
+      }
+    ],
+    "sources": {
+      "T1": 6,
+      "T2": 4,
+      "T3": 3,
+      "T4": 5,
+      "T5": 1
+    },
+    "run_url": null,
+    "brief": "briefs/2026-11-25.md",
+    "circularity": "HIGH",
+    "circularity_note": "Unchanged at HIGH (G1 green; 2 yellow: G2, G4; G3 stays not-yet-scorable, excluded). No new circularity-relevant filing or funding event found today; Ramp's October AI Index reading (56.8%, +1.0pt MoM) reconfirmed as the latest G4 data point."
   }
 ]

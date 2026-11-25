@@ -1878,5 +1878,55 @@
     "t": "US equity futures and premarket AI/chip names extended Tuesday's reversal: ES=F -1.89% and NQ=F -2.86% from Nov24's close (7,217.50/26,275.75) to roughly 7,081/25,526 as of 13:10 UTC, while NVDA -5.4%, AMD -6.1%, MU -6.8%, ORCL -5.0% and CRWV -7.1% fell premarket and Anthropic's ANT fell a further 5.3% to $77.57, extending below its $83 IPO price (concern c54). Asia deepened the rout into its close -- SoftBank -14.8% (9984.T), SK Hynix -11.1% (000660.KS), Kospi -6.2%, Taiex -4.8%, TSMC -3.6% and Nikkei -2.8% -- crossing the Asian-index (3%), single-name (7%) and futures (1.5%) alert thresholds and bearing on A1/A2/A6's price-rout reds and D2/c54's Anthropic secondary-discount watch.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/NQ=F?range=5d&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-11-25",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [
+      "A1",
+      "A2",
+      "A5",
+      "B3"
+    ],
+    "t": "NVDA fell a further 3.91% to $149.30 (-37.59% from its Oct6 high) and SOX eased 0.65% to 8,774.86 (-40.04% from high) as VIX jumped 7.3% to 28.29, extending the rout after the US added Megaspeed and six Southeast Asia affiliates to the Commerce Department's Entity List on Nov24; three House committees and a Dec3 Senate Banking Committee hearing are now queued to question Jensen Huang on the matter. SoftBank fell about 14.8% intraday in Tokyo.",
+    "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+    "tag": null
+  },
+  {
+    "date": "2026-11-24",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "C3"
+    ],
+    "t": "FRED's HY OAS fallback (fredgraph.csv) put high-yield spreads at 372bp on Nov24, a fourth consecutive close above the 350bp line (376bp Nov20, 352bp Nov19, 363bp Nov23); FRED's API secret injection failed again.",
+    "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2",
+    "tag": null
+  },
+  {
+    "date": "2026-11-25",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "F2"
+    ],
+    "t": "MOVE closed at 97.54 on Nov25, a second consecutive close below 100 (after 98.84 on Nov24), confirming F2's hysteresis flip to green.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-11-25",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "E3",
+      "F2",
+      "F5",
+      "C2"
+    ],
+    "t": "Mechanical/event-based notes: E3 (composite trackers) flips yellow to green as only one of three trackers (Polymarket) deteriorated while aibubble.watch and aibubblemonitor.com both eased. F2 (MOVE) confirms its green flip on a second sub-100 close. F5 posted a first close below its 75bp red line (73.5bp) and C2 (whalequant HY-tech-minus-10y spread) posted a first close above its 3.5% yellow line (3.53%); both held their prior color under the hysteresis rule pending a second confirming close.",
+    "url": "briefs/2026-11-25.md",
+    "tag": null
   }
 ]

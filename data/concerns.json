@@ -786,6 +786,34 @@
     ],
     "resolve_if": "Yahoo ^MOVE's next close, or 10 trading days passing without a second sub-100 close",
     "deadline": "2026-12-09",
+    "status": "materialized",
+    "resolved": "2026-11-25",
+    "outcome": "MOVE closed 97.54 on Nov25, a second consecutive close below 100 after 98.84 on Nov24, confirming F2's hysteresis flip to green.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EMOVE?range=1y&interval=1d"
+  },
+  {
+    "id": "c56",
+    "opened": "2026-11-25",
+    "concern": "F5 (2-year yield minus the 3.875% FOMC midpoint) confirms a second consecutive close below the 75bp red line, after today's first sub-75bp close at 73.5bp, which would flip F5 to yellow under the hysteresis rule",
+    "signals": [
+      "F5"
+    ],
+    "resolve_if": "The Treasury daily yield-curve CSV's next 2-year close, or 10 trading days passing without a second confirming sub-75bp close",
+    "deadline": "2026-12-10",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c57",
+    "opened": "2026-11-25",
+    "concern": "whalequant.io's HY-tech-minus-10y spread (C2) confirms a second consecutive close above its 3.5% yellow line, after a first close at 3.53% (dated Nov24), which would flip C2 to yellow under the hysteresis rule",
+    "signals": [
+      "C2"
+    ],
+    "resolve_if": "whalequant.io's next daily update, or 10 trading days passing without a second confirming close above 3.5%",
+    "deadline": "2026-12-10",
     "status": "open",
     "resolved": null,
     "outcome": null,
