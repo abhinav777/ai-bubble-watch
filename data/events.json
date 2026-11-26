@@ -1933,9 +1933,43 @@
     "date": "2026-11-26",
     "type": "overnight",
     "tier": "T1",
-    "signals": ["A1", "A6"],
+    "signals": [
+      "A1",
+      "A6"
+    ],
     "t": "SoftBank (9984.T) closed Tokyo trading up 7.32% (2,894.00 yen vs Nov25's 2,696.50 yen close), rebounding after extending its rout to roughly -14.8% intraday the prior session; no dated T1-T3 catalyst was found for the bounce (a targeted search turned up only unconfirmed technical/oversold-bounce framing from aggregators), and SoftBank's own 5-year CDS reportedly widened to a 4-year high the same day per T3/T4-sourced credit coverage. The move crosses the overnight watch's 7% single-name alert threshold and bears on Pillar A's price-break read (A1, A6) heading into today's Thanksgiving closure of US cash equities; US equity futures were little changed (ES=F +0.75%, NQ=F +0.76% vs Nov25's close) and Asia/Europe indices (Nikkei +0.86%, Kospi +0.29%, Taiex +2.50%, Stoxx50 intraday +1.87%) stayed inside their own thresholds.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/9984.T?range=5d&interval=1d&includePrePost=true",
+    "tag": null
+  },
+  {
+    "date": "2026-11-26",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "Polymarket's 'AI bubble burst in 2026?' Yes price fell to 18.6% (from 20.95% on Nov25) and the 'by June 30, 2027?' market fell to 37.5% (from 48%); aibubblemonitor.com eased to 42.3 'Neutral' (from 43.2, Nov26 06:31 UTC reading). None of the three composite trackers deteriorated today.",
+    "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by",
+    "tag": null
+  },
+  {
+    "date": "2026-11-26",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "boomorbubble.ai's gauges API, used for E3 and as a Stage-5-adjacent cross-check, returned HTTP 410 ('This dashboard has been retired. Updates have moved to the AI Investment Brief.'), pointing to investmentbrief.ai, which is unreachable on this network. Per the tracker-fallback rule, its last reading (0/5 red gauges, 'Boom', 2026-11-03) is carried forward with carried=true until a working replacement is found or the framework is revised to drop this tracker.",
+    "url": "https://boomorbubble.ai/api/gauges",
+    "tag": null
+  },
+  {
+    "date": "2026-11-26",
+    "type": "hard",
+    "tier": "T2",
+    "signals": [],
+    "t": "Correction/caveat: several Nov13-dated reports (Financial Times via aggregators, and Treasury Secretary Bessent's Nov13 remarks) describe the Commerce Department delaying new Entity List additions by two months and leaving Megaspeed off the list, with Commerce holding sole authority over the decision. This could not be reconciled with the Nov25 brief's claim (sourced to a TechCrunch piece that could not be re-opened or corroborated today, techcrunch.com blocked) that Megaspeed and six affiliates were added to the Entity List on Nov24. Treat the Nov24 addition claim as unconfirmed pending a directly-opened primary or wire source.",
+    "url": "https://letsdatascience.com/news/commerce-department-reportedly-leaves-megaspeed-off-entity-l-e97af199",
     "tag": null
   }
 ]
