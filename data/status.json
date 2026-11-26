@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-25T13:12:10Z",
-    "date": "2026-11-25",
+    "last_run_utc": "2026-11-26T13:10:05Z",
+    "date": "2026-11-26",
     "result": "alert",
-    "note": "NVDA -5.4%, AMD -6.1%, MU -6.8%, CRWV -7.1% premarket; SoftBank -14.8%, SK Hynix -11.1%, Kospi -6.2% overnight; ES -1.9%/NQ -2.9% futures. Extends A6 rout."
+    "note": "SoftBank 9984.T +7.32% in Tokyo (2,894 vs 2,696.50 yen); no catalyst found; US cash equities closed for Thanksgiving; ES +0.75%/NQ +0.76% futures."
   }
 }

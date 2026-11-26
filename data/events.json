@@ -1928,5 +1928,14 @@
     "t": "Mechanical/event-based notes: E3 (composite trackers) flips yellow to green as only one of three trackers (Polymarket) deteriorated while aibubble.watch and aibubblemonitor.com both eased. F2 (MOVE) confirms its green flip on a second sub-100 close. F5 posted a first close below its 75bp red line (73.5bp) and C2 (whalequant HY-tech-minus-10y spread) posted a first close above its 3.5% yellow line (3.53%); both held their prior color under the hysteresis rule pending a second confirming close.",
     "url": "briefs/2026-11-25.md",
     "tag": null
+  },
+  {
+    "date": "2026-11-26",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": ["A1", "A6"],
+    "t": "SoftBank (9984.T) closed Tokyo trading up 7.32% (2,894.00 yen vs Nov25's 2,696.50 yen close), rebounding after extending its rout to roughly -14.8% intraday the prior session; no dated T1-T3 catalyst was found for the bounce (a targeted search turned up only unconfirmed technical/oversold-bounce framing from aggregators), and SoftBank's own 5-year CDS reportedly widened to a 4-year high the same day per T3/T4-sourced credit coverage. The move crosses the overnight watch's 7% single-name alert threshold and bears on Pillar A's price-break read (A1, A6) heading into today's Thanksgiving closure of US cash equities; US equity futures were little changed (ES=F +0.75%, NQ=F +0.76% vs Nov25's close) and Asia/Europe indices (Nikkei +0.86%, Kospi +0.29%, Taiex +2.50%, Stoxx50 intraday +1.87%) stayed inside their own thresholds.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/9984.T?range=5d&interval=1d&includePrePost=true",
+    "tag": null
   }
 ]
