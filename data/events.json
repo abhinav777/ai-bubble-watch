@@ -1984,5 +1984,63 @@
     "t": "US equity futures jumped overnight (ES=F +1.65% to 7,314.50, NQ=F +2.36% to 26,715.50, both vs Nov25's close since Nov26 was the Thanksgiving holiday) and the Kospi rose 4.34% to 4,915.68 (vs Nov26's 4,711.21), crossing this watch's futures (1.5%) and Asian-index (3%) alert thresholds; Nikkei 225 also rose 2.11% and SK Hynix (000660.KS) 5.41%, both short of their own thresholds, and no dated T1-T3 catalyst was found for the broad move despite searches on Fed rate-path and AI-financing news.",
     "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=5d&interval=1d",
     "tag": null
+  },
+  {
+    "date": "2026-11-27",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A2",
+      "A5"
+    ],
+    "t": "US equities staged a broad risk-on reversal in the post-Thanksgiving shortened session: NVDA +0.80% to $150.49, SOX +4.69% to 9,186.71, VIX -11.16% to 23.81, and Brent -3.99% to $90.84, following an overnight futures/Kospi jump; no dated T1-T3 catalyst was found for the move despite searches on Fed policy, AI-financing and earnings news.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5ESOX?range=1y&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-11-26",
+    "type": "hard",
+    "tier": "T3",
+    "signals": [
+      "C2"
+    ],
+    "t": "whalequant.io's HY-tech-minus-10y spread printed 3.60% on Nov26 (tech HY 8.45% minus 10y Treasury 4.85%), a second consecutive dated close above the 3.5% yellow line after 3.53% on Nov24, confirming signal C2's hysteresis flip from green to yellow.",
+    "url": "https://whalequant.io/en/tech-bubble-spread",
+    "tag": null
+  },
+  {
+    "date": "2026-11-27",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "D2"
+    ],
+    "t": "Anthropic's ANT closed $91.88, +10.7% above its $83 IPO issue price, reversing the Nov24 dip to $81.90 that had first opened concern c54 about D2's -10% secondary-discount threshold.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ANT?range=1mo&interval=1d",
+    "tag": null
+  },
+  {
+    "date": "2026-11-27",
+    "type": "hard",
+    "tier": "T1",
+    "signals": [
+      "E3"
+    ],
+    "t": "Composite trackers disagreed: aibubble.watch ticked up to 84 'Extreme' (from 83.3) and Polymarket's 'burst by June 30, 2027?' market rose to 42% Yes (from 37.5%), while Polymarket's nearer-dated 'burst in 2026?' market eased to 18.05% (from 18.6%) and aibubblemonitor.com eased to 41.8 'Neutral' (from 42.3); boomorbubble.ai's gauge API still returns HTTP 410.",
+    "url": "https://gamma-api.polymarket.com/events?slug=ai-bubble-burst-by",
+    "tag": null
+  },
+  {
+    "date": "2026-11-27",
+    "type": "framework",
+    "tier": "T1",
+    "signals": [
+      "C2",
+      "F5"
+    ],
+    "t": "Mechanical/event-based notes: C2 flips green to yellow on whalequant's confirmed second close above 3.5% (resolves concern c57). F5's attempted hysteresis flip to yellow failed to confirm as the 2-year yield rose back to 81.5bp above the FOMC midpoint on Nov27 (resolves concern c56, did_not).",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv",
+    "tag": null
   }
 ]

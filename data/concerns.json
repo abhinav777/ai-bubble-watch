@@ -772,10 +772,10 @@
     ],
     "resolve_if": "ANT's daily close vs its $83 issue price, or 30 days passing without a close 10%+ below issue",
     "deadline": "2026-12-24",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "did_not",
+    "resolved": "2026-11-27",
+    "outcome": "Anthropic's ANT closed $91.88 on Nov27, +10.7% above its $83 IPO price, having fully reversed the Nov24 dip to $81.90 that opened this concern. No approach toward D2's -10% secondary-discount threshold materialized.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/ANT?range=1mo&interval=1d"
   },
   {
     "id": "c55",
@@ -800,10 +800,10 @@
     ],
     "resolve_if": "The Treasury daily yield-curve CSV's next 2-year close, or 10 trading days passing without a second confirming sub-75bp close",
     "deadline": "2026-12-10",
-    "status": "open",
-    "resolved": null,
-    "outcome": null,
-    "url": null
+    "status": "did_not",
+    "resolved": "2026-11-27",
+    "outcome": "The 2-year Treasury yield rose back to 4.69% on Nov27 (from 4.61% on Nov25), putting F5 at +81.5bp above the 3.875% FOMC midpoint -- back above the 75bp red line before a second confirming sub-75bp close occurred. F5 stays red.",
+    "url": "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/daily-treasury-rates.csv/2026/all?type=daily_treasury_yield_curve&field_tdr_date_value=2026&page&_format=csv"
   },
   {
     "id": "c57",
@@ -814,6 +814,34 @@
     ],
     "resolve_if": "whalequant.io's next daily update, or 10 trading days passing without a second confirming close above 3.5%",
     "deadline": "2026-12-10",
+    "status": "materialized",
+    "resolved": "2026-11-27",
+    "outcome": "whalequant.io's HY-tech-minus-10y spread printed 3.60% on Nov26, a second consecutive dated close above the 3.5% yellow line after 3.53% on Nov24, confirming the hysteresis flip. C2 moves from green to yellow.",
+    "url": "https://whalequant.io/en/tech-bubble-spread"
+  },
+  {
+    "id": "c58",
+    "opened": "2026-11-27",
+    "concern": "C2 (whalequant.io's HY-tech-minus-10y spread), now yellow at 3.60% (Nov26), rises toward the 5.0% red line rather than falling back under 3.5%, within the next 30 days.",
+    "signals": [
+      "C2"
+    ],
+    "resolve_if": "A dated whalequant.io reading shows the spread above 5.0% (red) or back under 3.5% for two consecutive dated readings (green).",
+    "deadline": "2026-12-27",
+    "status": "open",
+    "resolved": null,
+    "outcome": null,
+    "url": null
+  },
+  {
+    "id": "c59",
+    "opened": "2026-11-27",
+    "concern": "F5 (2-year Treasury yield minus the 3.875% FOMC midpoint) confirms a second consecutive close below the 75bp red line within 10 trading days, after Nov27's reversal back to +81.5bp undid Nov25's first sub-75bp close.",
+    "signals": [
+      "F5"
+    ],
+    "resolve_if": "Two consecutive Treasury CSV closes with the 2-year yield minus 3.875% below 75bp (flips F5 to yellow), or the spread instead widens further, confirming red.",
+    "deadline": "2026-12-11",
     "status": "open",
     "resolved": null,
     "outcome": null,
