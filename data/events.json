@@ -1971,5 +1971,18 @@
     "t": "Correction/caveat: several Nov13-dated reports (Financial Times via aggregators, and Treasury Secretary Bessent's Nov13 remarks) describe the Commerce Department delaying new Entity List additions by two months and leaving Megaspeed off the list, with Commerce holding sole authority over the decision. This could not be reconciled with the Nov25 brief's claim (sourced to a TechCrunch piece that could not be re-opened or corroborated today, techcrunch.com blocked) that Megaspeed and six affiliates were added to the Entity List on Nov24. Treat the Nov24 addition claim as unconfirmed pending a directly-opened primary or wire source.",
     "url": "https://letsdatascience.com/news/commerce-department-reportedly-leaves-megaspeed-off-entity-l-e97af199",
     "tag": null
+  },
+  {
+    "date": "2026-11-27",
+    "type": "overnight",
+    "tier": "T1",
+    "signals": [
+      "A1",
+      "A2",
+      "A5"
+    ],
+    "t": "US equity futures jumped overnight (ES=F +1.65% to 7,314.50, NQ=F +2.36% to 26,715.50, both vs Nov25's close since Nov26 was the Thanksgiving holiday) and the Kospi rose 4.34% to 4,915.68 (vs Nov26's 4,711.21), crossing this watch's futures (1.5%) and Asian-index (3%) alert thresholds; Nikkei 225 also rose 2.11% and SK Hynix (000660.KS) 5.41%, both short of their own thresholds, and no dated T1-T3 catalyst was found for the broad move despite searches on Fed rate-path and AI-financing news.",
+    "url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EKS11?range=5d&interval=1d",
+    "tag": null
   }
 ]

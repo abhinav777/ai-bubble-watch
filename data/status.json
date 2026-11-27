@@ -6,9 +6,9 @@
     "as_of": "close"
   },
   "overnight": {
-    "last_run_utc": "2026-11-26T13:10:05Z",
-    "date": "2026-11-26",
+    "last_run_utc": "2026-11-27T13:10:10Z",
+    "date": "2026-11-27",
     "result": "alert",
-    "note": "SoftBank 9984.T +7.32% in Tokyo (2,894 vs 2,696.50 yen); no catalyst found; US cash equities closed for Thanksgiving; ES +0.75%/NQ +0.76% futures."
+    "note": "ES +1.65%/NQ +2.36% futures and Kospi +4.34% both cross alert thresholds; no T1-T3 catalyst found; Nikkei +2.11%."
   }
 }
